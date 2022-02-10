@@ -7,11 +7,35 @@ import os
 from multiprocessing import Process
 import threading
 import pickle
+from github import Github
 
 '''TOKEN = "t.WVpg6thNk00O9Vd8P4vrne6om7zDgWaGIsKH6TqdRKgT2giER_3Lqp7w9DI7NYdjPWF4AXkj6MRNP5G51zp2lQ"
 S_TOKEN = "t.gJWIDbsjDOGnbAl2y-pm5kzEIxljV-kWYb1To6Skr4STriOvfDp4q4xwvFzuLzaXxWZt2UzRXysejROedAS1TQ"
 client = tinvest.SyncClient(TOKEN)'''
+
 spis = []
+g = Github('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')
+repo = g.get_user().get_repo("stock-bot")
+contents = repo.get_contents("save.txt")
+
+def save_elem(l):
+    s = ''
+    for i in l:
+        if (type(i) == list):
+            for j in i:
+                s += str(j) + ' '
+            s += '\n'
+        else:
+            s += str(i) + '\n'
+    repo.update_file(contents.path, "save", s, contents.sha, branch='main')
+def load_elem():
+    l = []
+    s = contents.decoded_content.decode()
+    f = s.split('\n')
+    for i in f:
+        if len(i.split()) > 0:
+            l.append(list(map(int, i.split())))
+    return l
 
 with open('stock_spis.txt', 'r') as stock_spis:
     spis = list(stock_spis.read().split())
@@ -22,13 +46,12 @@ lasts = [1] * len(spis)
 lastm = [1] * len(spis)
 my_plus = 0
 list_print = []
-
 try:
-    with open('save.pkl', 'rb') as f:
-        buy_cnt, buy_price, my_plus = pickle.load(f)
+    buy_cnt, buy_price, my_plus = load_elem()
+    my_plus = my_plus[0]
 except:
-    with open('save.pkl', 'wb') as f:
-        pickle.dump([buy_cnt, buy_price, my_plus], f)
+    save_elem([buy_cnt, buy_price, my_plus])
+        
 while len(buy_cnt) < len(spis):
     buy_cnt.append(0)
     buy_price.append(0)
@@ -142,9 +165,10 @@ def check_stocks():
             for k in j:
                 print(k, end = ' ')
             print()
-    with open('save.pkl', 'wb') as f:
-        pickle.dump([buy_cnt, buy_price, my_plus], f)
-    
+    try:
+        save_elem([buy_cnt, buy_price, my_plus])
+    except:
+        return
 
 def inf_f():  
     while True:
@@ -159,9 +183,9 @@ def inf_f():
         if n == 59:
             check_stocks()
         print('step end', time.time() - tm, datetime.now())
-        time_sleep = 59 - datetime.now().second
-        if time_sleep == 0:
-            time_sleep = 60
+        time_sleep = 58 - datetime.now().second
+        if time_sleep <= 0:
+            time_sleep += 60
         time_sleep -= 1
         time_correct = 1000000 - datetime.now().microsecond
         time_sleep += time_correct / 1000000
