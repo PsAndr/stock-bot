@@ -143,10 +143,13 @@ def inf_f():
             check_stocks()
         if n == 59:
             check_stocks()
-        print('step end', time.time() - tm)
+        print('step end', time.time() - tm, datetime.now())
         time_sleep = 59 - datetime.now().second
         if time_sleep == 0:
             time_sleep = 60
+        time_sleep -= 1
+        time_correct = 1000000 - datetime.now().microsecond
+        time_sleep += time_correct / 1000000
         time.sleep(time_sleep)
 inf_f()
 
