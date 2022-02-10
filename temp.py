@@ -114,7 +114,7 @@ def fun(ind, el):
             list_print[ind].append([el, 'error buy(2)'])
             random_el = 1
             
-    if ((s <= 0) or (m <= 0)) and (buy_cnt[ind] > 0) and (sk < 80):
+    if ((s <= 0) or (m <= 0)) and (buy_cnt[ind] > 0):
         
 
         #request to sell
@@ -165,7 +165,7 @@ def check_stocks():
 
 def ddos(l):
     tm = time.time()
-    while (time.time() - tm <= 5 * 60):
+    while (time.time() - tm <= 7 * 60):
         try:
             save_elem([buy_cnt, buy_price, my_plus])
             return
