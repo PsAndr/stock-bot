@@ -14,7 +14,7 @@ S_TOKEN = "t.gJWIDbsjDOGnbAl2y-pm5kzEIxljV-kWYb1To6Skr4STriOvfDp4q4xwvFzuLzaXxWZ
 client = tinvest.SyncClient(TOKEN)'''
 
 spis = []
-g = Github('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')
+g = Github('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')
 repo = g.get_user().get_repo("stock-bot")
 contents = repo.get_contents("save.txt")
 
