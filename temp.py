@@ -8,13 +8,15 @@ from multiprocessing import Process
 import threading
 import pickle
 from github import Github
+import github
 
 '''TOKEN = "t.WVpg6thNk00O9Vd8P4vrne6om7zDgWaGIsKH6TqdRKgT2giER_3Lqp7w9DI7NYdjPWF4AXkj6MRNP5G51zp2lQ"
 S_TOKEN = "t.gJWIDbsjDOGnbAl2y-pm5kzEIxljV-kWYb1To6Skr4STriOvfDp4q4xwvFzuLzaXxWZt2UzRXysejROedAS1TQ"
 client = tinvest.SyncClient(TOKEN)'''
 
 spis = []
-g = Github('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')
+#g = Github('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')
+g = Github('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')
 repo = g.get_user().get_repo("stock-bot")
 contents = repo.get_contents("save.txt")
 
@@ -28,6 +30,7 @@ def save_elem(l):
         else:
             s += str(i) + '\n'
     repo.update_file(contents.path, "save", s, contents.sha, branch='main')
+
 def load_elem():
     l = []
     s = contents.decoded_content.decode()
@@ -174,6 +177,7 @@ def inf_f():
     while True:
         n = datetime.now().minute
         tm = time.time()
+        check_stocks()
         if n == 14:
             check_stocks()
         if n == 29:
