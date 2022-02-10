@@ -15,6 +15,7 @@ spis = []
 
 with open('stock_spis.txt', 'r') as stock_spis:
     spis = list(stock_spis.read().split())
+print(spis)
     
 buy_cnt = [0] * len(spis)
 buy_price = [0] * len(spis)
