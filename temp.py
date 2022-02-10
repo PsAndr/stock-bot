@@ -173,7 +173,7 @@ def ddos(l):
             save_elem([buy_cnt, buy_price, my_plus])
             return
         except:
-            print("error to save)
+            print("error to save")
             time.sleep(30)
 
 def inf_f():  
