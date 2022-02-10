@@ -134,7 +134,8 @@ def fun(ind, el):
 def comm(el, lots, operation, pr):
     instr = client.get_market_search_by_ticker(el)
     fg = instr.payload.instruments[0].figi
-    request = tinvest.LimitOrderRequest(lots=lots, operation=operation, price=pr)
+    orderbook = client.get_market_orderbook(figi=fg, depth='1').payload.last_price
+    request = tinvest.LimitOrderRequest(lots=lots, operation=operation, price=orderbook)
     try:
         resp = client.post_orders_limit_order(fg, request)
     except:
