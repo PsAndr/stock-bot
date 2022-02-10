@@ -10,9 +10,9 @@ import pickle
 from github import Github
 import github
 
-TOKEN = "t.WVpg6thNk00O9Vd8P4vrne6om7zDgWaGIsKH6TqdRKgT2giER_3Lqp7w9DI7NYdjPWF4AXkj6MRNP5G51zp2lQ"
+'''TOKEN = "t.WVpg6thNk00O9Vd8P4vrne6om7zDgWaGIsKH6TqdRKgT2giER_3Lqp7w9DI7NYdjPWF4AXkj6MRNP5G51zp2lQ"
 S_TOKEN = "t.gJWIDbsjDOGnbAl2y-pm5kzEIxljV-kWYb1To6Skr4STriOvfDp4q4xwvFzuLzaXxWZt2UzRXysejROedAS1TQ"
-client = tinvest.SyncClient(TOKEN)
+client = tinvest.SyncClient(TOKEN)'''
 
 spis = []
 token = ''
@@ -57,8 +57,10 @@ try:
     buy_cnt, buy_price, my_plus = load_elem()
     my_plus = my_plus[0]
 except:
-    save_elem([buy_cnt, buy_price, my_plus])
-        
+    buy_cnt, buy_price, my_plus = load_elem()
+    my_plus = my_plus[0]
+print(buy_cnt)
+print(buy_price)
 while len(buy_cnt) < len(spis):
     buy_cnt.append(0)
     buy_price.append(0)
@@ -104,7 +106,7 @@ def fun(ind, el):
             
         #request to buy
         try:
-            comm(el, 1, 'Buy', close)
+            #comm(el, 1, 'Buy', close)
             buy_cnt[ind] = 1
             buy_price[ind] = close
             list_print[ind].append([el, 'buy', close])  
@@ -117,7 +119,7 @@ def fun(ind, el):
 
         #request to sell
         try:
-            comm(el, 1, 'Sell', close)
+            #comm(el, 1, 'Sell', close)
             my_plus += buy_cnt[ind] * close - buy_cnt[ind] * buy_price[ind]
             list_print[ind].append([el, 'sell', close])
             list_print[ind].append([buy_cnt[ind], (buy_cnt[ind] * close - buy_cnt[ind] * buy_price[ind]) / (buy_cnt[ind] * buy_price[ind]), '\n'])
@@ -140,7 +142,7 @@ def comm(el, lots, operation, pr):
         resp = client.post_orders_limit_order(fg, request)
     except:
         random_el = 1
-    
+
 def check_stocks():
     global list_print
     list_print = []
@@ -158,10 +160,17 @@ def check_stocks():
             for k in j:
                 print(k, end = ' ')
             print()
-    try:
-        save_elem([buy_cnt, buy_price, my_plus])
-    except:
-        return
+    proc = threading.Thread(target = ddos, args = (l))
+    proc.start()
+
+def ddos(l):
+    tm = time.time()
+    while (time.time() - tm <= 5 * 60):
+        try:
+            save_elem([buy_cnt, buy_price, my_plus])
+            return
+        except:
+            time.sleep(30)
 
 def inf_f():  
     while True:
