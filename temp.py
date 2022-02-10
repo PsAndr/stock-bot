@@ -106,7 +106,7 @@ def fun(ind, el):
             
         #request to buy
         try:
-            #comm(el, 1, 'Buy', close)
+            comm(el, 1, 'Buy', close)
             buy_cnt[ind] = 1
             buy_price[ind] = close
             list_print[ind].append([el, 'buy', close])  
@@ -119,7 +119,7 @@ def fun(ind, el):
 
         #request to sell
         try:
-            #comm(el, 1, 'Sell', close)
+            comm(el, 1, 'Sell', close)
             my_plus += buy_cnt[ind] * close - buy_cnt[ind] * buy_price[ind]
             list_print[ind].append([el, 'sell', close])
             list_print[ind].append([buy_cnt[ind], (buy_cnt[ind] * close - buy_cnt[ind] * buy_price[ind]) / (buy_cnt[ind] * buy_price[ind]), '\n'])
