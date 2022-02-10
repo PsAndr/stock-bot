@@ -160,10 +160,10 @@ def check_stocks():
             for k in j:
                 print(k, end = ' ')
             print()
-    proc = threading.Thread(target = ddos, args = (l))
+    proc = threading.Thread(target = ddos, args = ())
     proc.start()
 
-def ddos(l):
+def ddos():
     global buy_cnt
     global buy_price
     global my_plus
