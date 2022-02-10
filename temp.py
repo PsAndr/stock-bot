@@ -15,10 +15,11 @@ spis = []
 
 with open('stock_spis.txt', 'r') as stock_spis:
     spis = list(stock_spis.read().split())
-print(spis)
     
 buy_cnt = [0] * len(spis)
 buy_price = [0] * len(spis)
+lasts = [1] * len(spis)
+lastm = [1] * len(spis)
 my_plus = 0
 list_print = []
 
@@ -28,7 +29,10 @@ try:
 except:
     with open('save.pkl', 'wb') as f:
         pickle.dump([buy_cnt, buy_price, my_plus], f)
-
+while len(buy_cnt) < len(spis):
+    buy_cnt.append(0)
+    buy_price.append(0)
+    
 '''spis = {'IRAO', 'VTBR', 'SBER', 'GAZP', 'RUAL', 'DSKY', 'MTSS', 'FIVE', 'MVID', 'TATN', 'CHMF', 'ALRS', 'SGZH'}
 lasts = {'T-RM' : -1, 'F-RM' : -1, 'M-RM' : -1, 'SWN-RM' : -1, 'IRAO' : -1, 'VTBR' : -1, 'SBER' : -1, 'GAZP' : -1, 'RUAL' : -1, 'DSKY' : -1, 'MTSS' : -1, 'FIVE' : -1, 'MVID' : -1, 'TATN' : -1, 'CHMF' : -1, 'ALRS' : -1, 'SGZH' : -1}
 lastm = {'T-RM' : -1, 'F-RM' : -1, 'M-RM' : -1, 'SWN-RM' : -1, 'IRAO' : -1, 'VTBR' : -1, 'SBER' : -1, 'GAZP' : -1, 'RUAL' : -1, 'DSKY' : -1, 'MTSS' : -1, 'FIVE' : -1, 'MVID' : -1, 'TATN' : -1, 'CHMF' : -1, 'ALRS' : -1, 'SGZH' : -1}
@@ -70,7 +74,17 @@ def fun(ind, el):
     close = analysis.indicators["close"]
     s = sk - sd
     m = mm - ms
-    if (s > 0) and (m > 0) and buy_cnt[ind] == 0 and sk < 80:
+    if (s > 0 and lasts[ind] < 0) and (m > 0) and (buy_cnt[ind] == 0) and (sk < 80):
+        buy_cnt[ind] = 1
+        buy_price[ind] = close
+        list_print[ind].append([el, 'buy', close])
+            
+        #request to buy
+        '''try:
+            comm(el, 1, 'Buy', close)
+        except:
+            random_el = 1'''
+    if (m > 0 and lastm[ind] < 0) and (s > 0) and (buy_cnt[ind] == 0) and (sk < 80):
         buy_cnt[ind] = 1
         buy_price[ind] = close
         list_print[ind].append([el, 'buy', close])
@@ -81,7 +95,7 @@ def fun(ind, el):
         except:
             random_el = 1'''
             
-    if ((s <= 0) or (m <= 0)) and buy_cnt[ind] > 0 and sk < 80:
+    if ((s <= 0) or (m <= 0)) and (buy_cnt[ind] > 0) and (sk < 80):
         my_plus += buy_cnt[ind] * close - buy_cnt[ind] * buy_price[ind]
         list_print[ind].append([el, 'sell', close])
         list_print[ind].append([buy_cnt[ind], (buy_cnt[ind] * close - buy_cnt[ind] * buy_price[ind]) / (buy_cnt[ind] * buy_price[ind]), '\n'])
@@ -95,8 +109,8 @@ def fun(ind, el):
         except:
             random_el = 1'''
         
-    '''lasts[el] = sk - sd
-    lastm[el] = mm - ms'''
+    lasts[ind] = sk - sd
+    lastm[ind] = mm - ms
 '''with open('d.txt', 'w') as f:
     for i in spis:
         f.write(i + ' ' + str(lasts[i]) + ' ' + str(lastm[i]) + '  ' + order[i] + '  ' + str(buy[i]) + '  ' + str(ans[i]) + '  ' + '\n')'''
