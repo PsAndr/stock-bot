@@ -15,8 +15,12 @@ S_TOKEN = "t.gJWIDbsjDOGnbAl2y-pm5kzEIxljV-kWYb1To6Skr4STriOvfDp4q4xwvFzuLzaXxWZ
 client = tinvest.SyncClient(TOKEN)'''
 
 spis = []
-g = Github('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')
-#g = Github('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')
+token = ''
+with open('token.txt', 'r') as f:
+    token = f.read()
+    token = token.replace('\n', ' ')
+g = Github('ghp_' + token)
+
 repo = g.get_user().get_repo("stock-bot")
 contents = repo.get_contents("save.txt")
 
@@ -177,7 +181,6 @@ def inf_f():
     while True:
         n = datetime.now().minute
         tm = time.time()
-        check_stocks()
         if n == 14:
             check_stocks()
         if n == 29:
