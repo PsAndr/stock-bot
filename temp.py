@@ -164,12 +164,16 @@ def check_stocks():
     proc.start()
 
 def ddos(l):
+    global buy_cnt
+    global buy_price
+    global my_plus
     tm = time.time()
     while (time.time() - tm <= 7 * 60):
         try:
             save_elem([buy_cnt, buy_price, my_plus])
             return
         except:
+            print("error to save)
             time.sleep(30)
 
 def inf_f():  
