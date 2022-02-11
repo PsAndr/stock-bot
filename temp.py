@@ -167,12 +167,16 @@ def ddos():
     global buy_cnt
     global buy_price
     global my_plus
+    global repo
+    global contents
     while True:
         tm = time.time()
         while (time.time() - tm <= 30 * 60 or datetime.now(tz).minute > 57 or (datetime.now(tz).minute > 13 and datetime.now(tz).minute < 16) or (datetime.now(tz).minute > 28 and datetime.now(tz).minute < 31) or (datetime.now(tz).minute > 43 and datetime.now(tz).minute < 46)):
             time.sleep(1)
             continue
-        try:
+        try:    
+            repo = g.get_user().get_repo("stock-bot")
+            contents = repo.get_contents("save.txt")
             save_elem([buy_cnt, buy_price, my_plus])
             print('save complete')
         except:
