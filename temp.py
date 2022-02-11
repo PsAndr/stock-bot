@@ -171,7 +171,7 @@ def ddos():
     global contents
     while True:
         tm = time.time()
-        while (time.time() - tm <= 30 * 60 or datetime.now(tz).minute > 57 or (datetime.now(tz).minute > 13 and datetime.now(tz).minute < 16) or (datetime.now(tz).minute > 28 and datetime.now(tz).minute < 31) or (datetime.now(tz).minute > 43 and datetime.now(tz).minute < 46)):
+        while (time.time() - tm <= 15 * 60 or datetime.now(tz).minute > 57 or (datetime.now(tz).minute > 13 and datetime.now(tz).minute < 16) or (datetime.now(tz).minute > 28 and datetime.now(tz).minute < 31) or (datetime.now(tz).minute > 43 and datetime.now(tz).minute < 46)):
             time.sleep(1)
             continue
         try:    
@@ -181,7 +181,7 @@ def ddos():
             print('save complete')
         except:
             print("error to save")
-            time.sleep(30 * 60)    
+            time.sleep(15 * 60)    
 
 proc = threading.Thread(target = ddos, args = ())
 proc.start()
