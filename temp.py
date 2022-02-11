@@ -9,11 +9,13 @@ import threading
 import pickle
 from github import Github
 import github
+from tzlocal import get_localzone
 
 TOKEN = "t.WVpg6thNk00O9Vd8P4vrne6om7zDgWaGIsKH6TqdRKgT2giER_3Lqp7w9DI7NYdjPWF4AXkj6MRNP5G51zp2lQ"
 S_TOKEN = "t.gJWIDbsjDOGnbAl2y-pm5kzEIxljV-kWYb1To6Skr4STriOvfDp4q4xwvFzuLzaXxWZt2UzRXysejROedAS1TQ"
 client = tinvest.SyncClient(TOKEN)
 
+tz = get_localzone()
 spis = []
 token = ''
 with open('token.txt', 'r') as f:
@@ -167,7 +169,7 @@ def ddos():
     global my_plus
     while True:
         tm = time.time()
-        while (time.time() - tm <= 30 * 60 or datetime.now().minute > 57 or (datetime.now().minute > 13 and datetime.now().minute < 16) or (datetime.now().minute > 28 and datetime.now().minute < 31) or (datetime.now().minute > 43 and datetime.now().minute < 46)):
+        while (time.time() - tm <= 30 * 60 or datetime.now(tz).minute > 57 or (datetime.now(tz).minute > 13 and datetime.now(tz).minute < 16) or (datetime.now(tz).minute > 28 and datetime.now(tz).minute < 31) or (datetime.now(tz).minute > 43 and datetime.now(tz).minute < 46)):
             time.sleep(1)
             continue
         try:
@@ -181,22 +183,23 @@ proc = threading.Thread(target = ddos, args = ())
 proc.start()
 def inf_f():  
     while True:
-        n = datetime.now().minute
+        n = datetime.now(tz).minute
         tm = time.time()
-        if n == 14:
-            check_stocks()
-        if n == 29:
-            check_stocks()
-        if n == 44:
-            check_stocks()
-        if n == 59:
-            check_stocks()
-        print('step end', time.time() - tm, datetime.now())
-        time_sleep = 58 - datetime.now().second
+        if not datetime.now(tz).hour - datetime.now(tz).utcoffset().total_seconds() / 3600 == 3:
+            if n == 14:
+                check_stocks()
+            if n == 29:
+                check_stocks()
+            if n == 44:
+                check_stocks()
+            if n == 59:
+                check_stocks()
+        print('step end', time.time() - tm, datetime.now(tz))
+        time_sleep = 58 - datetime.now(tz).second
         if time_sleep <= 0:
             time_sleep += 60
         time_sleep -= 1
-        time_correct = 1000000 - datetime.now().microsecond
+        time_correct = 1000000 - datetime.now(tz).microsecond
         time_sleep += time_correct / 1000000
         time.sleep(time_sleep)
 inf_f()
