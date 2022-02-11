@@ -41,7 +41,7 @@ def load_elem():
     f = s.split('\n')
     for i in f:
         if len(i.split()) > 0:
-            l.append(list(map(int, i.split())))
+            l.append(list(map(float, i.split())))
     return l
 
 with open('stock_spis.txt', 'r') as stock_spis:
@@ -160,22 +160,25 @@ def check_stocks():
             for k in j:
                 print(k, end = ' ')
             print()
-    proc = threading.Thread(target = ddos, args = ())
-    proc.start()
-
+            
 def ddos():
     global buy_cnt
     global buy_price
     global my_plus
-    tm = time.time()
-    while (time.time() - tm <= 7 * 60):
+    while True:
+        tm = time.time()
+        while (time.time() - tm <= 30 * 60 or datetime.now().minute > 57 or (datetime.now().minute > 13 and datetime.now().minute < 16) or (datetime.now().minute > 28 and datetime.now().minute < 31) or (datetime.now().minute > 43 and datetime.now().minute < 46)):
+            time.sleep(1)
+            continue
         try:
             save_elem([buy_cnt, buy_price, my_plus])
-            return
+            print('save complete')
         except:
             print("error to save")
-            time.sleep(30)
+            time.sleep(30 * 60)    
 
+proc = threading.Thread(target = ddos, args = ())
+proc.start()
 def inf_f():  
     while True:
         n = datetime.now().minute
