@@ -103,18 +103,6 @@ def fun(ind, el):
         except:
             list_print[ind].append([el, 'error buy(1)'])
             random_el = 1
-    if (m > 0 and lastm[ind] < 0) and (s > 0) and (buy_cnt[ind] == 0) and (sk < 79):
-        
-            
-        #request to buy
-        try:
-            comm(el, 1, 'Buy', close)
-            buy_cnt[ind] = 1
-            buy_price[ind] = close
-            list_print[ind].append([el, 'buy', close])  
-        except:
-            list_print[ind].append([el, 'error buy(2)'])
-            random_el = 1
             
     if ((s <= 0) or (m <= 0)) and (buy_cnt[ind] > 0):
         
