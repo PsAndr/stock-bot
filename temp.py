@@ -94,7 +94,7 @@ with open('stock_spis.txt', 'r') as stock_spis:
     
 buy_cnt = [0] * len(spis)
 buy_price = [0] * len(spis)
-cnt_stock_lot = [0] * len(spis)
+cnt_stock_lot = [1] * len(spis)
 
 lasts = [1] * len(spis)
 lastm = [1] * len(spis)
@@ -271,6 +271,7 @@ def inf_f():
         time.sleep(time_sleep)
 
 get_stock_in_lot()
+print(cnt_stock_lot)
 inf_f()
 
 
