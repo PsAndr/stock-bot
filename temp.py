@@ -161,6 +161,7 @@ def fun(ind, el):
             list_print[ind].append([buy_cnt[ind], (buy_cnt[ind] * sell_price * cnt_stock_lot[ind] - buy_cnt[ind] * buy_price[ind] * cnt_stock_lot[ind]) / (buy_cnt[ind] * buy_price[ind] * cnt_stock_lot[ind]), '\n'])
             list_print[ind].append([my_plus])  
             buy_cnt[ind] = 0
+            buy_price[ind] = 0
         except:
             list_print[ind].append([el, 'error sell'])
             random_el = 1
