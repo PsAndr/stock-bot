@@ -47,12 +47,15 @@ def load_elem():
     global contents
     repo = g.get_user().get_repo("stock-bot")
     contents = repo.get_contents("save.txt")
+
     l = []
     s = contents.decoded_content.decode()
     f = s.split('\n')
+
     for i in f:
         if len(i.split()) > 0:
             l.append(list(map(float, i.split())))
+
     return l
 
 def logs_github(to_logs : list, len_logs : int = 200):
@@ -60,12 +63,15 @@ def logs_github(to_logs : list, len_logs : int = 200):
     global contents
     repo = g.get_user().get_repo("stock-bot")
     contents = repo.get_contents("logs.txt")
+
     s = contents.decoded_content.decode()
     l = s.split('\n')
     l += (to_logs)
+
     if (len(l) > len_logs):
         l = l[len(l) - len_logs:]
     s2 = ''
+
     for i in l:
         if type(i) == list:
             for j in i:
@@ -73,6 +79,7 @@ def logs_github(to_logs : list, len_logs : int = 200):
             s2 += '\n'
         else:
             s2 += str(i) + '\n'
+
     repo.update_file(contents.path, "upd_logs", s2, contents.sha, branch='main')
     
 
@@ -81,18 +88,24 @@ with open('stock_spis.txt', 'r') as stock_spis:
     
 buy_cnt = [0] * len(spis)
 buy_price = [0] * len(spis)
+cnt_stock_lot = [0] * len(spis)
+
 lasts = [1] * len(spis)
 lastm = [1] * len(spis)
+
 my_plus = 0
 list_print = []
+
 try:
     buy_cnt, buy_price, my_plus = load_elem()
     my_plus = my_plus[0]
 except:
     buy_cnt, buy_price, my_plus = load_elem()
     my_plus = my_plus[0]
+
 print(buy_cnt)
 print(buy_price)
+
 while len(buy_cnt) < len(spis):
     buy_cnt.append(0)
     buy_price.append(0)
@@ -100,12 +113,14 @@ while len(buy_cnt) < len(spis):
 def fun(ind, el):
     global my_plus
     global list_print
+
     ticker = TA_Handler(
         symbol=el,
         screener="russia",
         exchange="MOEX",
         interval=Interval.INTERVAL_15_MINUTES
     )
+
     flag = True
     while flag:
         try:
@@ -114,21 +129,22 @@ def fun(ind, el):
         except:
             flag = True
             time.sleep(0.5)
+
     mm = analysis.indicators["MACD.macd"]
     ms = analysis.indicators["MACD.signal"]
     sk = analysis.indicators["Stoch.K"]
     sd = analysis.indicators["Stoch.D"]
     close = analysis.indicators["close"]
+
     s = sk - sd
     m = mm - ms
     if (s > 0 and lasts[ind] < 0) and (m > 0) and (buy_cnt[ind] == 0) and (sk < 79):
-        
-            
+
         #request to buy
         try:
             price_buy = comm(el, 1, 'Buy', close)
             buy_cnt[ind] = 1
-            buy_price[ind] = close
+            buy_price[ind] = price_buy
             list_print[ind].append([el, 'buy', price_buy])
         except:
             list_print[ind].append([el, 'error buy(1)'])
@@ -140,9 +156,9 @@ def fun(ind, el):
         #request to sell
         try:
             sell_price = comm(el, 1, 'Sell', close)
-            my_plus += buy_cnt[ind] * close - buy_cnt[ind] * buy_price[ind]
+            my_plus += buy_cnt[ind] * sell_price * cnt_stock_lot[ind] - buy_cnt[ind] * buy_price[ind] * cnt_stock_lot[ind]
             list_print[ind].append([el, 'sell', sell_price])
-            list_print[ind].append([buy_cnt[ind], (buy_cnt[ind] * close - buy_cnt[ind] * buy_price[ind]) / (buy_cnt[ind] * buy_price[ind]), '\n'])
+            list_print[ind].append([buy_cnt[ind], (buy_cnt[ind] * sell_price * cnt_stock_lot[ind] - buy_cnt[ind] * buy_price[ind] * cnt_stock_lot[ind]) / (buy_cnt[ind] * buy_price[ind] * cnt_stock_lot[ind]), '\n'])
             list_print[ind].append([my_plus])  
             buy_cnt[ind] = 0
         except:
@@ -158,16 +174,19 @@ def comm(el, lots, operation, pr):
     fg = instr.payload.instruments[0].figi
     orderbook = client.get_market_orderbook(figi=fg, depth='1').payload.last_price
     request = tinvest.MarketOrderRequest(lots=lots, operation=operation)
+
     try:
         resp = client.post_orders_market_order(fg, request)
     except:
         random_el = 1
+
     return orderbook
 
 def check_stocks():
     global list_print
     list_print = []
     procs = []
+
     for ind, el in enumerate(spis):
         proc = threading.Thread(target = fun, args = (ind, el))
         list_print.append([])
@@ -181,8 +200,16 @@ def check_stocks():
             for k in j:
                 print(k, end = ' ')
             print()
+
     logs_github([datetime.now(tz)] + list_print)
-            
+
+def get_stock_in_lot():
+    global spis
+    global cnt_stock_lot
+    for ind, el in enumerate(spis):
+        instr = client.get_market_search_by_ticker(el).payload.instruments[0].lot
+        cnt_stock_lot[ind] = instr
+
 def ddos():
     global buy_cnt
     global buy_price
@@ -201,14 +228,16 @@ def ddos():
             print('save complete')
         except:
             print("error to save")
-            time.sleep(15 * 60)    
+            time.sleep(15 * 60)
 
 proc = threading.Thread(target = ddos, args = ())
 proc.start()
+
 def inf_f():  
     while True:
         n = datetime.now(tz).minute
         tm = time.time()
+
         if not datetime.now(tz).hour - datetime.now(tz).utcoffset().total_seconds() / 3600 == 3:
             if n == 14:
                 check_stocks()
@@ -218,7 +247,9 @@ def inf_f():
                 check_stocks()
             if n == 59:
                 check_stocks()
+
         print('step end', time.time() - tm, datetime.now(tz))
+
         time_sleep = 58 - datetime.now(tz).second
         if time_sleep <= 0:
             time_sleep += 60
@@ -226,6 +257,8 @@ def inf_f():
         time_correct = 1000000 - datetime.now(tz).microsecond
         time_sleep += time_correct / 1000000
         time.sleep(time_sleep)
+
+get_stock_in_lot()
 inf_f()
 
 
