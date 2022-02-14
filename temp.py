@@ -26,6 +26,7 @@ g = Github('ghp_' + token)
 repo = g.get_user().get_repo("stock-bot")
 contents = repo.get_contents("save.txt")
 
+
 def save_elem(l):
     global repo
     global contents
@@ -156,9 +157,9 @@ def comm(el, lots, operation, pr):
     instr = client.get_market_search_by_ticker(el)
     fg = instr.payload.instruments[0].figi
     orderbook = client.get_market_orderbook(figi=fg, depth='1').payload.last_price
-    request = tinvest.LimitOrderRequest(lots=lots, operation=operation, price=orderbook)
+    request = tinvest.MarketOrderRequest(lots=lots, operation=operation)
     try:
-        resp = client.post_orders_limit_order(fg, request)
+        resp = client.post_orders_market_order(fg, request)
     except:
         random_el = 1
     return orderbook
