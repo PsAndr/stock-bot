@@ -180,7 +180,7 @@ def check_stocks():
             for k in j:
                 print(k, end = ' ')
             print()
-    logs_github([datetime.now()] + list_print)
+    logs_github([datetime.now(tz)] + list_print)
             
 def ddos():
     global buy_cnt
