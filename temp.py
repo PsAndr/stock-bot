@@ -75,7 +75,11 @@ def logs_github(to_logs : list, len_logs : int = 200):
     for i in l:
         if type(i) == list:
             for j in i:
-                s2 += str(j) + ' '
+                if type(j) == list:
+                    for k in j:
+                        s2 += str(k) + ' '
+                else:
+                    s2 += str(j) + ' '
             s2 += '\n'
         else:
             s2 += str(i) + '\n'
