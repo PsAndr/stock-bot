@@ -148,7 +148,7 @@ def fun(ind, el):
 
         #request to buy
         try:
-            price_buy = comm(el, 1, 'Buy', close)
+            price_buy = comm(el, 1, 'Buy', close, ind)
             buy_cnt[ind] = 1
             buy_price[ind] = price_buy
             list_print[ind].append([el, 'buy', price_buy])
@@ -161,7 +161,7 @@ def fun(ind, el):
 
         #request to sell
         try:
-            sell_price = comm(el, 1, 'Sell', close)
+            sell_price = comm(el, 1, 'Sell', close, ind)
             my_plus += buy_cnt[ind] * sell_price * cnt_stock_lot[ind] - buy_cnt[ind] * buy_price[ind] * cnt_stock_lot[ind]
             list_print[ind].append([el, 'sell', sell_price])
             list_print[ind].append([buy_cnt[ind], (buy_cnt[ind] * sell_price * cnt_stock_lot[ind] - buy_cnt[ind] * buy_price[ind] * cnt_stock_lot[ind]) / (buy_cnt[ind] * buy_price[ind] * cnt_stock_lot[ind]), '\n'])
@@ -176,10 +176,15 @@ def fun(ind, el):
     lastm[ind] = mm - ms
 #print(ans)
    
-def comm(el, lots, operation, pr):
+def comm(el, lots, operation, pr, ind):
+    global list_print
+    orderbook = pr
     instr = client.get_market_search_by_ticker(el)
     fg = instr.payload.instruments[0].figi
-    orderbook = client.get_market_orderbook(figi=fg, depth='1').payload.last_price
+    try:
+        orderbook = (float)(client.get_market_orderbook(figi=fg, depth='1').payload.last_price)
+    except:
+        list_print[ind].append([el, 'error to get orderbook'])
     request = tinvest.MarketOrderRequest(lots=lots, operation=operation)
 
     try:
