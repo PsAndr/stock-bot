@@ -74,6 +74,8 @@ def logs_github(to_logs : list, len_logs : int = 200):
 
     for i in l:
         if type(i) == list:
+            if i == []:
+                continue
             for j in i:
                 if type(j) == list:
                     for k in j:
