@@ -27,6 +27,10 @@ repo = g.get_user().get_repo("stock-bot")
 contents = repo.get_contents("save.txt")
 
 def save_elem(l):
+    global repo
+    global contents
+    repo = g.get_user().get_repo("stock-bot")
+    contents = repo.get_contents("save.txt")
     s = ''
     for i in l:
         if (type(i) == list):
@@ -38,6 +42,10 @@ def save_elem(l):
     repo.update_file(contents.path, "save", s, contents.sha, branch='main')
 
 def load_elem():
+    global repo
+    global contents
+    repo = g.get_user().get_repo("stock-bot")
+    contents = repo.get_contents("save.txt")
     l = []
     s = contents.decoded_content.decode()
     f = s.split('\n')
@@ -45,6 +53,27 @@ def load_elem():
         if len(i.split()) > 0:
             l.append(list(map(float, i.split())))
     return l
+
+def logs_github(to_logs : list, len_logs : int = 200):
+    global repo
+    global contents
+    repo = g.get_user().get_repo("stock-bot")
+    contents = repo.get_contents("logs.txt")
+    s = contents.decoded_content.decode()
+    l = s.split('\n')
+    l += (to_logs)
+    if (len(l) > len_logs):
+        l = l[len(l) - len_logs:]
+    s2 = ''
+    for i in l:
+        if type(i) == list:
+            for j in i:
+                s2 += str(j) + ' '
+            s2 += '\n'
+        else:
+            s2 += str(i) + '\n'
+    repo.update_file(contents.path, "upd_logs", s2, contents.sha, branch='main')
+    
 
 with open('stock_spis.txt', 'r') as stock_spis:
     spis = list(stock_spis.read().split())
@@ -96,10 +125,10 @@ def fun(ind, el):
             
         #request to buy
         try:
-            comm(el, 1, 'Buy', close)
+            price_buy = comm(el, 1, 'Buy', close)
             buy_cnt[ind] = 1
             buy_price[ind] = close
-            list_print[ind].append([el, 'buy', close])
+            list_print[ind].append([el, 'buy', price_buy])
         except:
             list_print[ind].append([el, 'error buy(1)'])
             random_el = 1
@@ -109,9 +138,9 @@ def fun(ind, el):
 
         #request to sell
         try:
-            comm(el, 1, 'Sell', close)
+            sell_price = comm(el, 1, 'Sell', close)
             my_plus += buy_cnt[ind] * close - buy_cnt[ind] * buy_price[ind]
-            list_print[ind].append([el, 'sell', close])
+            list_print[ind].append([el, 'sell', sell_price])
             list_print[ind].append([buy_cnt[ind], (buy_cnt[ind] * close - buy_cnt[ind] * buy_price[ind]) / (buy_cnt[ind] * buy_price[ind]), '\n'])
             list_print[ind].append([my_plus])  
             buy_cnt[ind] = 0
@@ -132,6 +161,7 @@ def comm(el, lots, operation, pr):
         resp = client.post_orders_limit_order(fg, request)
     except:
         random_el = 1
+    return orderbook
 
 def check_stocks():
     global list_print
@@ -150,6 +180,7 @@ def check_stocks():
             for k in j:
                 print(k, end = ' ')
             print()
+    logs_github([datetime.now()] + list_print)
             
 def ddos():
     global buy_cnt
