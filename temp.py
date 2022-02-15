@@ -65,11 +65,11 @@ def logs_github(to_logs : list, len_logs : int = 200):
     contents = repo.get_contents("logs.txt")
 
     s = contents.decoded_content.decode()
-    l = s.split('\n')
-    l += (to_logs)
+    l = to_logs
+    l += s.split('\n')
 
     if (len(l) > len_logs):
-        l = l[len(l) - len_logs:]
+        l = l[:len_logs]
     s2 = ''
 
     for i in l:
