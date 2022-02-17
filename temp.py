@@ -77,11 +77,12 @@ def logs_github(to_logs : list, len_logs : int = 200):
             if i == []:
                 continue
             for j in i:
-                if type(j) == list:
-                    for k in j:
-                        s2 += str(k) + ' '
-                else:
-                    s2 += str(j) + ' '
+                pass
+            if type(j) == list:
+                for k in j:
+                    s2 += str(k) + ' '
+            else:
+                s2 += str(j) + ' '
             s2 += '\n'
         else:
             s2 += str(i) + '\n'
@@ -144,7 +145,7 @@ def fun(ind, el):
 
     s = sk - sd
     m = mm - ms
-    if (s > 0 and lasts[ind] < 0) and (m > 0) and (buy_cnt[ind] == 0) and (sk < 79) and not (datetime.now(tz).hour - datetime.now(tz).utcoffset().total_seconds() / 3600 == 20 and datetime.now(tz).minute >= 58):
+    if (s > 0 and lasts[ind] < 0) and (m > 0) and (buy_cnt[ind] == 0) and (sk < 79) and not (datetime.now(tz).hour - datetime.now(tz).utcoffset().total_seconds() / 3600 == 20 and datetime.now(tz).minute >= 30):
 
         #request to buy
         try:
@@ -156,7 +157,7 @@ def fun(ind, el):
             list_print[ind].append([el, 'error buy(1)'])
             random_el = 1
             
-    if ((s <= 0) or (m <= 0) or (datetime.now(tz).hour - datetime.now(tz).utcoffset().total_seconds() / 3600 == 20 and datetime.now(tz).minute >= 58)) and (buy_cnt[ind] > 0):
+    if ((s <= 0) or (m <= 0) or (datetime.now(tz).hour - datetime.now(tz).utcoffset().total_seconds() / 3600 == 20 and datetime.now(tz).minute >= 30)) and (buy_cnt[ind] > 0):
         
 
         #request to sell
