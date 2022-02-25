@@ -156,7 +156,7 @@ def fun(ind, el):
     # if current close price crosses below lowerband
     elif (Close < lastFinal_lowerband[ind]):
         supertrend = False
-    # else, the trend continues
+    # else the trend continues
     else:
         supertrend = lastSupertrend[el]
         if (supertrend == True and final_lowerband < lastFinal_lowerband[ind]):
