@@ -136,32 +136,54 @@ def fun(ind, el):
             flag = True
             time.sleep(0.5)
 
-    mm = analysis.indicators["MACD.macd"]
-    ms = analysis.indicators["MACD.signal"]
-    sk = analysis.indicators["Stoch.K"]
-    sd = analysis.indicators["Stoch.D"]
-    close = analysis.indicators["close"]
+    BBlower = analysis.indicators["BB.lower"]
+    BBupper = analysis.indicators["BB.upper"]
+    Close = analysis.indicators["close"]
+    High = analysis.indicators["high"]
+    Low = analysis.indicators["low"]
 
-    s = sk - sd
-    m = mm - ms
-    if (s > 0 and lasts[ind] < 0) and (m > 0) and (buy_cnt[ind] == 0) and (sk < 79) and not (datetime.now(tz).hour - datetime.now(tz).utcoffset().total_seconds() / 3600 == 20 and datetime.now(tz).minute >= 30):
+    TR.append(max(max(High - Low, abs(High - lastClose[ind])), abs(Low - lastClose[ind])))
+        
+    if (len(TR) > 10):
+        TR.popleft()
+        
+    ATR = numpy.mean(TR)
+    final_upperband = (High + Low) / 2 + 3 * ATR
+    final_lowerband = (High + Low) / 2 - 3 * ATR
+        
+    if (Close > lastFinal_upperband[ind]):
+        supertrend = True
+    # if current close price crosses below lowerband
+    elif (Close < lastFinal_lowerband[ind]):
+        supertrend = False
+    # else, the trend continues
+    else:
+        supertrend = lastSupertrend[el]
+        if (supertrend == True and final_lowerband < lastFinal_lowerband[ind]):
+            final_lowerband = lastFinal_lowerband[ind]
+        if (supertrend == False and final_upperband > lastFinal_upperband[ind]):
+            final_upperband = lastFinal_upperband[ind]
+                
+    if (Close > BBlower and lastClose[ind] < lastBBlower[ind] and supertrend == True) and not (datetime.now(tz).hour - datetime.now(tz).utcoffset().total_seconds() / 3600 == 20 and datetime.now(tz).minute >= 30):
 
         #request to buy
+        '''
         try:
-            price_buy = comm(el, 1, 'Buy', close, ind)
+            price_buy = comm(el, 1, 'Buy', Close, ind)
             buy_cnt[ind] = 1
             buy_price[ind] = price_buy
             list_print[ind].append([el, 'buy', price_buy])
         except:
             list_print[ind].append([el, 'error buy(1)'])
-            random_el = 1
+        '''
+        random_el = 1
             
-    if ((s <= 0) or (m <= 0) or (datetime.now(tz).hour - datetime.now(tz).utcoffset().total_seconds() / 3600 == 20 and datetime.now(tz).minute >= 30)) and (buy_cnt[ind] > 0):
+    if (Close < BBupper and lastClose[ind] > lastBBupper[ind]) or (datetime.now(tz).hour - datetime.now(tz).utcoffset().total_seconds() / 3600 == 20 and datetime.now(tz).minute >= 30)) and (buy_cnt[ind] > 0):
         
-
         #request to sell
+        '''
         try:
-            sell_price = comm(el, 1, 'Sell', close, ind)
+            sell_price = comm(el, 1, 'Sell', Close, ind)
             my_plus += buy_cnt[ind] * sell_price * cnt_stock_lot[ind] - buy_cnt[ind] * buy_price[ind] * cnt_stock_lot[ind]
             list_print[ind].append([el, 'sell', sell_price])
             list_print[ind].append([buy_cnt[ind], (buy_cnt[ind] * sell_price * cnt_stock_lot[ind] - buy_cnt[ind] * buy_price[ind] * cnt_stock_lot[ind]) / (buy_cnt[ind] * buy_price[ind] * cnt_stock_lot[ind]), '\n'])
@@ -170,10 +192,16 @@ def fun(ind, el):
             buy_price[ind] = 0
         except:
             list_print[ind].append([el, 'error sell'])
-            random_el = 1
+        '''
+        random_el = 1
         
-    lasts[ind] = sk - sd
-    lastm[ind] = mm - ms
+    lastFinal_upperband[ind] = final_upperband
+    lastFinal_lowerband[ind] = final_lowerband
+    lastSupertrend[ind] = supertrend
+    lastClose[ind] = Close
+    lastBBlower[ind] = BBlower
+    lastBBupper[ind] = BBupper
+    
 #print(ans)
    
 def comm(el, lots, operation, pr, ind):
@@ -273,5 +301,3 @@ def inf_f():
 get_stock_in_lot()
 print(cnt_stock_lot)
 inf_f()
-
-
