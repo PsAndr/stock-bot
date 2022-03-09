@@ -49,7 +49,6 @@ def Supertrend(TR : deque, lastFinal_upperband : float, lastFinal_lowerband : fl
             final_upperband = lastFinal_upperband
     return to_return(TR=TR, lastSupertrend=lastSupertrend, lastFinal_lowerband=lastFinal_lowerband, lastFinal_upperband=lastFinal_upperband, is_available=True, lastClose=lastClose, supertrend=supertrend, final_lowerband=final_lowerband, final_upperband=final_upperband)
 
-#дописать
 def Bollinger_bands(Close_deq : deque, Close : float, d : float = 2, n : int = 20):
     def to_return(is_available : bool, Close_deq_ : deque, TL_ : float, BL_ : float):
         return [is_available, Close_deq_, TL_, BL_]
