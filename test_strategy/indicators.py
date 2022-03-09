@@ -1,5 +1,6 @@
 import numpy
 from collections import deque
+import math
 
 def Supertrend(TR : deque, lastFinal_upperband : float, lastFinal_lowerband : float, lastSupertrend : bool, High : float, Low : float, Close : float, lastClose : float, n : int = 10, d : float = 3.0):
     def to_return(is_available : bool, TR : deque, lastFinal_upperband : float, lastFinal_lowerband : float, lastSupertrend : bool, lastClose : float, supertrend : bool, final_upperband : float, final_lowerband : float):
@@ -49,5 +50,29 @@ def Supertrend(TR : deque, lastFinal_upperband : float, lastFinal_lowerband : fl
     return to_return(TR=TR, lastSupertrend=lastSupertrend, lastFinal_lowerband=lastFinal_lowerband, lastFinal_upperband=lastFinal_upperband, is_available=True, lastClose=lastClose, supertrend=supertrend, final_lowerband=final_lowerband, final_upperband=final_upperband)
 
 #дописать
-def Bollinger_bands(Close_deq : deque):
-    myau = 'aph'
+def Bollinger_bands(Close_deq : deque, Close : float, d : float = 2, n : int = 20):
+    def to_return(is_available : bool, Close_deq_ : deque, TL_ : float, BL_ : float):
+        return [is_available, Close_deq_, TL_, BL_]
+
+    Close_deq.append(Close)
+
+    if len(Close_deq) < n:
+        return to_return(is_available=False, Close_deq_=Close_deq, TL_=0, BL_=0)
+
+    if len(Close_deq) > n:
+        Close_deq.popleft()
+
+    ML = sum(Close_deq) / n
+
+    sum_to_stdDev = 0
+    avg = numpy.mean(Close_deq)
+    for close in Close_deq:
+        sum_to_stdDev += (close - avg) ** 2
+    sum_to_stdDev /= n
+
+    StdDev = math.sqrt(sum_to_stdDev)
+
+    TL = ML + (d * StdDev)
+    BL = ML - (d * StdDev)
+
+    return to_return(is_available=True, Close_deq_=Close_deq, TL_=TL, BL_=BL)

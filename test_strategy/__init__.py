@@ -56,7 +56,13 @@ def main_program(dt_from : datetime, dt_to : datetime, interval : int = 15, perc
         lastBBupper = [0] * len(spis)
         lastSupertrend = [False] * len(spis)
 
+        #for bollinger bands
+        Close_deq = [deque()] * len(spis)
+        lastTL = [0.0] * len(spis)
+        lastBL = [0.0] * len(spis)
+
         my_plus = 0
+        my_plus_tic = dict()
         list_print = []
 
         get_stock_in_lot(cnt_stock_lot, spis)
@@ -65,6 +71,7 @@ def main_program(dt_from : datetime, dt_to : datetime, interval : int = 15, perc
             buy_cnt.append(0)
             buy_price.append(0)
         for ind, tic in enumerate(spis):
+            m_p = my_plus
             flag_ = False
             fg = ''
             while not flag_:
@@ -97,13 +104,20 @@ def main_program(dt_from : datetime, dt_to : datetime, interval : int = 15, perc
                 delta = date_time.timedelta(seconds=1)
                 dt_max = dt_from - delta
                 dt_min = datetime_split_day.datetime_begin_of_day(dt_max)
+
+                Close_deq[ind] = deque()
+                lastTL[ind] = 0.0
+                lastBL[ind] = 0.0
+                new_flag_bollinger = False
                 while n_back - len(candles_to_indicator) > 0:
                     try:
                         candles_to_indicator += client.get_market_candles(figi=fg, from_=dt_min, to=dt_max, interval=interval_).payload.candles
                     except:
                         time.sleep(0.2)
                         continue
-                    dt_max -= delta
+                    dt_min -= delta
+                    dt_max = dt_min
+                    dt_min = datetime_split_day.datetime_begin_of_day(dt_max)
                     time.sleep(0.1)
                 for candle in candles_to_indicator:
                     new_flag, TR[ind], lastFinal_upperband[ind], lastFinal_lowerband[ind], lastSupertrend[ind], lastClose[ind], supertrend, final_upperband, final_lowerband = indicators.Supertrend(TR=TR[ind], lastSupertrend=lastSupertrend[ind], lastClose=lastClose[ind], lastFinal_lowerband=lastFinal_lowerband[ind], lastFinal_upperband=lastFinal_upperband[ind], High=float(candle.h), Low=float(candle.l), Close=float(candle.c))
@@ -112,8 +126,17 @@ def main_program(dt_from : datetime, dt_to : datetime, interval : int = 15, perc
                     lastSupertrend[ind] = supertrend
                     lastClose[ind] = float(candle.c)
                     #print(lastClose, lastSupertrend, lastFinal_lowerband, lastFinal_upperband)
+
+                    new_flag_bollinger, Close_deq[ind], TL, BL = indicators.Bollinger_bands(Close_deq=Close_deq[ind], Close=float(candle.c))
+                    lastTL[ind] = TL
+                    lastBL[ind] = BL
+                    '''if new_flag_bollinger:
+                        print(TL, BL)
+                        print(candle.time)
+                        print()'''
+
                 n_back += 1
-                flag = new_flag
+                flag = new_flag and new_flag_bollinger
             while (dt_to.day - dt_l.day) > 0 or (dt_to.year - dt_l.year) > 0 or (dt_to.month - dt_l.month) > 0 or (dt_to.hour - dt_l.hour) > 0 or (dt_to.second - dt_l.second) > 1:
                 delta = date_time.timedelta(seconds=1)
                 try:
@@ -131,13 +154,19 @@ def main_program(dt_from : datetime, dt_to : datetime, interval : int = 15, perc
                 print(candle.time)
                 print(candle.c)'''
                 #lastClose[ind], lastSupertrend[ind], TR[ind], lastFinal_lowerband[ind], lastFinal_upperband[ind], buy_cnt[ind], my_plus =
-                t = strategy.fun_without_bb(el=tic, buy_cnt=buy_cnt[ind], Close=float(candle.c), High=float(candle.h), Low=float(candle.l), lastClose=lastClose[ind], lastSupertrend=lastSupertrend[ind], TR=TR[ind], lastFinal_upperband=lastFinal_upperband[ind], lastFinal_lowerband=lastFinal_lowerband[ind], cnt_stock_lot=cnt_stock_lot[ind], percent=percent, my_plus=my_plus, buy_price=buy_price[ind], dt=candle.time)
-                lastClose[ind], lastSupertrend[ind], TR[ind], lastFinal_lowerband[ind], lastFinal_upperband[ind], buy_cnt[ind], my_plus, buy_price[ind] = t
+                t = strategy.fun_with_bb(el=tic, buy_cnt=buy_cnt[ind], Close=float(candle.c), High=float(candle.h), Low=float(candle.l), lastClose=lastClose[ind],
+                                            lastSupertrend=lastSupertrend[ind], TR=TR[ind], lastFinal_upperband=lastFinal_upperband[ind],
+                                            lastFinal_lowerband=lastFinal_lowerband[ind], cnt_stock_lot=cnt_stock_lot[ind], percent=percent, my_plus=my_plus,
+                                            buy_price=buy_price[ind], dt=candle.time, Close_deq=Close_deq[ind], lastTL=lastTL[ind], lastBL=lastBL[ind])
+
+                lastClose[ind], lastSupertrend[ind], TR[ind], lastFinal_lowerband[ind], lastFinal_upperband[ind], buy_cnt[ind], my_plus, buy_price[ind], Close_deq[ind], lastTL[ind], lastBL[ind] = t
                 #print(lastClose, lastSupertrend, lastFinal_lowerband, lastFinal_upperband)
+            my_plus_tic[tic] = my_plus - m_p
         print(my_plus)
+        print(my_plus_tic)
 
     start_f(dt_from, dt_to, interval)
 
 if __name__ == '__main__':
     tz = date_time.timezone.utc
-    main_program(datetime(2022, 1, 28, 20, 45, 0, tzinfo=tz), datetime(2022, 2, 28, 7, 15, 0, tzinfo=tz), percent=0.3)
+    main_program(datetime(2020, 1, 1, 7, 0, 0, tzinfo=tz), datetime(2021, 3, 9, 7, 15, 0, tzinfo=tz), percent=0.04)
