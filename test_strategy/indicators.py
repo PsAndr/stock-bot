@@ -12,13 +12,13 @@ def Supertrend(TR : deque, lastFinal_upperband : float, lastFinal_lowerband : fl
 
     TR.append(max(High - Low, abs(High - lastClose), abs(Low - lastClose)))
 
-    if (len(TR) < 10):
+    if (len(TR) < n):
         return to_return(TR=TR, lastSupertrend=lastSupertrend, lastFinal_lowerband=lastFinal_lowerband, lastFinal_upperband=lastFinal_upperband, is_available=False, lastClose=lastClose, supertrend=False, final_lowerband=0, final_upperband=0)
 
-    if (len(TR) > 10):
+    if (len(TR) > n):
         TR.popleft()
 
-    ATR = numpy.mean(TR)
+    ATR = (numpy.mean(TR[:-1]) * (n - 1) + Close) / n
     final_upperband = (High + Low) / 2 + d * ATR
     final_lowerband = (High + Low) / 2 - d * ATR
 
