@@ -18,9 +18,11 @@ def Supertrend(supertrend_cls : classes_to_indicators.Supertrend_class):
     supertrend_cls.TR.append(max(High - Low, abs(High - supertrend_cls.lastClose), abs(Low - supertrend_cls.lastClose)))
 
     if (len(supertrend_cls.TR) < supertrend_cls.n):
+        supertrend_cls.upd_last()
         return to_return(is_available=False)
 
     if supertrend_cls.last_ATR == 0 and len(supertrend_cls.TR) == supertrend_cls.n:
+        supertrend_cls.upd_last()
         supertrend_cls.last_ATR = numpy.mean(list(supertrend_cls.TR))
         return to_return(is_available=False)
 
@@ -31,8 +33,6 @@ def Supertrend(supertrend_cls : classes_to_indicators.Supertrend_class):
     supertrend_cls.final_upperband = (High + Low) / 2 + supertrend_cls.d * supertrend_cls.ATR
     supertrend_cls.final_lowerband = (High + Low) / 2 - supertrend_cls.d * supertrend_cls.ATR
 
-    supertrend_cls.upd_last()
-
     if (supertrend_cls.lastFinal_upperband == 0):
         if (Close > supertrend_cls.lastFinal_upperband):
             supertrend = True
@@ -42,6 +42,7 @@ def Supertrend(supertrend_cls : classes_to_indicators.Supertrend_class):
         supertrend_cls.lastFinal_upperband = supertrend_cls.final_upperband
         supertrend_cls.lastFinal_lowerband = supertrend_cls.final_lowerband
         supertrend_cls.lastSupertrend = False
+        supertrend_cls.upd_last()
         return to_return(is_available=False)
 
     supertrend_cls.supertrend = False

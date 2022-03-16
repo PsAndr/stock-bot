@@ -20,6 +20,7 @@ from test_strategy import datetime_split_day
 from test_strategy import indicators
 from test_strategy import get_candles
 from test_strategy import classes_to_indicators
+from test_strategy import classes_to_portfolio
 import asyncio
 
 async def main_program(dt_from : datetime, dt_to : datetime, interval : int = 15, percent : float = 0.3):
@@ -131,14 +132,14 @@ async def main_program(dt_from : datetime, dt_to : datetime, interval : int = 15
 
                     '''if new_flag:
                         print(candle.time)
-                        print(lastClose, lastSupertrend, lastFinal_lowerband, lastFinal_upperband)
+                        print(supertrend_cls_mass[ind].lastClose, supertrend_cls_mass[ind].lastSupertrend, supertrend_cls_mass[ind].lastFinal_lowerband, supertrend_cls_mass[ind].lastFinal_upperband)
                         print()'''
 
                     bb_cls_mass[ind].candle = candle
                     new_flag_bollinger = indicators.Bollinger_bands(bollinger_bands_cls=bb_cls_mass[ind])
                     bb_cls_mass[ind].upd_last()
                     '''if new_flag_bollinger:
-                        print(TL, BL)
+                        print(bb_cls_mass[ind].TL, bb_cls_mass[ind].BL)
                         print(candle.time)
                         print()'''
 
@@ -184,9 +185,10 @@ async def main_program(dt_from : datetime, dt_to : datetime, interval : int = 15
                 #lastClose[ind], lastSupertrend[ind], TR[ind], lastFinal_lowerband[ind], lastFinal_upperband[ind], buy_cnt[ind], my_plus =
                 stoch_cls_mass[ind].candle = candle
                 bb_cls_mass[ind].candle = candle
+                supertrend_cls_mass[ind].candle = candle
                 t = strategy.fun_with_bb(el=tic, buy_cnt=buy_cnt[ind], cnt_stock_lot=cnt_stock_lot[ind],
                                          percent=percent, my_plus=my_plus, buy_price=buy_price[ind],
-                                         dt=candle.time, bb_cls=bb_cls_mass[ind],
+                                         dt=candle.time, bb_cls=bb_cls_mass[ind], max_cost=max_cost[ind],
                                          stoch_cls=stoch_cls_mass[ind], supertrend_cls=supertrend_cls_mass[ind])
 
                 [buy_cnt[ind], my_plus, buy_price[ind], max_cost[ind]] = t
