@@ -55,23 +55,15 @@ async def main_program(dt_from : datetime, dt_to : datetime, interval : int = 15
         buy_cnt = [0] * len(spis)
         buy_price = [0] * len(spis)
         cnt_stock_lot = [10] * len(spis)
-        lastClose = [0.0] * len(spis)
-        last_ATR = [0.0] * len(spis)
-        TR = [deque()] * len(spis)
-        lastFinal_upperband = [0] * len(spis)
-        lastFinal_lowerband = [0] * len(spis)
-        lastBBlower = [0] * len(spis)
-        lastBBupper = [0] * len(spis)
-        lastSupertrend = [False] * len(spis)
+
+        #for supertrend
+        supertrend_cls_mass = [classes_to_indicators.Supertrend_class()] * len(spis)
 
         #for bollinger bands
-        Close_deq = [deque()] * len(spis)
-        lastTL = [0.0] * len(spis)
-        lastBL = [0.0] * len(spis)
-        lastML = [0.0] * len(spis)
+        bb_cls_mass = [classes_to_indicators.Bollinger_bands_class()] * len(spis)
 
         #for stoch
-        stoch_cls_mass = [classes_to_indicators.Stoch_classobject()] * len(spis)
+        stoch_cls_mass = [classes_to_indicators.Stoch_class()] * len(spis)
 
         max_cost = [0.0] * len(spis)
         my_plus = 0
@@ -107,22 +99,15 @@ async def main_program(dt_from : datetime, dt_to : datetime, interval : int = 15
             while not flag:
                 buy_cnt[ind] = 0
                 buy_price[ind] = 0
-                lastClose[ind] = 0.0
-                TR[ind] = deque()
-                lastFinal_upperband[ind] = 0
-                lastFinal_lowerband[ind] = 0
-                lastSupertrend[ind] = False
-                last_ATR[ind] = 0.0
                 new_flag = False
                 candles_to_indicator = list()
                 delta = date_time.timedelta(seconds=1)
                 dt_max = dt_from - delta
                 dt_min = datetime_split_day.datetime_begin_of_day(dt_max)
 
-                Close_deq[ind] = deque()
-                lastTL[ind] = 0.0
-                lastBL[ind] = 0.0
-                lastML[ind] = 0.0
+                supertrend_cls_mass[ind].clear()
+
+                bb_cls_mass[ind].clear()
                 new_flag_bollinger = False
 
                 new_flag_stoch = False
@@ -140,20 +125,18 @@ async def main_program(dt_from : datetime, dt_to : datetime, interval : int = 15
                     dt_min = datetime_split_day.datetime_begin_of_day(dt_max)
                     time.sleep(0.1)
                 for candle in candles_to_indicator:
-                    new_flag, TR[ind], lastFinal_upperband[ind], lastFinal_lowerband[ind], lastSupertrend[ind], lastClose[ind], supertrend, final_upperband, final_lowerband, last_ATR[ind] = indicators.Supertrend(TR=TR[ind], lastSupertrend=lastSupertrend[ind], lastClose=lastClose[ind], lastFinal_lowerband=lastFinal_lowerband[ind], lastFinal_upperband=lastFinal_upperband[ind], High=float(candle.h), Low=float(candle.l), Close=float(candle.c), last_ATR=last_ATR[ind])
-                    lastFinal_upperband[ind] = final_upperband
-                    lastFinal_lowerband[ind] = final_lowerband
-                    lastSupertrend[ind] = supertrend
-                    lastClose[ind] = float(candle.c)
+                    supertrend_cls_mass[ind].candle = candle
+                    new_flag = indicators.Supertrend(supertrend_cls=supertrend_cls_mass[ind])
+                    supertrend_cls_mass[ind].upd_last()
+
                     '''if new_flag:
                         print(candle.time)
                         print(lastClose, lastSupertrend, lastFinal_lowerband, lastFinal_upperband)
                         print()'''
 
-                    new_flag_bollinger, Close_deq[ind], TL, BL, ML = indicators.Bollinger_bands(Close_deq=Close_deq[ind], Close=float(candle.c))
-                    lastTL[ind] = TL
-                    lastBL[ind] = BL
-                    lastML[ind] = ML
+                    bb_cls_mass[ind].candle = candle
+                    new_flag_bollinger = indicators.Bollinger_bands(bollinger_bands_cls=bb_cls_mass[ind])
+                    bb_cls_mass[ind].upd_last()
                     '''if new_flag_bollinger:
                         print(TL, BL)
                         print(candle.time)
@@ -200,14 +183,13 @@ async def main_program(dt_from : datetime, dt_to : datetime, interval : int = 15
                 print(candle.c)'''
                 #lastClose[ind], lastSupertrend[ind], TR[ind], lastFinal_lowerband[ind], lastFinal_upperband[ind], buy_cnt[ind], my_plus =
                 stoch_cls_mass[ind].candle = candle
-                t = strategy.fun_with_bb(el=tic, buy_cnt=buy_cnt[ind], Close=float(candle.c), High=float(candle.h), Low=float(candle.l), lastClose=lastClose[ind],
-                                            lastSupertrend=lastSupertrend[ind], TR=TR[ind], lastFinal_upperband=lastFinal_upperband[ind],
-                                            lastFinal_lowerband=lastFinal_lowerband[ind], cnt_stock_lot=cnt_stock_lot[ind], percent=percent, my_plus=my_plus,
-                                            buy_price=buy_price[ind], dt=candle.time, Close_deq=Close_deq[ind], lastTL=lastTL[ind], lastBL=lastBL[ind], last_ATR=last_ATR[ind],
-                                         max_cost=max_cost[ind], lastML=lastML[ind], Open=candle.o, stoch_cls=stoch_cls_mass[ind])
+                bb_cls_mass[ind].candle = candle
+                t = strategy.fun_with_bb(el=tic, buy_cnt=buy_cnt[ind], cnt_stock_lot=cnt_stock_lot[ind],
+                                         percent=percent, my_plus=my_plus, buy_price=buy_price[ind],
+                                         dt=candle.time, bb_cls=bb_cls_mass[ind],
+                                         stoch_cls=stoch_cls_mass[ind], supertrend_cls=supertrend_cls_mass[ind])
 
-                [lastClose[ind], lastSupertrend[ind], TR[ind], lastFinal_lowerband[ind], lastFinal_upperband[ind], buy_cnt[ind], my_plus, buy_price[ind],
-                Close_deq[ind], lastTL[ind], lastBL[ind], last_ATR[ind], max_cost[ind], lastML[ind]] = t
+                [buy_cnt[ind], my_plus, buy_price[ind], max_cost[ind]] = t
                 #print(lastClose, lastSupertrend, lastFinal_lowerband, lastFinal_upperband)
             my_plus_tic[tic] = my_plus - m_p
             print(my_plus_tic[tic])

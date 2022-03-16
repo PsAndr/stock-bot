@@ -3,89 +3,94 @@ from collections import deque
 import math
 from test_strategy import classes_to_indicators
 
-def Supertrend(TR : deque, lastFinal_upperband : float, lastFinal_lowerband : float, lastSupertrend : bool,
-               High : float, Low : float, Close : float, lastClose : float, last_ATR : float, n : int = 10, d : float = 3.0):
-    def to_return(is_available : bool, TR : deque, lastFinal_upperband : float, lastFinal_lowerband : float,
-                  lastSupertrend : bool, lastClose : float, supertrend : bool, final_upperband : float, final_lowerband : float, last_ATR : float):
-        return [is_available, TR, lastFinal_upperband, lastFinal_lowerband, lastSupertrend, lastClose, supertrend, final_upperband, final_lowerband, last_ATR]
+def Supertrend(supertrend_cls : classes_to_indicators.Supertrend_class):
+    def to_return(is_available : bool):
+        return is_available
 
-    if lastClose == 0:
-        lastClose = Close
-        return to_return(TR=TR, lastSupertrend=lastSupertrend, lastFinal_lowerband=lastFinal_lowerband, lastFinal_upperband=lastFinal_upperband, is_available=False, lastClose=lastClose, supertrend=False, final_lowerband=0, final_upperband=0, last_ATR=0.0)
+    Close = float(supertrend_cls.candle.c)
+    High = float(supertrend_cls.candle.h)
+    Low = float(supertrend_cls.candle.l)
 
-    TR.append(max(High - Low, abs(High - lastClose), abs(Low - lastClose)))
+    if supertrend_cls.lastClose == 0:
+        supertrend_cls.upd_last()
+        return to_return(is_available=False)
 
-    if (len(TR) < n):
-        return to_return(TR=TR, lastSupertrend=lastSupertrend, lastFinal_lowerband=lastFinal_lowerband, lastFinal_upperband=lastFinal_upperband, is_available=False, lastClose=lastClose, supertrend=False, final_lowerband=0, final_upperband=0, last_ATR=0.0)
+    supertrend_cls.TR.append(max(High - Low, abs(High - supertrend_cls.lastClose), abs(Low - supertrend_cls.lastClose)))
 
-    if last_ATR == 0:
-        last_ATR = numpy.mean(list(TR)[:-1])
+    if (len(supertrend_cls.TR) < supertrend_cls.n):
+        return to_return(is_available=False)
 
-    if (len(TR) > n):
-        TR.popleft()
+    if supertrend_cls.last_ATR == 0 and len(supertrend_cls.TR) == supertrend_cls.n:
+        supertrend_cls.last_ATR = numpy.mean(list(supertrend_cls.TR))
+        return to_return(is_available=False)
 
-    ATR = (last_ATR * (n - 1) + TR[-1]) / n
-    final_upperband = (High + Low) / 2 + d * ATR
-    final_lowerband = (High + Low) / 2 - d * ATR
+    if (len(supertrend_cls.TR) > supertrend_cls.n):
+        supertrend_cls.TR.popleft()
 
-    last_ATR = ATR
+    supertrend_cls.ATR = (supertrend_cls.last_ATR * (supertrend_cls.n - 1) + supertrend_cls.TR[-1]) / supertrend_cls.n
+    supertrend_cls.final_upperband = (High + Low) / 2 + supertrend_cls.d * supertrend_cls.ATR
+    supertrend_cls.final_lowerband = (High + Low) / 2 - supertrend_cls.d * supertrend_cls.ATR
 
-    if (lastFinal_upperband == 0):
-        if (Close > lastFinal_upperband):
+    supertrend_cls.upd_last()
+
+    if (supertrend_cls.lastFinal_upperband == 0):
+        if (Close > supertrend_cls.lastFinal_upperband):
             supertrend = True
         # if current close price crosses below lowerband
-        elif (Close < lastFinal_lowerband):
-            supertrend = False
-        lastFinal_upperband = final_upperband
-        lastFinal_lowerband = final_lowerband
-        lastSupertrend = False
-        return to_return(TR=TR, lastSupertrend=lastSupertrend, lastFinal_lowerband=lastFinal_lowerband, lastFinal_upperband=lastFinal_upperband, is_available=False, lastClose=lastClose, supertrend=False, final_upperband=final_upperband, final_lowerband=final_lowerband, last_ATR=last_ATR)
+        elif (Close < supertrend_cls.lastFinal_lowerband):
+            supertrend_cls.supertrend = False
+        supertrend_cls.lastFinal_upperband = supertrend_cls.final_upperband
+        supertrend_cls.lastFinal_lowerband = supertrend_cls.final_lowerband
+        supertrend_cls.lastSupertrend = False
+        return to_return(is_available=False)
 
-    supertrend = False
+    supertrend_cls.supertrend = False
 
-    if Close > lastFinal_upperband:
-        supertrend = True
+    if Close > supertrend_cls.lastFinal_upperband:
+        supertrend_cls.supertrend = True
     # if current close price crosses below lowerband
-    elif Close < lastFinal_lowerband:
-        supertrend = False
+    elif Close < supertrend_cls.lastFinal_lowerband:
+        supertrend_cls.supertrend = False
     # else, the trend continues
     else:
-        supertrend = lastSupertrend
-        if supertrend and final_lowerband < lastFinal_lowerband:
-            final_lowerband = lastFinal_lowerband
-        if not supertrend and final_upperband > lastFinal_upperband:
-            final_upperband = lastFinal_upperband
-    return to_return(TR=TR, lastSupertrend=lastSupertrend, lastFinal_lowerband=lastFinal_lowerband, lastFinal_upperband=lastFinal_upperband, is_available=True, lastClose=lastClose, supertrend=supertrend, final_lowerband=final_lowerband, final_upperband=final_upperband, last_ATR=last_ATR)
+        supertrend_cls.supertrend = supertrend_cls.lastSupertrend
+        if supertrend_cls.supertrend and supertrend_cls.final_lowerband < supertrend_cls.lastFinal_lowerband:
+            supertrend_cls.final_lowerband = supertrend_cls.lastFinal_lowerband
+        if not supertrend_cls.supertrend and supertrend_cls.final_upperband > supertrend_cls.lastFinal_upperband:
+            supertrend_cls.final_upperband = supertrend_cls.lastFinal_upperband
+    return to_return(is_available=True)
 
-def Bollinger_bands(Close_deq : deque, Close : float, d : float = 2, n : int = 20):
-    def to_return(is_available : bool, Close_deq_ : deque, TL_ : float, BL_ : float, ML_ : float):
-        return [is_available, Close_deq_, TL_, BL_, ML_]
+def Bollinger_bands(bollinger_bands_cls : classes_to_indicators.Bollinger_bands_class):
+    def to_return(is_available : bool):
+        return is_available
 
-    Close_deq.append(Close)
+    Close = float(bollinger_bands_cls.candle.c)
 
-    if len(Close_deq) < n:
-        return to_return(is_available=False, Close_deq_=Close_deq, TL_=0, BL_=0, ML_=0)
+    bollinger_bands_cls.Close_deq.append(Close)
 
-    if len(Close_deq) > n:
-        Close_deq.popleft()
+    if len(bollinger_bands_cls.Close_deq) < bollinger_bands_cls.n:
+        return to_return(is_available=False)
 
-    ML = sum(Close_deq) / n
+    if len(bollinger_bands_cls.Close_deq) > bollinger_bands_cls.n:
+        bollinger_bands_cls.Close_deq.popleft()
+
+    bollinger_bands_cls.ML = sum(bollinger_bands_cls.Close_deq) / bollinger_bands_cls.n
 
     sum_to_stdDev = 0
-    avg = numpy.mean(Close_deq)
-    for close in Close_deq:
+    avg = numpy.mean(bollinger_bands_cls.Close_deq)
+    for close in bollinger_bands_cls.Close_deq:
         sum_to_stdDev += (close - avg) ** 2
-    sum_to_stdDev /= n
+    sum_to_stdDev /= bollinger_bands_cls.n
 
     StdDev = math.sqrt(sum_to_stdDev)
 
-    TL = ML + (d * StdDev)
-    BL = ML - (d * StdDev)
+    bollinger_bands_cls.TL = bollinger_bands_cls.ML + (bollinger_bands_cls.d * StdDev)
+    bollinger_bands_cls.BL = bollinger_bands_cls.ML - (bollinger_bands_cls.d * StdDev)
 
-    return to_return(is_available=True, Close_deq_=Close_deq, TL_=TL, BL_=BL, ML_=ML)
+    return to_return(is_available=True)
 
 
-def Stoch(stoch_cls : classes_to_indicators.Stoch_classobject):
+def Stoch(stoch_cls : classes_to_indicators.Stoch_class):
     def to_return(is_available : bool):
         return is_available
 
