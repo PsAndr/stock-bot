@@ -22,41 +22,24 @@ from test_strategy import get_candles
 from test_strategy import classes_to_indicators
 from test_strategy import classes_to_portfolio
 import asyncio
+import work_with_tinvest
+from work_with_tinvest import get_information_stock
+
 
 async def main_program(dt_from : datetime, dt_to : datetime, interval : int = 15, percent : float = 0.3):
-    TOKEN = "t.WVpg6thNk00O9Vd8P4vrne6om7zDgWaGIsKH6TqdRKgT2giER_3Lqp7w9DI7NYdjPWF4AXkj6MRNP5G51zp2lQ"
-    S_TOKEN = "t.gJWIDbsjDOGnbAl2y-pm5kzEIxljV-kWYb1To6Skr4STriOvfDp4q4xwvFzuLzaXxWZt2UzRXysejROedAS1TQ"
-    client = tinvest.AsyncClient(TOKEN)
-
-    tz = date_time.timezone.utc
-    token = work_with_github.get_token.get_token()
-    g = Github(token)
-
-    async def get_stock_in_lot(cnt_stock_lot : list, spis : list):
-        for ind, el in enumerate(spis):
-            flag = False
-            try_cnt = 0
-            while not flag:
-                try:
-                    instr = await client.get_market_search_by_ticker(el)
-                    instr = instr.payload.instruments[0].lot
-                    cnt_stock_lot[ind] = instr
-                    flag = True
-                    time.sleep(0.2)
-                except:
-                    try_cnt += 1
-                    time.sleep(10)
-                    flag = False
-                    print(try_cnt)
-        return
-
     async def start_f(dt_from : datetime, dt_to : datetime, interval : int = 15):
         with open('stock_spis.txt', 'r') as stock_spis:
             spis = list(stock_spis.read().split())
         buy_cnt = [0] * len(spis)
         buy_price = [0] * len(spis)
         cnt_stock_lot = [10] * len(spis)
+        portfolio = classes_to_portfolio.Portfolio(spis)
+        TOKEN = portfolio.Tinvest_cls.get_Token()
+        client = tinvest.AsyncClient(TOKEN)
 
+        tz = date_time.timezone.utc
+        token = work_with_github.get_token.get_token()
+        g = Github(token)
         #for supertrend
         supertrend_cls_mass = [classes_to_indicators.Supertrend_class()] * len(spis)
 
@@ -66,31 +49,13 @@ async def main_program(dt_from : datetime, dt_to : datetime, interval : int = 15
         #for stoch
         stoch_cls_mass = [classes_to_indicators.Stoch_class()] * len(spis)
 
-        max_cost = [0.0] * len(spis)
-        my_plus = 0
-        my_plus_tic = dict()
-        list_print = []
-
-        await get_stock_in_lot(cnt_stock_lot, spis)
-
         print('Count stocks in lot is loaded')
 
         while len(buy_cnt) < len(spis):
             buy_cnt.append(0)
             buy_price.append(0)
         for ind, tic in enumerate(spis):
-            m_p = my_plus
             flag_ = False
-            fg = ''
-            while not flag_:
-                try:
-                    instr = await client.get_market_search_by_ticker(tic)
-                    fg = instr.payload.instruments[0].figi
-                    flag_ = True
-                    time.sleep(0.2)
-                except:
-                    time.sleep(1.5)
-                    flag_ = False
             interval_ = tinvest.CandleResolution(str(interval) + 'min')
             dt_l = dt_from + date_time.timedelta(seconds=0)
             dt_r = datetime_split_day.datetime_per_day(dt_from, dt_to)
@@ -113,6 +78,8 @@ async def main_program(dt_from : datetime, dt_to : datetime, interval : int = 15
 
                 new_flag_stoch = False
                 stoch_cls_mass[ind].clear()
+
+                fg = portfolio.get_stock_by_ticker(ticker=tic).figi
 
                 while n_back - len(candles_to_indicator) > 0:
                     try:
@@ -157,7 +124,7 @@ async def main_program(dt_from : datetime, dt_to : datetime, interval : int = 15
             procs = []
             index = 0
 
-            client_ = tinvest.SyncClient(TOKEN)
+            client_ = portfolio.Tinvest_cls.client
 
             while (dt_to.day - dt_l.day) > 0 or (dt_to.year - dt_l.year) > 0 or (dt_to.month - dt_l.month) > 0 or (dt_to.hour - dt_l.hour) > 0 or (dt_to.second - dt_l.second) > 1:
                 delta = date_time.timedelta(seconds=1)
@@ -186,21 +153,17 @@ async def main_program(dt_from : datetime, dt_to : datetime, interval : int = 15
                 stoch_cls_mass[ind].candle = candle
                 bb_cls_mass[ind].candle = candle
                 supertrend_cls_mass[ind].candle = candle
-                t = strategy.fun_with_bb(el=tic, buy_cnt=buy_cnt[ind], cnt_stock_lot=cnt_stock_lot[ind],
-                                         percent=percent, my_plus=my_plus, buy_price=buy_price[ind],
-                                         dt=candle.time, bb_cls=bb_cls_mass[ind], max_cost=max_cost[ind],
-                                         stoch_cls=stoch_cls_mass[ind], supertrend_cls=supertrend_cls_mass[ind])
-
-                [buy_cnt[ind], my_plus, buy_price[ind], max_cost[ind]] = t
+                strategy.fun_with_bb(el=tic, dt=candle.time, bb_cls=bb_cls_mass[ind], stoch_cls=stoch_cls_mass[ind],
+                        supertrend_cls=supertrend_cls_mass[ind], stock_cls=portfolio.get_stock_by_ticker(ticker=tic))
                 #print(lastClose, lastSupertrend, lastFinal_lowerband, lastFinal_upperband)
-            my_plus_tic[tic] = my_plus - m_p
-            print(my_plus_tic[tic])
-        print(my_plus)
-        print(my_plus_tic)
+            print(portfolio.get_stock_by_ticker(ticker=tic).plus)
+
+        for i in portfolio.stock_mass:
+            print("{1}: {0}".format(i.plus, i.ticker))
+
+        await client.close()
 
     await start_f(dt_from, dt_to, interval)
-
-    await client.close()
 
 if __name__ == '__main__':
     tz = date_time.timezone.utc

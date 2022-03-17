@@ -8,6 +8,7 @@ import tinvest
 import datetime as date_time
 from tradingview_ta import TA_Handler, Interval, Exchange
 from test_strategy import classes_to_indicators
+from test_strategy import classes_to_portfolio
 
 def fun_without_bb(el, Close : float, High : float, Low : float, lastClose, lastSupertrend, TR : deque, lastFinal_lowerband, lastFinal_upperband, buy_cnt, cnt_stock_lot, percent, my_plus, buy_price, dt : datetime):
     flag, TR, lastFinal_upperband, lastFinal_lowerband, lastSupertrend, lastClose, supertrend, final_upperband, final_lowerband = indicators.Supertrend(TR=TR, lastSupertrend=lastSupertrend, lastClose=lastClose, lastFinal_lowerband=lastFinal_lowerband, lastFinal_upperband=lastFinal_upperband, High=High, Low=Low, Close=Close)
@@ -42,13 +43,13 @@ def fun_without_bb(el, Close : float, High : float, Low : float, lastClose, last
     return lastClose, lastSupertrend, TR, lastFinal_lowerband, lastFinal_upperband, buy_cnt, my_plus, buy_price
 
 
-def fun_with_bb(el, buy_cnt, cnt_stock_lot, percent : float, my_plus, buy_price, dt : datetime,
-                bb_cls : classes_to_indicators.Bollinger_bands_class, max_cost : float,
-                stoch_cls : classes_to_indicators.Stoch_class, supertrend_cls : classes_to_indicators.Supertrend_class):
+def fun_with_bb(el, stock_cls : classes_to_portfolio.Stock, dt : datetime,
+                bb_cls : classes_to_indicators.Bollinger_bands_class, stoch_cls : classes_to_indicators.Stoch_class,
+                supertrend_cls : classes_to_indicators.Supertrend_class):
     flag = indicators.Supertrend(supertrend_cls=supertrend_cls)
     if not flag:
         print('oops', dt)
-        return buy_cnt, my_plus, buy_price
+        return
     flag_BB = indicators.Bollinger_bands(bollinger_bands_cls=bb_cls)
     flag_Stoch = indicators.Stoch(stoch_cls=stoch_cls)
 
@@ -67,15 +68,13 @@ def fun_with_bb(el, buy_cnt, cnt_stock_lot, percent : float, my_plus, buy_price,
         print(TL, BL)
         print('_______________')'''
 
-    if Close >= bb_cls.BL and supertrend_cls.lastClose < bb_cls.lastBL and supertrend_cls.supertrend and buy_cnt == 0 \
+    if Close >= bb_cls.BL and supertrend_cls.lastClose < bb_cls.lastBL and supertrend_cls.supertrend and stock_cls.cnt_buy == 0 \
             and Open < bb_cls.BL and stoch_cls.stochK > stoch_cls.stochD \
             and max(stoch_cls.stochD, stoch_cls.stochK) < 60 and min(stoch_cls.stochK, stoch_cls.stochD) < 45 \
             and Close < bb_cls.ML and abs(Open - supertrend_cls.lastClose) / supertrend_cls.lastClose * 100 < 0.3:
-        buy_cnt = 1
-        buy_price = Close
-        max_cost = Close
+        d = stock_cls.buy(buy_price=Close, cnt_buy=1, dt=dt)
         print(dt)
-        print(el, 'buy', Close)
+        print(el, 'buy', d['cost'])
         print(supertrend_cls.final_lowerband, supertrend_cls.final_upperband, '\n')
         print(bb_cls.TL, bb_cls.BL)
         print('_______________')
@@ -98,77 +97,46 @@ def fun_with_bb(el, buy_cnt, cnt_stock_lot, percent : float, my_plus, buy_price,
         buy_cnt = 0
         max_cost = 0.0'''
 
-    if Close <= bb_cls.TL and supertrend_cls.lastClose > bb_cls.lastTL and buy_cnt > 0:
+    if Close <= bb_cls.TL and supertrend_cls.lastClose > bb_cls.lastTL and stock_cls.cnt_buy > 0:
         print(dt)
+        d = stock_cls.sell(sell_cost=Close, dt=dt)
         print(el, 'sell', Close)
-        print(buy_cnt, (buy_cnt * Close * cnt_stock_lot - buy_cnt * buy_price * cnt_stock_lot) / (
-                    buy_cnt * buy_price * cnt_stock_lot) * 100.0, '\n')
-        my_plus += buy_cnt * Close * cnt_stock_lot - buy_cnt * buy_price * cnt_stock_lot - (
-                    percent / 100) * buy_cnt * buy_price * cnt_stock_lot - (
-                               percent / 100) * buy_cnt * Close * cnt_stock_lot
-        print(my_plus, ' | ', buy_cnt * Close * cnt_stock_lot - buy_cnt * buy_price * cnt_stock_lot - (
-                    percent / 100) * buy_cnt * buy_price * cnt_stock_lot - (
-                          percent / 100) * buy_cnt * Close * cnt_stock_lot)
+        print(d['plus'], ' | ', d['percent'])
+        print(stock_cls.plus)
         print(supertrend_cls.final_lowerband, supertrend_cls.final_upperband, '\n')
         print(bb_cls.TL, bb_cls.BL)
         print('_______________')
-        buy_cnt = 0
-        max_cost = 0.0
 
-    if buy_cnt > 0 and Close < bb_cls.ML and supertrend_cls.lastClose > bb_cls.lastML \
+    if stock_cls.cnt_buy > 0 and Close < bb_cls.ML and supertrend_cls.lastClose > bb_cls.lastML \
             and not supertrend_cls.supertrend and stoch_cls.stochK <= stoch_cls.stochD:
-        cost_of_sell = Close
         print(dt)
-        print(el, 'sell', cost_of_sell)
-        print(buy_cnt, (buy_cnt * cost_of_sell * cnt_stock_lot - buy_cnt * buy_price * cnt_stock_lot) / (
-                buy_cnt * buy_price * cnt_stock_lot) * 100.0, '\n')
-        my_plus += buy_cnt * cost_of_sell * cnt_stock_lot - buy_cnt * buy_price * cnt_stock_lot - (
-                percent / 100) * buy_cnt * buy_price * cnt_stock_lot - (
-                           percent / 100) * buy_cnt * cost_of_sell * cnt_stock_lot
-        print(my_plus, ' | ', buy_cnt * cost_of_sell * cnt_stock_lot - buy_cnt * buy_price * cnt_stock_lot - (
-                percent / 100) * buy_cnt * buy_price * cnt_stock_lot - (
-                      percent / 100) * buy_cnt * cost_of_sell * cnt_stock_lot)
+        d = stock_cls.sell(sell_cost=Close, dt=dt)
+        print(el, 'sell', Close)
+        print(d['plus'], ' | ', d['percent'])
+        print(stock_cls.plus)
         print(supertrend_cls.final_lowerband, supertrend_cls.final_upperband, '\n')
         print(bb_cls.TL, bb_cls.BL)
         print('_______________')
-        buy_cnt = 0
-        max_cost = 0.0
 
-    if buy_price != Close and buy_cnt > 0 and Close <= buy_price * 0.985:
-        cost_of_sell = Close
+    if stock_cls.buy_price != Close and stock_cls.cnt_buy > 0 and Close <= stock_cls.buy_price * 0.985:
         print(dt)
-        print(el, 'sell', cost_of_sell)
-        print(buy_cnt, (buy_cnt * cost_of_sell * cnt_stock_lot - buy_cnt * buy_price * cnt_stock_lot) / (
-                buy_cnt * buy_price * cnt_stock_lot) * 100.0, '\n')
-        my_plus += buy_cnt * cost_of_sell * cnt_stock_lot - buy_cnt * buy_price * cnt_stock_lot - (
-                percent / 100) * buy_cnt * buy_price * cnt_stock_lot - (
-                           percent / 100) * buy_cnt * cost_of_sell * cnt_stock_lot
-        print(my_plus, ' | ', buy_cnt * cost_of_sell * cnt_stock_lot - buy_cnt * buy_price * cnt_stock_lot - (
-                percent / 100) * buy_cnt * buy_price * cnt_stock_lot - (
-                      percent / 100) * buy_cnt * cost_of_sell * cnt_stock_lot)
+        d = stock_cls.sell(sell_cost=Close, dt=dt)
+        print(el, 'sell', Close)
+        print(d['plus'], ' | ', d['percent'])
+        print(stock_cls.plus)
         print(supertrend_cls.final_lowerband, supertrend_cls.final_upperband, '\n')
         print(bb_cls.TL, bb_cls.BL)
         print('_______________')
-        buy_cnt = 0
-        max_cost = 0.0
 
-    if buy_cnt > 0 and min(stoch_cls.stochK, stoch_cls.stochD) >= 80:
-        cost_of_sell = Close
+    if stock_cls.cnt_buy > 0 and min(stoch_cls.stochK, stoch_cls.stochD) >= 80:
         print(dt)
-        print(el, 'sell', cost_of_sell)
-        print(buy_cnt, (buy_cnt * cost_of_sell * cnt_stock_lot - buy_cnt * buy_price * cnt_stock_lot) / (
-                buy_cnt * buy_price * cnt_stock_lot) * 100.0, '\n')
-        my_plus += buy_cnt * cost_of_sell * cnt_stock_lot - buy_cnt * buy_price * cnt_stock_lot - (
-                percent / 100) * buy_cnt * buy_price * cnt_stock_lot - (
-                           percent / 100) * buy_cnt * cost_of_sell * cnt_stock_lot
-        print(my_plus, ' | ', buy_cnt * cost_of_sell * cnt_stock_lot - buy_cnt * buy_price * cnt_stock_lot - (
-                percent / 100) * buy_cnt * buy_price * cnt_stock_lot - (
-                      percent / 100) * buy_cnt * cost_of_sell * cnt_stock_lot)
+        d = stock_cls.sell(sell_cost=Close, dt=dt)
+        print(el, 'sell', Close)
+        print(d['plus'], ' | ', d['percent'])
+        print(stock_cls.plus)
         print(supertrend_cls.final_lowerband, supertrend_cls.final_upperband, '\n')
         print(bb_cls.TL, bb_cls.BL)
         print('_______________')
-        buy_cnt = 0
-        max_cost = 0.0
 
     '''
     if buy_cnt > 0 and buy_price != Close and Close <= max_cost * 0.97:
@@ -190,13 +158,13 @@ def fun_with_bb(el, buy_cnt, cnt_stock_lot, percent : float, my_plus, buy_price,
         max_cost = 0.0
     '''
 
-    if buy_cnt > 0 and Close > max_cost:
-        max_cost = Close
+    if stock_cls.cnt_buy > 0 and Close > stock_cls.max_cost:
+        stock_cls.max_cost = Close
 
     supertrend_cls.upd_last()
     bb_cls.upd_last()
 
-    return [buy_cnt, my_plus, buy_price, max_cost]
+    return
 
 def strategy_with_tradingview():
     '''with open('stock_spis.txt', 'r') as stock_spis:
