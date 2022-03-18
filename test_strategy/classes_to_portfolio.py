@@ -89,6 +89,7 @@ class Stock:
     def get_candles(self, dt_from : datetime, dt_to : datetime, interval : tinvest.CandleResolution):
         return self.portfolio.get_candles_figi(figi=self.figi, dt_from=dt_from, dt_to=dt_to, interval=interval)
 
+
 class Portfolio:
     def __init__(self, spis : list):
         self.Tinvest_cls = get_information_stock.Tinvest_class()
