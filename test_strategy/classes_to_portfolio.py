@@ -122,4 +122,4 @@ class Portfolio:
         return self.Tinvest_cls.get_price_now_figi(figi=figi)
 
     def get_candles_figi(self, figi : str, dt_from : datetime, dt_to : datetime, interval : tinvest.CandleResolution):
-        return self.Tinvest_cls
+        return self.Tinvest_cls.get_candles_figi(dt_from=dt_from, dt_to=dt_to, interval=interval)
