@@ -84,8 +84,10 @@ class Stock:
         return to_return
 
     def price_now(self):
-        return self.portfolio.price_now_figi(self.figi)
+        return self.portfolio.price_now_figi(figi=self.figi)
 
+    def get_candles(self, dt_from : datetime, dt_to : datetime, interval : tinvest.CandleResolution):
+        return self.portfolio.get_candles_figi(figi=self.figi, dt_from=dt_from, dt_to=dt_to, interval=interval)
 
 class Portfolio:
     def __init__(self, spis : list):
@@ -118,3 +120,6 @@ class Portfolio:
 
     def price_now_figi(self, figi : str):
         return self.Tinvest_cls.get_price_now_figi(figi=figi)
+
+    def get_candles_figi(self, figi : str, dt_from : datetime, dt_to : datetime, interval : tinvest.CandleResolution):
+        return self.Tinvest_cls
