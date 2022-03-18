@@ -35,16 +35,20 @@ class Stock:
         my_copy.operations = deepcopy(self.operations)
         return my_copy
 
-    def sell(self, sell_cost : float, dt : datetime = None, cnt_sell : int = -1, commission : float = 0.04):
+    def sell(self, sell_cost : float, dt : datetime = None, cnt_sell : int = -1, commission : float = 0.04,
+             to_log_flag : bool = True):
         to_return = dict()
         to_return['percent'] = 0.0
         to_return['plus'] = 0.0
         to_return['commision'] = 0.0
         to_return['cost'] = 0.0
         to_return['datetime'] = None
+        to_return['type'] = 'sell'
         if cnt_sell == -1:
             cnt_sell = self.cnt_buy
         if cnt_sell > self.cnt_buy or cnt_sell <= 0:
+            if to_log_flag:
+                self.to_log_operation(to_return)
             return to_return
         commission /= 100
         minus_from_comm = self.buy_price * self.cnt_in_lot * commission + sell_cost * self.cnt_in_lot * commission
@@ -61,19 +65,26 @@ class Stock:
             self.max_cost = 0.0
         self.plus += to_return['plus']
         self.operations.append(Operation(type_op='sell', cost_op=sell_cost, ticker=self.ticker, dt=dt))
+        if to_log_flag:
+            self.to_log_operation(to_return)
         return to_return
 
-    def buy(self, buy_price : float, cnt_buy : int, dt : datetime = None):
+    def buy(self, buy_price : float, cnt_buy : int, dt : datetime = None, to_log_flag : bool = True):
         to_return = dict()
         to_return['cost'] = 0.0
         to_return['datetime'] = None
+        to_return['type'] = 'buy'
         if self.cnt_buy > 0:
+            if to_log_flag:
+                self.to_log_operation(to_return)
             return to_return
         to_return['cost'] = buy_price * cnt_buy * self.cnt_in_lot
         to_return['datetime'] = dt
         self.cnt_buy = deepcopy(cnt_buy)
         self.buy_price = deepcopy(buy_price)
         self.operations.append(Operation(type_op='buy', cost_op=buy_price, ticker=self.ticker, dt=dt))
+        if to_log_flag:
+            self.to_log_operation(to_return)
         return to_return
 
     def get_operations(self, type_op : str):
@@ -89,6 +100,10 @@ class Stock:
     def get_candles(self, dt_from : datetime, dt_to : datetime, interval : tinvest.CandleResolution):
         return self.portfolio.get_candles_figi(figi=self.figi, dt_from=dt_from, dt_to=dt_to, interval=interval)
 
+    def to_log_operation(self, *args):
+        for key in args:
+            print('{0}: {1}'.format(key, args[key]))
+        print('________________________')
 
 class Portfolio:
     def __init__(self, spis : list):
@@ -123,4 +138,4 @@ class Portfolio:
         return self.Tinvest_cls.get_price_now_figi(figi=figi)
 
     def get_candles_figi(self, figi : str, dt_from : datetime, dt_to : datetime, interval : tinvest.CandleResolution):
-        return self.Tinvest_cls.get_candles_figi(dt_from=dt_from, dt_to=dt_to, interval=interval)
+        return self.Tinvest_cls.get_candles_figi(figi=figi, dt_from=dt_from, dt_to=dt_to, interval=interval)
