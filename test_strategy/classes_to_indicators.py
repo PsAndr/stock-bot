@@ -47,6 +47,7 @@ class Bollinger_bands_class:
         self.d = deepcopy(d)
         self.Close_deq = deque()
         self.candle = None
+        self.lastCandle = None
         self.ML = 0.0
         self.BL = 0.0
         self.TL = 0.0
@@ -64,6 +65,7 @@ class Bollinger_bands_class:
         my_copy.lastTL = deepcopy(self.lastTL)
         my_copy.TL = deepcopy(self.TL)
         my_copy.ML = deepcopy(self.ML)
+        my_copy.lastCandle = deepcopy(self.lastCandle)
         return my_copy
 
     def clear(self):
@@ -80,6 +82,7 @@ class Bollinger_bands_class:
         self.lastBL = deepcopy(self.BL)
         self.lastTL = deepcopy(self.TL)
         self.lastML = deepcopy(self.ML)
+        self.lastCandle = deepcopy(self.candle)
 
 
 class Supertrend_class:

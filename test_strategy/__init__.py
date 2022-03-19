@@ -121,27 +121,8 @@ async def main_program(dt_from : datetime, dt_to : datetime, interval : int = 15
                 n_back += 1
                 flag = new_flag and new_flag_bollinger and new_flag_stoch
             print('pre loading is done')
-            procs = []
-            index = 0
 
-            client_ = portfolio.Tinvest_cls.client
-
-            while (dt_to.day - dt_l.day) > 0 or (dt_to.year - dt_l.year) > 0 or (dt_to.month - dt_l.month) > 0 or (dt_to.hour - dt_l.hour) > 0 or (dt_to.second - dt_l.second) > 1:
-                delta = date_time.timedelta(seconds=1)
-                proc = threading.Thread(target=get_candles.get, args=(tic, dt_l, dt_r, interval_, candles, index, client_))
-                dt_l = dt_r + delta
-                dt_r = datetime_split_day.datetime_per_day(dt_l, dt_to)
-                procs.append(proc)
-                index += 1
-
-            procs_now = []
-            for proc in procs:
-                procs_now.append(proc)
-                proc.start()
-                proc.join()
-                time.sleep(0.05)
-
-            candles = candles[:-1]
+            candles = portfolio.get_stock_by_ticker(ticker=tic).get_candles(dt_from=dt_from, dt_to=dt_to, interval=tinvest.CandleResolution.min15)
 
             print('candles is loaded')
 

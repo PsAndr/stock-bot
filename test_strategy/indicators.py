@@ -3,6 +3,7 @@ from collections import deque
 import math
 from test_strategy import classes_to_indicators
 
+
 def Supertrend(supertrend_cls : classes_to_indicators.Supertrend_class):
     def to_return(is_available : bool):
         return is_available
