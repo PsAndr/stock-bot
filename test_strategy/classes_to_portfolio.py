@@ -35,8 +35,7 @@ class Stock:
         my_copy.operations = deepcopy(self.operations)
         return my_copy
 
-    def sell(self, sell_cost : float, dt : datetime = None, cnt_sell : int = -1, commission : float = 0.04,
-             to_log_flag : bool = True):
+    def sell(self, sell_cost : float, dt : datetime = None, cnt_sell : int = -1, to_log_flag : bool = True):
         to_return = dict()
         to_return['ticker'] = self.ticker
         to_return['percent'] = 0.0
@@ -45,6 +44,7 @@ class Stock:
         to_return['cost'] = 0.0
         to_return['datetime'] = None
         to_return['type'] = 'sell'
+        commission = deepcopy(self.portfolio.commission)
         if cnt_sell == -1:
             cnt_sell = self.cnt_buy
         if cnt_sell > self.cnt_buy or cnt_sell <= 0:
@@ -111,7 +111,8 @@ class Stock:
 
 
 class Portfolio:
-    def __init__(self, spis : list):
+    def __init__(self, spis : list, commission : float = 0.04):
+        self.commission = deepcopy(commission)
         self.Tinvest_cls = get_information_stock.Tinvest_class()
         self.stock_mass = list()
         for tic in spis:

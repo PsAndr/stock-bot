@@ -30,10 +30,9 @@ async def main_program(dt_from : datetime, dt_to : datetime, interval : int = 15
     async def start_f(dt_from : datetime, dt_to : datetime, interval : int = 15):
         with open('stock_spis.txt', 'r') as stock_spis:
             spis = list(stock_spis.read().split())
-        buy_cnt = [0] * len(spis)
-        buy_price = [0] * len(spis)
-        cnt_stock_lot = [10] * len(spis)
-        portfolio = classes_to_portfolio.Portfolio(spis)
+        buy_cnt = [0 for i in range(len(spis))]
+        buy_price = [0 for i in range(len(spis))]
+        portfolio = classes_to_portfolio.Portfolio(spis=spis, commission=percent)
         TOKEN = portfolio.Tinvest_cls.get_Token()
         client = tinvest.AsyncClient(TOKEN)
 
@@ -41,90 +40,26 @@ async def main_program(dt_from : datetime, dt_to : datetime, interval : int = 15
         token = work_with_github.get_token.get_token()
         g = Github(token)
         #for supertrend
-        supertrend_cls_mass = [classes_to_indicators.Supertrend_class()] * len(spis)
+        supertrend_cls_mass = [classes_to_indicators.Supertrend_class() for i in range(len(spis))]
 
         #for bollinger bands
-        bb_cls_mass = [classes_to_indicators.Bollinger_bands_class()] * len(spis)
+        bb_cls_mass = [classes_to_indicators.Bollinger_bands_class() for i in range(len(spis))]
 
         #for stoch
-        stoch_cls_mass = [classes_to_indicators.Stoch_class()] * len(spis)
+        stoch_cls_mass = [classes_to_indicators.Stoch_class() for i in range(len(spis))]
 
-        print('Count stocks in lot is loaded')
+        print('Count stocks in lot is load')
 
-        while len(buy_cnt) < len(spis):
-            buy_cnt.append(0)
-            buy_price.append(0)
         for ind, tic in enumerate(spis):
-            flag_ = False
-            interval_ = tinvest.CandleResolution(str(interval) + 'min')
-            dt_l = dt_from + date_time.timedelta(seconds=0)
-            dt_r = datetime_split_day.datetime_per_day(dt_from, dt_to)
-            candles = [0]
-            flag = False
-            n_back = 1
-            while not flag:
-                buy_cnt[ind] = 0
-                buy_price[ind] = 0
-                new_flag = False
-                candles_to_indicator = list()
-                delta = date_time.timedelta(seconds=1)
-                dt_max = dt_from - delta
-                dt_min = datetime_split_day.datetime_begin_of_day(dt_max)
+            classes_to_indicators.init_indicators(dt_from=dt_from, supertrend_cls=supertrend_cls_mass[ind],
+                        bb_cls=bb_cls_mass[ind], stoch_cls=stoch_cls_mass[ind], portfolio=portfolio, ticker=tic,
+                        interval=tinvest.CandleResolution.min15)
 
-                supertrend_cls_mass[ind].clear()
-
-                bb_cls_mass[ind].clear()
-                new_flag_bollinger = False
-
-                new_flag_stoch = False
-                stoch_cls_mass[ind].clear()
-
-                fg = portfolio.get_stock_by_ticker(ticker=tic).figi
-
-                while n_back - len(candles_to_indicator) > 0:
-                    try:
-                        candles_load = await client.get_market_candles(figi=fg, from_=dt_min, to=dt_max, interval=interval_)
-                        candles_to_indicator += candles_load.payload.candles
-                    except:
-                        time.sleep(1.5)
-                        continue
-                    dt_min -= delta
-                    dt_max = dt_min
-                    dt_min = datetime_split_day.datetime_begin_of_day(dt_max)
-                    time.sleep(0.1)
-                for candle in candles_to_indicator:
-                    supertrend_cls_mass[ind].candle = candle
-                    new_flag = indicators.Supertrend(supertrend_cls=supertrend_cls_mass[ind])
-                    supertrend_cls_mass[ind].upd_last()
-
-                    '''if new_flag:
-                        print(candle.time)
-                        print(supertrend_cls_mass[ind].lastClose, supertrend_cls_mass[ind].lastSupertrend, supertrend_cls_mass[ind].lastFinal_lowerband, supertrend_cls_mass[ind].lastFinal_upperband)
-                        print()'''
-
-                    bb_cls_mass[ind].candle = candle
-                    new_flag_bollinger = indicators.Bollinger_bands(bollinger_bands_cls=bb_cls_mass[ind])
-                    bb_cls_mass[ind].upd_last()
-                    '''if new_flag_bollinger:
-                        print(bb_cls_mass[ind].TL, bb_cls_mass[ind].BL)
-                        print(candle.time)
-                        print()'''
-
-                    stoch_cls_mass[ind].candle = candle
-                    new_flag_stoch = indicators.Stoch(stoch_cls_mass[ind])
-
-                    '''if new_flag_stoch:
-                        print(stochK, stochD)
-                        print(candle.time)
-                        print()'''
-
-                n_back += 1
-                flag = new_flag and new_flag_bollinger and new_flag_stoch
             print('pre loading is done')
 
             candles = portfolio.get_stock_by_ticker(ticker=tic).get_candles(dt_from=dt_from, dt_to=dt_to, interval=tinvest.CandleResolution.min15)
 
-            print('candles is loaded')
+            print('candles is load')
 
             for candle in candles:
                 '''print('start new candle', tic)
@@ -148,4 +83,4 @@ async def main_program(dt_from : datetime, dt_to : datetime, interval : int = 15
 
 if __name__ == '__main__':
     tz = date_time.timezone.utc
-    asyncio.run(main_program(datetime(2020, 1, 1, 7, 0, 0, tzinfo=tz), datetime(2022, 3, 9, 7, 15, 0, tzinfo=tz), percent=0.04))
+    asyncio.run(main_program(datetime(2021, 1, 1, 7, 0, 0, tzinfo=tz), datetime(2021, 12, 31, 7, 15, 0, tzinfo=tz), percent=0.04))

@@ -67,10 +67,13 @@ def fun_with_bb(el, stock_cls : classes_to_portfolio.Stock, dt : datetime,
         print(final_lowerband, final_upperband, '\n')
         print(TL, BL)
         print('_______________')'''
+
+    max_delta_time_candles = bb_cls.get_max_delta_time_lastCandles()
+
     if Close >= bb_cls.BL and supertrend_cls.lastClose < bb_cls.lastBL and supertrend_cls.supertrend and stock_cls.cnt_buy == 0 \
-            and Open < bb_cls.BL and stoch_cls.stochK > stoch_cls.stochD and (bb_cls.candle.time - bb_cls.lastCandle.time).seconds / 3600 < 10\
-            and max(stoch_cls.stochD, stoch_cls.stochK) < 60 and min(stoch_cls.stochK, stoch_cls.stochD) < 45 \
-            and Close < bb_cls.ML and abs(Open - supertrend_cls.lastClose) / supertrend_cls.lastClose * 100 < 0.3:
+            and Open < bb_cls.BL and max_delta_time_candles < 10 and stoch_cls.stochK > stoch_cls.stochD\
+            and max(stoch_cls.stochD, stoch_cls.stochK) < 40 and min(stoch_cls.stochK, stoch_cls.stochD) < 30 \
+            and Close < bb_cls.ML:
         d = stock_cls.buy(buy_price=Close, cnt_buy=1, dt=dt)
         print(bb_cls.lastCandle.time, bb_cls.candle.time)
         print((bb_cls.candle.time - bb_cls.lastCandle.time).seconds / 3600)
@@ -107,43 +110,30 @@ def fun_with_bb(el, stock_cls : classes_to_portfolio.Stock, dt : datetime,
         print((bb_cls.candle.time - bb_cls.lastCandle.time).seconds / 3600)
         print('_______________')
 
-    if stock_cls.buy_price != Close and stock_cls.cnt_buy > 0 and Close <= stock_cls.buy_price * 0.985:
+    if stock_cls.buy_price != Close and stock_cls.cnt_buy > 0 and Close <= stock_cls.buy_price * 0.99:
         d = stock_cls.sell(sell_cost=Close, dt=dt)
         print(bb_cls.lastCandle.time, bb_cls.candle.time)
         print((bb_cls.candle.time - bb_cls.lastCandle.time).seconds / 3600)
         print('_______________')
 
-    if stock_cls.cnt_buy > 0 and min(stoch_cls.stochK, stoch_cls.stochD) >= 80:
+    if stock_cls.cnt_buy < 0 and min(stoch_cls.stochK, stoch_cls.stochD) < 85 and min(stoch_cls.last_stochK, stoch_cls.last_stochD) >= 85:
         d = stock_cls.sell(sell_cost=Close, dt=dt)
         print(bb_cls.lastCandle.time, bb_cls.candle.time)
         print((bb_cls.candle.time - bb_cls.lastCandle.time).seconds / 3600)
         print('_______________')
 
-    '''
-    if buy_cnt > 0 and buy_price != Close and Close <= max_cost * 0.97:
-        cost_of_sell = Close
-        print(dt)
-        print(el, 'sell', cost_of_sell)
-        print(buy_cnt, (buy_cnt * cost_of_sell * cnt_stock_lot - buy_cnt * buy_price * cnt_stock_lot) / (
-                buy_cnt * buy_price * cnt_stock_lot) * 100.0, '\n')
-        my_plus += buy_cnt * cost_of_sell * cnt_stock_lot - buy_cnt * buy_price * cnt_stock_lot - (
-                percent / 100) * buy_cnt * buy_price * cnt_stock_lot - (
-                           percent / 100) * buy_cnt * cost_of_sell * cnt_stock_lot
-        print(my_plus, ' | ', buy_cnt * cost_of_sell * cnt_stock_lot - buy_cnt * buy_price * cnt_stock_lot - (
-                percent / 100) * buy_cnt * buy_price * cnt_stock_lot - (
-                      percent / 100) * buy_cnt * cost_of_sell * cnt_stock_lot)
-        print(final_lowerband, final_upperband, '\n')
-        print(TL, BL)
+    if stock_cls.cnt_buy > 0 and stock_cls.buy_price != Close and Close <= stock_cls.max_cost * 0.98:
+        d = stock_cls.sell(sell_cost=Close, dt=dt)
+        print(bb_cls.lastCandle.time, bb_cls.candle.time)
+        print((bb_cls.candle.time - bb_cls.lastCandle.time).seconds / 3600)
         print('_______________')
-        buy_cnt = 0
-        max_cost = 0.0
-    '''
 
     if stock_cls.cnt_buy > 0 and Close > stock_cls.max_cost:
         stock_cls.max_cost = Close
 
     supertrend_cls.upd_last()
     bb_cls.upd_last()
+    stoch_cls.upd_last()
 
     return
 
