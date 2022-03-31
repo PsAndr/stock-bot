@@ -18,7 +18,7 @@ import asyncio
 
 asyncio.run(standart_strategy.main_program())
 exit(0)
-
+'''
 TOKEN = "t.WVpg6thNk00O9Vd8P4vrne6om7zDgWaGIsKH6TqdRKgT2giER_3Lqp7w9DI7NYdjPWF4AXkj6MRNP5G51zp2lQ"
 S_TOKEN = "t.gJWIDbsjDOGnbAl2y-pm5kzEIxljV-kWYb1To6Skr4STriOvfDp4q4xwvFzuLzaXxWZt2UzRXysejROedAS1TQ"
 client = tinvest.SyncClient(TOKEN)
@@ -210,7 +210,7 @@ def fun(ind, el):
             final_upperband = lastFinal_upperband[ind]
 
     if (Close > BBlower and lastClose[ind] < lastBBlower[ind] and supertrend == True):
-        '''and not (datetime.now(tz).hour - datetime.now(tz).utcoffset().total_seconds() / 3600 == 20 and datetime.now(tz).minute >= 30):'''
+        ''''''and not (datetime.now(tz).hour - datetime.now(tz).utcoffset().total_seconds() / 3600 == 20 and datetime.now(tz).minute >= 30):''''''
         instr = client.get_market_search_by_ticker(el)
         fg = instr.payload.instruments[0].figi
         try:
@@ -219,7 +219,7 @@ def fun(ind, el):
             list_print[ind].append([el, 'error to get orderbook'])
         list_print[ind].append([el, 'buy', orderbook])
         # request to buy
-        '''
+        ''''''
         try:
             price_buy = comm(el, 1, 'Buy', Close, ind)
             buy_cnt[ind] = 1
@@ -227,7 +227,7 @@ def fun(ind, el):
             list_print[ind].append([el, 'buy', price_buy])
         except:
             list_print[ind].append([el, 'error buy(1)'])
-        '''
+        ''''''
     random_el = 1
 
     if ((Close < BBupper and lastClose[ind] > lastBBupper[ind])):
@@ -242,7 +242,7 @@ def fun(ind, el):
         list_print[ind].append([buy_cnt[ind], (buy_cnt[ind] * orderbook * cnt_stock_lot[ind] - buy_cnt[ind] * buy_price[ind] * cnt_stock_lot[ind]) / (buy_cnt[ind] * buy_price[ind] * cnt_stock_lot[ind]), '\n'])
         list_print[ind].append([my_plus])
     # request to sell
-        '''
+        ''''''
         try:
             sell_price = comm(el, 1, 'Sell', Close, ind)
             my_plus += buy_cnt[ind] * sell_price * cnt_stock_lot[ind] - buy_cnt[ind] * buy_price[ind] * cnt_stock_lot[ind]
@@ -253,7 +253,7 @@ def fun(ind, el):
             buy_price[ind] = 0
         except:
             list_print[ind].append([el, 'error sell'])
-        '''
+        ''''''
     random_el = 1
 
     lastFinal_upperband[ind] = final_upperband
@@ -371,4 +371,4 @@ def inf_f():
 
 get_stock_in_lot()
 print(cnt_stock_lot)
-inf_f()
+inf_f()'''
