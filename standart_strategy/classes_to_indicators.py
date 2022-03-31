@@ -74,7 +74,7 @@ class Bollinger_bands_class:
         self.lenSave_candles = lenSave_candles
 
     def __deepcopy__(self, memodict):
-        my_copy = type(self)(d=self.d, n=self.n)
+        my_copy = type(self)(d=self.d, n=self.n, lenSave_candles=deepcopy(self.lenSave_candles))
         my_copy.candle = deepcopy(self.candle)
         my_copy.Close_deq = deepcopy(self.Close_deq)
         my_copy.ML = deepcopy(self.ML)
@@ -228,4 +228,4 @@ def init_indicators(dt_from : datetime, supertrend_cls : Supertrend_class, bb_cl
 
         n_back += 1
         flag = new_flag_supertrend and new_flag_bollinger and new_flag_stoch
-    print(candles_to_indicator[-1])
+    #print(candles_to_indicator[-1])

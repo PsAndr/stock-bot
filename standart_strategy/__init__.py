@@ -22,13 +22,15 @@ from standart_strategy import get_candles
 from standart_strategy import classes_to_indicators
 from standart_strategy import classes_to_portfolio
 import asyncio
+from copy import deepcopy
 import work_with_tinvest
 from work_with_tinvest import get_information_stock
 
 
 async def main_program(interval : int = 15, percent : float = 0.3):
-    with open('stock_spis.txt', 'r') as stock_spis:
-        spis = list(stock_spis.read().split())
+    '''with open('stock_spis.txt', 'r') as stock_spis:
+        spis = list(stock_spis.read().split())'''
+    spis = ['GAZP', 'MTSS', 'ALRS', 'DSKY', 'RUAL', 'SBER', 'YNDX', 'VTBR', 'AFLT', 'MVID', 'IRAO']
     buy_cnt = [0 for i in range(len(spis))]
     buy_price = [0 for i in range(len(spis))]
     portfolio = classes_to_portfolio.Portfolio(spis=spis, commission=percent)
@@ -58,9 +60,10 @@ async def main_program(interval : int = 15, percent : float = 0.3):
 
         print('pre loading is done {0}, {1}'.format(tic, portfolio.get_stock_by_ticker(tic).figi))
 
-    async def start_f(interval : int = 15):
+    async def start_f(interval: int = 15):
         while True:
             dt_now = datetime.now(tz=date_time.timezone.utc)
+            #print(f'datetime now: {dt_now}')
             if (dt_now.minute + 1) % interval == 0 and dt_now.second == 58:
                 for ind, tic in enumerate(spis):
                     candle = portfolio.get_stock_by_ticker(ticker=tic).candle_now(interval=tinvest.CandleResolution.min15)
@@ -71,14 +74,52 @@ async def main_program(interval : int = 15, percent : float = 0.3):
 
                     print(f'candle is load: {candle}')
 
-                    stoch_cls_mass[ind].candle = candle
-                    bb_cls_mass[ind].candle = candle
-                    supertrend_cls_mass[ind].candle = candle
-                    strategy.fun_with_bb(el=tic, dt=candle.time, bb_cls=bb_cls_mass[ind], stoch_cls=stoch_cls_mass[ind],
-                        supertrend_cls=supertrend_cls_mass[ind], stock_cls=portfolio.get_stock_by_ticker(ticker=tic))
-                print('end of candle check')
+                    stoch_cls = deepcopy(stoch_cls_mass[ind])
+                    bb_cls = deepcopy(bb_cls_mass[ind])
+                    supertrend_cls = deepcopy(supertrend_cls_mass[ind])
 
-            time.sleep(1)
+                    stoch_cls.candle = candle
+                    bb_cls.candle = candle
+                    supertrend_cls.candle = candle
+                    strategy.fun_with_bb(
+                        el=tic,
+                        dt=candle.time,
+                        bb_cls=bb_cls,
+                        stoch_cls=stoch_cls,
+                        supertrend_cls=supertrend_cls,
+                        stock_cls=portfolio.get_stock_by_ticker(ticker=tic)
+                    )
+                print(f'end of candle check: {datetime.now(tz=tz)}')
+
+                for ind, tic in enumerate(spis):
+                    candle = portfolio.get_stock_by_ticker(ticker=tic).get_candles(
+                        dt_from=dt_now - date_time.timedelta(minutes=15),
+                        dt_to=dt_now - date_time.timedelta(seconds=30),
+                        interval=tinvest.CandleResolution.min15
+                    )
+                    if len(candle) == 0:
+                        print(f'error save candle: {tic}\n{dt_now - date_time.timedelta(minutes=15)}\n{dt_now - date_time.timedelta(seconds=30)}\n___________________')
+                        pass
+                    else:
+                        candle = candle[-1]
+
+                        if bb_cls_mass[ind].candle.time == candle.time:
+                            continue
+
+                        stoch_cls_mass[ind].candle = candle
+                        bb_cls_mass[ind].candle = candle
+                        supertrend_cls_mass[ind].candle = candle
+
+                        indicators.Stoch(stoch_cls=stoch_cls_mass[ind])
+                        indicators.Bollinger_bands(bollinger_bands_cls=bb_cls_mass[ind])
+                        indicators.Supertrend(supertrend_cls=supertrend_cls_mass[ind])
+
+                        stoch_cls_mass[ind].upd_last()
+                        bb_cls_mass[ind].upd_last()
+                        supertrend_cls_mass[ind].upd_last()
+            time_to_sleep = (int(1e6) - datetime.now(tz=tz).microsecond) / int(1e6)
+
+            time.sleep(time_to_sleep)
 
     await start_f(interval)
 

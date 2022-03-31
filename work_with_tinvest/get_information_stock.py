@@ -59,7 +59,7 @@ class Tinvest_class:
             candles += candles_day
             dt_l = dt_r + delta
             dt_r = datetime_split_day.datetime_per_day(dt_l, dt_to)
-            #print(f'candles figi: {dt_l}, {dt_r}, {dt_to}')
+            print(f'candles figi: {dt_l}, {dt_r}, {dt_to}')
         #print(f'candles to return: {candles}')
         return candles
 
