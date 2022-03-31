@@ -1,1 +1,1 @@
-worker: python test_strategy/__init__.py
+worker: python temp.py
