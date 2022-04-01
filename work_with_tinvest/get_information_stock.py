@@ -54,12 +54,12 @@ class Tinvest_class:
         candles = list()
         #print(f'candles figi start: {dt_from}, {dt_to}')
         while not compare_datetime.compare(dt_l, dt_to):
+            print(f'candles figi: {dt_l}, {dt_r}, {dt_to}')
             delta = date_time.timedelta(seconds=1)
             candles_day = self.get_candles_day_figi(figi=figi, dt_from=dt_l, dt_to=dt_r, interval=interval)
             candles += candles_day
             dt_l = dt_r + delta
             dt_r = datetime_split_day.datetime_per_day(dt_l, dt_to)
-            print(f'candles figi: {dt_l}, {dt_r}, {dt_to}')
         #print(f'candles to return: {candles}')
         return candles
 

@@ -68,6 +68,8 @@ async def main_program(interval : int = 15, percent : float = 0.3):
                 for ind, tic in enumerate(spis):
                     candle = portfolio.get_stock_by_ticker(ticker=tic).candle_now(interval=tinvest.CandleResolution.min15)
 
+                    print(f'candle now: {candle}\ncandle before: {bb_cls_mass[ind].candle}')
+
                     if bb_cls_mass[ind].candle.time == candle.time:
                         print(f'oops\n{tic} was load')
                         continue
@@ -77,6 +79,13 @@ async def main_program(interval : int = 15, percent : float = 0.3):
                     stoch_cls = deepcopy(stoch_cls_mass[ind])
                     bb_cls = deepcopy(bb_cls_mass[ind])
                     supertrend_cls = deepcopy(supertrend_cls_mass[ind])
+
+                    print(stoch_cls)
+                    print(stoch_cls_mass[ind], '\n')
+                    print(bb_cls)
+                    print(bb_cls_mass[ind], '\n')
+                    print(supertrend_cls)
+                    print(supertrend_cls_mass[ind], '\n')
 
                     stoch_cls.candle = candle
                     bb_cls.candle = candle
@@ -103,8 +112,10 @@ async def main_program(interval : int = 15, percent : float = 0.3):
                     else:
                         candle = candle[-1]
 
+
                         if bb_cls_mass[ind].candle.time == candle.time:
                             continue
+                        print(f'candle to save {tic}: {candle}')
 
                         stoch_cls_mass[ind].candle = candle
                         bb_cls_mass[ind].candle = candle
