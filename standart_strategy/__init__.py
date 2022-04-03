@@ -50,9 +50,12 @@ async def main_program(interval : int = 15, percent : float = 0.3):
 
     procs = list()
 
+    datetime_now = datetime.now(tz=tz)
+    time_delta = date_time.timedelta(minutes=interval - 1, seconds=59, milliseconds=500)
+
     for ind, tic in enumerate(spis):
         classes_to_indicators.init_indicators(
-            dt_from=datetime.now(tz=tz), supertrend_cls=supertrend_cls_mass[ind],
+            dt_from=datetime_now - time_delta, supertrend_cls=supertrend_cls_mass[ind],
             bb_cls=bb_cls_mass[ind], stoch_cls=stoch_cls_mass[ind],
             portfolio=portfolio, ticker=tic, interval=tinvest.CandleResolution.min15
         )
