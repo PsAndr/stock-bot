@@ -111,9 +111,9 @@ async def main_program(interval : int = 15, percent : float = 0.3):
                     else:
                         candle = candle[-1]
 
-
                         if bb_cls_mass[ind].candle.time == candle.time:
                             continue
+
                         print(f'candle to save {tic}: {candle}')
 
                         stoch_cls_mass[ind].candle = candle

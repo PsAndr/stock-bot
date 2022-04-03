@@ -150,6 +150,7 @@ class Supertrend_class:
         my_copy.final_lowerband = deepcopy(self.final_lowerband)
         my_copy.final_upperband = deepcopy(self.final_upperband)
         my_copy.ATR = deepcopy(self.ATR)
+        return my_copy
 
     def clear(self):
         self.TR = deque()
