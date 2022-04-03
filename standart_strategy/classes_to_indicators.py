@@ -5,7 +5,7 @@ from copy import deepcopy
 from datetime import datetime
 import datetime as date_time
 from standart_strategy import classes_to_portfolio
-from standart_strategy import datetime_split_day
+from work_with_datetime import datetime_split_day
 import time
 from standart_strategy import indicators
 

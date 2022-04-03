@@ -16,7 +16,6 @@ import datetime as date_time
 from can_buy import can_buy
 import work_with_github
 from standart_strategy import strategy
-from standart_strategy import datetime_split_day
 from standart_strategy import indicators
 from standart_strategy import get_candles
 from standart_strategy import classes_to_indicators

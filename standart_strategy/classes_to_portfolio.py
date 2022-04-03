@@ -1,5 +1,4 @@
 import asyncio
-
 import tinvest
 from collections import deque
 from datetime import datetime
@@ -106,7 +105,8 @@ class Stock:
 
     def candle_now(self, interval : tinvest.CandleResolution):
         candle = self.portfolio.get_candle_now_figi(figi=self.figi, interval=interval)
-        candle.c = self.price_now()
+        price_now = self.price_now()
+        candle = work_with_tinvest.work_with_candle.update_candle(candle=candle, price_now=price_now)
         return candle
 
     @staticmethod
