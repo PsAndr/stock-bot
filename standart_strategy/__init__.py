@@ -79,13 +79,6 @@ async def main_program(interval : int = 15, percent : float = 0.3):
                     bb_cls = deepcopy(bb_cls_mass[ind])
                     supertrend_cls = deepcopy(supertrend_cls_mass[ind])
 
-                    print(stoch_cls)
-                    print(stoch_cls_mass[ind], '\n')
-                    print(bb_cls)
-                    print(bb_cls_mass[ind], '\n')
-                    print(supertrend_cls)
-                    print(supertrend_cls_mass[ind], '\n')
-
                     stoch_cls.candle = candle
                     bb_cls.candle = candle
                     supertrend_cls.candle = candle
