@@ -60,9 +60,7 @@ def fun_with_bb(el, stock_cls : classes_to_portfolio.Stock, dt : datetime,
 
     max_delta_time_candles = bb_cls.get_max_delta_time_lastCandles()
 
-    if Close >= bb_cls.BL and supertrend_cls.lastClose < bb_cls.lastBL and supertrend_cls.supertrend and stock_cls.cnt_buy == 0 \
-            and max(stoch_cls.stochD, stoch_cls.stochK) < 40 and min(stoch_cls.stochK, stoch_cls.stochD) < 30 \
-            and Close < bb_cls.ML:
+    if Close >= bb_cls.BL and supertrend_cls.lastClose < bb_cls.lastBL and supertrend_cls.supertrend and stock_cls.cnt_buy == 0:
         d = stock_cls.buy(buy_price=Close, cnt_buy=1, dt=dt)
         print(bb_cls.lastCandle.time, bb_cls.candle.time)
         print((bb_cls.candle.time - bb_cls.lastCandle.time).seconds / 3600)

@@ -5,6 +5,7 @@ from datetime import datetime
 import work_with_tinvest
 from work_with_tinvest import get_information_stock
 from copy import deepcopy
+import work_with_github
 
 
 class Operation:
@@ -69,6 +70,7 @@ class Stock:
         self.operations.append(Operation(type_op='sell', cost_op=sell_cost, ticker=self.ticker, dt=dt))
         if to_log_flag:
             self.to_log_operation(to_return)
+            self.to_log_github(to_return)
         return to_return
 
     def buy(self, buy_price : float, cnt_buy : int, dt : datetime = None, to_log_flag : bool = True):
@@ -88,6 +90,7 @@ class Stock:
         self.operations.append(Operation(type_op='buy', cost_op=buy_price, ticker=self.ticker, dt=dt))
         if to_log_flag:
             self.to_log_operation(to_return)
+            self.to_log_github(to_return)
         return to_return
 
     def get_operations(self, type_op : str):
@@ -115,6 +118,11 @@ class Stock:
         for key in args:
             print('{0}: {1}'.format(key, args[key]))
         print('________________________')
+
+    @staticmethod
+    def to_log_github(dct: dict):
+        s = work_with_github.convert_dict_to_str.convert(dct) + '________________________\n'
+        work_with_github.save_logs.save('standart_strategy/logs.txt', s)
 
 
 class Stock_async:
