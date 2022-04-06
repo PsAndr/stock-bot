@@ -49,12 +49,12 @@ class Tinvest_class:
         return float(self.client.get_market_orderbook(figi=figi, depth=1).payload.last_price)
 
     def get_candles_figi(self, figi : str, dt_from : datetime, dt_to : datetime, interval : tinvest.CandleResolution):
-        dt_l = dt_from + date_time.timedelta(seconds=0)
+        dt_l = dt_from
         dt_r = datetime_split_day.datetime_per_day(dt_from, dt_to)
         candles = list()
         #print(f'candles figi start: {dt_from}, {dt_to}')
         while not compare_datetime.compare(dt_l, dt_to):
-            #print(f'candles figi: {dt_l}, {dt_r}, {dt_to}')
+            print(f'candles figi:\n{dt_l}\n{dt_r}\n____________')
             delta = date_time.timedelta(seconds=1)
             candles_day = self.get_candles_day_figi(figi=figi, dt_from=dt_l, dt_to=dt_r, interval=interval)
             candles += candles_day
@@ -65,14 +65,14 @@ class Tinvest_class:
 
     def get_candles_day_figi(self, figi : str, dt_from : datetime, dt_to : datetime, interval : tinvest.CandleResolution):
         flag = False
-        candles_day = None
+        candles_day = list()
         while not flag:
             try:
                 candles_day = self.client.get_market_candles(figi=figi, from_=dt_from, to=dt_to, interval=interval).payload.candles
                 flag = True
                 time.sleep(0.2)
             except:
-                #print(f'error to load candles day: {dt_from} - {dt_to}')
+                print(f'error to load candles day: {dt_from} - {dt_to}')
                 time.sleep(1.5)
         return candles_day
 

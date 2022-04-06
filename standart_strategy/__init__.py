@@ -96,6 +96,8 @@ async def main_program(interval : int = 15, percent : float = 0.3):
                 print(f'end of candle check: {datetime.now(tz=tz)}')
 
                 for ind, tic in enumerate(spis):
+                    print(f'start get candle to save: {tic}')
+                    print(f'date range\n{dt_now - date_time.timedelta(minutes=15)}\n{dt_now - date_time.timedelta(seconds=30)}')
                     candle = portfolio.get_stock_by_ticker(ticker=tic).get_candles(
                         dt_from=dt_now - date_time.timedelta(minutes=15),
                         dt_to=dt_now - date_time.timedelta(seconds=30),
