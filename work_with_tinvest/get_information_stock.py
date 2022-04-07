@@ -4,6 +4,7 @@ import asyncio
 import datetime as date_time
 from work_with_datetime import datetime_split_day
 from work_with_datetime import compare_datetime
+from work_with_datetime import difference_datetimes
 from datetime import datetime
 from copy import deepcopy
 
@@ -52,6 +53,9 @@ class Tinvest_class:
         dt_l = dt_from
         dt_r = datetime_split_day.datetime_per_day(dt_from, dt_to)
         candles = list()
+        interval_minutes = 15
+        if interval[-3:] == 'min':
+            interval_minutes = int(interval[:-3])
         #print(f'candles figi start: {dt_from}, {dt_to}')
         while not compare_datetime.compare(dt_l, dt_to):
             print(f'candles figi:\n{dt_l}\n{dt_r}\n____________')
@@ -66,6 +70,12 @@ class Tinvest_class:
     def get_candles_day_figi(self, figi : str, dt_from : datetime, dt_to : datetime, interval : tinvest.CandleResolution):
         flag = False
         candles_day = list()
+        diff_dt = difference_datetimes.get(dt_to, dt_from)
+        interval_minutes = 15
+        if interval[-3:] == 'min':
+            interval_minutes = int(interval[:-3])
+        if diff_dt['minute'] == 0:
+            dt_to += date_time.timedelta(seconds=60 - diff_dt['second'])
         while not flag:
             try:
                 candles_day = self.client.get_market_candles(figi=figi, from_=dt_from, to=dt_to, interval=interval).payload.candles
