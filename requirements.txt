@@ -1,7 +1,7 @@
 tradingview_ta==3.2.10
-datetime==4.3
+datetime==4.4
 schedule==1.1.0
 tinvest==3.0.5
 PyGithub==1.55
-tzlocal==4.1
-numpy==1.22.2
+tzlocal==4.2
+numpy==1.22.3
