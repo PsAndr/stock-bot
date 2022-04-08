@@ -112,6 +112,9 @@ class Stock:
         candle = work_with_tinvest.work_with_candle.update_candle(candle=candle, price_now=price_now)
         return candle
 
+    def can_buy(self):
+        return self.portfolio.can_buy_figi(figi=self.figi)
+
     @staticmethod
     def to_log_operation(*args):
         args = args[0]
@@ -264,6 +267,9 @@ class Portfolio:
 
     def get_candle_now_figi(self, figi : str, interval : tinvest.CandleResolution):
         return self.Tinvest_cls.get_candle_now_figi(figi=figi, interval=interval)
+
+    def can_buy_figi(self, figi: str):
+        return self.Tinvest_cls.can_buy_figi(figi=figi)
 
 class Portfolio_async:
     def __init__(self, spis : list, commission : float = 0.04):

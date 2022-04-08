@@ -32,6 +32,10 @@ class Tinvest_class:
                 flag_ = False
         return fg
 
+    def can_buy_figi(self, figi: str):
+        orderbook = self.client.get_market_orderbook(figi=figi, depth=1).payload.trade_status
+        return orderbook == tinvest.schemas.TradeStatus.normal_trading
+
     def get_cnt_lot_from_ticker(self, ticker : str):
         flag_ = False
         cnt = 0
