@@ -69,7 +69,9 @@ async def main_program(interval : int = 15, percent : float = 0.3):
             if (dt_now.minute + 1) % interval == 0 and dt_now.second == 58:
                 dt_candle = deepcopy(dt_now)
                 dt_candle += date_time.timedelta(minutes=1)
-                dt_candle.replace(second=0, microsecond=0)
+                dt_candle = dt_candle.replace(second=0, microsecond=0)
+                dt_candle -= date_time.timedelta(minutes=interval)
+                print(dt_candle)
                 for ind, tic in enumerate(spis):
                     candle = portfolio.get_stock_by_ticker(ticker=tic).candle_now(interval=tinvest.CandleResolution.min15)
 
@@ -114,7 +116,11 @@ async def main_program(interval : int = 15, percent : float = 0.3):
                         for cn in candle:
                             if cn.time == dt_candle:
                                 candle_to_save = cn
+
                         candle = candle_to_save
+
+                        if candle is None:
+                            continue
 
                         if bb_cls_mass[ind].candle.time == candle.time:
                             continue
