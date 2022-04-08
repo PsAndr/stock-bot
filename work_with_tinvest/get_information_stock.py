@@ -74,8 +74,8 @@ class Tinvest_class:
         interval_minutes = 15
         if interval[-3:] == 'min':
             interval_minutes = int(interval[:-3])
-        if diff_dt['minute'] == 0:
-            dt_to += date_time.timedelta(seconds=60 - diff_dt['second'])
+        if diff_dt['minute'] < interval_minutes:
+            dt_to += date_time.timedelta(minutes=interval_minutes - diff_dt['minute'])
         while not flag:
             try:
                 candles_day = self.client.get_market_candles(figi=figi, from_=dt_from, to=dt_to, interval=interval).payload.candles
