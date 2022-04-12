@@ -2,5 +2,5 @@ from github import Github
 
 
 def get_token():
-    token = '7NChx8NEwDry9buFr94HWHI9lh9JCt3FwTX0'
+    token = 'N1FMcv6YJE0WB4qxapytlOHB83ZTvv2YbtaE'
     return 'ghp_' + token

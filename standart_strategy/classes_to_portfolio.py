@@ -271,6 +271,29 @@ class Portfolio:
     def can_buy_figi(self, figi: str):
         return self.Tinvest_cls.can_buy_figi(figi=figi)
 
+    def get_list_cnt_buy(self):
+        to_return = list()
+        for st in self.stock_mass:
+            to_return.append(st.cnt_buy)
+        return to_return
+
+    def get_list_buy_price(self):
+        to_return = list()
+        for st in self.stock_mass:
+            to_return.append(st.buy_price)
+        return to_return
+
+    def update_cnt_buy_ticker(self, dc: dict):
+        for st in self.stock_mass:
+            if st.ticker in dc:
+                st.cnt_buy = dc[st.ticker]
+
+    def update_buy_price_ticker(self, dc: dict):
+        for st in self.stock_mass:
+            if st.ticker in dc:
+                st.buy_price = dc[st.ticker]
+
+
 class Portfolio_async:
     def __init__(self, spis : list, commission : float = 0.04):
         self.commission = deepcopy(commission)

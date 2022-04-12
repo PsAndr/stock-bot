@@ -26,13 +26,47 @@ import work_with_tinvest
 from work_with_tinvest import get_information_stock
 
 
-async def main_program(interval : int = 15, percent : float = 0.3):
+async def main_program(interval: int = 15, percent: float = 0.3):
     '''with open('stock_spis.txt', 'r') as stock_spis:
         spis = list(stock_spis.read().split())'''
     spis = ['GAZP', 'MTSS', 'ALRS', 'DSKY', 'RUAL', 'SBER', 'YNDX', 'VTBR', 'AFLT', 'MVID', 'IRAO']
-    buy_cnt = [0 for i in range(len(spis))]
-    buy_price = [0 for i in range(len(spis))]
+
+    pool_lists = work_with_github.save_and_load_lists_float.PoolLists()
+
+    buy_cnt = work_with_github.save_and_load_lists_float.load(
+        path='standart_strategy/saves/save_buy_info.txt',
+        ls_name='buy_cnt'
+    )
+    buy_price = work_with_github.save_and_load_lists_float.load(
+        path='standart_strategy/saves/save_buy_info.txt',
+        ls_name='buy_price'
+    )
+
+    while len(buy_cnt) < len(spis):
+        buy_cnt.append(0)
+
+    while len(buy_price) < len(spis):
+        buy_price.append(0)
+
+    work_with_github.save_and_load_lists_float.save(
+        path='standart_strategy/saves/save_buy_info.txt',
+        ls=buy_cnt,
+        ls_name='buy_cnt'
+    )
+
+    work_with_github.save_and_load_lists_float.save(
+        path='standart_strategy/saves/save_buy_info.txt',
+        ls=buy_price,
+        ls_name='buy_price'
+    )
+
+    pool_lists.set_to_pool({'buy_cnt': buy_cnt})
+    pool_lists.set_to_pool({'buy_price': buy_price})
+
     portfolio = classes_to_portfolio.Portfolio(spis=spis, commission=percent)
+
+    portfolio.update_buy_price_ticker(work_with_github.merge_lists_to_dict.merge(spis, buy_price))
+    portfolio.update_cnt_buy_ticker(work_with_github.merge_lists_to_dict.merge(spis, buy_cnt))
 
     print('Count stocks in lot is load')
 
@@ -138,6 +172,22 @@ async def main_program(interval : int = 15, percent : float = 0.3):
                         stoch_cls_mass[ind].upd_last()
                         bb_cls_mass[ind].upd_last()
                         supertrend_cls_mass[ind].upd_last()
+
+                buy_cnt = portfolio.get_list_cnt_buy()
+                buy_price = portfolio.get_list_buy_price()
+
+                work_with_github.save_and_load_lists_float.save(
+                    path='standart_strategy/saves/save_buy_info.txt',
+                    ls=buy_cnt,
+                    ls_name='buy_cnt'
+                )
+
+                work_with_github.save_and_load_lists_float.save(
+                    path='standart_strategy/saves/save_buy_info.txt',
+                    ls=buy_price,
+                    ls_name='buy_price'
+                )
+
             time_to_sleep = (int(1e6) - datetime.now(tz=tz).microsecond) / int(1e6)
 
             time.sleep(time_to_sleep)
