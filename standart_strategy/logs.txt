@@ -1,4 +1,12 @@
 ticker: VTBR
+percent: 0.7877775125328269
+plus: 1.4817800000000056
+commision: 0.16821999999999998
+cost: 211.1
+datetime: 2022-04-13 15:30:00+00:00
+type: sell
+________________________
+ticker: VTBR
 cost: 209.45
 datetime: 2022-04-13 13:15:00+00:00
 type: buy
