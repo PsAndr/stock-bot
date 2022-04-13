@@ -60,7 +60,7 @@ def load(path: str, ls_name: str):
 
     time.sleep(0.1)
 
-    return list(map(float, list_to_return))
+    return list(map(str, list_to_return))
 
 
 def remove(path: str, ls_name: str):

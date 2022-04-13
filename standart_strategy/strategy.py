@@ -1,6 +1,6 @@
 import asyncio
 import numpy
-import datetime
+from datetime import datetime
 from collections import deque
 from standart_strategy import indicators
 import time
@@ -53,10 +53,18 @@ def fun_with_bb(el, stock_cls : classes_to_portfolio.Stock, dt : datetime,
     flag_BB = indicators.Bollinger_bands(bollinger_bands_cls=bb_cls)
     flag_Stoch = indicators.Stoch(stoch_cls=stoch_cls)
 
+
     Open = float(stoch_cls.candle.o)
     High = float(stoch_cls.candle.h)
     Close = float(stoch_cls.candle.c)
     Low = float(stoch_cls.candle.l)
+
+    print(datetime.now())
+    print(f'ticker: {el}')
+    print(f'close: {Close}')
+    print(f'low band supertrend: {supertrend_cls.final_lowerband}\nhigh band supertrend: {supertrend_cls.final_upperband}')
+    print(f'bb midline: {bb_cls.ML}\nbb top line: {bb_cls.TL}\nbb bottom line: {bb_cls.BL}')
+    print('______________________')
 
     max_delta_time_candles = bb_cls.get_max_delta_time_lastCandles()
 

@@ -4,3 +4,4 @@ from work_with_github import save_logs
 from work_with_github import convert_dict_to_str
 from work_with_github import save_and_load_lists_float
 from work_with_github import merge_lists_to_dict
+from work_with_github import save_and_load_lists_str

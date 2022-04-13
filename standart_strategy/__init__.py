@@ -31,42 +31,7 @@ async def main_program(interval: int = 15, percent: float = 0.3):
         spis = list(stock_spis.read().split())'''
     spis = ['GAZP', 'MTSS', 'ALRS', 'DSKY', 'RUAL', 'SBER', 'YNDX', 'VTBR', 'AFLT', 'MVID', 'IRAO']
 
-    pool_lists = work_with_github.save_and_load_lists_float.PoolLists()
-
-    buy_cnt = work_with_github.save_and_load_lists_float.load(
-        path='standart_strategy/saves/save_buy_info.txt',
-        ls_name='buy_cnt'
-    )
-    buy_price = work_with_github.save_and_load_lists_float.load(
-        path='standart_strategy/saves/save_buy_info.txt',
-        ls_name='buy_price'
-    )
-
-    while len(buy_cnt) < len(spis):
-        buy_cnt.append(0)
-
-    while len(buy_price) < len(spis):
-        buy_price.append(0)
-
-    work_with_github.save_and_load_lists_float.save(
-        path='standart_strategy/saves/save_buy_info.txt',
-        ls=buy_cnt,
-        ls_name='buy_cnt'
-    )
-
-    work_with_github.save_and_load_lists_float.save(
-        path='standart_strategy/saves/save_buy_info.txt',
-        ls=buy_price,
-        ls_name='buy_price'
-    )
-
-    pool_lists.set_to_pool({'buy_cnt': buy_cnt})
-    pool_lists.set_to_pool({'buy_price': buy_price})
-
     portfolio = classes_to_portfolio.Portfolio(spis=spis, commission=percent)
-
-    portfolio.update_buy_price_ticker(work_with_github.merge_lists_to_dict.merge(spis, buy_price))
-    portfolio.update_cnt_buy_ticker(work_with_github.merge_lists_to_dict.merge(spis, buy_cnt))
 
     print('Count stocks in lot is load')
 
@@ -97,6 +62,41 @@ async def main_program(interval: int = 15, percent: float = 0.3):
         print('pre loading is done {0}, {1}'.format(tic, portfolio.get_stock_by_ticker(tic).figi))
 
     async def start_f(interval: int = 15):
+        pool_lists = work_with_github.save_and_load_lists_float.PoolLists()
+
+        buy_cnt = work_with_github.save_and_load_lists_float.load(
+            path='standart_strategy/saves/save_buy_info.txt',
+            ls_name='buy_cnt'
+        )
+        buy_price = work_with_github.save_and_load_lists_float.load(
+            path='standart_strategy/saves/save_buy_info.txt',
+            ls_name='buy_price'
+        )
+
+        while len(buy_cnt) < len(spis):
+            buy_cnt.append(0)
+
+        while len(buy_price) < len(spis):
+            buy_price.append(0)
+
+        work_with_github.save_and_load_lists_float.save(
+            path='standart_strategy/saves/save_buy_info.txt',
+            ls=buy_cnt,
+            ls_name='buy_cnt'
+        )
+
+        work_with_github.save_and_load_lists_float.save(
+            path='standart_strategy/saves/save_buy_info.txt',
+            ls=buy_price,
+            ls_name='buy_price'
+        )
+
+        pool_lists.set_to_pool({'buy_cnt': buy_cnt})
+        pool_lists.set_to_pool({'buy_price': buy_price})
+
+        portfolio.update_buy_price_ticker(work_with_github.merge_lists_to_dict.merge(spis, buy_price))
+        portfolio.update_cnt_buy_ticker(work_with_github.merge_lists_to_dict.merge(spis, buy_cnt))
+
         while True:
             dt_now = datetime.now(tz=date_time.timezone.utc)
             #print(f'datetime now: {dt_now}')
@@ -105,17 +105,17 @@ async def main_program(interval: int = 15, percent: float = 0.3):
                 dt_candle += date_time.timedelta(minutes=1)
                 dt_candle = dt_candle.replace(second=0, microsecond=0)
                 dt_candle -= date_time.timedelta(minutes=interval)
-                print(dt_candle)
+                #print(dt_candle)
                 for ind, tic in enumerate(spis):
                     candle = portfolio.get_stock_by_ticker(ticker=tic).candle_now(interval=tinvest.CandleResolution.min15)
 
-                    print(f'candle now: {candle}\ncandle before: {bb_cls_mass[ind].candle}')
+                    #print(f'candle now: {candle}\ncandle before: {bb_cls_mass[ind].candle}')
 
                     if bb_cls_mass[ind].candle.time == candle.time:
                         print(f'oops\n{tic} was load')
                         continue
 
-                    print(f'candle is load: {candle}')
+                    #print(f'candle is load: {candle}')
 
                     stoch_cls = deepcopy(stoch_cls_mass[ind])
                     bb_cls = deepcopy(bb_cls_mass[ind])
@@ -132,18 +132,18 @@ async def main_program(interval: int = 15, percent: float = 0.3):
                         supertrend_cls=supertrend_cls,
                         stock_cls=portfolio.get_stock_by_ticker(ticker=tic)
                     )
-                print(f'end of candle check: {datetime.now(tz=tz)}')
+                #print(f'end of candle check: {datetime.now(tz=tz)}')
 
                 for ind, tic in enumerate(spis):
-                    print(f'start get candle to save: {tic}')
-                    print(f'date range\n{dt_now - date_time.timedelta(minutes=15)}\n{dt_now - date_time.timedelta(seconds=30)}')
+                    #print(f'start get candle to save: {tic}')
+                    #print(f'date range\n{dt_now - date_time.timedelta(minutes=15)}\n{dt_now - date_time.timedelta(seconds=30)}')
                     candle = portfolio.get_stock_by_ticker(ticker=tic).get_candles(
-                        dt_from=dt_now - date_time.timedelta(minutes=15),
-                        dt_to=dt_now - date_time.timedelta(seconds=30),
+                        dt_from=dt_now - date_time.timedelta(minutes=interval * 2),
+                        dt_to=dt_now,
                         interval=tinvest.CandleResolution.min15
                     )
                     if len(candle) == 0:
-                        print(f'error save candle: {tic}\n{dt_now - date_time.timedelta(minutes=15)}\n{dt_now - date_time.timedelta(seconds=30)}\n___________________')
+                        #print(f'error save candle: {tic}\n{dt_now - date_time.timedelta(minutes=15)}\n{dt_now - date_time.timedelta(seconds=30)}\n___________________')
                         pass
                     else:
                         candle_to_save = None
@@ -159,7 +159,7 @@ async def main_program(interval: int = 15, percent: float = 0.3):
                         if bb_cls_mass[ind].candle.time == candle.time:
                             continue
 
-                        print(f'candle to save {tic}: {candle}')
+                        #print(f'candle to save {tic}: {candle}')
 
                         stoch_cls_mass[ind].candle = candle
                         bb_cls_mass[ind].candle = candle
@@ -173,20 +173,22 @@ async def main_program(interval: int = 15, percent: float = 0.3):
                         bb_cls_mass[ind].upd_last()
                         supertrend_cls_mass[ind].upd_last()
 
-                buy_cnt = portfolio.get_list_cnt_buy()
-                buy_price = portfolio.get_list_buy_price()
+                if not buy_cnt == portfolio.get_list_cnt_buy():
+                    #print('_________________\nsave\n_________________')
+                    buy_cnt = portfolio.get_list_cnt_buy()
+                    buy_price = portfolio.get_list_buy_price()
 
-                work_with_github.save_and_load_lists_float.save(
-                    path='standart_strategy/saves/save_buy_info.txt',
-                    ls=buy_cnt,
-                    ls_name='buy_cnt'
-                )
+                    work_with_github.save_and_load_lists_float.save(
+                        path='standart_strategy/saves/save_buy_info.txt',
+                        ls=buy_cnt,
+                        ls_name='buy_cnt'
+                    )
 
-                work_with_github.save_and_load_lists_float.save(
-                    path='standart_strategy/saves/save_buy_info.txt',
-                    ls=buy_price,
-                    ls_name='buy_price'
-                )
+                    work_with_github.save_and_load_lists_float.save(
+                        path='standart_strategy/saves/save_buy_info.txt',
+                        ls=buy_price,
+                        ls_name='buy_price'
+                    )
 
             time_to_sleep = (int(1e6) - datetime.now(tz=tz).microsecond) / int(1e6)
 

@@ -62,7 +62,7 @@ class Tinvest_class:
             interval_minutes = int(interval[:-3])
         #print(f'candles figi start: {dt_from}, {dt_to}')
         while not compare_datetime.compare(dt_l, dt_to):
-            print(f'candles figi:\n{dt_l}\n{dt_r}\n____________')
+            #print(f'candles figi:\n{dt_l}\n{dt_r}\n____________')
             delta = date_time.timedelta(seconds=1)
             candles_day = self.get_candles_day_figi(figi=figi, dt_from=dt_l, dt_to=dt_r, interval=interval)
             candles += candles_day
@@ -86,7 +86,7 @@ class Tinvest_class:
                 flag = True
                 time.sleep(0.2)
             except:
-                print(f'error to load candles day: {dt_from} - {dt_to}')
+                #print(f'error to load candles day: {dt_from} - {dt_to}')
                 time.sleep(1.5)
         return candles_day
 

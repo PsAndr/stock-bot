@@ -63,7 +63,7 @@ def Supertrend(supertrend_cls : classes_to_indicators.Supertrend_class):
     return to_return(is_available=True)
 
 def Bollinger_bands(bollinger_bands_cls : classes_to_indicators.Bollinger_bands_class):
-    def to_return(is_available : bool):
+    def to_return(is_available: bool):
         return is_available
 
     Close = float(bollinger_bands_cls.candle.c)
@@ -80,6 +80,7 @@ def Bollinger_bands(bollinger_bands_cls : classes_to_indicators.Bollinger_bands_
 
     sum_to_stdDev = 0
     avg = numpy.mean(bollinger_bands_cls.Close_deq)
+
     for close in bollinger_bands_cls.Close_deq:
         sum_to_stdDev += (close - avg) ** 2
     sum_to_stdDev /= bollinger_bands_cls.n
