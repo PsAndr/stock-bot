@@ -1,3 +1,8 @@
+ticker: VTBR
+cost: 209.45
+datetime: 2022-04-13 13:15:00+00:00
+type: buy
+________________________
 ticker: IRAO
 cost: 266.7
 datetime: 2022-04-13 12:30:00+00:00
