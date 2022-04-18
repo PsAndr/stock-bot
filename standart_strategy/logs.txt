@@ -1,3 +1,9 @@
+ticker: FIVE
+buy price: 1138.0
+cost: 1138.0
+datetime: 2022-04-18 13:23:40.374729+00:00
+type: buy
+________________________
 ticker: RUAL
 cost: 661.9499999999999
 datetime: 2022-04-15 11:00:00+00:00
