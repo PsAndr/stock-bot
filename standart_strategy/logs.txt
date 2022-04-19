@@ -1,3 +1,12 @@
+ticker: RUAL
+percent: -0.2473470039096712
+plus: -2.0506999999999547
+commision: 0.5007
+sell price: 62.51
+cost: 625.1
+datetime: 2022-04-19 14:04:52.220281+00:00
+type: sell
+________________________
 ticker: ALRS
 buy price: 75.4
 cost: 754.0
@@ -189,12 +198,3 @@ type: buy
 ________________________
 ticker: GAZP
 percent: -0.046468401486988845
-plus: -2.7212
-commision: 1.7212
-sell price: 215.1
-cost: 2151.0
-datetime: 2022-04-19 13:26:30.748575+00:00
-type: sell
-________________________
-ticker: VTBR
-percent: 0.48793711032800524
