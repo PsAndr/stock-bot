@@ -1,3 +1,9 @@
+ticker: SBER
+buy price: 118.85
+cost: 1188.5
+datetime: 2022-04-19 14:18:58.862667+00:00
+type: buy
+________________________
 ticker: ALRS
 percent: 0.7957559681697612
 plus: 5.3944
@@ -192,9 +198,3 @@ type: buy
 ________________________
 ticker: RUAL
 buy price: 62.665
-cost: 626.65
-datetime: 2022-04-19 13:48:17.185062+00:00
-type: buy
-________________________
-ticker: VTBR
-buy price: 0.018355
