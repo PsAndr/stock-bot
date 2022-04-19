@@ -1,4 +1,10 @@
 ticker: GAZP
+buy price: 215.2
+cost: 2152.0
+datetime: 2022-04-19 13:16:00.744598+00:00
+type: buy
+________________________
+ticker: GAZP
 percent: 0.3819104839085405
 plus: 6.479040000000273
 commision: 1.7209600000000003
@@ -192,9 +198,3 @@ type: buy
 ________________________
 ticker: FIXP
 buy price: 377.3
-cost: 377.3
-datetime: 2022-04-19 09:48:19.812361+00:00
-type: buy
-________________________
-ticker: FIXP
-percent: 0.5049162901939881
