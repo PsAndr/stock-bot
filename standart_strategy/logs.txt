@@ -1,3 +1,12 @@
+ticker: GAZP
+percent: 1.1013721261071086
+plus: 22.24712
+commision: 1.75288
+sell price: 220.31
+cost: 2203.1
+datetime: 2022-04-19 15:03:00.735872+00:00
+type: sell
+________________________
 ticker: RUAL
 buy price: 62.8
 cost: 628.0
@@ -189,12 +198,3 @@ type: sell
 ________________________
 ticker: RUAL
 buy price: 62.66
-cost: 626.5999999999999
-datetime: 2022-04-19 14:35:02.227654+00:00
-type: buy
-________________________
-ticker: VTBR
-buy price: 0.01857
-cost: 185.7
-datetime: 2022-04-19 14:34:38.402363+00:00
-type: buy
