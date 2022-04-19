@@ -1,3 +1,9 @@
+ticker: RUAL
+buy price: 62.665
+cost: 626.65
+datetime: 2022-04-19 13:48:17.185062+00:00
+type: buy
+________________________
 ticker: VTBR
 buy price: 0.018355
 cost: 183.55
@@ -192,9 +198,3 @@ sell price: 215.53
 cost: 2155.3
 datetime: 2022-04-19 13:13:55.775699+00:00
 type: sell
-________________________
-ticker: SBER
-buy price: 119.5
-cost: 1195.0
-datetime: 2022-04-19 13:12:52.699063+00:00
-type: buy
