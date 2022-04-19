@@ -1,3 +1,9 @@
+ticker: RUAL
+buy price: 63.165
+cost: 631.65
+datetime: 2022-04-19 15:25:37.337925+00:00
+type: buy
+________________________
 ticker: MVID
 percent: 0.6899724011039559
 plus: 1.32548
@@ -192,9 +198,3 @@ type: buy
 ________________________
 ticker: YNDX
 percent: 2.4275043936731135
-plus: 42.72568000000005
-commision: 1.47432
-sell price: 1865.0
-cost: 1865.0
-datetime: 2022-04-19 14:45:27.976664+00:00
-type: sell
