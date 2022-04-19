@@ -1,3 +1,12 @@
+ticker: GAZP
+percent: 0.2548732713456408
+plus: 3.702880000000091
+commision: 1.69712
+sell price: 212.41
+cost: 2124.1
+datetime: 2022-04-19 12:40:35.766925+00:00
+type: sell
+________________________
 ticker: ALRS
 buy price: 75.34
 cost: 753.4000000000001
@@ -188,13 +197,4 @@ commision: 0.9202
 sell price: 1147.5
 cost: 1147.5
 datetime: 2022-04-19 09:27:30.372829+00:00
-type: sell
-________________________
-ticker: FIXP
-percent: -0.9718938796952952
-plus: -4.003079999999988
-commision: 0.30308
-sell price: 377.0
-cost: 377.0
-datetime: 2022-04-19 09:25:26.155848+00:00
 type: sell
