@@ -1,3 +1,9 @@
+ticker: ALRS
+buy price: 75.34
+cost: 753.4000000000001
+datetime: 2022-04-19 12:36:07.873618+00:00
+type: buy
+________________________
 ticker: GAZP
 buy price: 211.87
 cost: 2118.7
@@ -192,9 +198,3 @@ sell price: 377.0
 cost: 377.0
 datetime: 2022-04-19 09:25:26.155848+00:00
 type: sell
-________________________
-ticker: FIVE
-buy price: 1153.0
-cost: 1153.0
-datetime: 2022-04-19 09:25:20.397871+00:00
-type: buy
