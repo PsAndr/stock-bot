@@ -1,3 +1,12 @@
+ticker: RUAL
+percent: 0.8917197452229335
+plus: 5.0953600000000225
+commision: 0.50464
+sell price: 63.36
+cost: 633.6
+datetime: 2022-04-19 15:19:03.744537+00:00
+type: sell
+________________________
 ticker: DSKY
 percent: 0.18626929217670185
 plus: 0.798160000000091
@@ -189,12 +198,3 @@ type: buy
 ________________________
 ticker: DSKY
 percent: -0.5047821466524913
-plus: -4.4007199999999544
-commision: 0.60072
-sell price: 74.9
-cost: 749.0
-datetime: 2022-04-19 14:44:31.908403+00:00
-type: sell
-________________________
-ticker: DSKY
-buy price: 75.28
