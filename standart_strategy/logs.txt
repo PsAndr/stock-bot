@@ -1,3 +1,12 @@
+ticker: AFLT
+percent: 0.6738544474393531
+plus: 1.76176
+commision: 0.23824
+sell price: 29.88
+cost: 298.8
+datetime: 2022-04-19 13:49:59.235886+00:00
+type: sell
+________________________
 ticker: IRAO
 buy price: 2.398
 cost: 239.8
@@ -189,12 +198,3 @@ buy price: 0.018445
 cost: 184.45
 datetime: 2022-04-19 13:17:43.462577+00:00
 type: buy
-________________________
-ticker: GAZP
-buy price: 215.2
-cost: 2152.0
-datetime: 2022-04-19 13:16:00.744598+00:00
-type: buy
-________________________
-ticker: GAZP
-percent: 0.3819104839085405
