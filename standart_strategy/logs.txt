@@ -1,4 +1,10 @@
 ticker: FIXP
+buy price: 387.3
+cost: 387.3
+datetime: 2022-04-19 08:15:59.773858+00:00
+type: buy
+________________________
+ticker: FIXP
 percent: -1.6581632653061225
 plus: -6.811
 commision: 0.311
@@ -192,9 +198,3 @@ buy price: 64.515
 cost: 645.15
 datetime: 2022-04-19 07:42:12.208853+00:00
 type: buy
-________________________
-ticker: RUAL
-percent: -0.2479274812117315
-plus: -2.115639999999909
-commision: 0.51564
-sell price: 64.375
