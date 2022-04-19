@@ -1,3 +1,12 @@
+ticker: DSKY
+percent: 0.20871380120010735
+plus: 0.9860800000000227
+commision: 0.61392
+sell price: 76.82
+cost: 768.1999999999999
+datetime: 2022-04-19 08:52:56.894920+00:00
+type: sell
+________________________
 ticker: FIVE
 percent: -0.21598272138228944
 plus: -3.425
@@ -189,12 +198,3 @@ type: sell
 ________________________
 ticker: DSKY
 percent: -0.5177323323841574
-plus: -4.61648
-commision: 0.6164800000000001
-sell price: 76.86
-cost: 768.6
-datetime: 2022-04-19 07:57:26.851353+00:00
-type: sell
-________________________
-ticker: DSKY
-buy price: 77.26
