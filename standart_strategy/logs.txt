@@ -1,3 +1,9 @@
+ticker: ALRS
+buy price: 75.89
+cost: 758.9
+datetime: 2022-04-19 13:27:01.599780+00:00
+type: buy
+________________________
 ticker: GAZP
 percent: -0.046468401486988845
 plus: -2.7212
@@ -192,9 +198,3 @@ type: buy
 ________________________
 ticker: GAZP
 percent: 0.2548732713456408
-plus: 3.702880000000091
-commision: 1.69712
-sell price: 212.41
-cost: 2124.1
-datetime: 2022-04-19 12:40:35.766925+00:00
-type: sell
