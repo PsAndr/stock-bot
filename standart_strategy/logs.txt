@@ -1,3 +1,9 @@
+ticker: SBER
+buy price: 118.0
+cost: 1180.0
+datetime: 2022-04-19 13:43:22.609515+00:00
+type: buy
+________________________
 ticker: YNDX
 buy price: 1810.2
 cost: 1810.2
@@ -191,10 +197,4 @@ ticker: YNDX
 buy price: 1812.6
 cost: 1812.6
 datetime: 2022-04-19 13:12:28.027794+00:00
-type: buy
-________________________
-ticker: GAZP
-buy price: 214.71
-cost: 2147.1
-datetime: 2022-04-19 13:11:30.758962+00:00
 type: buy
