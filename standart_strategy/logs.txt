@@ -1,3 +1,12 @@
+ticker: YNDX
+percent: -0.6073992269464384
+plus: -12.4444
+commision: 1.4444000000000001
+sell price: 1800.0
+cost: 1800.0
+datetime: 2022-04-19 14:06:23.050410+00:00
+type: sell
+________________________
 ticker: AFLT
 percent: -0.8519003931847856
 plus: -2.843119999999966
@@ -189,12 +198,3 @@ buy price: 0.01844
 cost: 184.4
 datetime: 2022-04-19 13:28:23.351058+00:00
 type: buy
-________________________
-ticker: YNDX
-percent: 0.46342270771268296
-plus: 6.94656000000009
-commision: 1.45344
-sell price: 1821.0
-cost: 1821.0
-datetime: 2022-04-19 13:27:58.001256+00:00
-type: sell
