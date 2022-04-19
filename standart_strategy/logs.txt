@@ -1,3 +1,12 @@
+ticker: MVID
+percent: 1.906976744186044
+plus: 3.9263599999999945
+commision: 0.17364000000000002
+sell price: 219.1
+cost: 219.1
+datetime: 2022-04-19 14:47:25.599732+00:00
+type: sell
+________________________
 ticker: SBER
 buy price: 119.77
 cost: 1197.7
@@ -189,12 +198,3 @@ percent: -0.297538544766048
 plus: -0.6976600000000398
 commision: 0.14766
 sell price: 0.01843
-cost: 184.29999999999998
-datetime: 2022-04-19 14:16:08.409259+00:00
-type: sell
-________________________
-ticker: AFLT
-percent: -0.6657789613848203
-plus: -2.23952
-commision: 0.23952
-sell price: 29.84
