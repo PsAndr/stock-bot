@@ -1,3 +1,12 @@
+ticker: AFLT
+percent: -0.47233468286099106
+plus: -1.6365599999999771
+commision: 0.23656
+sell price: 29.5
+cost: 295.0
+datetime: 2022-04-19 12:45:24.503471+00:00
+type: sell
+________________________
 ticker: GAZP
 buy price: 211.93
 cost: 2119.3
@@ -189,12 +198,3 @@ sell price: 379.0
 cost: 379.0
 datetime: 2022-04-19 09:28:39.936767+00:00
 type: sell
-________________________
-ticker: FIXP
-buy price: 380.7
-cost: 380.7
-datetime: 2022-04-19 09:27:36.246482+00:00
-type: buy
-________________________
-ticker: FIVE
-percent: -0.47701647875108416
