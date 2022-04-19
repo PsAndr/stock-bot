@@ -1,3 +1,12 @@
+ticker: SBER
+percent: 0.36440677966103235
+plus: 3.354280000000182
+commision: 0.9457200000000001
+sell price: 118.43
+cost: 1184.3000000000002
+datetime: 2022-04-19 14:10:17.586730+00:00
+type: sell
+________________________
 ticker: GAZP
 buy price: 215.52
 cost: 2155.2000000000003
@@ -189,12 +198,3 @@ type: sell
 ________________________
 ticker: ALRS
 buy price: 75.88
-cost: 758.8
-datetime: 2022-04-19 13:31:41.569683+00:00
-type: buy
-________________________
-ticker: MTSS
-buy price: 198.7
-cost: 1987.0
-datetime: 2022-04-19 13:31:16.148530+00:00
-type: buy
