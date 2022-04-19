@@ -1,3 +1,9 @@
+ticker: ALRS
+buy price: 75.88
+cost: 758.8
+datetime: 2022-04-19 13:31:41.569683+00:00
+type: buy
+________________________
 ticker: MTSS
 buy price: 198.7
 cost: 1987.0
@@ -192,9 +198,3 @@ percent: 0.9767376020384003
 plus: 18.996279999999818
 commision: 1.7037200000000001
 sell price: 214.0
-cost: 2140.0
-datetime: 2022-04-19 13:03:30.750746+00:00
-type: sell
-________________________
-ticker: AFLT
-buy price: 29.68
