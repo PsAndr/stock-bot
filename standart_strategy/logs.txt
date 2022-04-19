@@ -1,3 +1,12 @@
+ticker: MVID
+percent: 0.32422417786011515
+plus: 0.5269999999999886
+commision: 0.17300000000000001
+sell price: 216.6
+cost: 216.6
+datetime: 2022-04-19 14:07:14.169565+00:00
+type: sell
+________________________
 ticker: YNDX
 percent: -0.6073992269464384
 plus: -12.4444
@@ -189,12 +198,3 @@ percent: -0.382132033205953
 plus: -3.5059599999999773
 commision: 0.60596
 sell price: 75.6
-cost: 756.0
-datetime: 2022-04-19 13:29:46.501518+00:00
-type: sell
-________________________
-ticker: VTBR
-buy price: 0.01844
-cost: 184.4
-datetime: 2022-04-19 13:28:23.351058+00:00
-type: buy
