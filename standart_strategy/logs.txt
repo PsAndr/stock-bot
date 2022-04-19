@@ -1,3 +1,9 @@
+ticker: RUAL
+buy price: 62.8
+cost: 628.0
+datetime: 2022-04-19 15:02:27.216586+00:00
+type: buy
+________________________
 ticker: AFLT
 buy price: 30.06
 cost: 300.59999999999997
@@ -191,10 +197,4 @@ ticker: VTBR
 buy price: 0.01857
 cost: 185.7
 datetime: 2022-04-19 14:34:38.402363+00:00
-type: buy
-________________________
-ticker: DSKY
-buy price: 75.48
-cost: 754.8000000000001
-datetime: 2022-04-19 14:32:16.850664+00:00
 type: buy
