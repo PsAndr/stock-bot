@@ -1,3 +1,12 @@
+ticker: ALRS
+percent: 0.7957559681697612
+plus: 5.3944
+commision: 0.6056
+sell price: 76.0
+cost: 760.0
+datetime: 2022-04-19 14:18:56.491586+00:00
+type: sell
+________________________
 ticker: YNDX
 percent: 0.06639371472832899
 plus: -0.24640000000018203
@@ -189,12 +198,3 @@ type: buy
 ________________________
 ticker: VTBR
 buy price: 0.018355
-cost: 183.55
-datetime: 2022-04-19 13:46:08.410742+00:00
-type: buy
-________________________
-ticker: SBER
-buy price: 118.0
-cost: 1180.0
-datetime: 2022-04-19 13:43:22.609515+00:00
-type: buy
