@@ -1,3 +1,9 @@
+ticker: SBER
+buy price: 119.5
+cost: 1195.0
+datetime: 2022-04-19 13:12:52.699063+00:00
+type: buy
+________________________
 ticker: YNDX
 buy price: 1812.6
 cost: 1812.6
@@ -192,9 +198,3 @@ type: sell
 ________________________
 ticker: FIXP
 buy price: 376.3
-cost: 376.3
-datetime: 2022-04-19 09:43:15.209446+00:00
-type: buy
-________________________
-ticker: FIVE
-buy price: 1147.5
