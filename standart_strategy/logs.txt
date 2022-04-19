@@ -1,4 +1,13 @@
 ticker: FIVE
+percent: -0.21598272138228944
+plus: -3.425
+commision: 0.925
+sell price: 1155.0
+cost: 1155.0
+datetime: 2022-04-19 08:44:10.410849+00:00
+type: sell
+________________________
+ticker: FIVE
 buy price: 1157.5
 cost: 1157.5
 datetime: 2022-04-19 08:43:45.373854+00:00
@@ -189,12 +198,3 @@ percent: -0.5150656708730218
 plus: -4.619679999999886
 commision: 0.61968
 sell price: 77.26
-cost: 772.6
-datetime: 2022-04-19 07:54:51.859889+00:00
-type: sell
-________________________
-ticker: FIXP
-percent: -0.0529100529100499
-plus: -0.5023199999999887
-commision: 0.30232000000000003
-sell price: 377.8
