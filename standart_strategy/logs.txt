@@ -1,3 +1,9 @@
+ticker: AFLT
+buy price: 30.52
+cost: 305.2
+datetime: 2022-04-19 14:02:38.690872+00:00
+type: buy
+________________________
 ticker: MTSS
 buy price: 198.4
 cost: 1984.0
@@ -192,9 +198,3 @@ percent: 0.25169896803423103
 plus: 3.4088
 commision: 1.5912000000000002
 sell price: 199.15
-cost: 1991.5
-datetime: 2022-04-19 13:25:21.138527+00:00
-type: sell
-________________________
-ticker: SBER
-percent: 0.5857740585774058
