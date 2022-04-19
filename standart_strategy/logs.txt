@@ -1,3 +1,9 @@
+ticker: RUAL
+buy price: 64.55
+cost: 645.5
+datetime: 2022-04-19 07:39:12.179844+00:00
+type: buy
+________________________
 ticker: FIXP
 percent: -0.45491035590045187
 plus: -1.9982799999999887
@@ -192,9 +198,3 @@ type: buy
 ________________________
 ticker: FIVE
 percent: -0.30864197530864196
-plus: -4.4058
-commision: 0.9058
-sell price: 1130.5
-cost: 1130.5
-datetime: 2022-04-18 13:53:55.389104+00:00
-type: sell
