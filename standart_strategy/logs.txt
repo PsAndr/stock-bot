@@ -1,3 +1,9 @@
+ticker: YNDX
+buy price: 1812.6
+cost: 1812.6
+datetime: 2022-04-19 13:12:28.027794+00:00
+type: buy
+________________________
 ticker: GAZP
 buy price: 214.71
 cost: 2147.1
@@ -192,9 +198,3 @@ type: buy
 ________________________
 ticker: FIVE
 buy price: 1147.5
-cost: 1147.5
-datetime: 2022-04-19 09:40:10.388856+00:00
-type: buy
-________________________
-ticker: FIVE
-percent: -0.303951367781155
