@@ -1,3 +1,12 @@
+ticker: MTSS
+percent: 0.2509410288582183
+plus: 3.404
+commision: 1.596
+sell price: 199.75
+cost: 1997.5
+datetime: 2022-04-19 14:35:26.116599+00:00
+type: sell
+________________________
 ticker: RUAL
 buy price: 62.66
 cost: 626.5999999999999
@@ -189,12 +198,3 @@ buy price: 30.52
 cost: 305.2
 datetime: 2022-04-19 14:02:38.690872+00:00
 type: buy
-________________________
-ticker: MTSS
-buy price: 198.4
-cost: 1984.0
-datetime: 2022-04-19 13:59:36.089555+00:00
-type: buy
-________________________
-ticker: AFLT
-percent: -0.06605019815059068
