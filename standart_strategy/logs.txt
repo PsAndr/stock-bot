@@ -1,3 +1,12 @@
+ticker: FIVE
+percent: 1.7038007863695939
+plus: 18.5766
+commision: 0.9234
+sell price: 1164.0
+cost: 1164.0
+datetime: 2022-04-19 07:15:15.371525+00:00
+type: sell
+________________________
 ticker: DSKY
 percent: -0.4888088500128575
 plus: -4.420399999999955
