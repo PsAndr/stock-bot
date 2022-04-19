@@ -1,3 +1,9 @@
+ticker: VTBR
+buy price: 0.018485
+cost: 184.85000000000002
+datetime: 2022-04-19 14:10:48.407915+00:00
+type: buy
+________________________
 ticker: YNDX
 buy price: 1807.4
 cost: 1807.4
@@ -192,9 +198,3 @@ sell price: 0.018345
 cost: 183.45
 datetime: 2022-04-19 13:37:14.720523+00:00
 type: sell
-________________________
-ticker: MTSS
-percent: 0.22647206844489182
-plus: 2.9086
-commision: 1.5914000000000001
-sell price: 199.15
