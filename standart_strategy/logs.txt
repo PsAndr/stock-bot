@@ -1,3 +1,9 @@
+ticker: YNDX
+buy price: 1807.4
+cost: 1807.4
+datetime: 2022-04-19 14:10:19.205911+00:00
+type: buy
+________________________
 ticker: SBER
 percent: 0.36440677966103235
 plus: 3.354280000000182
@@ -192,9 +198,3 @@ percent: 0.22647206844489182
 plus: 2.9086
 commision: 1.5914000000000001
 sell price: 199.15
-cost: 1991.5
-datetime: 2022-04-19 13:37:11.112586+00:00
-type: sell
-________________________
-ticker: ALRS
-buy price: 75.88
