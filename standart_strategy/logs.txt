@@ -1,3 +1,9 @@
+ticker: YNDX
+buy price: 1811.0
+cost: 1811.0
+datetime: 2022-04-19 13:53:22.944982+00:00
+type: buy
+________________________
 ticker: VTBR
 percent: 0.4903296104603526
 plus: 0.7527999999999773
@@ -192,9 +198,3 @@ type: buy
 ________________________
 ticker: ALRS
 buy price: 75.57
-cost: 755.6999999999999
-datetime: 2022-04-19 13:21:31.589528+00:00
-type: buy
-________________________
-ticker: MVID
-buy price: 214.1
