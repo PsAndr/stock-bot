@@ -1,3 +1,12 @@
+ticker: AFLT
+percent: -0.8519003931847856
+plus: -2.843119999999966
+commision: 0.24312
+sell price: 30.26
+cost: 302.6
+datetime: 2022-04-19 14:04:54.984333+00:00
+type: sell
+________________________
 ticker: RUAL
 percent: -0.2473470039096712
 plus: -2.0506999999999547
@@ -189,12 +198,3 @@ sell price: 1821.0
 cost: 1821.0
 datetime: 2022-04-19 13:27:58.001256+00:00
 type: sell
-________________________
-ticker: ALRS
-buy price: 75.89
-cost: 758.9
-datetime: 2022-04-19 13:27:01.599780+00:00
-type: buy
-________________________
-ticker: GAZP
-percent: -0.046468401486988845
