@@ -1,4 +1,13 @@
 ticker: FIVE
+percent: -0.39198606271777003
+plus: -5.4166
+commision: 0.9166000000000001
+sell price: 1143.5
+cost: 1143.5
+datetime: 2022-04-19 09:10:00.369288+00:00
+type: sell
+________________________
+ticker: FIVE
 buy price: 1148.0
 cost: 1148.0
 datetime: 2022-04-19 09:09:00.376850+00:00
@@ -189,12 +198,3 @@ type: buy
 ________________________
 ticker: FIXP
 percent: -1.7263264788017147
-plus: -7.112399999999955
-commision: 0.3124
-sell price: 387.1
-cost: 387.1
-datetime: 2022-04-19 08:01:06.658854+00:00
-type: sell
-________________________
-ticker: DSKY
-buy price: 76.66
