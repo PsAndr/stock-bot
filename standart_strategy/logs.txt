@@ -1,4 +1,13 @@
 ticker: YNDX
+percent: -0.8737971463333676
+plus: -17.240239999999954
+commision: 1.4402400000000002
+sell price: 1792.4
+cost: 1792.4
+datetime: 2022-04-19 13:09:03.066550+00:00
+type: sell
+________________________
+ticker: YNDX
 buy price: 1808.2
 cost: 1808.2
 datetime: 2022-04-19 13:06:29.284520+00:00
@@ -188,13 +197,4 @@ commision: 0.9198
 sell price: 1148.0
 cost: 1148.0
 datetime: 2022-04-19 09:33:40.379859+00:00
-type: sell
-________________________
-ticker: FIXP
-percent: -0.4466631634261811
-plus: -2.0038000000000453
-commision: 0.3038
-sell price: 378.9
-cost: 378.9
-datetime: 2022-04-19 09:33:06.374859+00:00
 type: sell
