@@ -1,4 +1,10 @@
 ticker: FIVE
+buy price: 1147.5
+cost: 1147.5
+datetime: 2022-04-19 09:40:10.388856+00:00
+type: buy
+________________________
+ticker: FIVE
 percent: -0.303951367781155
 plus: -4.4198
 commision: 0.9198
@@ -192,9 +198,3 @@ percent: -0.21598272138228944
 plus: -3.425
 commision: 0.925
 sell price: 1155.0
-cost: 1155.0
-datetime: 2022-04-19 08:44:10.410849+00:00
-type: sell
-________________________
-ticker: FIVE
-buy price: 1157.5
