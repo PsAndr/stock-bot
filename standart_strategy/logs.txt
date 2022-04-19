@@ -1,3 +1,12 @@
+ticker: VTBR
+percent: -0.5151843817787511
+plus: -1.097140000000017
+commision: 0.14714
+sell price: 0.018345
+cost: 183.45
+datetime: 2022-04-19 13:37:14.720523+00:00
+type: sell
+________________________
 ticker: MTSS
 percent: 0.22647206844489182
 plus: 2.9086
@@ -189,12 +198,3 @@ type: buy
 ________________________
 ticker: SBER
 percent: -0.3180182442045322
-plus: -4.754399999999954
-commision: 0.9543999999999999
-sell price: 119.11
-cost: 1191.1
-datetime: 2022-04-19 13:05:12.675403+00:00
-type: sell
-________________________
-ticker: SBER
-buy price: 119.49
