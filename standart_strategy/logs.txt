@@ -1,3 +1,9 @@
+ticker: SBER
+buy price: 119.58
+cost: 1195.8
+datetime: 2022-04-19 14:58:37.997849+00:00
+type: buy
+________________________
 ticker: MVID
 buy price: 217.4
 cost: 217.4
@@ -191,10 +197,4 @@ ticker: MVID
 buy price: 215.0
 cost: 215.0
 datetime: 2022-04-19 14:29:14.295884+00:00
-type: buy
-________________________
-ticker: YNDX
-buy price: 1820.8
-cost: 1820.8
-datetime: 2022-04-19 14:25:58.017778+00:00
 type: buy
