@@ -1,3 +1,9 @@
+ticker: DSKY
+buy price: 77.74
+cost: 777.4
+datetime: 2022-04-19 07:12:51.884858+00:00
+type: buy
+________________________
 ticker: FIVE
 buy price: 1144.5
 cost: 1144.5
