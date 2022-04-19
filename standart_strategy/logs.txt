@@ -1,3 +1,9 @@
+ticker: RUAL
+buy price: 62.745
+cost: 627.4499999999999
+datetime: 2022-04-19 13:21:33.957710+00:00
+type: buy
+________________________
 ticker: ALRS
 buy price: 75.57
 cost: 755.6999999999999
@@ -192,9 +198,3 @@ type: buy
 ________________________
 ticker: ALRS
 buy price: 75.0
-cost: 750.0
-datetime: 2022-04-19 12:08:31.572899+00:00
-type: buy
-________________________
-ticker: FIVE
-percent: -0.4793028322440087
