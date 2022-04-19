@@ -1,3 +1,9 @@
+ticker: GAZP
+buy price: 214.71
+cost: 2147.1
+datetime: 2022-04-19 13:11:30.758962+00:00
+type: buy
+________________________
 ticker: YNDX
 percent: -0.8737971463333676
 plus: -17.240239999999954
@@ -192,9 +198,3 @@ type: buy
 ________________________
 ticker: FIVE
 percent: -0.303951367781155
-plus: -4.4198
-commision: 0.9198
-sell price: 1148.0
-cost: 1148.0
-datetime: 2022-04-19 09:33:40.379859+00:00
-type: sell
