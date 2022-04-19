@@ -1,3 +1,12 @@
+ticker: AFLT
+percent: -0.06605019815059068
+plus: -0.4421599999999887
+commision: 0.24216000000000001
+sell price: 30.26
+cost: 302.6
+datetime: 2022-04-19 13:59:13.742190+00:00
+type: sell
+________________________
 ticker: YNDX
 buy price: 1811.0
 cost: 1811.0
@@ -189,12 +198,3 @@ sell price: 120.2
 cost: 1202.0
 datetime: 2022-04-19 13:23:12.636677+00:00
 type: sell
-________________________
-ticker: RUAL
-buy price: 62.745
-cost: 627.4499999999999
-datetime: 2022-04-19 13:21:33.957710+00:00
-type: buy
-________________________
-ticker: ALRS
-buy price: 75.57
