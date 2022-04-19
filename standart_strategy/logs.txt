@@ -1,3 +1,12 @@
+ticker: SBER
+percent: 0.5857740585774058
+plus: 6.0412
+commision: 0.9588000000000001
+sell price: 120.2
+cost: 1202.0
+datetime: 2022-04-19 13:23:12.636677+00:00
+type: sell
+________________________
 ticker: RUAL
 buy price: 62.745
 cost: 627.4499999999999
@@ -189,12 +198,3 @@ sell price: 374.2
 cost: 374.2
 datetime: 2022-04-19 12:14:45.582843+00:00
 type: sell
-________________________
-ticker: FIXP
-buy price: 381.5
-cost: 381.5
-datetime: 2022-04-19 12:12:14.876709+00:00
-type: buy
-________________________
-ticker: ALRS
-buy price: 75.0
