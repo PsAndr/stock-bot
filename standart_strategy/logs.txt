@@ -1,3 +1,9 @@
+ticker: DSKY
+buy price: 77.18
+cost: 771.8000000000001
+datetime: 2022-04-19 07:15:51.829124+00:00
+type: buy
+________________________
 ticker: FIVE
 percent: 1.7038007863695939
 plus: 18.5766
