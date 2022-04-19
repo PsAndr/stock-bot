@@ -1,4 +1,10 @@
 ticker: GAZP
+buy price: 211.93
+cost: 2119.3
+datetime: 2022-04-19 12:42:10.751557+00:00
+type: buy
+________________________
+ticker: GAZP
 percent: 0.2548732713456408
 plus: 3.702880000000091
 commision: 1.69712
@@ -192,9 +198,3 @@ type: buy
 ________________________
 ticker: FIVE
 percent: -0.47701647875108416
-plus: -6.4202
-commision: 0.9202
-sell price: 1147.5
-cost: 1147.5
-datetime: 2022-04-19 09:27:30.372829+00:00
-type: sell
