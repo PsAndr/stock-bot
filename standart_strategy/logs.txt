@@ -1,3 +1,12 @@
+ticker: DSKY
+percent: -0.18567639257294127
+plus: -2.0026399999999773
+commision: 0.6026400000000001
+sell price: 75.26
+cost: 752.6
+datetime: 2022-04-19 15:38:36.938667+00:00
+type: sell
+________________________
 ticker: FIXP
 buy price: 376.5
 cost: 376.5
@@ -189,12 +198,3 @@ type: buy
 ________________________
 ticker: RUAL
 percent: 0.03989786147464311
-plus: -0.25137999999988625
-commision: 0.5013799999999999
-sell price: 62.685
-cost: 626.85
-datetime: 2022-04-19 14:59:13.420893+00:00
-type: sell
-________________________
-ticker: GAZP
-buy price: 217.91
