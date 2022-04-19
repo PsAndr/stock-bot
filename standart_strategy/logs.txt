@@ -1,3 +1,12 @@
+ticker: YNDX
+percent: 2.2469482553743063
+plus: 40.10223999999991
+commision: 1.49776
+sell price: 1893.0
+cost: 1893.0
+datetime: 2022-04-19 15:15:18.069923+00:00
+type: sell
+________________________
 ticker: AFLT
 percent: 0.8649367930805132
 plus: 2.358480000000023
@@ -189,12 +198,3 @@ type: sell
 ________________________
 ticker: MTSS
 buy price: 199.55
-cost: 1995.5
-datetime: 2022-04-19 14:38:56.232958+00:00
-type: buy
-________________________
-ticker: DSKY
-percent: -0.23778071334214904
-plus: -2.4048800000000683
-commision: 0.60488
-sell price: 75.52
