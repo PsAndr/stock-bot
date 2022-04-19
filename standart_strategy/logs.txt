@@ -1,3 +1,9 @@
+ticker: VTBR
+buy price: 0.01844
+cost: 184.4
+datetime: 2022-04-19 13:28:23.351058+00:00
+type: buy
+________________________
 ticker: YNDX
 percent: 0.46342270771268296
 plus: 6.94656000000009
@@ -192,9 +198,3 @@ type: sell
 ________________________
 ticker: AFLT
 percent: -0.47233468286099106
-plus: -1.6365599999999771
-commision: 0.23656
-sell price: 29.5
-cost: 295.0
-datetime: 2022-04-19 12:45:24.503471+00:00
-type: sell
