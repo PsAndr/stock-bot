@@ -1,3 +1,12 @@
+ticker: GAZP
+percent: -0.046468401486988845
+plus: -2.7212
+commision: 1.7212
+sell price: 215.1
+cost: 2151.0
+datetime: 2022-04-19 13:26:30.748575+00:00
+type: sell
+________________________
 ticker: VTBR
 percent: 0.48793711032800524
 plus: 0.7520800000000056
@@ -189,12 +198,3 @@ sell price: 212.41
 cost: 2124.1
 datetime: 2022-04-19 12:40:35.766925+00:00
 type: sell
-________________________
-ticker: ALRS
-buy price: 75.34
-cost: 753.4000000000001
-datetime: 2022-04-19 12:36:07.873618+00:00
-type: buy
-________________________
-ticker: GAZP
-buy price: 211.87
