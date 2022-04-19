@@ -1,3 +1,12 @@
+ticker: GAZP
+percent: 0.3819104839085405
+plus: 6.479040000000273
+commision: 1.7209600000000003
+sell price: 215.53
+cost: 2155.3
+datetime: 2022-04-19 13:13:55.775699+00:00
+type: sell
+________________________
 ticker: SBER
 buy price: 119.5
 cost: 1195.0
@@ -189,12 +198,3 @@ type: buy
 ________________________
 ticker: FIXP
 percent: 0.5049162901939881
-plus: 1.5981999999999772
-commision: 0.3018
-sell price: 378.2
-cost: 378.2
-datetime: 2022-04-19 09:45:35.397854+00:00
-type: sell
-________________________
-ticker: FIXP
-buy price: 376.3
