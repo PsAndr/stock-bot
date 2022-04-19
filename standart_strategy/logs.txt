@@ -1,3 +1,9 @@
+ticker: MVID
+buy price: 215.0
+cost: 215.0
+datetime: 2022-04-19 14:29:14.295884+00:00
+type: buy
+________________________
 ticker: YNDX
 buy price: 1820.8
 cost: 1820.8
@@ -192,9 +198,3 @@ type: sell
 ________________________
 ticker: AFLT
 buy price: 30.28
-cost: 302.8
-datetime: 2022-04-19 13:50:28.696583+00:00
-type: buy
-________________________
-ticker: AFLT
-percent: 0.6738544474393531
