@@ -1,3 +1,9 @@
+ticker: SBER
+buy price: 119.49
+cost: 1194.8999999999999
+datetime: 2022-04-19 13:04:37.705582+00:00
+type: buy
+________________________
 ticker: GAZP
 percent: 0.9767376020384003
 plus: 18.996279999999818
@@ -191,10 +197,4 @@ ticker: FIXP
 buy price: 380.6
 cost: 380.6
 datetime: 2022-04-19 09:31:31.169691+00:00
-type: buy
-________________________
-ticker: FIVE
-buy price: 1151.5
-cost: 1151.5
-datetime: 2022-04-19 09:31:25.386317+00:00
 type: buy
