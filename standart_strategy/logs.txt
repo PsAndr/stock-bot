@@ -1,3 +1,12 @@
+ticker: IRAO
+percent: -0.04170141784821632
+plus: -0.29180000000002276
+commision: 0.19180000000000003
+sell price: 2.397
+cost: 239.7
+datetime: 2022-04-19 14:24:39.621559+00:00
+type: sell
+________________________
 ticker: SBER
 buy price: 118.85
 cost: 1188.5
@@ -189,12 +198,3 @@ sell price: 29.88
 cost: 298.8
 datetime: 2022-04-19 13:49:59.235886+00:00
 type: sell
-________________________
-ticker: IRAO
-buy price: 2.398
-cost: 239.8
-datetime: 2022-04-19 13:49:09.842591+00:00
-type: buy
-________________________
-ticker: RUAL
-buy price: 62.665
