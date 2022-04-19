@@ -1,3 +1,12 @@
+ticker: VTBR
+percent: -0.45772751750132795
+plus: -0.9982199999999659
+commision: 0.14822000000000002
+sell price: 0.018485
+cost: 184.85000000000002
+datetime: 2022-04-19 14:39:53.325865+00:00
+type: sell
+________________________
 ticker: MTSS
 buy price: 199.55
 cost: 1995.5
@@ -189,12 +198,3 @@ percent: -0.6073992269464384
 plus: -12.4444
 commision: 1.4444000000000001
 sell price: 1800.0
-cost: 1800.0
-datetime: 2022-04-19 14:06:23.050410+00:00
-type: sell
-________________________
-ticker: AFLT
-percent: -0.8519003931847856
-plus: -2.843119999999966
-commision: 0.24312
-sell price: 30.26
