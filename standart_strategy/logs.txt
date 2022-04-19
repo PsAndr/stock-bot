@@ -1,3 +1,12 @@
+ticker: YNDX
+percent: 0.46342270771268296
+plus: 6.94656000000009
+commision: 1.45344
+sell price: 1821.0
+cost: 1821.0
+datetime: 2022-04-19 13:27:58.001256+00:00
+type: sell
+________________________
 ticker: ALRS
 buy price: 75.89
 cost: 758.9
@@ -189,12 +198,3 @@ sell price: 29.5
 cost: 295.0
 datetime: 2022-04-19 12:45:24.503471+00:00
 type: sell
-________________________
-ticker: GAZP
-buy price: 211.93
-cost: 2119.3
-datetime: 2022-04-19 12:42:10.751557+00:00
-type: buy
-________________________
-ticker: GAZP
-percent: 0.2548732713456408
