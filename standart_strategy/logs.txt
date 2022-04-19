@@ -1,3 +1,9 @@
+ticker: VTBR
+buy price: 0.018445
+cost: 184.45
+datetime: 2022-04-19 13:17:43.462577+00:00
+type: buy
+________________________
 ticker: GAZP
 buy price: 215.2
 cost: 2152.0
@@ -192,9 +198,3 @@ type: sell
 ________________________
 ticker: AFLT
 buy price: 30.9
-cost: 309.0
-datetime: 2022-04-19 09:49:34.775770+00:00
-type: buy
-________________________
-ticker: FIXP
-buy price: 377.3
