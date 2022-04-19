@@ -1,3 +1,9 @@
+ticker: DSKY
+buy price: 75.48
+cost: 754.8000000000001
+datetime: 2022-04-19 14:32:16.850664+00:00
+type: buy
+________________________
 ticker: MTSS
 buy price: 199.25
 cost: 1992.5
@@ -192,9 +198,3 @@ buy price: 1811.0
 cost: 1811.0
 datetime: 2022-04-19 13:53:22.944982+00:00
 type: buy
-________________________
-ticker: VTBR
-percent: 0.4903296104603526
-plus: 0.7527999999999773
-commision: 0.1472
-sell price: 0.018445
