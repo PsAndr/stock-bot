@@ -1,3 +1,12 @@
+ticker: SBER
+percent: 0.29595805851511686
+plus: 2.5525199999997725
+commision: 0.9474800000000001
+sell price: 118.61
+cost: 1186.1
+datetime: 2022-04-20 07:53:42.830524+00:00
+type: sell
+________________________
 ticker: ALRS
 buy price: 77.3
 cost: 773.0
@@ -189,12 +198,3 @@ type: buy
 ________________________
 ticker: DSKY
 buy price: 76.26
-cost: 762.6
-datetime: 2022-04-20 07:39:01.873537+00:00
-type: buy
-________________________
-ticker: MVID
-buy price: 214.2
-cost: 214.2
-datetime: 2022-04-20 07:37:40.421877+00:00
-type: buy
