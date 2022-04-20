@@ -1,3 +1,9 @@
+ticker: ALRS
+buy price: 78.83
+cost: 788.3
+datetime: 2022-04-20 12:53:43.784485+00:00
+type: buy
+________________________
 ticker: GAZP
 buy price: 225.43
 cost: 2254.3
@@ -192,9 +198,3 @@ datetime: 2022-04-20 11:14:27.989465+00:00
 type: buy
 ________________________
 ticker: RUAL
-percent: -0.29831998743915483
-plus: -2.4087599999999774
-commision: 0.50876
-sell price: 63.5
-cost: 635.0
-datetime: 2022-04-20 11:09:57.273532+00:00
