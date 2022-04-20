@@ -1,3 +1,12 @@
+ticker: YNDX
+percent: -0.7480230818550972
+plus: -15.49168
+commision: 1.4916800000000001
+sell price: 1857.6
+cost: 1857.6
+datetime: 2022-04-20 09:25:02.945532+00:00
+type: sell
+________________________
 ticker: RUAL
 buy price: 63.42
 cost: 634.2
@@ -189,12 +198,3 @@ buy price: 1847.8
 cost: 1847.8
 datetime: 2022-04-20 08:48:18.007206+00:00
 type: buy
-________________________
-ticker: FIVE
-percent: 0.04448398576512455
-plus: -0.3994
-commision: 0.8994
-sell price: 1124.5
-cost: 1124.5
-datetime: 2022-04-20 08:47:15.382073+00:00
-type: sell
