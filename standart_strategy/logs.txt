@@ -1,3 +1,9 @@
+ticker: ALRS
+buy price: 78.69
+cost: 786.9
+datetime: 2022-04-20 15:38:08.856555+00:00
+type: buy
+________________________
 ticker: AFLT
 percent: 0.12292562999384675
 plus: 0.13951999999997727
@@ -192,9 +198,3 @@ type: buy
 ________________________
 ticker: AFLT
 percent: -0.06116207951069989
-plus: -0.4615199999999886
-commision: 0.26152
-sell price: 32.68
-cost: 326.8
-datetime: 2022-04-20 14:52:19.606998+00:00
-type: sell
