@@ -1,3 +1,12 @@
+ticker: AFLT
+percent: 0.8666666666666742
+plus: 2.358960000000023
+commision: 0.24104000000000003
+sell price: 30.26
+cost: 302.6
+datetime: 2022-04-20 07:24:38.761536+00:00
+type: sell
+________________________
 ticker: SBER
 percent: -0.5171407123196301
 plus: -7.156640000000046
@@ -189,12 +198,3 @@ type: buy
 ________________________
 ticker: IRAO
 buy price: 2.427
-cost: 242.70000000000002
-datetime: 2022-04-20 07:07:19.495506+00:00
-type: buy
-________________________
-ticker: DSKY
-percent: -0.44642857142856845
-plus: -4.007919999999977
-commision: 0.60792
-sell price: 75.82
