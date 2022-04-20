@@ -1,3 +1,13 @@
+ticker: AFLT
+percent: -1.0139416983523413
+plus: -3.4511999999999885
+commision: 0.2512
+sell price: 31.24
+cost: 312.4
+datetime: 2022-04-20 13:51:29.714008+00:00
+type: sell
+total plus percent: -1.0139416983523413
+________________________
 ticker: IRAO
 percent: -0.5857402544940371
 plus: -1.6474599999999886
@@ -188,13 +198,3 @@ ticker: SBER
 buy price: 123.05
 cost: 1230.5
 datetime: 2022-04-20 13:26:31.753679+00:00
-type: buy
-________________________
-ticker: VTBR
-buy price: 0.01903
-cost: 190.29999999999998
-datetime: 2022-04-20 13:25:58.875006+00:00
-type: buy
-________________________
-ticker: RUAL
-buy price: 63.43
