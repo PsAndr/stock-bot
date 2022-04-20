@@ -1,3 +1,12 @@
+ticker: SBER
+percent: 0.7833952511710769
+plus: 8.705560000000272
+commision: 0.99444
+sell price: 124.79
+cost: 1247.9
+datetime: 2022-04-20 11:31:37.611864+00:00
+type: sell
+________________________
 ticker: FIVE
 percent: -0.9598603839441536
 plus: -11.9124
@@ -188,13 +197,4 @@ commision: 0.1529
 sell price: 0.019225
 cost: 192.25
 datetime: 2022-04-20 09:52:18.273531+00:00
-type: sell
-________________________
-ticker: GAZP
-percent: 1.2676244273451052
-plus: 26.68996
-commision: 1.8100400000000003
-sell price: 227.68
-cost: 2276.8
-datetime: 2022-04-20 09:43:10.736428+00:00
 type: sell
