@@ -1,3 +1,13 @@
+ticker: MVID
+percent: -0.6909258406264395
+plus: -1.6730800000000001
+commision: 0.17308
+sell price: 215.6
+cost: 215.6
+datetime: 2022-04-20 14:06:55.729269+00:00
+type: sell
+total plus percent: -1.6518881902205886
+________________________
 ticker: VTBR
 buy price: 0.018875
 cost: 188.75
@@ -188,13 +198,3 @@ ticker: SBER
 percent: -0.609508329947176
 plus: -8.4814
 commision: 0.9814
-sell price: 122.3
-cost: 1223.0
-datetime: 2022-04-20 13:46:21.803476+00:00
-type: sell
-total plus percent: -0.609508329947176
-________________________
-ticker: MVID
-buy price: 216.8
-cost: 216.8
-datetime: 2022-04-20 13:45:35.716722+00:00
