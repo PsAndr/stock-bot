@@ -1,3 +1,9 @@
+ticker: MVID
+buy price: 220.6
+cost: 220.6
+datetime: 2022-04-20 13:03:15.460251+00:00
+type: buy
+________________________
 ticker: ALRS
 buy price: 78.83
 cost: 788.3
@@ -192,9 +198,3 @@ datetime: 2022-04-20 11:17:38.036640+00:00
 type: sell
 ________________________
 ticker: YNDX
-buy price: 1879.8
-cost: 1879.8
-datetime: 2022-04-20 11:14:27.989465+00:00
-type: buy
-________________________
-ticker: RUAL
