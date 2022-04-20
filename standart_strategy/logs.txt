@@ -1,3 +1,9 @@
+ticker: VTBR
+buy price: 0.018385
+cost: 183.85
+datetime: 2022-04-20 07:39:18.360535+00:00
+type: buy
+________________________
 ticker: YNDX
 buy price: 1825.0
 cost: 1825.0
@@ -191,10 +197,4 @@ ticker: SBER
 buy price: 118.98
 cost: 1189.8
 datetime: 2022-04-20 07:25:52.575989+00:00
-type: buy
-________________________
-ticker: GAZP
-buy price: 217.68
-cost: 2176.8
-datetime: 2022-04-20 07:25:25.732181+00:00
 type: buy
