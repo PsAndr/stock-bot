@@ -1,3 +1,12 @@
+ticker: YNDX
+percent: 0.4221236064509122
+plus: 6.318639999999954
+commision: 1.48136
+sell price: 1855.6
+cost: 1855.6
+datetime: 2022-04-20 09:11:37.926212+00:00
+type: sell
+________________________
 ticker: RUAL
 buy price: 63.45
 cost: 634.5
@@ -189,12 +198,3 @@ sell price: 385.6
 cost: 385.6
 datetime: 2022-04-20 08:37:49.740406+00:00
 type: sell
-________________________
-ticker: FIXP
-buy price: 378.0
-cost: 378.0
-datetime: 2022-04-20 08:29:29.897365+00:00
-type: buy
-________________________
-ticker: IRAO
-buy price: 2.45
