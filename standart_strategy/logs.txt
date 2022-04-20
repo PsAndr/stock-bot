@@ -1,3 +1,9 @@
+ticker: ALRS
+buy price: 79.62
+cost: 796.2
+datetime: 2022-04-20 13:19:08.920489+00:00
+type: buy
+________________________
 ticker: AFLT
 buy price: 31.64
 cost: 316.4
@@ -192,9 +198,3 @@ ticker: YNDX
 buy price: 1864.8
 cost: 1864.8
 datetime: 2022-04-20 11:19:53.132585+00:00
-type: buy
-________________________
-ticker: YNDX
-percent: -0.6064474944142921
-plus: -12.899279999999864
-commision: 1.4992800000000002
