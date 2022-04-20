@@ -1,3 +1,9 @@
+ticker: MVID
+buy price: 213.5
+cost: 213.5
+datetime: 2022-04-20 07:42:49.103532+00:00
+type: buy
+________________________
 ticker: AFLT
 percent: 0.8005336891260765
 plus: 2.159199999999977
@@ -192,9 +198,3 @@ percent: 0.7016632016632136
 plus: 4.782160000000091
 commision: 0.61784
 sell price: 77.5
-cost: 775.0
-datetime: 2022-04-20 07:30:21.502415+00:00
-type: sell
-________________________
-ticker: VTBR
-buy price: 0.018385
