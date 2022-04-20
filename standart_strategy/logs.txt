@@ -1,3 +1,12 @@
+ticker: IRAO
+percent: 0.12373685295937774
+plus: 0.10592000000001134
+commision: 0.19408000000000003
+sell price: 2.4275
+cost: 242.75000000000003
+datetime: 2022-04-20 07:36:20.681527+00:00
+type: sell
+________________________
 ticker: YNDX
 buy price: 1820.8
 cost: 1820.8
@@ -189,12 +198,3 @@ sell price: 375.9
 cost: 375.9
 datetime: 2022-04-20 07:20:49.909144+00:00
 type: sell
-________________________
-ticker: SBER
-buy price: 119.89
-cost: 1198.9
-datetime: 2022-04-20 07:20:22.705534+00:00
-type: buy
-________________________
-ticker: FIXP
-buy price: 379.0
