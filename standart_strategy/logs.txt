@@ -1,3 +1,12 @@
+ticker: YNDX
+percent: -0.2670940170940171
+plus: -6.4956
+commision: 1.4956
+sell price: 1867.0
+cost: 1867.0
+datetime: 2022-04-20 11:03:47.956881+00:00
+type: sell
+________________________
 ticker: VTBR
 percent: 1.3421052631579007
 plus: 2.396980000000011
@@ -189,12 +198,3 @@ sell price: 63.945
 cost: 639.45
 datetime: 2022-04-20 09:30:08.480533+00:00
 type: sell
-________________________
-ticker: GAZP
-buy price: 224.83
-cost: 2248.3
-datetime: 2022-04-20 09:30:05.741550+00:00
-type: buy
-________________________
-ticker: YNDX
-percent: -0.7480230818550972
