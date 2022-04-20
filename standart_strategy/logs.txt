@@ -1,3 +1,9 @@
+ticker: YNDX
+buy price: 1821.2
+cost: 1821.2
+datetime: 2022-04-20 13:26:58.146332+00:00
+type: buy
+________________________
 ticker: SBER
 buy price: 123.05
 cost: 1230.5
@@ -192,9 +198,3 @@ commision: 0.9124000000000001
 sell price: 1135.0
 cost: 1135.0
 datetime: 2022-04-20 11:27:45.371535+00:00
-type: sell
-________________________
-ticker: AFLT
-buy price: 30.7
-cost: 307.0
-datetime: 2022-04-20 11:23:48.685524+00:00
