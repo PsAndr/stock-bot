@@ -1,3 +1,13 @@
+ticker: MVID
+percent: -0.5952380952381005
+plus: -1.4742000000000113
+commision: 0.17420000000000002
+sell price: 217.1
+cost: 217.1
+datetime: 2022-04-20 13:32:26.962780+00:00
+type: sell
+total plus percent: -0.5952380952381005
+________________________
 ticker: GAZP
 buy price: 223.8
 cost: 2238.0
@@ -188,13 +198,3 @@ plus: -0.47748000000001134
 commision: 0.17748
 sell price: 221.7
 cost: 221.7
-datetime: 2022-04-20 11:33:29.120446+00:00
-type: sell
-________________________
-ticker: YNDX
-percent: 0.4504504504504553
-plus: 6.90480000000009
-commision: 1.4952
-sell price: 1873.2
-cost: 1873.2
-datetime: 2022-04-20 11:32:58.022537+00:00
