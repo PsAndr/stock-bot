@@ -1,3 +1,9 @@
+ticker: FIXP
+buy price: 399.8
+cost: 399.8
+datetime: 2022-04-20 09:52:49.835524+00:00
+type: buy
+________________________
 ticker: VTBR
 percent: 1.1842105263157896
 plus: 2.0971
@@ -192,9 +198,3 @@ percent: 1.5894039735099377
 plus: 4.556480000000011
 commision: 0.24352000000000001
 sell price: 30.68
-cost: 306.8
-datetime: 2022-04-20 09:10:54.216635+00:00
-type: sell
-________________________
-ticker: DSKY
-percent: -0.6241872561768471
