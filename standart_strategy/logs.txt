@@ -1,3 +1,9 @@
+ticker: RUAL
+buy price: 62.985
+cost: 629.85
+datetime: 2022-04-20 07:19:42.267742+00:00
+type: buy
+________________________
 ticker: FIVE
 buy price: 1125.0
 cost: 1125.0
@@ -192,9 +198,3 @@ percent: 0.8778930566640093
 plus: 5.995920000000023
 commision: 0.6040800000000002
 sell price: 75.84
-cost: 758.4000000000001
-datetime: 2022-04-20 07:04:41.900414+00:00
-type: sell
-________________________
-ticker: IRAO
-buy price: 2.422
