@@ -1,3 +1,12 @@
+ticker: YNDX
+percent: -0.37346221441124533
+plus: -8.253919999999955
+commision: 1.45392
+sell price: 1814.0
+cost: 1814.0
+datetime: 2022-04-20 07:37:38.076632+00:00
+type: sell
+________________________
 ticker: IRAO
 percent: 0.12373685295937774
 plus: 0.10592000000001134
@@ -188,13 +197,4 @@ commision: 0.9566400000000002
 sell price: 119.27
 cost: 1192.7
 datetime: 2022-04-20 07:23:57.703149+00:00
-type: sell
-________________________
-ticker: FIXP
-percent: -0.8179419525066024
-plus: -3.401960000000023
-commision: 0.30196
-sell price: 375.9
-cost: 375.9
-datetime: 2022-04-20 07:20:49.909144+00:00
 type: sell
