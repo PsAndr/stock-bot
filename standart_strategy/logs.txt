@@ -1,3 +1,9 @@
+ticker: YNDX
+buy price: 1871.6
+cost: 1871.6
+datetime: 2022-04-20 09:20:19.163821+00:00
+type: buy
+________________________
 ticker: DSKY
 buy price: 76.88
 cost: 768.8
@@ -192,9 +198,3 @@ percent: 1.7418930762489144
 plus: 30.326800000000183
 commision: 1.4732
 sell price: 1857.4
-cost: 1857.4
-datetime: 2022-04-20 08:46:27.981587+00:00
-type: sell
-________________________
-ticker: MVID
-buy price: 217.9
