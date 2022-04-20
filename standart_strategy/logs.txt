@@ -1,3 +1,12 @@
+ticker: DSKY
+percent: -0.23529411764706773
+plus: -2.411280000000068
+commision: 0.61128
+sell price: 76.32
+cost: 763.1999999999999
+datetime: 2022-04-20 07:46:06.885529+00:00
+type: sell
+________________________
 ticker: VTBR
 percent: -0.27196083763937995
 plus: -0.64688
@@ -189,12 +198,3 @@ percent: 0.0
 plus: -0.6096
 commision: 0.6096
 sell price: 76.2
-cost: 762.0
-datetime: 2022-04-20 07:34:08.078995+00:00
-type: sell
-________________________
-ticker: GAZP
-percent: -0.4595588235294118
-plus: -11.7368
-commision: 1.7368000000000001
-sell price: 216.6
