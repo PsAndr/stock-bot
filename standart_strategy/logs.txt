@@ -1,3 +1,12 @@
+ticker: MVID
+percent: 1.9266917293233055
+plus: 3.9281199999999945
+commision: 0.17188000000000003
+sell price: 216.9
+cost: 216.9
+datetime: 2022-04-20 08:39:09.068033+00:00
+type: sell
+________________________
 ticker: FIXP
 percent: 2.0105820105820165
 plus: 7.294560000000023
@@ -189,12 +198,3 @@ type: sell
 ________________________
 ticker: MVID
 buy price: 212.8
-cost: 212.8
-datetime: 2022-04-20 07:46:40.876348+00:00
-type: buy
-________________________
-ticker: DSKY
-buy price: 76.8
-cost: 768.0
-datetime: 2022-04-20 07:46:36.889366+00:00
-type: buy
