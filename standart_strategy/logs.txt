@@ -1,3 +1,9 @@
+ticker: IRAO
+buy price: 2.5095
+cost: 250.95000000000002
+datetime: 2022-04-20 10:16:14.554532+00:00
+type: buy
+________________________
 ticker: MVID
 buy price: 222.0
 cost: 222.0
@@ -192,9 +198,3 @@ type: buy
 ________________________
 ticker: GAZP
 buy price: 226.2
-cost: 2262.0
-datetime: 2022-04-20 09:13:45.731528+00:00
-type: buy
-________________________
-ticker: SBER
-percent: -0.8656957928802624
