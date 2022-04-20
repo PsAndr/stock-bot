@@ -1,3 +1,13 @@
+ticker: AFLT
+percent: -0.24906600249066357
+plus: -1.0566400000000113
+commision: 0.25664
+sell price: 32.04
+cost: 320.4
+datetime: 2022-04-20 14:38:34.735884+00:00
+type: sell
+total plus percent: 2.0379157345339802
+________________________
 ticker: FIXP
 percent: 0.07672634271100036
 plus: -0.012919999999988663
@@ -188,13 +198,3 @@ sell price: 215.6
 cost: 215.6
 datetime: 2022-04-20 14:06:55.729269+00:00
 type: sell
-total plus percent: -1.6518881902205886
-________________________
-ticker: VTBR
-buy price: 0.018875
-cost: 188.75
-datetime: 2022-04-20 14:06:28.747993+00:00
-type: buy
-________________________
-ticker: YNDX
-percent: -0.9335529928610654
