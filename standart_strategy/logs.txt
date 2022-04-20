@@ -1,3 +1,13 @@
+ticker: AFLT
+percent: 0.1926782273603156
+plus: 0.3506400000000227
+commision: 0.24936
+sell price: 31.2
+cost: 312.0
+datetime: 2022-04-20 14:02:09.707227+00:00
+type: sell
+total plus percent: -0.8212634709920257
+________________________
 ticker: SBER
 percent: 0.3115009427002363
 plus: 2.822560000000182
@@ -188,13 +198,3 @@ sell price: 1804.8
 cost: 1804.8
 datetime: 2022-04-20 13:44:53.117724+00:00
 type: sell
-total plus percent: -0.9005051614320279
-________________________
-ticker: FIVE
-buy price: 1134.5
-cost: 1134.5
-datetime: 2022-04-20 13:44:20.977715+00:00
-type: buy
-________________________
-ticker: VTBR
-percent: 0.23646873357858408
