@@ -1,3 +1,9 @@
+ticker: DSKY
+buy price: 76.2
+cost: 762.0
+datetime: 2022-04-20 07:18:46.873679+00:00
+type: buy
+________________________
 ticker: RUAL
 percent: -0.4958287423264385
 plus: -3.6569799999998636
@@ -191,10 +197,4 @@ ticker: SBER
 buy price: 119.43
 cost: 1194.3000000000002
 datetime: 2022-04-20 07:03:52.627536+00:00
-type: buy
-________________________
-ticker: AFLT
-buy price: 30.0
-cost: 300.0
-datetime: 2022-04-20 07:03:29.144533+00:00
 type: buy
