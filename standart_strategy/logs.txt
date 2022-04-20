@@ -1,3 +1,9 @@
+ticker: SBER
+buy price: 118.92
+cost: 1189.2
+datetime: 2022-04-20 08:04:12.540529+00:00
+type: buy
+________________________
 ticker: IRAO
 buy price: 2.45
 cost: 245.00000000000003
@@ -192,9 +198,3 @@ percent: 0.338409475465313
 plus: 3.0528
 commision: 0.9472
 sell price: 118.6
-cost: 1186.0
-datetime: 2022-04-20 07:41:43.869534+00:00
-type: sell
-________________________
-ticker: DSKY
-percent: -0.34093889325990334
