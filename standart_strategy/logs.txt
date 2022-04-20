@@ -1,3 +1,9 @@
+ticker: FIVE
+buy price: 1142.5
+cost: 1142.5
+datetime: 2022-04-20 11:34:15.383464+00:00
+type: buy
+________________________
 ticker: MVID
 percent: -0.13513513513514025
 plus: -0.47748000000001134
@@ -192,9 +198,3 @@ buy price: 400.5
 cost: 400.5
 datetime: 2022-04-20 10:09:34.822066+00:00
 type: buy
-________________________
-ticker: FIXP
-percent: -1.350675337668843
-plus: -5.717680000000034
-commision: 0.31768
-sell price: 394.4
