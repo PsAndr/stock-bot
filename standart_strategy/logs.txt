@@ -1,3 +1,9 @@
+ticker: FIXP
+buy price: 400.0
+cost: 400.0
+datetime: 2022-04-20 12:36:42.852893+00:00
+type: buy
+________________________
 ticker: RUAL
 percent: 0.0
 plus: -0.50712
@@ -192,9 +198,3 @@ datetime: 2022-04-20 10:55:24.277082+00:00
 type: sell
 ________________________
 ticker: GAZP
-buy price: 225.91
-cost: 2259.1
-datetime: 2022-04-20 10:46:20.742527+00:00
-type: buy
-________________________
-ticker: SBER
