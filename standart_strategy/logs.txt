@@ -1,3 +1,12 @@
+ticker: SBER
+percent: 0.4372687521022574
+plus: 4.246560000000045
+commision: 0.9534400000000001
+sell price: 119.44
+cost: 1194.4
+datetime: 2022-04-20 07:58:52.626027+00:00
+type: sell
+________________________
 ticker: ALRS
 percent: 0.38809831824062097
 plus: 2.3804
@@ -188,13 +197,4 @@ commision: 0.60904
 sell price: 76.0
 cost: 760.0
 datetime: 2022-04-20 07:41:41.897550+00:00
-type: sell
-________________________
-ticker: YNDX
-percent: 0.4383561643835616
-plus: 6.5367999999999995
-commision: 1.4632
-sell price: 1833.0
-cost: 1833.0
-datetime: 2022-04-20 07:41:13.048544+00:00
 type: sell
