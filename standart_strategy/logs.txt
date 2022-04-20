@@ -1,3 +1,12 @@
+ticker: MTSS
+percent: -0.817641228939544
+plus: -18.1078
+commision: 1.6078000000000001
+sell price: 200.15
+cost: 2001.5
+datetime: 2022-04-20 07:04:16.126512+00:00
+type: sell
+________________________
 ticker: SBER
 buy price: 119.43
 cost: 1194.3000000000002
@@ -188,13 +197,4 @@ commision: 0.5051399999999999
 sell price: 63.12
 cost: 631.1999999999999
 datetime: 2022-04-19 15:32:44.265613+00:00
-type: sell
-________________________
-ticker: YNDX
-percent: -0.8656620711766616
-plus: -17.690640000000045
-commision: 1.4906400000000002
-sell price: 1855.2
-cost: 1855.2
-datetime: 2022-04-19 15:32:20.124888+00:00
 type: sell
