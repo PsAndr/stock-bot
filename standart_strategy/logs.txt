@@ -1,3 +1,9 @@
+ticker: VTBR
+buy price: 0.018875
+cost: 188.75
+datetime: 2022-04-20 14:06:28.747993+00:00
+type: buy
+________________________
 ticker: YNDX
 percent: -0.9335529928610654
 plus: -18.45
@@ -192,9 +198,3 @@ ticker: MVID
 buy price: 216.8
 cost: 216.8
 datetime: 2022-04-20 13:45:35.716722+00:00
-type: buy
-________________________
-ticker: VTBR
-buy price: 0.01901
-cost: 190.1
-datetime: 2022-04-20 13:44:55.320530+00:00
