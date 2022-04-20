@@ -1,3 +1,12 @@
+ticker: MVID
+percent: -0.6436781609195429
+plus: -1.5734400000000057
+commision: 0.17344
+sell price: 216.1
+cost: 216.1
+datetime: 2022-04-20 07:28:34.051814+00:00
+type: sell
+________________________
 ticker: RUAL
 percent: -0.2937207271572633
 plus: -2.353140000000023
@@ -189,12 +198,3 @@ type: sell
 ________________________
 ticker: VTBR
 buy price: 0.018685
-cost: 186.85
-datetime: 2022-04-20 07:13:18.368530+00:00
-type: buy
-________________________
-ticker: DSKY
-buy price: 76.26
-cost: 762.6
-datetime: 2022-04-20 07:12:48.101537+00:00
-type: buy
