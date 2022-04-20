@@ -1,3 +1,9 @@
+ticker: RUAL
+buy price: 63.39
+cost: 633.9
+datetime: 2022-04-20 14:32:50.794378+00:00
+type: buy
+________________________
 ticker: AFLT
 buy price: 32.02
 cost: 320.20000000000005
@@ -192,9 +198,3 @@ type: buy
 ________________________
 ticker: FIXP
 buy price: 393.7
-cost: 393.7
-datetime: 2022-04-20 13:57:42.657725+00:00
-type: buy
-________________________
-ticker: VTBR
-percent: 0.0
