@@ -1,3 +1,12 @@
+ticker: AFLT
+percent: 0.9156311314584921
+plus: 2.554240000000068
+commision: 0.24576
+sell price: 30.86
+cost: 308.6
+datetime: 2022-04-20 10:55:24.277082+00:00
+type: sell
+________________________
 ticker: GAZP
 buy price: 225.91
 cost: 2259.1
@@ -189,12 +198,3 @@ type: sell
 ________________________
 ticker: RUAL
 buy price: 63.42
-cost: 634.2
-datetime: 2022-04-20 09:22:27.197570+00:00
-type: buy
-________________________
-ticker: GAZP
-percent: 0.6852343059239611
-plus: 13.6842
-commision: 1.8158
-sell price: 227.75
