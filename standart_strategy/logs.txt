@@ -1,3 +1,9 @@
+ticker: AFLT
+buy price: 31.14
+cost: 311.4
+datetime: 2022-04-20 13:53:14.795732+00:00
+type: buy
+________________________
 ticker: ALRS
 buy price: 79.01
 cost: 790.1
@@ -190,11 +196,5 @@ ticker: GAZP
 buy price: 223.8
 cost: 2238.0
 datetime: 2022-04-20 13:32:16.949181+00:00
-type: buy
-________________________
-ticker: MVID
-buy price: 218.4
-cost: 218.4
-datetime: 2022-04-20 13:27:50.737642+00:00
 type: buy
 ________________________
