@@ -1,3 +1,9 @@
+ticker: FIVE
+buy price: 1138.0
+cost: 1138.0
+datetime: 2022-04-20 15:05:26.013545+00:00
+type: buy
+________________________
 ticker: AFLT
 buy price: 33.58
 cost: 335.79999999999995
@@ -192,9 +198,3 @@ type: buy
 ________________________
 ticker: AFLT
 percent: 1.7341040462427855
-plus: 5.148720000000034
-commision: 0.25128
-sell price: 31.68
-cost: 316.8
-datetime: 2022-04-20 14:31:04.712946+00:00
-type: sell
