@@ -1,3 +1,12 @@
+ticker: FIVE
+percent: -0.5777777777777777
+plus: -7.3974
+commision: 0.8974
+sell price: 1118.5
+cost: 1118.5
+datetime: 2022-04-20 07:20:05.397464+00:00
+type: sell
+________________________
 ticker: RUAL
 buy price: 62.985
 cost: 629.85
@@ -189,12 +198,3 @@ percent: -0.6190941674812692
 plus: -12.868560000000091
 commision: 1.46856
 sell price: 1830.0
-cost: 1830.0
-datetime: 2022-04-20 07:04:44.277524+00:00
-type: sell
-________________________
-ticker: DSKY
-percent: 0.8778930566640093
-plus: 5.995920000000023
-commision: 0.6040800000000002
-sell price: 75.84
