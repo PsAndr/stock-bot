@@ -1,3 +1,9 @@
+ticker: FIXP
+buy price: 401.0
+cost: 401.0
+datetime: 2022-04-20 10:25:19.905037+00:00
+type: buy
+________________________
 ticker: AFLT
 buy price: 30.58
 cost: 305.79999999999995
@@ -192,9 +198,3 @@ percent: -0.7014809041309548
 plus: -6.013680000000091
 commision: 0.61368
 sell price: 76.44
-cost: 764.4
-datetime: 2022-04-20 09:19:51.822527+00:00
-type: sell
-________________________
-ticker: VTBR
-buy price: 0.019
