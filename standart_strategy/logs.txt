@@ -1,3 +1,9 @@
+ticker: AFLT
+buy price: 30.64
+cost: 306.4
+datetime: 2022-04-20 12:01:47.471515+00:00
+type: buy
+________________________
 ticker: FIVE
 percent: 0.0
 plus: -0.9076000000000001
@@ -190,11 +196,5 @@ ticker: AFLT
 buy price: 30.58
 cost: 305.79999999999995
 datetime: 2022-04-20 10:22:43.871536+00:00
-type: buy
-________________________
-ticker: IRAO
-buy price: 2.5095
-cost: 250.95000000000002
-datetime: 2022-04-20 10:16:14.554532+00:00
 type: buy
 ________________________
