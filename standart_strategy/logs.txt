@@ -1,3 +1,12 @@
+ticker: VTBR
+percent: 1.3421052631579007
+plus: 2.396980000000011
+commision: 0.15302
+sell price: 0.019255
+cost: 192.55
+datetime: 2022-04-20 11:01:13.412790+00:00
+type: sell
+________________________
 ticker: AFLT
 percent: 0.9156311314584921
 plus: 2.554240000000068
@@ -189,12 +198,3 @@ type: buy
 ________________________
 ticker: YNDX
 percent: -0.7480230818550972
-plus: -15.49168
-commision: 1.4916800000000001
-sell price: 1857.6
-cost: 1857.6
-datetime: 2022-04-20 09:25:02.945532+00:00
-type: sell
-________________________
-ticker: RUAL
-buy price: 63.42
