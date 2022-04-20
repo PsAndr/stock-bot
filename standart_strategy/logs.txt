@@ -1,4 +1,10 @@
 ticker: AFLT
+buy price: 32.9
+cost: 329.0
+datetime: 2022-04-20 15:08:19.579727+00:00
+type: buy
+________________________
+ticker: AFLT
 percent: -2.2036926742108163
 plus: -7.66567999999992
 commision: 0.26568
@@ -192,9 +198,3 @@ ticker: RUAL
 buy price: 63.39
 cost: 633.9
 datetime: 2022-04-20 14:32:50.794378+00:00
-type: buy
-________________________
-ticker: AFLT
-buy price: 32.02
-cost: 320.20000000000005
-datetime: 2022-04-20 14:31:31.756723+00:00
