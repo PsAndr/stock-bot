@@ -1,3 +1,9 @@
+ticker: AFLT
+buy price: 30.58
+cost: 305.79999999999995
+datetime: 2022-04-20 10:22:43.871536+00:00
+type: buy
+________________________
 ticker: IRAO
 buy price: 2.5095
 cost: 250.95000000000002
@@ -192,9 +198,3 @@ type: sell
 ________________________
 ticker: VTBR
 buy price: 0.019
-cost: 190.0
-datetime: 2022-04-20 09:19:03.331896+00:00
-type: buy
-________________________
-ticker: GAZP
-buy price: 226.2
