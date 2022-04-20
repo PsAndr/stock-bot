@@ -1,3 +1,12 @@
+ticker: GAZP
+percent: 1.2676244273451052
+plus: 26.68996
+commision: 1.8100400000000003
+sell price: 227.68
+cost: 2276.8
+datetime: 2022-04-20 09:43:10.736428+00:00
+type: sell
+________________________
 ticker: DSKY
 percent: 0.5463059313215459
 plus: 3.5832800000000455
@@ -189,12 +198,3 @@ type: sell
 ________________________
 ticker: DSKY
 buy price: 76.9
-cost: 769.0
-datetime: 2022-04-20 09:10:01.863531+00:00
-type: buy
-________________________
-ticker: SBER
-buy price: 123.6
-cost: 1236.0
-datetime: 2022-04-20 09:07:32.590523+00:00
-type: buy
