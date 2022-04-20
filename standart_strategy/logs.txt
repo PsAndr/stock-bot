@@ -1,3 +1,12 @@
+ticker: RUAL
+percent: -0.3940110323089046
+plus: -3.0066
+commision: 0.5066
+sell price: 63.2
+cost: 632.0
+datetime: 2022-04-20 09:13:32.201516+00:00
+type: sell
+________________________
 ticker: YNDX
 percent: 0.4221236064509122
 plus: 6.318639999999954
@@ -188,13 +197,4 @@ commision: 0.17188000000000003
 sell price: 216.9
 cost: 216.9
 datetime: 2022-04-20 08:39:09.068033+00:00
-type: sell
-________________________
-ticker: FIXP
-percent: 2.0105820105820165
-plus: 7.294560000000023
-commision: 0.30544000000000004
-sell price: 385.6
-cost: 385.6
-datetime: 2022-04-20 08:37:49.740406+00:00
 type: sell
