@@ -1,3 +1,9 @@
+ticker: ALRS
+buy price: 78.04
+cost: 780.4000000000001
+datetime: 2022-04-20 08:21:16.493529+00:00
+type: buy
+________________________
 ticker: SBER
 buy price: 119.0
 cost: 1190.0
@@ -192,9 +198,3 @@ sell price: 0.018335
 cost: 183.35
 datetime: 2022-04-20 07:45:38.435531+00:00
 type: sell
-________________________
-ticker: DSKY
-buy price: 76.5
-cost: 765.0
-datetime: 2022-04-20 07:45:11.881996+00:00
-type: buy
