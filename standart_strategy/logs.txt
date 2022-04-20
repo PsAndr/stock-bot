@@ -1,3 +1,9 @@
+ticker: VTBR
+buy price: 0.01901
+cost: 190.1
+datetime: 2022-04-20 13:44:55.320530+00:00
+type: buy
+________________________
 ticker: YNDX
 percent: -0.9005051614320279
 plus: -17.850400000000093
@@ -192,9 +198,3 @@ ticker: VTBR
 buy price: 0.019175
 cost: 191.75
 datetime: 2022-04-20 12:37:54.942189+00:00
-type: buy
-________________________
-ticker: FIVE
-buy price: 1133.5
-cost: 1133.5
-datetime: 2022-04-20 12:37:45.958211+00:00
