@@ -1,3 +1,9 @@
+ticker: FIXP
+buy price: 393.4
+cost: 393.4
+datetime: 2022-04-20 13:46:54.127322+00:00
+type: buy
+________________________
 ticker: MVID
 percent: 0.27675276752767264
 plus: 0.4263199999999943
@@ -192,9 +198,3 @@ type: buy
 ________________________
 ticker: GAZP
 buy price: 225.43
-cost: 2254.3
-datetime: 2022-04-20 12:51:41.895951+00:00
-type: buy
-________________________
-ticker: IRAO
-buy price: 2.4835
