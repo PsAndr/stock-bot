@@ -1,3 +1,13 @@
+ticker: SBER
+percent: 0.13093289689033624
+plus: 0.621759999999909
+commision: 0.97824
+sell price: 122.36
+cost: 1223.6
+datetime: 2022-04-20 13:56:11.818715+00:00
+type: sell
+total plus percent: -0.4785754330568397
+________________________
 ticker: YNDX
 buy price: 1821.0
 cost: 1821.0
@@ -188,13 +198,3 @@ datetime: 2022-04-20 13:38:18.872680+00:00
 type: sell
 total plus percent: -0.6154232604873262
 ________________________
-ticker: MVID
-buy price: 216.7
-cost: 216.7
-datetime: 2022-04-20 13:37:35.648341+00:00
-type: buy
-________________________
-ticker: IRAO
-buy price: 2.4755
-cost: 247.54999999999998
-datetime: 2022-04-20 13:37:11.746722+00:00
