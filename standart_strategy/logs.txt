@@ -1,3 +1,12 @@
+ticker: AFLT
+percent: 0.8005336891260765
+plus: 2.159199999999977
+commision: 0.24080000000000001
+sell price: 30.22
+cost: 302.2
+datetime: 2022-04-20 07:42:23.793529+00:00
+type: sell
+________________________
 ticker: MVID
 percent: -1.1209715086408247
 plus: -2.570320000000006
@@ -189,12 +198,3 @@ type: sell
 ________________________
 ticker: VTBR
 buy price: 0.018385
-cost: 183.85
-datetime: 2022-04-20 07:29:48.427153+00:00
-type: buy
-________________________
-ticker: GAZP
-percent: -0.4134509371554575
-plus: -10.73784
-commision: 1.7378400000000003
-sell price: 216.78
