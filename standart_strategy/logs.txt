@@ -1,4 +1,13 @@
 ticker: SBER
+percent: -0.20181634712410557
+plus: -3.3503999999998637
+commision: 0.9504000000000001
+sell price: 118.68
+cost: 1186.8000000000002
+datetime: 2022-04-20 08:05:12.653530+00:00
+type: sell
+________________________
+ticker: SBER
 buy price: 118.92
 cost: 1189.2
 datetime: 2022-04-20 08:04:12.540529+00:00
@@ -189,12 +198,3 @@ percent: -1.1209715086408247
 plus: -2.570320000000006
 commision: 0.17032000000000003
 sell price: 211.7
-cost: 211.7
-datetime: 2022-04-20 07:41:59.177083+00:00
-type: sell
-________________________
-ticker: SBER
-percent: 0.338409475465313
-plus: 3.0528
-commision: 0.9472
-sell price: 118.6
