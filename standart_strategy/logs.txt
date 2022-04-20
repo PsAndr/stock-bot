@@ -1,3 +1,12 @@
+ticker: GAZP
+percent: -0.4134509371554575
+plus: -10.73784
+commision: 1.7378400000000003
+sell price: 216.78
+cost: 2167.8
+datetime: 2022-04-20 07:28:55.763530+00:00
+type: sell
+________________________
 ticker: MVID
 percent: -0.6436781609195429
 plus: -1.5734400000000057
@@ -189,12 +198,3 @@ type: sell
 ________________________
 ticker: SBER
 percent: 0.6531022356191682
-plus: 6.841439999999727
-commision: 0.9585600000000001
-sell price: 120.21
-cost: 1202.1
-datetime: 2022-04-20 07:13:42.652533+00:00
-type: sell
-________________________
-ticker: VTBR
-buy price: 0.018685
