@@ -1,3 +1,9 @@
+ticker: MVID
+buy price: 217.9
+cost: 217.9
+datetime: 2022-04-20 08:43:00.331677+00:00
+type: buy
+________________________
 ticker: FIVE
 buy price: 1124.0
 cost: 1124.0
@@ -192,9 +198,3 @@ type: sell
 ________________________
 ticker: MVID
 buy price: 213.7
-cost: 213.7
-datetime: 2022-04-20 07:48:59.205541+00:00
-type: buy
-________________________
-ticker: MVID
-percent: -0.8458646616541406
