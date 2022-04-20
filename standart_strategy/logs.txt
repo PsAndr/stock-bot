@@ -1,3 +1,9 @@
+ticker: GAZP
+buy price: 217.68
+cost: 2176.8
+datetime: 2022-04-20 07:25:25.732181+00:00
+type: buy
+________________________
 ticker: AFLT
 percent: 0.8666666666666742
 plus: 2.358960000000023
@@ -192,9 +198,3 @@ type: buy
 ________________________
 ticker: DSKY
 buy price: 76.1
-cost: 761.0
-datetime: 2022-04-20 07:07:42.061814+00:00
-type: buy
-________________________
-ticker: IRAO
-buy price: 2.427
