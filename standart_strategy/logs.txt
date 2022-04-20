@@ -1,3 +1,12 @@
+ticker: DSKY
+percent: 0.5463059313215459
+plus: 3.5832800000000455
+commision: 0.61672
+sell price: 77.3
+cost: 773.0
+datetime: 2022-04-20 09:42:41.839490+00:00
+type: sell
+________________________
 ticker: YNDX
 buy price: 1872.0
 cost: 1872.0
@@ -189,12 +198,3 @@ buy price: 123.6
 cost: 1236.0
 datetime: 2022-04-20 09:07:32.590523+00:00
 type: buy
-________________________
-ticker: VTBR
-percent: 0.6295907660020926
-plus: 1.0470399999999886
-commision: 0.15295999999999998
-sell price: 0.01918
-cost: 191.79999999999998
-datetime: 2022-04-20 09:06:29.572406+00:00
-type: sell
