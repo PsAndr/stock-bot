@@ -1,3 +1,9 @@
+ticker: FIVE
+buy price: 1137.0
+cost: 1137.0
+datetime: 2022-04-20 14:30:30.983272+00:00
+type: buy
+________________________
 ticker: SBER
 percent: 0.07429420505199467
 plus: -0.06948000000013654
@@ -192,9 +198,3 @@ ticker: YNDX
 buy price: 1821.0
 cost: 1821.0
 datetime: 2022-04-20 13:55:42.882635+00:00
-type: buy
-________________________
-ticker: FIVE
-buy price: 1129.0
-cost: 1129.0
-datetime: 2022-04-20 13:55:10.959728+00:00
