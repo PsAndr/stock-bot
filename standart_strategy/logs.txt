@@ -1,4 +1,10 @@
 ticker: YNDX
+buy price: 1864.8
+cost: 1864.8
+datetime: 2022-04-20 11:19:53.132585+00:00
+type: buy
+________________________
+ticker: YNDX
 percent: -0.6064474944142921
 plus: -12.899279999999864
 commision: 1.4992800000000002
@@ -192,9 +198,3 @@ type: sell
 ________________________
 ticker: YNDX
 buy price: 1870.0
-cost: 1870.0
-datetime: 2022-04-20 09:37:07.935085+00:00
-type: buy
-________________________
-ticker: VTBR
-buy price: 0.019
