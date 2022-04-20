@@ -1,3 +1,9 @@
+ticker: MVID
+buy price: 212.8
+cost: 212.8
+datetime: 2022-04-20 07:46:40.876348+00:00
+type: buy
+________________________
 ticker: DSKY
 buy price: 76.8
 cost: 768.0
@@ -192,9 +198,3 @@ type: buy
 ________________________
 ticker: SBER
 buy price: 118.2
-cost: 1182.0
-datetime: 2022-04-20 07:35:17.617126+00:00
-type: buy
-________________________
-ticker: YNDX
-buy price: 1824.6
