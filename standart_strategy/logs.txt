@@ -1,3 +1,9 @@
+ticker: VTBR
+buy price: 0.01886
+cost: 188.6
+datetime: 2022-04-20 14:49:43.663757+00:00
+type: buy
+________________________
 ticker: RUAL
 percent: 0.13409055056002883
 plus: 0.3425400000000227
@@ -192,9 +198,3 @@ sell price: 388.1
 cost: 388.1
 datetime: 2022-04-20 14:10:52.555921+00:00
 type: sell
-total plus percent: -2.667954446229163
-________________________
-ticker: AFLT
-buy price: 31.14
-cost: 311.4
-datetime: 2022-04-20 14:08:44.682723+00:00
