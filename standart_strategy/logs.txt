@@ -1,3 +1,12 @@
+ticker: YNDX
+percent: -0.569987942562746
+plus: -11.855519999999864
+commision: 1.4555200000000001
+sell price: 1814.2
+cost: 1814.2
+datetime: 2022-04-20 07:35:49.290893+00:00
+type: sell
+________________________
 ticker: DSKY
 percent: -0.7554050533993169
 plus: -6.411919999999954
@@ -189,12 +198,3 @@ type: buy
 ________________________
 ticker: FIVE
 percent: -0.5777777777777777
-plus: -7.3974
-commision: 0.8974
-sell price: 1118.5
-cost: 1118.5
-datetime: 2022-04-20 07:20:05.397464+00:00
-type: sell
-________________________
-ticker: RUAL
-buy price: 62.985
