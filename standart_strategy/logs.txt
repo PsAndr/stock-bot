@@ -1,3 +1,9 @@
+ticker: RUAL
+buy price: 63.42
+cost: 634.2
+datetime: 2022-04-20 09:22:27.197570+00:00
+type: buy
+________________________
 ticker: GAZP
 percent: 0.6852343059239611
 plus: 13.6842
@@ -192,9 +198,3 @@ sell price: 1124.5
 cost: 1124.5
 datetime: 2022-04-20 08:47:15.382073+00:00
 type: sell
-________________________
-ticker: SBER
-percent: 2.420168067226887
-plus: 27.836479999999955
-commision: 0.96352
-sell price: 121.88
