@@ -1,4 +1,10 @@
 ticker: YNDX
+buy price: 1841.4
+cost: 1841.4
+datetime: 2022-04-20 07:02:57.998531+00:00
+type: buy
+________________________
+ticker: YNDX
 percent: -2.4733475479744187
 plus: -47.88224000000009
 commision: 1.48224
@@ -191,10 +197,4 @@ ticker: YNDX
 buy price: 1871.4
 cost: 1871.4
 datetime: 2022-04-19 15:28:33.044387+00:00
-type: buy
-________________________
-ticker: RUAL
-buy price: 63.165
-cost: 631.65
-datetime: 2022-04-19 15:25:37.337925+00:00
 type: buy
