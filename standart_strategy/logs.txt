@@ -1,3 +1,9 @@
+ticker: RUAL
+buy price: 63.415
+cost: 634.15
+datetime: 2022-04-20 12:00:48.608288+00:00
+type: buy
+________________________
 ticker: FIVE
 buy price: 1142.5
 cost: 1142.5
@@ -191,10 +197,4 @@ ticker: SBER
 buy price: 122.9
 cost: 1229.0
 datetime: 2022-04-20 10:13:12.626122+00:00
-type: buy
-________________________
-ticker: FIXP
-buy price: 400.5
-cost: 400.5
-datetime: 2022-04-20 10:09:34.822066+00:00
 type: buy
