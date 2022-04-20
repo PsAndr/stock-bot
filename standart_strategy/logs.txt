@@ -1,3 +1,9 @@
+ticker: DSKY
+buy price: 76.26
+cost: 762.6
+datetime: 2022-04-20 07:12:48.101537+00:00
+type: buy
+________________________
 ticker: GAZP
 buy price: 220.4
 cost: 2204.0
@@ -192,9 +198,3 @@ type: sell
 ________________________
 ticker: ALRS
 buy price: 78.0
-cost: 780.0
-datetime: 2022-04-20 07:00:57.939154+00:00
-type: buy
-________________________
-ticker: IRAO
-buy price: 2.4605
