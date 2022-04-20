@@ -1,3 +1,9 @@
+ticker: IRAO
+buy price: 2.45
+cost: 245.00000000000003
+datetime: 2022-04-20 08:26:19.508531+00:00
+type: buy
+________________________
 ticker: AFLT
 buy price: 30.2
 cost: 302.0
@@ -192,9 +198,3 @@ percent: -0.23529411764706773
 plus: -2.411280000000068
 commision: 0.61128
 sell price: 76.32
-cost: 763.1999999999999
-datetime: 2022-04-20 07:46:06.885529+00:00
-type: sell
-________________________
-ticker: VTBR
-percent: -0.27196083763937995
