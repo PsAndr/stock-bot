@@ -1,3 +1,9 @@
+ticker: GAZP
+buy price: 220.4
+cost: 2204.0
+datetime: 2022-04-20 07:12:45.739402+00:00
+type: buy
+________________________
 ticker: DSKY
 percent: -0.5519053876478228
 plus: -4.807119999999932
@@ -192,9 +198,3 @@ type: buy
 ________________________
 ticker: IRAO
 buy price: 2.4605
-cost: 246.05
-datetime: 2022-04-20 07:00:18.263565+00:00
-type: buy
-________________________
-ticker: YNDX
-buy price: 1876.0
