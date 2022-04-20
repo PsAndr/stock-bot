@@ -1,3 +1,12 @@
+ticker: MVID
+percent: -0.13513513513514025
+plus: -0.47748000000001134
+commision: 0.17748
+sell price: 221.7
+cost: 221.7
+datetime: 2022-04-20 11:33:29.120446+00:00
+type: sell
+________________________
 ticker: YNDX
 percent: 0.4504504504504553
 plus: 6.90480000000009
@@ -189,12 +198,3 @@ percent: -1.350675337668843
 plus: -5.717680000000034
 commision: 0.31768
 sell price: 394.4
-cost: 394.4
-datetime: 2022-04-20 09:54:54.822440+00:00
-type: sell
-________________________
-ticker: FIXP
-buy price: 399.8
-cost: 399.8
-datetime: 2022-04-20 09:52:49.835524+00:00
-type: buy
