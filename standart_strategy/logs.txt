@@ -1,3 +1,9 @@
+ticker: FIXP
+buy price: 379.0
+cost: 379.0
+datetime: 2022-04-20 07:20:11.644022+00:00
+type: buy
+________________________
 ticker: FIVE
 percent: -0.5777777777777777
 plus: -7.3974
@@ -192,9 +198,3 @@ sell price: 2.415
 cost: 241.5
 datetime: 2022-04-20 07:04:46.999847+00:00
 type: sell
-________________________
-ticker: YNDX
-percent: -0.6190941674812692
-plus: -12.868560000000091
-commision: 1.46856
-sell price: 1830.0
