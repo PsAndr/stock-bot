@@ -1,3 +1,9 @@
+ticker: IRAO
+buy price: 2.4605
+cost: 246.05
+datetime: 2022-04-20 07:00:18.263565+00:00
+type: buy
+________________________
 ticker: YNDX
 buy price: 1876.0
 cost: 1876.0
@@ -192,9 +198,3 @@ type: sell
 ________________________
 ticker: MTSS
 percent: 0.34965034965034963
-plus: 5.3956
-commision: 1.6044
-sell price: 200.9
-cost: 2009.0
-datetime: 2022-04-19 15:08:01.186356+00:00
-type: sell
