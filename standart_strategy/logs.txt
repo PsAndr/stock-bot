@@ -1,3 +1,9 @@
+ticker: SBER
+buy price: 123.82
+cost: 1238.1999999999998
+datetime: 2022-04-20 11:04:17.601534+00:00
+type: buy
+________________________
 ticker: YNDX
 percent: -0.2670940170940171
 plus: -6.4956
@@ -192,9 +198,3 @@ type: buy
 ________________________
 ticker: RUAL
 percent: 0.8278145695364237
-plus: 4.74054
-commision: 0.50946
-sell price: 63.945
-cost: 639.45
-datetime: 2022-04-20 09:30:08.480533+00:00
-type: sell
