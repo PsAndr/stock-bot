@@ -1,3 +1,12 @@
+ticker: RUAL
+percent: -0.29831998743915483
+plus: -2.4087599999999774
+commision: 0.50876
+sell price: 63.5
+cost: 635.0
+datetime: 2022-04-20 11:09:57.273532+00:00
+type: sell
+________________________
 ticker: DSKY
 buy price: 76.8
 cost: 768.0
@@ -189,12 +198,3 @@ type: sell
 ________________________
 ticker: VTBR
 percent: -0.5263157894736842
-plus: -1.1516
-commision: 0.1516
-sell price: 0.0189
-cost: 189.0
-datetime: 2022-04-20 09:30:28.317305+00:00
-type: sell
-________________________
-ticker: AFLT
-buy price: 30.58
