@@ -1,3 +1,13 @@
+ticker: AFLT
+percent: 1.374141161773884
+plus: 4.142079999999977
+commision: 0.25792000000000004
+sell price: 32.46
+cost: 324.6
+datetime: 2022-04-20 14:32:55.877978+00:00
+type: sell
+total plus percent: 2.286981737024644
+________________________
 ticker: RUAL
 buy price: 63.39
 cost: 633.9
@@ -188,13 +198,3 @@ ticker: SBER
 buy price: 121.99
 cost: 1219.8999999999999
 datetime: 2022-04-20 13:58:26.823725+00:00
-type: buy
-________________________
-ticker: MVID
-buy price: 217.1
-cost: 217.1
-datetime: 2022-04-20 13:58:05.738910+00:00
-type: buy
-________________________
-ticker: FIXP
-buy price: 393.7
