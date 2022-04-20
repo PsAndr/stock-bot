@@ -1,3 +1,9 @@
+ticker: AFLT
+buy price: 32.7
+cost: 327.0
+datetime: 2022-04-20 14:51:54.720478+00:00
+type: buy
+________________________
 ticker: ALRS
 buy price: 79.08
 cost: 790.8
@@ -192,9 +198,3 @@ type: buy
 ________________________
 ticker: FIVE
 buy price: 1126.0
-cost: 1126.0
-datetime: 2022-04-20 14:12:35.974939+00:00
-type: buy
-________________________
-ticker: FIXP
-percent: -1.422402844805681
