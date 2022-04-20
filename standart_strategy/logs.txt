@@ -1,3 +1,13 @@
+ticker: ALRS
+percent: -0.4809517782559256
+plus: -4.430560000000068
+commision: 0.63056
+sell price: 78.63
+cost: 786.3
+datetime: 2022-04-20 14:07:43.870822+00:00
+type: sell
+total plus percent: -1.0963750387432518
+________________________
 ticker: SBER
 buy price: 121.31
 cost: 1213.1
@@ -188,13 +198,3 @@ ticker: FIXP
 buy price: 393.4
 cost: 393.4
 datetime: 2022-04-20 13:46:54.127322+00:00
-type: buy
-________________________
-ticker: MVID
-percent: 0.27675276752767264
-plus: 0.4263199999999943
-commision: 0.17368
-sell price: 217.4
-cost: 217.4
-datetime: 2022-04-20 13:46:50.946303+00:00
-type: sell
