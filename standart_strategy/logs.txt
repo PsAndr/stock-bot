@@ -1,3 +1,9 @@
+ticker: RUAL
+buy price: 63.45
+cost: 634.5
+datetime: 2022-04-20 09:11:23.985661+00:00
+type: buy
+________________________
 ticker: DSKY
 buy price: 76.98
 cost: 769.8000000000001
@@ -192,9 +198,3 @@ type: buy
 ________________________
 ticker: IRAO
 buy price: 2.45
-cost: 245.00000000000003
-datetime: 2022-04-20 08:26:19.508531+00:00
-type: buy
-________________________
-ticker: AFLT
-buy price: 30.2
