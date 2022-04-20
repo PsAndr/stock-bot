@@ -1,3 +1,12 @@
+ticker: DSKY
+percent: -0.21130480718436645
+plus: -2.205120000000023
+commision: 0.6051200000000001
+sell price: 75.56
+cost: 755.6
+datetime: 2022-04-20 07:57:51.955965+00:00
+type: sell
+________________________
 ticker: SBER
 buy price: 118.92
 cost: 1189.2
@@ -189,12 +198,3 @@ type: buy
 ________________________
 ticker: MVID
 percent: -0.2334267040149393
-plus: -0.67116
-commision: 0.17116
-sell price: 213.7
-cost: 213.7
-datetime: 2022-04-20 07:39:20.770524+00:00
-type: sell
-________________________
-ticker: VTBR
-buy price: 0.018385
