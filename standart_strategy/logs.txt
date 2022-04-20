@@ -1,3 +1,9 @@
+ticker: VTBR
+buy price: 0.01903
+cost: 190.29999999999998
+datetime: 2022-04-20 13:25:58.875006+00:00
+type: buy
+________________________
 ticker: RUAL
 buy price: 63.43
 cost: 634.3
@@ -192,9 +198,3 @@ ticker: RUAL
 buy price: 63.685
 cost: 636.85
 datetime: 2022-04-20 11:22:57.219534+00:00
-type: buy
-________________________
-ticker: FIVE
-buy price: 1146.0
-cost: 1146.0
-datetime: 2022-04-20 11:21:30.363424+00:00
