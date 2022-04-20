@@ -1,3 +1,12 @@
+ticker: VTBR
+percent: -0.353549088931197
+plus: -0.7968200000000056
+commision: 0.14682
+sell price: 0.01832
+cost: 183.2
+datetime: 2022-04-20 07:33:43.380635+00:00
+type: sell
+________________________
 ticker: GAZP
 buy price: 217.6
 cost: 2176.0
@@ -189,12 +198,3 @@ type: buy
 ________________________
 ticker: GAZP
 percent: -0.8756805807622586
-plus: -21.05548000000018
-commision: 1.75548
-sell price: 218.47
-cost: 2184.7
-datetime: 2022-04-20 07:17:20.783480+00:00
-type: sell
-________________________
-ticker: IRAO
-percent: 0.12360939431397254
