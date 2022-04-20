@@ -1,3 +1,12 @@
+ticker: FIXP
+percent: -1.148564294631716
+plus: -4.9185600000000225
+commision: 0.31856
+sell price: 395.9
+cost: 395.9
+datetime: 2022-04-20 10:14:24.961249+00:00
+type: sell
+________________________
 ticker: VTBR
 buy price: 0.019
 cost: 190.0
@@ -188,13 +197,4 @@ commision: 0.9845200000000001
 sell price: 122.53
 cost: 1225.3
 datetime: 2022-04-20 09:13:33.796933+00:00
-type: sell
-________________________
-ticker: RUAL
-percent: -0.3940110323089046
-plus: -3.0066
-commision: 0.5066
-sell price: 63.2
-cost: 632.0
-datetime: 2022-04-20 09:13:32.201516+00:00
 type: sell
