@@ -1,4 +1,14 @@
 ticker: FIVE
+percent: -0.7846556233653008
+plus: -9.914
+commision: 0.9140000000000001
+sell price: 1138.0
+cost: 1138.0
+datetime: 2022-04-20 15:28:15.969305+00:00
+type: sell
+total plus percent: -2.944468585000827
+________________________
+ticker: FIVE
 buy price: 1147.0
 cost: 1147.0
 datetime: 2022-04-20 15:27:21.006464+00:00
@@ -187,14 +197,4 @@ commision: 0.50746
 sell price: 63.475
 cost: 634.75
 datetime: 2022-04-20 14:48:15.785714+00:00
-type: sell
-total plus percent: -0.19698307390787423
-________________________
-ticker: ALRS
-percent: 0.06347594261774787
-plus: -0.13036000000000003
-commision: 0.63036
-sell price: 78.82
-cost: 788.1999999999999
-datetime: 2022-04-20 14:46:28.851559+00:00
 type: sell
