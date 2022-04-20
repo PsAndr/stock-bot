@@ -1,3 +1,9 @@
+ticker: RUAL
+buy price: 63.39
+cost: 633.9
+datetime: 2022-04-20 12:02:22.647451+00:00
+type: buy
+________________________
 ticker: AFLT
 percent: 0.0
 plus: -0.24512
@@ -192,9 +198,3 @@ type: sell
 ________________________
 ticker: RUAL
 buy price: 63.69
-cost: 636.9
-datetime: 2022-04-20 10:33:47.231526+00:00
-type: buy
-________________________
-ticker: FIXP
-buy price: 401.0
