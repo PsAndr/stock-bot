@@ -1,3 +1,13 @@
+ticker: AFLT
+percent: 1.3513513513513442
+plus: 4.137759999999977
+commision: 0.26224000000000003
+sell price: 33.0
+cost: 330.0
+datetime: 2022-04-20 14:56:59.562471+00:00
+type: sell
+total plus percent: 2.3324609491250947
+________________________
 ticker: FIVE
 percent: -0.3518029903254178
 plus: -4.908
@@ -188,13 +198,3 @@ ticker: SBER
 buy price: 121.14
 cost: 1211.4
 datetime: 2022-04-20 14:26:16.784879+00:00
-type: buy
-________________________
-ticker: FIXP
-buy price: 391.0
-cost: 391.0
-datetime: 2022-04-20 14:18:27.806138+00:00
-type: buy
-________________________
-ticker: FIVE
-percent: 0.04440497335701599
