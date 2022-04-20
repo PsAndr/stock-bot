@@ -1,3 +1,12 @@
+ticker: SBER
+percent: 0.338409475465313
+plus: 3.0528
+commision: 0.9472
+sell price: 118.6
+cost: 1186.0
+datetime: 2022-04-20 07:41:43.869534+00:00
+type: sell
+________________________
 ticker: DSKY
 percent: -0.34093889325990334
 plus: -3.209040000000023
@@ -189,12 +198,3 @@ percent: -0.6436781609195429
 plus: -1.5734400000000057
 commision: 0.17344
 sell price: 216.1
-cost: 216.1
-datetime: 2022-04-20 07:28:34.051814+00:00
-type: sell
-________________________
-ticker: RUAL
-percent: -0.2937207271572633
-plus: -2.353140000000023
-commision: 0.50314
-sell price: 62.8
