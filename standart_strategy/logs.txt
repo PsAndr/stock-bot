@@ -1,3 +1,13 @@
+ticker: AFLT
+percent: 1.7341040462427855
+plus: 5.148720000000034
+commision: 0.25128
+sell price: 31.68
+cost: 316.8
+datetime: 2022-04-20 14:31:04.712946+00:00
+type: sell
+total plus percent: 0.9128405752507598
+________________________
 ticker: FIVE
 buy price: 1137.0
 cost: 1137.0
@@ -188,13 +198,3 @@ ticker: SBER
 percent: 0.13093289689033624
 plus: 0.621759999999909
 commision: 0.97824
-sell price: 122.36
-cost: 1223.6
-datetime: 2022-04-20 13:56:11.818715+00:00
-type: sell
-total plus percent: -0.4785754330568397
-________________________
-ticker: YNDX
-buy price: 1821.0
-cost: 1821.0
-datetime: 2022-04-20 13:55:42.882635+00:00
