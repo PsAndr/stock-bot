@@ -1,3 +1,9 @@
+ticker: SBER
+buy price: 119.0
+cost: 1190.0
+datetime: 2022-04-20 08:18:32.525524+00:00
+type: buy
+________________________
 ticker: YNDX
 buy price: 1825.6
 cost: 1825.6
@@ -191,10 +197,4 @@ ticker: DSKY
 buy price: 76.5
 cost: 765.0
 datetime: 2022-04-20 07:45:11.881996+00:00
-type: buy
-________________________
-ticker: IRAO
-buy price: 2.4595
-cost: 245.95
-datetime: 2022-04-20 07:44:25.877990+00:00
 type: buy
