@@ -1,3 +1,9 @@
+ticker: DSKY
+buy price: 76.26
+cost: 762.6
+datetime: 2022-04-20 07:39:01.873537+00:00
+type: buy
+________________________
 ticker: MVID
 buy price: 214.2
 cost: 214.2
@@ -192,9 +198,3 @@ percent: 0.8666666666666742
 plus: 2.358960000000023
 commision: 0.24104000000000003
 sell price: 30.26
-cost: 302.6
-datetime: 2022-04-20 07:24:38.761536+00:00
-type: sell
-________________________
-ticker: SBER
-percent: -0.5171407123196301
