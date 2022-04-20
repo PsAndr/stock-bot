@@ -1,3 +1,12 @@
+ticker: DSKY
+percent: -0.7554050533993169
+plus: -6.411919999999954
+commision: 0.61192
+sell price: 76.2
+cost: 762.0
+datetime: 2022-04-20 07:35:46.867857+00:00
+type: sell
+________________________
 ticker: IRAO
 buy price: 2.4245
 cost: 242.45000000000002
@@ -189,12 +198,3 @@ type: sell
 ________________________
 ticker: RUAL
 buy price: 62.985
-cost: 629.85
-datetime: 2022-04-20 07:19:42.267742+00:00
-type: buy
-________________________
-ticker: FIVE
-buy price: 1125.0
-cost: 1125.0
-datetime: 2022-04-20 07:19:15.375839+00:00
-type: buy
