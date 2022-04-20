@@ -1,3 +1,13 @@
+ticker: AFLT
+percent: 0.12292562999384675
+plus: 0.13951999999997727
+commision: 0.26048
+sell price: 32.58
+cost: 325.79999999999995
+datetime: 2022-04-20 15:35:19.883775+00:00
+type: sell
+total plus percent: 2.133682525648068
+________________________
 ticker: FIVE
 buy price: 1137.5
 cost: 1137.5
@@ -188,13 +198,3 @@ sell price: 32.68
 cost: 326.8
 datetime: 2022-04-20 14:52:19.606998+00:00
 type: sell
-total plus percent: 0.9811095977737506
-________________________
-ticker: AFLT
-buy price: 32.7
-cost: 327.0
-datetime: 2022-04-20 14:51:54.720478+00:00
-type: buy
-________________________
-ticker: ALRS
-buy price: 79.08
