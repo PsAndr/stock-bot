@@ -1,3 +1,9 @@
+ticker: DSKY
+buy price: 76.5
+cost: 765.0
+datetime: 2022-04-20 07:45:11.881996+00:00
+type: buy
+________________________
 ticker: IRAO
 buy price: 2.4595
 cost: 245.95
@@ -192,9 +198,3 @@ percent: -0.353549088931197
 plus: -0.7968200000000056
 commision: 0.14682
 sell price: 0.01832
-cost: 183.2
-datetime: 2022-04-20 07:33:43.380635+00:00
-type: sell
-________________________
-ticker: GAZP
-buy price: 217.6
