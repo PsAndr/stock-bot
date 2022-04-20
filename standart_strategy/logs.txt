@@ -1,3 +1,9 @@
+ticker: AFLT
+buy price: 31.56
+cost: 315.59999999999997
+datetime: 2022-04-20 13:27:24.666088+00:00
+type: buy
+________________________
 ticker: YNDX
 buy price: 1821.2
 cost: 1821.2
@@ -192,9 +198,3 @@ datetime: 2022-04-20 11:31:37.611864+00:00
 type: sell
 ________________________
 ticker: FIVE
-percent: -0.9598603839441536
-plus: -11.9124
-commision: 0.9124000000000001
-sell price: 1135.0
-cost: 1135.0
-datetime: 2022-04-20 11:27:45.371535+00:00
