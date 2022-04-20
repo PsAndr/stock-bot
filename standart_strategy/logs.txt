@@ -1,3 +1,13 @@
+ticker: FIXP
+percent: 0.07672634271100036
+plus: -0.012919999999988663
+commision: 0.31292000000000003
+sell price: 391.3
+cost: 391.3
+datetime: 2022-04-20 14:36:47.717004+00:00
+type: sell
+total plus percent: -2.5912281035181626
+________________________
 ticker: AFLT
 buy price: 32.12
 cost: 321.2
@@ -188,13 +198,3 @@ type: buy
 ________________________
 ticker: YNDX
 percent: -0.9335529928610654
-plus: -18.45
-commision: 1.4500000000000002
-sell price: 1804.0
-cost: 1804.0
-datetime: 2022-04-20 14:05:12.833005+00:00
-type: sell
-total plus percent: -1.8340581542930932
-________________________
-ticker: AFLT
-percent: 0.1926782273603156
