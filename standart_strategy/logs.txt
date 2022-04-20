@@ -1,3 +1,9 @@
+ticker: AFLT
+buy price: 32.02
+cost: 320.20000000000005
+datetime: 2022-04-20 14:31:31.756723+00:00
+type: buy
+________________________
 ticker: SBER
 buy price: 121.97
 cost: 1219.7
@@ -192,9 +198,3 @@ type: buy
 ________________________
 ticker: VTBR
 percent: 0.0
-plus: -0.15132
-commision: 0.15132
-sell price: 0.018915
-cost: 189.15
-datetime: 2022-04-20 13:56:14.988725+00:00
-type: sell
