@@ -1,3 +1,9 @@
+ticker: FIXP
+buy price: 379.8
+cost: 379.8
+datetime: 2022-04-20 07:17:49.910593+00:00
+type: buy
+________________________
 ticker: GAZP
 percent: -0.8756805807622586
 plus: -21.05548000000018
@@ -192,9 +198,3 @@ type: buy
 ________________________
 ticker: YNDX
 percent: -2.4733475479744187
-plus: -47.88224000000009
-commision: 1.48224
-sell price: 1829.6
-cost: 1829.6
-datetime: 2022-04-20 07:02:22.997542+00:00
-type: sell
