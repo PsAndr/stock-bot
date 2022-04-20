@@ -1,3 +1,9 @@
+ticker: VTBR
+buy price: 0.01906
+cost: 190.6
+datetime: 2022-04-20 08:59:38.453510+00:00
+type: buy
+________________________
 ticker: DSKY
 buy price: 77.02
 cost: 770.1999999999999
@@ -192,9 +198,3 @@ type: sell
 ________________________
 ticker: ALRS
 percent: 0.38809831824062097
-plus: 2.3804
-commision: 0.6196
-sell price: 77.6
-cost: 776.0
-datetime: 2022-04-20 07:58:26.482050+00:00
-type: sell
