@@ -1,3 +1,9 @@
+ticker: GAZP
+buy price: 224.83
+cost: 2248.3
+datetime: 2022-04-20 09:30:05.741550+00:00
+type: buy
+________________________
 ticker: YNDX
 percent: -0.7480230818550972
 plus: -15.49168
@@ -192,9 +198,3 @@ sell price: 219.6
 cost: 219.6
 datetime: 2022-04-20 08:49:44.044534+00:00
 type: sell
-________________________
-ticker: YNDX
-buy price: 1847.8
-cost: 1847.8
-datetime: 2022-04-20 08:48:18.007206+00:00
-type: buy
