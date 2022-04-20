@@ -1,3 +1,12 @@
+ticker: YNDX
+percent: -0.6190941674812692
+plus: -12.868560000000091
+commision: 1.46856
+sell price: 1830.0
+cost: 1830.0
+datetime: 2022-04-20 07:04:44.277524+00:00
+type: sell
+________________________
 ticker: DSKY
 percent: 0.8778930566640093
 plus: 5.995920000000023
@@ -189,12 +198,3 @@ type: sell
 ________________________
 ticker: DSKY
 buy price: 75.4
-cost: 754.0
-datetime: 2022-04-19 15:33:31.901952+00:00
-type: buy
-________________________
-ticker: IRAO
-percent: 0.4954582989265023
-plus: 1.0057599999999887
-commision: 0.19424000000000002
-sell price: 2.434
