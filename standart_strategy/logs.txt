@@ -1,3 +1,9 @@
+ticker: RUAL
+buy price: 63.43
+cost: 634.3
+datetime: 2022-04-20 13:20:25.762534+00:00
+type: buy
+________________________
 ticker: ALRS
 buy price: 79.62
 cost: 796.2
@@ -192,9 +198,3 @@ ticker: FIVE
 buy price: 1146.0
 cost: 1146.0
 datetime: 2022-04-20 11:21:30.363424+00:00
-type: buy
-________________________
-ticker: YNDX
-buy price: 1864.8
-cost: 1864.8
-datetime: 2022-04-20 11:19:53.132585+00:00
