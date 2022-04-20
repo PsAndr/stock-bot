@@ -1,3 +1,9 @@
+ticker: DSKY
+buy price: 76.58
+cost: 765.8
+datetime: 2022-04-20 12:43:14.974513+00:00
+type: buy
+________________________
 ticker: RUAL
 buy price: 63.38
 cost: 633.8000000000001
@@ -192,9 +198,3 @@ ticker: SBER
 buy price: 123.82
 cost: 1238.1999999999998
 datetime: 2022-04-20 11:04:17.601534+00:00
-type: buy
-________________________
-ticker: YNDX
-percent: -0.2670940170940171
-plus: -6.4956
-commision: 1.4956
