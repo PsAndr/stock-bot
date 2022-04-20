@@ -1,3 +1,13 @@
+ticker: VTBR
+percent: 0.23646873357858408
+plus: 0.2975800000000455
+commision: 0.15242
+sell price: 0.019075
+cost: 190.75000000000003
+datetime: 2022-04-20 13:41:08.885714+00:00
+type: sell
+total plus percent: 0.23646873357858408
+________________________
 ticker: GAZP
 percent: -0.6210902591599683
 plus: -15.68484000000009
@@ -188,13 +198,3 @@ sell price: 63.39
 cost: 633.9
 datetime: 2022-04-20 12:02:23.925182+00:00
 type: sell
-total plus percent: 0.0
-________________________
-ticker: RUAL
-buy price: 63.39
-cost: 633.9
-datetime: 2022-04-20 12:02:22.647451+00:00
-type: buy
-________________________
-ticker: AFLT
-percent: 0.0
