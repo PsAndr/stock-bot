@@ -1,3 +1,12 @@
+ticker: RUAL
+percent: 0.8278145695364237
+plus: 4.74054
+commision: 0.50946
+sell price: 63.945
+cost: 639.45
+datetime: 2022-04-20 09:30:08.480533+00:00
+type: sell
+________________________
 ticker: GAZP
 buy price: 224.83
 cost: 2248.3
@@ -189,12 +198,3 @@ buy price: 121.25
 cost: 1212.5
 datetime: 2022-04-20 08:50:32.595533+00:00
 type: buy
-________________________
-ticker: MVID
-percent: 0.7801743919228952
-plus: 1.5249999999999886
-commision: 0.175
-sell price: 219.6
-cost: 219.6
-datetime: 2022-04-20 08:49:44.044534+00:00
-type: sell
