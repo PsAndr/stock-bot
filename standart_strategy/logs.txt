@@ -1,3 +1,9 @@
+ticker: FIVE
+buy price: 1146.0
+cost: 1146.0
+datetime: 2022-04-20 11:21:30.363424+00:00
+type: buy
+________________________
 ticker: YNDX
 buy price: 1864.8
 cost: 1864.8
@@ -192,9 +198,3 @@ percent: -0.812834224598933
 plus: -16.689920000000047
 commision: 1.4899200000000001
 sell price: 1854.8
-cost: 1854.8
-datetime: 2022-04-20 09:38:48.270534+00:00
-type: sell
-________________________
-ticker: YNDX
-buy price: 1870.0
