@@ -1,3 +1,9 @@
+ticker: FIXP
+buy price: 378.0
+cost: 378.0
+datetime: 2022-04-20 08:29:29.897365+00:00
+type: buy
+________________________
 ticker: IRAO
 buy price: 2.45
 cost: 245.00000000000003
@@ -192,9 +198,3 @@ sell price: 2.4655
 cost: 246.55
 datetime: 2022-04-20 07:46:10.804538+00:00
 type: sell
-________________________
-ticker: DSKY
-percent: -0.23529411764706773
-plus: -2.411280000000068
-commision: 0.61128
-sell price: 76.32
