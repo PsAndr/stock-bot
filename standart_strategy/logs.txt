@@ -1,3 +1,9 @@
+ticker: MVID
+buy price: 217.5
+cost: 217.5
+datetime: 2022-04-20 07:08:35.661527+00:00
+type: buy
+________________________
 ticker: VTBR
 percent: 0.2699055330634278
 plus: 0.3516
@@ -191,10 +197,4 @@ ticker: SBER
 buy price: 121.49
 cost: 1214.8999999999999
 datetime: 2022-04-20 07:00:05.116999+00:00
-type: buy
-________________________
-ticker: RUAL
-buy price: 63.53
-cost: 635.3
-datetime: 2022-04-20 07:00:01.774345+00:00
 type: buy
