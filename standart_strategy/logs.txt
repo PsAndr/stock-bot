@@ -1,3 +1,9 @@
+ticker: AFLT
+buy price: 30.0
+cost: 300.0
+datetime: 2022-04-20 07:03:29.144533+00:00
+type: buy
+________________________
 ticker: YNDX
 buy price: 1841.4
 cost: 1841.4
@@ -191,10 +197,4 @@ ticker: VTBR
 buy price: 0.01868
 cost: 186.79999999999998
 datetime: 2022-04-19 15:29:23.372815+00:00
-type: buy
-________________________
-ticker: YNDX
-buy price: 1871.4
-cost: 1871.4
-datetime: 2022-04-19 15:28:33.044387+00:00
 type: buy
