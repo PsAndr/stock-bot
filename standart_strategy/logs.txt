@@ -1,3 +1,9 @@
+ticker: FIVE
+buy price: 1125.0
+cost: 1125.0
+datetime: 2022-04-20 07:19:15.375839+00:00
+type: buy
+________________________
 ticker: FIXP
 percent: -1.0268562401263912
 plus: -4.202280000000034
@@ -192,9 +198,3 @@ type: sell
 ________________________
 ticker: IRAO
 buy price: 2.422
-cost: 242.20000000000002
-datetime: 2022-04-20 07:04:21.996785+00:00
-type: buy
-________________________
-ticker: VTBR
-buy price: 0.018525
