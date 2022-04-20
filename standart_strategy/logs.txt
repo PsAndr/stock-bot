@@ -1,3 +1,9 @@
+ticker: SBER
+buy price: 118.2
+cost: 1182.0
+datetime: 2022-04-20 07:35:17.617126+00:00
+type: buy
+________________________
 ticker: YNDX
 buy price: 1824.6
 cost: 1824.6
@@ -192,9 +198,3 @@ percent: -1.0268562401263912
 plus: -4.202280000000034
 commision: 0.30228
 sell price: 375.9
-cost: 375.9
-datetime: 2022-04-20 07:18:53.071796+00:00
-type: sell
-________________________
-ticker: VTBR
-percent: -0.42815092320041903
