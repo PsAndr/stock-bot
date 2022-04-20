@@ -1,3 +1,9 @@
+ticker: ALRS
+buy price: 79.08
+cost: 790.8
+datetime: 2022-04-20 14:51:23.863672+00:00
+type: buy
+________________________
 ticker: VTBR
 buy price: 0.01886
 cost: 188.6
@@ -192,9 +198,3 @@ type: buy
 ________________________
 ticker: FIXP
 percent: -1.422402844805681
-plus: -5.912719999999966
-commision: 0.31272
-sell price: 388.1
-cost: 388.1
-datetime: 2022-04-20 14:10:52.555921+00:00
-type: sell
