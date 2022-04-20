@@ -1,3 +1,12 @@
+ticker: MVID
+percent: -0.2334267040149393
+plus: -0.67116
+commision: 0.17116
+sell price: 213.7
+cost: 213.7
+datetime: 2022-04-20 07:39:20.770524+00:00
+type: sell
+________________________
 ticker: VTBR
 buy price: 0.018385
 cost: 183.85
@@ -189,12 +198,3 @@ type: sell
 ________________________
 ticker: MTSS
 buy price: 199.15
-cost: 1991.5
-datetime: 2022-04-20 07:26:41.533484+00:00
-type: buy
-________________________
-ticker: SBER
-buy price: 118.98
-cost: 1189.8
-datetime: 2022-04-20 07:25:52.575989+00:00
-type: buy
