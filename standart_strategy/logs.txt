@@ -1,4 +1,13 @@
 ticker: DSKY
+percent: -0.44642857142856845
+plus: -4.007919999999977
+commision: 0.60792
+sell price: 75.82
+cost: 758.1999999999999
+datetime: 2022-04-20 07:06:01.917538+00:00
+type: sell
+________________________
+ticker: DSKY
 buy price: 76.16
 cost: 761.5999999999999
 datetime: 2022-04-20 07:04:58.145403+00:00
@@ -189,12 +198,3 @@ sell price: 75.26
 cost: 752.6
 datetime: 2022-04-19 15:38:36.938667+00:00
 type: sell
-________________________
-ticker: FIXP
-buy price: 376.5
-cost: 376.5
-datetime: 2022-04-19 15:38:11.414873+00:00
-type: buy
-________________________
-ticker: MTSS
-buy price: 201.4
