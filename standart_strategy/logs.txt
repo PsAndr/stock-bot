@@ -1,3 +1,9 @@
+ticker: SBER
+buy price: 122.2
+cost: 1222.0
+datetime: 2022-04-20 13:53:36.781552+00:00
+type: buy
+________________________
 ticker: AFLT
 buy price: 31.14
 cost: 311.4
@@ -191,10 +197,4 @@ cost: 217.1
 datetime: 2022-04-20 13:32:26.962780+00:00
 type: sell
 total plus percent: -0.5952380952381005
-________________________
-ticker: GAZP
-buy price: 223.8
-cost: 2238.0
-datetime: 2022-04-20 13:32:16.949181+00:00
-type: buy
 ________________________
