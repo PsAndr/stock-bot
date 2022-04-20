@@ -1,3 +1,12 @@
+ticker: VTBR
+percent: -0.42815092320041903
+plus: -0.9491599999999829
+commision: 0.14916000000000001
+sell price: 0.018605
+cost: 186.05
+datetime: 2022-04-20 07:18:50.311746+00:00
+type: sell
+________________________
 ticker: DSKY
 buy price: 76.2
 cost: 762.0
@@ -189,12 +198,3 @@ percent: -0.817641228939544
 plus: -18.1078
 commision: 1.6078000000000001
 sell price: 200.15
-cost: 2001.5
-datetime: 2022-04-20 07:04:16.126512+00:00
-type: sell
-________________________
-ticker: SBER
-buy price: 119.43
-cost: 1194.3000000000002
-datetime: 2022-04-20 07:03:52.627536+00:00
-type: buy
