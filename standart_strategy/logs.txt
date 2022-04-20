@@ -1,3 +1,9 @@
+ticker: SBER
+buy price: 121.25
+cost: 1212.5
+datetime: 2022-04-20 08:50:32.595533+00:00
+type: buy
+________________________
 ticker: MVID
 percent: 0.7801743919228952
 plus: 1.5249999999999886
@@ -192,9 +198,3 @@ percent: -0.21130480718436645
 plus: -2.205120000000023
 commision: 0.6051200000000001
 sell price: 75.56
-cost: 755.6
-datetime: 2022-04-20 07:57:51.955965+00:00
-type: sell
-________________________
-ticker: SBER
-buy price: 118.92
