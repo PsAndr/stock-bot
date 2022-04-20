@@ -1,3 +1,9 @@
+ticker: GAZP
+buy price: 223.8
+cost: 2238.0
+datetime: 2022-04-20 13:32:16.949181+00:00
+type: buy
+________________________
 ticker: MVID
 buy price: 218.4
 cost: 218.4
@@ -192,9 +198,3 @@ commision: 1.4952
 sell price: 1873.2
 cost: 1873.2
 datetime: 2022-04-20 11:32:58.022537+00:00
-type: sell
-________________________
-ticker: SBER
-percent: 0.7833952511710769
-plus: 8.705560000000272
-commision: 0.99444
