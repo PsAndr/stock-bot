@@ -1,3 +1,9 @@
+ticker: AFLT
+buy price: 30.7
+cost: 307.0
+datetime: 2022-04-20 11:23:48.685524+00:00
+type: buy
+________________________
 ticker: RUAL
 buy price: 63.685
 cost: 636.85
@@ -192,9 +198,3 @@ sell price: 77.3
 cost: 773.0
 datetime: 2022-04-20 09:42:41.839490+00:00
 type: sell
-________________________
-ticker: YNDX
-buy price: 1872.0
-cost: 1872.0
-datetime: 2022-04-20 09:40:27.954533+00:00
-type: buy
