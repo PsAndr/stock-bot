@@ -1,3 +1,12 @@
+ticker: GAZP
+percent: 0.6852343059239611
+plus: 13.6842
+commision: 1.8158
+sell price: 227.75
+cost: 2277.5
+datetime: 2022-04-20 09:22:00.762536+00:00
+type: sell
+________________________
 ticker: YNDX
 buy price: 1871.6
 cost: 1871.6
@@ -189,12 +198,3 @@ percent: 2.420168067226887
 plus: 27.836479999999955
 commision: 0.96352
 sell price: 121.88
-cost: 1218.8
-datetime: 2022-04-20 08:46:52.608531+00:00
-type: sell
-________________________
-ticker: YNDX
-percent: 1.7418930762489144
-plus: 30.326800000000183
-commision: 1.4732
-sell price: 1857.4
