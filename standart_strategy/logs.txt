@@ -1,3 +1,9 @@
+ticker: RUAL
+buy price: 63.485
+cost: 634.85
+datetime: 2022-04-20 09:05:27.232558+00:00
+type: buy
+________________________
 ticker: SBER
 percent: 0.79175257731958
 plus: 8.62615999999991
@@ -192,9 +198,3 @@ sell price: 118.68
 cost: 1186.8000000000002
 datetime: 2022-04-20 08:05:12.653530+00:00
 type: sell
-________________________
-ticker: SBER
-buy price: 118.92
-cost: 1189.2
-datetime: 2022-04-20 08:04:12.540529+00:00
-type: buy
