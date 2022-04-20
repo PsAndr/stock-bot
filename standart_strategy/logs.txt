@@ -1,3 +1,9 @@
+ticker: SBER
+buy price: 118.92
+cost: 1189.2
+datetime: 2022-04-20 07:55:53.991526+00:00
+type: buy
+________________________
 ticker: DSKY
 buy price: 75.72
 cost: 757.2
@@ -192,9 +198,3 @@ type: sell
 ________________________
 ticker: VTBR
 buy price: 0.018385
-cost: 183.85
-datetime: 2022-04-20 07:39:18.360535+00:00
-type: buy
-________________________
-ticker: YNDX
-buy price: 1825.0
