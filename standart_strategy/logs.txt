@@ -1,3 +1,9 @@
+ticker: DSKY
+buy price: 76.8
+cost: 768.0
+datetime: 2022-04-20 07:46:36.889366+00:00
+type: buy
+________________________
 ticker: IRAO
 percent: 0.2439520227688647
 plus: 0.40300000000002273
@@ -192,9 +198,3 @@ type: buy
 ________________________
 ticker: YNDX
 buy price: 1824.6
-cost: 1824.6
-datetime: 2022-04-20 07:34:49.146126+00:00
-type: buy
-________________________
-ticker: DSKY
-buy price: 76.78
