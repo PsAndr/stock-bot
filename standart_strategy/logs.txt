@@ -1,3 +1,9 @@
+ticker: MVID
+buy price: 214.2
+cost: 214.2
+datetime: 2022-04-20 07:37:40.421877+00:00
+type: buy
+________________________
 ticker: YNDX
 percent: -0.37346221441124533
 plus: -8.253919999999955
@@ -192,9 +198,3 @@ type: sell
 ________________________
 ticker: SBER
 percent: -0.5171407123196301
-plus: -7.156640000000046
-commision: 0.9566400000000002
-sell price: 119.27
-cost: 1192.7
-datetime: 2022-04-20 07:23:57.703149+00:00
-type: sell
