@@ -1,3 +1,13 @@
+ticker: MVID
+percent: -1.697792869269949
+plus: -4.18688
+commision: 0.18688
+sell price: 231.6
+cost: 231.6
+datetime: 2022-04-21 08:34:04.539214+00:00
+type: sell
+total plus percent: -4.768632982177241
+________________________
 ticker: AFLT
 percent: 0.625
 plus: 1.7431999999999999
@@ -188,13 +198,3 @@ sell price: 0.018905
 cost: 189.05
 datetime: 2022-04-21 08:02:32.585521+00:00
 type: sell
-total plus percent: -1.5914460001732669
-________________________
-ticker: AFLT
-buy price: 32.0
-cost: 320.0
-datetime: 2022-04-21 08:01:58.460943+00:00
-type: buy
-________________________
-ticker: ALRS
-buy price: 80.18
