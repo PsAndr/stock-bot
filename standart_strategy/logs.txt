@@ -1,3 +1,13 @@
+ticker: FIVE
+percent: 0.34797738147020446
+plus: 3.0788
+commision: 0.9212
+sell price: 1153.5
+cost: 1153.5
+datetime: 2022-04-21 11:07:30.832370+00:00
+type: sell
+total plus percent: -4.9180398390674815
+________________________
 ticker: VTBR
 buy price: 0.01911
 cost: 191.1
@@ -188,13 +198,3 @@ sell price: 1143.0
 cost: 1143.0
 datetime: 2022-04-21 09:31:15.947758+00:00
 type: sell
-total plus percent: -4.526886785755077
-________________________
-ticker: FIVE
-buy price: 1148.5
-cost: 1148.5
-datetime: 2022-04-21 09:30:40.848326+00:00
-type: buy
-________________________
-ticker: MVID
-percent: -1.0412147505423017
