@@ -1,3 +1,13 @@
+ticker: FIXP
+percent: -0.12509382036527397
+plus: -0.8195600000000001
+commision: 0.31956
+sell price: 399.2
+cost: 399.2
+datetime: 2022-04-21 09:06:01.003948+00:00
+type: sell
+total plus percent: 0.4764510601668691
+________________________
 ticker: RUAL
 buy price: 64.38
 cost: 643.8
@@ -188,13 +198,3 @@ ticker: RUAL
 buy price: 64.15
 cost: 641.5
 datetime: 2022-04-21 08:23:55.058028+00:00
-type: buy
-________________________
-ticker: MVID
-buy price: 235.6
-cost: 235.6
-datetime: 2022-04-21 08:23:24.342910+00:00
-type: buy
-________________________
-ticker: RUAL
-percent: -0.36578722079539616
