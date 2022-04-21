@@ -1,4 +1,14 @@
 ticker: FIVE
+percent: -0.478885502829778
+plus: -6.4166
+commision: 0.9166000000000001
+sell price: 1143.0
+cost: 1143.0
+datetime: 2022-04-21 09:31:15.947758+00:00
+type: sell
+total plus percent: -4.526886785755077
+________________________
+ticker: FIVE
 buy price: 1148.5
 cost: 1148.5
 datetime: 2022-04-21 09:30:40.848326+00:00
@@ -188,13 +198,3 @@ ticker: FIXP
 buy price: 399.7
 cost: 399.7
 datetime: 2022-04-21 08:58:45.982622+00:00
-type: buy
-________________________
-ticker: MVID
-buy price: 230.4
-cost: 230.4
-datetime: 2022-04-21 08:56:24.257848+00:00
-type: buy
-________________________
-ticker: VTBR
-buy price: 0.01897
