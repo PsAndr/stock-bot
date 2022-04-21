@@ -1,3 +1,13 @@
+ticker: FIXP
+percent: -1.253918495297803
+plus: -5.529679999999988
+commision: 0.32968
+sell price: 409.5
+cost: 409.5
+datetime: 2022-04-21 14:21:20.918199+00:00
+type: sell
+total plus percent: -2.9858396448834394
+________________________
 ticker: AFLT
 percent: -0.3745318352059713
 plus: -1.4558399999999319
@@ -188,13 +198,3 @@ ticker: FIVE
 buy price: 1143.5
 cost: 1143.5
 datetime: 2022-04-21 13:27:40.852291+00:00
-type: buy
-________________________
-ticker: FIXP
-buy price: 414.7
-cost: 414.7
-datetime: 2022-04-21 13:25:31.234479+00:00
-type: buy
-________________________
-ticker: AFLT
-buy price: 32.32
