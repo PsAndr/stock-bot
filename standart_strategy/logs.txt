@@ -1,3 +1,13 @@
+ticker: SBER
+percent: 0.6347374495095249
+plus: 6.7264400000000455
+commision: 0.97356
+sell price: 122.08
+cost: 1220.8
+datetime: 2022-04-21 07:02:52.157899+00:00
+type: sell
+total plus percent: 0.6347374495095249
+________________________
 ticker: FIVE
 percent: -0.3476749239461104
 plus: -4.9188
@@ -187,14 +197,4 @@ commision: 0.1509
 sell price: 0.018865
 cost: 188.65
 datetime: 2022-04-20 15:09:58.778713+00:00
-type: sell
-total plus percent: -0.6044999806212269
-________________________
-ticker: ALRS
-percent: -0.06322711178553364
-plus: -1.13244
-commision: 0.63244
-sell price: 79.03
-cost: 790.3
-datetime: 2022-04-20 15:08:38.837300+00:00
 type: sell
