@@ -1,3 +1,9 @@
+ticker: RUAL
+buy price: 64.155
+cost: 641.55
+datetime: 2022-04-21 07:06:20.314926+00:00
+type: buy
+________________________
 ticker: SBER
 percent: -0.7617955439056319
 plus: -10.272919999999955
@@ -192,9 +198,3 @@ total plus percent: -2.944468585000827
 ________________________
 ticker: FIVE
 buy price: 1147.0
-cost: 1147.0
-datetime: 2022-04-20 15:27:21.006464+00:00
-type: buy
-________________________
-ticker: FIVE
-percent: -0.5272407732864675
