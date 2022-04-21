@@ -1,4 +1,14 @@
 ticker: FIVE
+percent: -0.8841732979664014
+plus: -10.9008
+commision: 0.9008
+sell price: 1121.0
+cost: 1121.0
+datetime: 2022-04-21 07:38:35.862152+00:00
+type: sell
+total plus percent: -4.048001282925299
+________________________
+ticker: FIVE
 buy price: 1131.0
 cost: 1131.0
 datetime: 2022-04-21 07:38:00.863402+00:00
@@ -188,13 +198,3 @@ ticker: ALRS
 buy price: 79.53
 cost: 795.3
 datetime: 2022-04-21 07:23:58.377087+00:00
-type: buy
-________________________
-ticker: VTBR
-buy price: 0.01888
-cost: 188.8
-datetime: 2022-04-21 07:23:12.553947+00:00
-type: buy
-________________________
-ticker: AFLT
-buy price: 32.9
