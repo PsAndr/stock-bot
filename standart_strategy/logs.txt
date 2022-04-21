@@ -1,3 +1,9 @@
+ticker: AFLT
+buy price: 32.32
+cost: 323.2
+datetime: 2022-04-21 13:18:08.418198+00:00
+type: buy
+________________________
 ticker: RUAL
 percent: 0.015565413650853614
 plus: -0.41400000000009096
@@ -192,9 +198,3 @@ ticker: FIVE
 percent: 0.2628120893561104
 plus: 2.0856
 commision: 0.9144000000000001
-sell price: 1144.5
-cost: 1144.5
-datetime: 2022-04-21 12:05:25.848221+00:00
-type: sell
-total plus percent: -4.826054378563793
-________________________
