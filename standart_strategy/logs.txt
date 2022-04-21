@@ -1,4 +1,14 @@
 ticker: FIXP
+percent: -1.5166104959075482
+plus: -6.629799999999954
+commision: 0.3298
+sell price: 409.1
+cost: 409.1
+datetime: 2022-04-21 12:47:31.115264+00:00
+type: sell
+total plus percent: -1.7319211495856364
+________________________
+ticker: FIXP
 buy price: 415.4
 cost: 415.4
 datetime: 2022-04-21 12:39:16.686611+00:00
@@ -187,14 +197,4 @@ commision: 0.18188000000000001
 sell price: 227.8
 cost: 227.8
 datetime: 2022-04-21 11:28:04.245178+00:00
-type: sell
-total plus percent: -5.414774827549136
-________________________
-ticker: FIVE
-percent: 0.4349717268377556
-plus: 4.0784
-commision: 0.9216000000000001
-sell price: 1154.5
-cost: 1154.5
-datetime: 2022-04-21 11:21:20.839568+00:00
 type: sell
