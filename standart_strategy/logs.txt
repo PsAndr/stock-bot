@@ -1,3 +1,13 @@
+ticker: ALRS
+percent: -0.5085586703051521
+plus: -4.7433200000001365
+commision: 0.64332
+sell price: 80.21
+cost: 802.0999999999999
+datetime: 2022-04-21 11:13:58.381849+00:00
+type: sell
+total plus percent: -0.16918701045646695
+________________________
 ticker: AFLT
 buy price: 32.38
 cost: 323.8
@@ -188,13 +198,3 @@ total plus percent: -5.266017220537686
 ________________________
 ticker: RUAL
 percent: -0.06951417316753618
-plus: -0.9677000000000455
-commision: 0.5177
-sell price: 64.69
-cost: 646.9
-datetime: 2022-04-21 09:32:26.331234+00:00
-type: sell
-total plus percent: -0.12679100244418812
-________________________
-ticker: FIVE
-buy price: 1150.0
