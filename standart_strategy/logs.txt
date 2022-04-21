@@ -1,3 +1,13 @@
+ticker: MVID
+percent: -1.0412147505423017
+plus: -2.5834400000000057
+commision: 0.18344
+sell price: 228.1
+cost: 228.1
+datetime: 2022-04-21 09:26:59.262046+00:00
+type: sell
+total plus percent: -5.811425334380342
+________________________
 ticker: ALRS
 percent: 0.2867115432560402
 plus: 1.6573199999999544
@@ -188,13 +198,3 @@ type: buy
 ________________________
 ticker: FIXP
 percent: 0.10035122930255325
-plus: 0.08095999999997722
-commision: 0.31904000000000005
-sell price: 399.0
-cost: 399.0
-datetime: 2022-04-21 08:46:15.901161+00:00
-type: sell
-total plus percent: 0.6015448805321431
-________________________
-ticker: VTBR
-percent: -0.23622047244093888
