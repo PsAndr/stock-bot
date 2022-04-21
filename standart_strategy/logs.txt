@@ -1,3 +1,13 @@
+ticker: VTBR
+percent: -0.9379885356956661
+plus: -1.952799999999983
+commision: 0.1528
+sell price: 0.01901
+cost: 190.1
+datetime: 2022-04-21 07:07:33.243402+00:00
+type: sell
+total plus percent: -0.7807146169538663
+________________________
 ticker: MVID
 percent: 0.7627118644067845
 plus: 1.6104800000000115
@@ -188,13 +198,3 @@ ticker: AFLT
 buy price: 32.54
 cost: 325.4
 datetime: 2022-04-20 15:30:59.702423+00:00
-type: buy
-________________________
-ticker: RUAL
-buy price: 63.49
-cost: 634.9
-datetime: 2022-04-20 15:28:45.864711+00:00
-type: buy
-________________________
-ticker: FIVE
-percent: -0.7846556233653008
