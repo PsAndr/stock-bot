@@ -1,3 +1,9 @@
+ticker: VTBR
+buy price: 0.01898
+cost: 189.8
+datetime: 2022-04-21 07:18:47.662951+00:00
+type: buy
+________________________
 ticker: AFLT
 buy price: 33.0
 cost: 330.0
@@ -192,9 +198,3 @@ sell price: 0.01901
 cost: 190.1
 datetime: 2022-04-21 07:07:33.243402+00:00
 type: sell
-total plus percent: -0.7807146169538663
-________________________
-ticker: MVID
-percent: 0.7627118644067845
-plus: 1.6104800000000115
-commision: 0.18952000000000002
