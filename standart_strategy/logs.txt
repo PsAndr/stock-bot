@@ -1,3 +1,9 @@
+ticker: FIVE
+buy price: 1129.5
+cost: 1129.5
+datetime: 2022-04-21 07:34:35.863692+00:00
+type: buy
+________________________
 ticker: AFLT
 buy price: 32.2
 cost: 322.0
@@ -192,9 +198,3 @@ plus: -10.962720000000001
 commision: 0.9627200000000001
 sell price: 119.84
 cost: 1198.4
-datetime: 2022-04-21 07:18:11.202947+00:00
-type: sell
-total plus percent: -0.9545986438830317
-________________________
-ticker: MVID
-buy price: 241.4
