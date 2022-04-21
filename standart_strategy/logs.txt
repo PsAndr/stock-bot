@@ -1,3 +1,9 @@
+ticker: ALRS
+buy price: 80.62
+cost: 806.2
+datetime: 2022-04-21 10:53:33.379235+00:00
+type: buy
+________________________
 ticker: VTBR
 buy price: 0.0191
 cost: 191.0
@@ -192,9 +198,3 @@ type: buy
 ________________________
 ticker: RUAL
 buy price: 64.735
-cost: 647.35
-datetime: 2022-04-21 09:18:50.612518+00:00
-type: buy
-________________________
-ticker: MVID
-buy price: 230.5
