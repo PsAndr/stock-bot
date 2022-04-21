@@ -1,3 +1,13 @@
+ticker: VTBR
+percent: 0.18324607329842635
+plus: 0.1970599999999943
+commision: 0.15294000000000002
+sell price: 0.019135
+cost: 191.35
+datetime: 2022-04-21 10:54:42.756424+00:00
+type: sell
+total plus percent: -2.14952090118241
+________________________
 ticker: ALRS
 buy price: 80.62
 cost: 806.2
@@ -188,13 +198,3 @@ ticker: VTBR
 buy price: 0.01915
 cost: 191.5
 datetime: 2022-04-21 09:19:48.046752+00:00
-type: buy
-________________________
-ticker: FIXP
-buy price: 402.5
-cost: 402.5
-datetime: 2022-04-21 09:19:15.944103+00:00
-type: buy
-________________________
-ticker: RUAL
-buy price: 64.735
