@@ -1,3 +1,13 @@
+ticker: MVID
+percent: 0.3023758099352003
+plus: 0.5145199999999887
+commision: 0.18548
+sell price: 232.2
+cost: 232.2
+datetime: 2022-04-21 07:53:51.914872+00:00
+type: sell
+total plus percent: -3.416424015642759
+________________________
 ticker: AFLT
 percent: 0.49999999999998934
 plus: 1.343359999999966
@@ -187,14 +197,4 @@ cost: 1125.5
 datetime: 2022-04-21 07:36:20.847353+00:00
 type: sell
 total plus percent: -3.163827984958898
-________________________
-ticker: RUAL
-percent: 0.14923028589383588
-plus: 0.44034000000015916
-commision: 0.50966
-sell price: 63.755
-cost: 637.5500000000001
-datetime: 2022-04-21 07:35:50.060081+00:00
-type: sell
-total plus percent: 0.5670273550989209
 ________________________
