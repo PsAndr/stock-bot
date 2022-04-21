@@ -1,4 +1,14 @@
 ticker: RUAL
+percent: -0.21258168648140086
+plus: -1.8575000000001365
+commision: 0.5075000000000001
+sell price: 63.37
+cost: 633.6999999999999
+datetime: 2022-04-21 07:40:30.024097+00:00
+type: sell
+total plus percent: 0.3309935110190245
+________________________
+ticker: RUAL
 buy price: 63.505
 cost: 635.0500000000001
 datetime: 2022-04-21 07:39:55.031945+00:00
@@ -188,13 +198,3 @@ ticker: FIVE
 buy price: 1132.0
 cost: 1132.0
 datetime: 2022-04-21 07:27:50.840943+00:00
-type: buy
-________________________
-ticker: VTBR
-buy price: 0.018895
-cost: 188.95
-datetime: 2022-04-21 07:27:03.876951+00:00
-type: buy
-________________________
-ticker: FIVE
-percent: 0.0
