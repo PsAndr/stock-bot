@@ -1,4 +1,14 @@
 ticker: VTBR
+percent: -0.4176455233620227
+plus: -0.9529199999999545
+commision: 0.15292
+sell price: 0.019075
+cost: 190.75000000000003
+datetime: 2022-04-21 08:27:17.611945+00:00
+type: sell
+total plus percent: -1.0032683366639261
+________________________
+ticker: VTBR
 buy price: 0.019155
 cost: 191.54999999999998
 datetime: 2022-04-21 08:26:42.598984+00:00
@@ -188,13 +198,3 @@ total plus percent: -3.416424015642759
 ________________________
 ticker: AFLT
 percent: 0.49999999999998934
-plus: 1.343359999999966
-commision: 0.25664
-sell price: 32.16
-cost: 321.59999999999997
-datetime: 2022-04-21 07:53:49.777961+00:00
-type: sell
-total plus percent: 0.8092235708222436
-________________________
-ticker: VTBR
-buy price: 0.018965
