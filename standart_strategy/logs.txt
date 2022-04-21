@@ -1,4 +1,14 @@
 ticker: FIXP
+percent: 0.3680078508341511
+plus: 1.17332
+commision: 0.32668
+sell price: 409.1
+cost: 409.1
+datetime: 2022-04-21 14:39:30.985259+00:00
+type: sell
+total plus percent: -2.6178317940492883
+________________________
+ticker: FIXP
 buy price: 407.6
 cost: 407.6
 datetime: 2022-04-21 14:29:11.030604+00:00
@@ -187,14 +197,4 @@ commision: 0.25816
 sell price: 32.22
 cost: 322.2
 datetime: 2022-04-21 13:34:08.848255+00:00
-type: sell
-total plus percent: 4.167962177638537
-________________________
-ticker: VTBR
-percent: -0.02637130801689862
-plus: -0.2016600000000398
-commision: 0.15166000000000002
-sell price: 0.018955
-cost: 189.54999999999998
-datetime: 2022-04-21 13:33:17.628208+00:00
 type: sell
