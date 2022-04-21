@@ -1,3 +1,9 @@
+ticker: ALRS
+buy price: 79.87
+cost: 798.7
+datetime: 2022-04-21 07:47:23.357594+00:00
+type: buy
+________________________
 ticker: VTBR
 buy price: 0.01888
 cost: 188.8
@@ -192,9 +198,3 @@ type: buy
 ________________________
 ticker: FIVE
 percent: -0.398406374501992
-plus: -5.4018
-commision: 0.9018
-sell price: 1125.0
-cost: 1125.0
-datetime: 2022-04-21 07:32:20.857217+00:00
-type: sell
