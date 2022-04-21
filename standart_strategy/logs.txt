@@ -1,3 +1,9 @@
+ticker: FIVE
+buy price: 1131.0
+cost: 1131.0
+datetime: 2022-04-21 07:21:40.831105+00:00
+type: buy
+________________________
 ticker: AFLT
 percent: 0.0
 plus: -0.264
@@ -192,9 +198,3 @@ sell price: 1141.0
 cost: 1141.0
 datetime: 2022-04-21 07:09:10.859767+00:00
 type: sell
-total plus percent: -1.0898614560186402
-________________________
-ticker: SBER
-buy price: 120.84
-cost: 1208.4
-datetime: 2022-04-21 07:07:56.261657+00:00
