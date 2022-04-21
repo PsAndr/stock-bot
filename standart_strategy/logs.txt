@@ -1,3 +1,13 @@
+ticker: FIXP
+percent: 0.30090270812437026
+plus: 0.8804799999999886
+commision: 0.31952
+sell price: 400.0
+cost: 400.0
+datetime: 2022-04-21 07:10:16.258388+00:00
+type: sell
+total plus percent: 0.30090270812437026
+________________________
 ticker: FIVE
 percent: -0.39284155390659103
 plus: -5.4146
@@ -188,13 +198,3 @@ type: buy
 ________________________
 ticker: ALRS
 buy price: 79.76
-cost: 797.6
-datetime: 2022-04-21 07:00:21.044204+00:00
-type: buy
-________________________
-ticker: FIVE
-buy price: 1150.5
-cost: 1150.5
-datetime: 2022-04-21 07:00:12.549355+00:00
-type: buy
-________________________
