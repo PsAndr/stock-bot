@@ -1,3 +1,9 @@
+ticker: SBER
+buy price: 121.31
+cost: 1213.1
+datetime: 2022-04-21 07:01:06.936919+00:00
+type: buy
+________________________
 ticker: FIXP
 buy price: 398.8
 cost: 398.8
@@ -192,9 +198,3 @@ sell price: 33.62
 cost: 336.2
 datetime: 2022-04-20 15:03:54.651648+00:00
 type: sell
-total plus percent: 4.39682039053372
-________________________
-ticker: AFLT
-buy price: 32.94
-cost: 329.4
-datetime: 2022-04-20 14:59:29.559711+00:00
