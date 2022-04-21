@@ -1,3 +1,9 @@
+ticker: RUAL
+buy price: 64.0
+cost: 640.0
+datetime: 2022-04-21 08:20:01.292504+00:00
+type: buy
+________________________
 ticker: ALRS
 percent: 0.02494387627836515
 plus: -0.4415200000000683
@@ -192,9 +198,3 @@ type: buy
 ________________________
 ticker: AFLT
 buy price: 32.0
-cost: 320.0
-datetime: 2022-04-21 07:41:58.373402+00:00
-type: buy
-________________________
-ticker: AFLT
-percent: -0.12422360248448264
