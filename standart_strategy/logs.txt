@@ -1,4 +1,14 @@
 ticker: VTBR
+percent: -0.2617801047120419
+plus: -0.6526000000000001
+commision: 0.1526
+sell price: 0.01905
+cost: 190.5
+datetime: 2022-04-21 12:31:02.545260+00:00
+type: sell
+total plus percent: -2.5681909870177972
+________________________
+ticker: VTBR
 buy price: 0.0191
 cost: 191.0
 datetime: 2022-04-21 12:21:27.556160+00:00
@@ -188,13 +198,3 @@ ticker: AFLT
 buy price: 32.38
 cost: 323.8
 datetime: 2022-04-21 11:13:28.569534+00:00
-type: buy
-________________________
-ticker: FIVE
-buy price: 1155.5
-cost: 1155.5
-datetime: 2022-04-21 11:11:45.843404+00:00
-type: buy
-________________________
-ticker: FIVE
-percent: 0.34797738147020446
