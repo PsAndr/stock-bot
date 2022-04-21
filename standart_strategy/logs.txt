@@ -1,3 +1,9 @@
+ticker: FIVE
+buy price: 1145.5
+cost: 1145.5
+datetime: 2022-04-21 07:05:05.844060+00:00
+type: buy
+________________________
 ticker: VTBR
 buy price: 0.01919
 cost: 191.89999999999998
@@ -192,9 +198,3 @@ total plus percent: -2.1598129616355264
 ________________________
 ticker: VTBR
 buy price: 0.01878
-cost: 187.8
-datetime: 2022-04-20 15:23:18.731474+00:00
-type: buy
-________________________
-ticker: ALRS
-percent: -0.12674271229404308
