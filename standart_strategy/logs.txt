@@ -1,3 +1,9 @@
+ticker: FIVE
+buy price: 1132.0
+cost: 1132.0
+datetime: 2022-04-21 07:27:50.840943+00:00
+type: buy
+________________________
 ticker: VTBR
 buy price: 0.018895
 cost: 188.95
@@ -192,9 +198,3 @@ sell price: 238.7
 cost: 238.7
 datetime: 2022-04-21 07:15:21.764141+00:00
 type: sell
-total plus percent: -0.03833524669483801
-________________________
-ticker: VTBR
-buy price: 0.019155
-cost: 191.54999999999998
-datetime: 2022-04-21 07:15:18.833913+00:00
