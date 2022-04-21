@@ -1,4 +1,10 @@
 ticker: MVID
+buy price: 230.5
+cost: 230.5
+datetime: 2022-04-21 08:06:14.260943+00:00
+type: buy
+________________________
+ticker: MVID
 percent: -0.8561643835616438
 plus: -2.18608
 commision: 0.18608
@@ -192,9 +198,3 @@ sell price: 79.5
 cost: 795.0
 datetime: 2022-04-21 07:38:39.681538+00:00
 type: sell
-total plus percent: -0.012021835637263216
-________________________
-ticker: FIVE
-percent: -0.8841732979664014
-plus: -10.9008
-commision: 0.9008
