@@ -1,3 +1,13 @@
+ticker: RUAL
+percent: -0.06951417316753618
+plus: -0.9677000000000455
+commision: 0.5177
+sell price: 64.69
+cost: 646.9
+datetime: 2022-04-21 09:32:26.331234+00:00
+type: sell
+total plus percent: -0.12679100244418812
+________________________
 ticker: FIVE
 buy price: 1150.0
 cost: 1150.0
@@ -188,13 +198,3 @@ ticker: MVID
 percent: -0.9114583333333308
 plus: -2.283479999999994
 commision: 0.18348000000000003
-sell price: 228.3
-cost: 228.3
-datetime: 2022-04-21 09:00:35.645204+00:00
-type: sell
-total plus percent: -5.2908179591091855
-________________________
-ticker: AFLT
-buy price: 32.1
-cost: 321.0
-datetime: 2022-04-21 09:00:33.513176+00:00
