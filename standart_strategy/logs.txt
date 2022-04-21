@@ -1,3 +1,9 @@
+ticker: SBER
+buy price: 122.08
+cost: 1220.8
+datetime: 2022-04-21 07:04:42.155980+00:00
+type: buy
+________________________
 ticker: FIVE
 percent: -0.34934497816593885
 plus: -4.9144000000000005
@@ -192,9 +198,3 @@ sell price: 78.8
 cost: 788.0
 datetime: 2022-04-20 15:21:58.875734+00:00
 type: sell
-total plus percent: -1.5393246164076122
-________________________
-ticker: AFLT
-percent: -0.18237082066868263
-plus: -0.862959999999966
-commision: 0.26296
