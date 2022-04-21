@@ -1,3 +1,9 @@
+ticker: MVID
+buy price: 235.6
+cost: 235.6
+datetime: 2022-04-21 08:23:24.342910+00:00
+type: buy
+________________________
 ticker: RUAL
 percent: -0.36578722079539616
 plus: -2.8630200000000228
@@ -192,9 +198,3 @@ type: buy
 ________________________
 ticker: VTBR
 buy price: 0.01888
-cost: 188.8
-datetime: 2022-04-21 07:46:22.599288+00:00
-type: buy
-________________________
-ticker: RUAL
-percent: -0.4105155127496681
