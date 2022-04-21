@@ -1,3 +1,13 @@
+ticker: AFLT
+percent: 0.3705991352686809
+plus: 0.9404799999999887
+commision: 0.25952000000000003
+sell price: 32.5
+cost: 325.0
+datetime: 2022-04-21 11:29:23.491265+00:00
+type: sell
+total plus percent: 3.4878814144601993
+________________________
 ticker: MVID
 percent: 0.3966505068312057
 plus: 0.7181200000000056
@@ -188,13 +198,3 @@ sell price: 0.01914
 cost: 191.4
 datetime: 2022-04-21 10:01:22.603948+00:00
 type: sell
-total plus percent: -1.2602354514113365
-________________________
-ticker: VTBR
-buy price: 0.019125
-cost: 191.25
-datetime: 2022-04-21 09:59:12.958915+00:00
-type: buy
-________________________
-ticker: FIXP
-percent: 0.6956521739130462
