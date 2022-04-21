@@ -1,4 +1,14 @@
 ticker: RUAL
+percent: -0.36578722079539616
+plus: -2.8630200000000228
+commision: 0.51302
+sell price: 64.01
+cost: 640.1
+datetime: 2022-04-21 08:22:15.097274+00:00
+type: sell
+total plus percent: -0.7109342225260469
+________________________
+ticker: RUAL
 buy price: 64.245
 cost: 642.45
 datetime: 2022-04-21 08:21:25.039690+00:00
@@ -188,13 +198,3 @@ type: buy
 ________________________
 ticker: RUAL
 percent: -0.4105155127496681
-plus: -3.105640000000023
-commision: 0.5056400000000001
-sell price: 63.075
-cost: 630.75
-datetime: 2022-04-21 07:44:15.030942+00:00
-type: sell
-total plus percent: -0.07952200173064355
-________________________
-ticker: RUAL
-buy price: 63.335
