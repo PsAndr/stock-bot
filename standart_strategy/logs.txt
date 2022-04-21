@@ -1,3 +1,9 @@
+ticker: MVID
+buy price: 237.0
+cost: 237.0
+datetime: 2022-04-21 07:10:34.304681+00:00
+type: buy
+________________________
 ticker: FIXP
 percent: 0.30090270812437026
 plus: 0.8804799999999886
@@ -192,9 +198,3 @@ type: buy
 ________________________
 ticker: RUAL
 buy price: 63.6
-cost: 636.0
-datetime: 2022-04-21 07:00:27.191065+00:00
-type: buy
-________________________
-ticker: ALRS
-buy price: 79.76
