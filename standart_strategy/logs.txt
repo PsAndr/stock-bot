@@ -1,3 +1,13 @@
+ticker: SBER
+percent: -0.8275405494869248
+plus: -10.962720000000001
+commision: 0.9627200000000001
+sell price: 119.84
+cost: 1198.4
+datetime: 2022-04-21 07:18:11.202947+00:00
+type: sell
+total plus percent: -0.9545986438830317
+________________________
 ticker: MVID
 buy price: 241.4
 cost: 241.4
@@ -188,13 +198,3 @@ datetime: 2022-04-21 07:06:59.320942+00:00
 type: sell
 total plus percent: -0.7556348247539049
 ________________________
-ticker: RUAL
-buy price: 64.155
-cost: 641.55
-datetime: 2022-04-21 07:06:20.314926+00:00
-type: buy
-________________________
-ticker: SBER
-percent: -0.7617955439056319
-plus: -10.272919999999955
-commision: 0.97292
