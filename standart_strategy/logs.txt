@@ -1,3 +1,13 @@
+ticker: RUAL
+percent: 0.2951227089158089
+plus: 1.3841999999999772
+commision: 0.5158
+sell price: 64.57
+cost: 645.6999999999999
+datetime: 2022-04-21 09:14:00.124463+00:00
+type: sell
+total plus percent: -0.05727682927665195
+________________________
 ticker: VTBR
 buy price: 0.01915
 cost: 191.5
@@ -187,14 +197,4 @@ commision: 0.18688
 sell price: 231.6
 cost: 231.6
 datetime: 2022-04-21 08:34:04.539214+00:00
-type: sell
-total plus percent: -4.768632982177241
-________________________
-ticker: AFLT
-percent: 0.625
-plus: 1.7431999999999999
-commision: 0.25680000000000003
-sell price: 32.2
-cost: 322.0
-datetime: 2022-04-21 08:33:28.407430+00:00
 type: sell
