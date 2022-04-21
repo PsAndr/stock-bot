@@ -1,3 +1,13 @@
+ticker: VTBR
+percent: 0.21186440677964896
+plus: 0.24879999999997726
+commision: 0.1512
+sell price: 0.01892
+cost: 189.2
+datetime: 2022-04-21 07:51:47.582202+00:00
+type: sell
+total plus percent: -1.2750737354751418
+________________________
 ticker: ALRS
 buy price: 79.87
 cost: 798.7
@@ -188,13 +198,3 @@ ticker: AFLT
 buy price: 32.2
 cost: 322.0
 datetime: 2022-04-21 07:33:53.448639+00:00
-type: buy
-________________________
-ticker: RUAL
-buy price: 63.66
-cost: 636.5999999999999
-datetime: 2022-04-21 07:33:00.003948+00:00
-type: buy
-________________________
-ticker: FIVE
-percent: -0.398406374501992
