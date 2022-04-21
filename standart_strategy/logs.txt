@@ -1,3 +1,9 @@
+ticker: MVID
+buy price: 231.5
+cost: 231.5
+datetime: 2022-04-21 07:43:19.193402+00:00
+type: buy
+________________________
 ticker: AFLT
 buy price: 32.0
 cost: 320.0
@@ -192,9 +198,3 @@ ticker: RUAL
 buy price: 63.705
 cost: 637.05
 datetime: 2022-04-21 07:30:55.095178+00:00
-type: buy
-________________________
-ticker: FIXP
-buy price: 386.6
-cost: 386.6
-datetime: 2022-04-21 07:30:25.966048+00:00
