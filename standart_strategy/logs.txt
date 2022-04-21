@@ -1,3 +1,9 @@
+ticker: RUAL
+buy price: 63.96
+cost: 639.6
+datetime: 2022-04-21 07:36:26.440924+00:00
+type: buy
+________________________
 ticker: FIVE
 percent: -0.35413899955732625
 plus: -4.902
@@ -192,9 +198,3 @@ total plus percent: -1.6458154234833524
 ________________________
 ticker: FIVE
 buy price: 1131.0
-cost: 1131.0
-datetime: 2022-04-21 07:21:40.831105+00:00
-type: buy
-________________________
-ticker: AFLT
-percent: 0.0
