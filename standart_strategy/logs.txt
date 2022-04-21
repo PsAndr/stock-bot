@@ -1,3 +1,9 @@
+ticker: MVID
+buy price: 235.7
+cost: 235.7
+datetime: 2022-04-21 07:35:34.200943+00:00
+type: buy
+________________________
 ticker: FIVE
 buy price: 1129.5
 cost: 1129.5
@@ -192,9 +198,3 @@ cost: 330.0
 datetime: 2022-04-21 07:18:14.977269+00:00
 type: buy
 ________________________
-ticker: SBER
-percent: -0.8275405494869248
-plus: -10.962720000000001
-commision: 0.9627200000000001
-sell price: 119.84
-cost: 1198.4
