@@ -1,3 +1,9 @@
+ticker: AFLT
+buy price: 32.34
+cost: 323.40000000000003
+datetime: 2022-04-21 11:36:18.493255+00:00
+type: buy
+________________________
 ticker: FIVE
 buy price: 1141.5
 cost: 1141.5
@@ -192,9 +198,3 @@ type: buy
 ________________________
 ticker: FIXP
 buy price: 403.0
-cost: 403.0
-datetime: 2022-04-21 10:04:01.046179+00:00
-type: buy
-________________________
-ticker: VTBR
-percent: 0.07843137254902258
