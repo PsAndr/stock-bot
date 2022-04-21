@@ -1,3 +1,9 @@
+ticker: VTBR
+buy price: 0.01889
+cost: 188.9
+datetime: 2022-04-21 08:13:27.572164+00:00
+type: buy
+________________________
 ticker: MVID
 percent: 0.5206073752711448
 plus: 1.0151199999999887
@@ -192,9 +198,3 @@ type: buy
 ________________________
 ticker: VTBR
 percent: 0.026462026991273545
-plus: -0.10117999999998861
-commision: 0.15117999999999998
-sell price: 0.0189
-cost: 189.0
-datetime: 2022-04-21 07:38:45.093698+00:00
-type: sell
