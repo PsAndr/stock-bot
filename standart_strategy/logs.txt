@@ -1,3 +1,9 @@
+ticker: MVID
+buy price: 234.9
+cost: 234.9
+datetime: 2022-04-21 08:14:19.274271+00:00
+type: buy
+________________________
 ticker: VTBR
 buy price: 0.01889
 cost: 188.9
@@ -192,9 +198,3 @@ total plus percent: -3.7187998255779595
 ________________________
 ticker: ALRS
 buy price: 79.53
-cost: 795.3
-datetime: 2022-04-21 07:39:03.434393+00:00
-type: buy
-________________________
-ticker: VTBR
-percent: 0.026462026991273545
