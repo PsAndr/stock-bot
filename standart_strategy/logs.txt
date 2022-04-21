@@ -1,3 +1,13 @@
+ticker: MVID
+percent: 0.7627118644067845
+plus: 1.6104800000000115
+commision: 0.18952000000000002
+sell price: 237.8
+cost: 237.8
+datetime: 2022-04-21 07:06:59.320942+00:00
+type: sell
+total plus percent: -0.7556348247539049
+________________________
 ticker: RUAL
 buy price: 64.155
 cost: 641.55
@@ -188,13 +198,3 @@ type: buy
 ________________________
 ticker: FIVE
 percent: -0.7846556233653008
-plus: -9.914
-commision: 0.9140000000000001
-sell price: 1138.0
-cost: 1138.0
-datetime: 2022-04-20 15:28:15.969305+00:00
-type: sell
-total plus percent: -2.944468585000827
-________________________
-ticker: FIVE
-buy price: 1147.0
