@@ -1,3 +1,13 @@
+ticker: MVID
+percent: 0.6811409110259661
+plus: 1.4114399999999943
+commision: 0.18856
+sell price: 236.5
+cost: 236.5
+datetime: 2022-04-21 08:18:24.245185+00:00
+type: sell
+total plus percent: -3.070840112907292
+________________________
 ticker: FIXP
 buy price: 391.9
 cost: 391.9
@@ -188,13 +198,3 @@ total plus percent: 0.3309935110190245
 ________________________
 ticker: RUAL
 buy price: 63.505
-cost: 635.0500000000001
-datetime: 2022-04-21 07:39:55.031945+00:00
-type: buy
-________________________
-ticker: MVID
-percent: -1.4849384811200679
-plus: -3.68716
-commision: 0.18716
-sell price: 232.2
-cost: 232.2
