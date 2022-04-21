@@ -1,3 +1,9 @@
+ticker: FIXP
+buy price: 391.9
+cost: 391.9
+datetime: 2022-04-21 08:14:22.215943+00:00
+type: buy
+________________________
 ticker: MVID
 buy price: 234.9
 cost: 234.9
@@ -192,9 +198,3 @@ plus: -3.68716
 commision: 0.18716
 sell price: 232.2
 cost: 232.2
-datetime: 2022-04-21 07:39:10.699177+00:00
-type: sell
-total plus percent: -3.7187998255779595
-________________________
-ticker: ALRS
-buy price: 79.53
