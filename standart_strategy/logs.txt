@@ -1,3 +1,13 @@
+ticker: FIVE
+percent: -0.5647263249348393
+plus: -7.418200000000001
+commision: 0.9182000000000001
+sell price: 1144.5
+cost: 1144.5
+datetime: 2022-04-21 15:17:00.842884+00:00
+type: sell
+total plus percent: -6.6565942428818525
+________________________
 ticker: RUAL
 buy price: 64.59
 cost: 645.9000000000001
@@ -188,13 +198,3 @@ sell price: 32.1
 cost: 321.0
 datetime: 2022-04-21 13:59:58.400476+00:00
 type: sell
-total plus percent: 3.732793397548936
-________________________
-ticker: AFLT
-buy price: 32.16
-cost: 321.59999999999997
-datetime: 2022-04-21 13:59:08.380264+00:00
-type: buy
-________________________
-ticker: AFLT
-percent: -0.24860161591050695
