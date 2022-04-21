@@ -1,3 +1,9 @@
+ticker: RUAL
+buy price: 64.15
+cost: 641.5
+datetime: 2022-04-21 08:23:55.058028+00:00
+type: buy
+________________________
 ticker: MVID
 buy price: 235.6
 cost: 235.6
@@ -192,9 +198,3 @@ total plus percent: -1.2750737354751418
 ________________________
 ticker: ALRS
 buy price: 79.87
-cost: 798.7
-datetime: 2022-04-21 07:47:23.357594+00:00
-type: buy
-________________________
-ticker: VTBR
-buy price: 0.01888
