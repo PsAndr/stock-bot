@@ -1,3 +1,13 @@
+ticker: VTBR
+percent: 0.026246719160096035
+plus: -0.10242000000001705
+commision: 0.15242
+sell price: 0.019055
+cost: 190.54999999999998
+datetime: 2022-04-21 07:14:27.558035+00:00
+type: sell
+total plus percent: -0.7544678977937703
+________________________
 ticker: ALRS
 buy price: 79.44
 cost: 794.4
@@ -188,13 +198,3 @@ ticker: VTBR
 buy price: 0.019075
 cost: 190.75000000000003
 datetime: 2022-04-21 07:01:42.577784+00:00
-type: buy
-________________________
-ticker: MVID
-percent: -1.5183466891606894
-plus: -3.7882399999999943
-commision: 0.18824000000000002
-sell price: 233.5
-cost: 233.5
-datetime: 2022-04-21 07:01:13.617115+00:00
-type: sell
