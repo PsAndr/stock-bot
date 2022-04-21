@@ -1,3 +1,9 @@
+ticker: MVID
+buy price: 230.5
+cost: 230.5
+datetime: 2022-04-21 09:07:09.260612+00:00
+type: buy
+________________________
 ticker: VTBR
 buy price: 0.01905
 cost: 190.5
@@ -192,9 +198,3 @@ total plus percent: -0.5856228133019035
 ________________________
 ticker: FIXP
 percent: -0.9528585757271844
-plus: -4.117520000000011
-commision: 0.31752
-sell price: 395.0
-cost: 395.0
-datetime: 2022-04-21 08:24:51.424714+00:00
-type: sell
