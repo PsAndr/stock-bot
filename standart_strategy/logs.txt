@@ -1,3 +1,9 @@
+ticker: FIXP
+buy price: 411.9
+cost: 411.9
+datetime: 2022-04-21 15:01:50.898272+00:00
+type: buy
+________________________
 ticker: FIVE
 percent: -0.17513134851138354
 plus: -2.9128
@@ -192,9 +198,3 @@ sell price: 0.018975
 cost: 189.75
 datetime: 2022-04-21 13:39:17.516263+00:00
 type: sell
-total plus percent: -3.383350989996585
-________________________
-ticker: VTBR
-buy price: 0.01902
-cost: 190.2
-datetime: 2022-04-21 13:34:42.544258+00:00
