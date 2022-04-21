@@ -1,3 +1,13 @@
+ticker: VTBR
+percent: -0.02637130801689862
+plus: -0.2016600000000398
+commision: 0.15166000000000002
+sell price: 0.018955
+cost: 189.54999999999998
+datetime: 2022-04-21 13:33:17.628208+00:00
+type: sell
+total plus percent: -3.146757930059682
+________________________
 ticker: FIVE
 percent: -0.6121556624398776
 plus: -7.912
@@ -188,13 +198,3 @@ ticker: VTBR
 percent: 0.18324607329842635
 plus: 0.1970599999999943
 commision: 0.15294000000000002
-sell price: 0.019135
-cost: 191.35
-datetime: 2022-04-21 12:16:17.630259+00:00
-type: sell
-total plus percent: -2.306410882305755
-________________________
-ticker: FIVE
-buy price: 1149.5
-cost: 1149.5
-datetime: 2022-04-21 12:13:55.850216+00:00
