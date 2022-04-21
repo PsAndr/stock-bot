@@ -1,3 +1,13 @@
+ticker: FIXP
+percent: -0.9528585757271844
+plus: -4.117520000000011
+commision: 0.31752
+sell price: 395.0
+cost: 395.0
+datetime: 2022-04-21 08:24:51.424714+00:00
+type: sell
+total plus percent: 0.5011936512295898
+________________________
 ticker: RUAL
 buy price: 64.15
 cost: 641.5
@@ -188,13 +198,3 @@ total plus percent: 0.451445053873599
 ________________________
 ticker: VTBR
 percent: 0.21186440677964896
-plus: 0.24879999999997726
-commision: 0.1512
-sell price: 0.01892
-cost: 189.2
-datetime: 2022-04-21 07:51:47.582202+00:00
-type: sell
-total plus percent: -1.2750737354751418
-________________________
-ticker: ALRS
-buy price: 79.87
