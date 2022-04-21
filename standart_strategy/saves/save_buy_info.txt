@@ -1,3 +1,3 @@
 buy_cnt: 0 0 0 0 0 1 0 0 1 0 1 0 0 
-buy_price: 0.0 0 0 0.0 0 64.155 0.0 0 0.01898 33.0 241.4 0 0.0 
+buy_price: 0.0 0 0 0.0 0 64.155 0.0 0 0.01898 0.0 241.4 0 0.0 
 spis: GAZP MTSS ALRS DSKY RUAL SBER YNDX VTBR AFLT MVID IRAO
