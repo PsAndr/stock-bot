@@ -1,3 +1,9 @@
+ticker: AFLT
+buy price: 32.34
+cost: 323.40000000000003
+datetime: 2022-04-21 07:12:13.408310+00:00
+type: buy
+________________________
 ticker: VTBR
 buy price: 0.01905
 cost: 190.5
@@ -192,9 +198,3 @@ type: buy
 ________________________
 ticker: FIXP
 buy price: 398.8
-cost: 398.8
-datetime: 2022-04-21 07:00:46.765351+00:00
-type: buy
-________________________
-ticker: MVID
-buy price: 237.1
