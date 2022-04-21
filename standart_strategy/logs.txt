@@ -1,3 +1,9 @@
+ticker: AFLT
+buy price: 32.18
+cost: 321.8
+datetime: 2022-04-21 13:57:58.454259+00:00
+type: buy
+________________________
 ticker: VTBR
 percent: -0.07917656373713682
 plus: -0.30150000000000565
@@ -192,9 +198,3 @@ total plus percent: -1.7319211495856364
 ________________________
 ticker: FIXP
 buy price: 415.4
-cost: 415.4
-datetime: 2022-04-21 12:39:16.686611+00:00
-type: buy
-________________________
-ticker: FIXP
-percent: 0.46648661919960155
