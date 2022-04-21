@@ -1,3 +1,9 @@
+ticker: AFLT
+buy price: 31.98
+cost: 319.8
+datetime: 2022-04-21 15:13:53.808215+00:00
+type: buy
+________________________
 ticker: FIXP
 buy price: 409.5
 cost: 409.5
@@ -192,9 +198,3 @@ sell price: 63.935
 cost: 639.35
 datetime: 2022-04-21 13:58:30.045260+00:00
 type: sell
-total plus percent: -1.669020783803194
-________________________
-ticker: AFLT
-buy price: 32.18
-cost: 321.8
-datetime: 2022-04-21 13:57:58.454259+00:00
