@@ -1,3 +1,9 @@
+ticker: RUAL
+buy price: 64.245
+cost: 642.45
+datetime: 2022-04-21 08:21:25.039690+00:00
+type: buy
+________________________
 ticker: FIXP
 buy price: 398.8
 cost: 398.8
@@ -192,9 +198,3 @@ total plus percent: -0.07952200173064355
 ________________________
 ticker: RUAL
 buy price: 63.335
-cost: 633.35
-datetime: 2022-04-21 07:43:51.366591+00:00
-type: buy
-________________________
-ticker: ALRS
-percent: 0.05029548598013043
