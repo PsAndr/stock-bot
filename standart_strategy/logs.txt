@@ -1,3 +1,9 @@
+ticker: FIVE
+buy price: 1149.5
+cost: 1149.5
+datetime: 2022-04-21 12:13:55.850216+00:00
+type: buy
+________________________
 ticker: AFLT
 buy price: 32.34
 cost: 323.40000000000003
@@ -192,9 +198,3 @@ total plus percent: 3.1172822791915182
 ________________________
 ticker: FIVE
 buy price: 1149.5
-cost: 1149.5
-datetime: 2022-04-21 10:58:10.845401+00:00
-type: buy
-________________________
-ticker: VTBR
-percent: 0.18324607329842635
