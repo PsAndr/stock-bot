@@ -1,3 +1,13 @@
+ticker: SBER
+percent: -0.7617955439056319
+plus: -10.272919999999955
+commision: 0.97292
+sell price: 121.15
+cost: 1211.5
+datetime: 2022-04-21 07:05:45.925182+00:00
+type: sell
+total plus percent: -0.12705809439610694
+________________________
 ticker: FIVE
 buy price: 1145.5
 cost: 1145.5
@@ -188,13 +198,3 @@ type: buy
 ________________________
 ticker: FIVE
 percent: -0.5272407732864675
-plus: -6.908
-commision: 0.9080000000000001
-sell price: 1132.0
-cost: 1132.0
-datetime: 2022-04-20 15:24:00.969471+00:00
-type: sell
-total plus percent: -2.1598129616355264
-________________________
-ticker: VTBR
-buy price: 0.01878
