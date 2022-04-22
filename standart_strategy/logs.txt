@@ -1,4 +1,14 @@
 ticker: RUAL
+percent: 0.03823799327011319
+plus: -0.27313999999999994
+commision: 0.5231399999999999
+sell price: 65.405
+cost: 654.05
+datetime: 2022-04-22 13:26:26.730751+00:00
+type: sell
+total plus percent: 0.03823799327011319
+________________________
+ticker: RUAL
 buy price: 65.38
 cost: 653.8
 datetime: 2022-04-22 13:18:22.616054+00:00
@@ -188,13 +198,3 @@ type: buy
 ________________________
 ticker: ALRS
 percent: -0.4329004329004329
-plus: -4.1454
-commision: 0.6454
-sell price: 80.5
-cost: 805.0
-datetime: 2022-04-22 07:37:28.361081+00:00
-type: sell
-total plus percent: -0.4329004329004329
-________________________
-ticker: ALRS
-buy price: 80.85
