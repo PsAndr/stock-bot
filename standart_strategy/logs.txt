@@ -1,3 +1,9 @@
+ticker: MVID
+buy price: 233.0
+cost: 233.0
+datetime: 2022-04-22 07:46:39.450361+00:00
+type: buy
+________________________
 ticker: ALRS
 buy price: 80.87
 cost: 808.7
@@ -192,9 +198,3 @@ total plus percent: -7.13485511244707
 ________________________
 ticker: RUAL
 percent: 0.4025390927387999
-plus: 2.082239999999909
-commision: 0.51776
-sell price: 64.85
-cost: 648.5
-datetime: 2022-04-21 15:24:20.126783+00:00
-type: sell
