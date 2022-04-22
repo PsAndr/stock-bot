@@ -1,3 +1,13 @@
+ticker: MVID
+percent: -0.04387889425186236
+plus: -0.2822799999999943
+commision: 0.18228
+sell price: 227.8
+cost: 227.8
+datetime: 2022-04-22 15:39:06.467954+00:00
+type: sell
+total plus percent: -0.7444783578642008
+________________________
 ticker: AFLT
 percent: 0.0
 plus: -0.24480000000000002
@@ -188,13 +198,3 @@ type: buy
 ________________________
 ticker: MVID
 percent: -0.13157894736842604
-plus: -0.48228000000001137
-commision: 0.18228
-sell price: 227.7
-cost: 227.7
-datetime: 2022-04-22 15:14:26.571468+00:00
-type: sell
-total plus percent: -0.34881597272788645
-________________________
-ticker: FIXP
-percent: 0.10319917440659888
