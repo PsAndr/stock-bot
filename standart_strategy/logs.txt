@@ -1,3 +1,13 @@
+ticker: YNDX
+percent: -0.1095156972499364
+plus: -3.1141599999999547
+commision: 1.31416
+sell price: 1641.8
+cost: 1641.8
+datetime: 2022-04-22 14:10:38.431606+00:00
+type: sell
+total plus percent: -0.1095156972499364
+________________________
 ticker: MVID
 buy price: 227.8
 cost: 227.8
@@ -188,13 +198,3 @@ sell price: 2.416
 cost: 241.6
 datetime: 2022-04-22 13:34:08.335469+00:00
 type: sell
-total plus percent: -0.20652622883106153
-________________________
-ticker: IRAO
-buy price: 2.421
-cost: 242.1
-datetime: 2022-04-22 13:32:47.584231+00:00
-type: buy
-________________________
-ticker: MVID
-buy price: 226.0
