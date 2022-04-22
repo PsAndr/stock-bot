@@ -1,3 +1,9 @@
+ticker: MVID
+buy price: 231.0
+cost: 231.0
+datetime: 2022-04-22 07:25:34.263216+00:00
+type: buy
+________________________
 ticker: RUAL
 percent: 0.0
 plus: -0.5224
@@ -192,9 +198,3 @@ ticker: RUAL
 buy price: 64.59
 cost: 645.9000000000001
 datetime: 2022-04-21 15:16:30.495177+00:00
-type: buy
-________________________
-ticker: AFLT
-percent: -0.562851782363981
-plus: -2.055120000000011
-commision: 0.25512
