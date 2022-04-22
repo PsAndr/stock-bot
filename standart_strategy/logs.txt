@@ -1,3 +1,9 @@
+ticker: RUAL
+buy price: 65.4
+cost: 654.0
+datetime: 2022-04-22 13:28:17.554950+00:00
+type: buy
+________________________
 ticker: ALRS
 buy price: 80.34
 cost: 803.4000000000001
@@ -192,9 +198,3 @@ total plus percent: -0.35149384885764495
 ________________________
 ticker: FIVE
 buy price: 1138.0
-cost: 1138.0
-datetime: 2022-04-22 08:03:10.872190+00:00
-type: buy
-________________________
-ticker: ALRS
-percent: 0.2596760232471756
