@@ -1,3 +1,13 @@
+ticker: FIXP
+percent: -0.23213825122516824
+plus: -1.2097999999999773
+commision: 0.3098
+sell price: 386.8
+cost: 386.8
+datetime: 2022-04-22 15:27:53.588190+00:00
+type: sell
+total plus percent: -0.12893907681856936
+________________________
 ticker: IRAO
 buy price: 2.4265
 cost: 242.64999999999998
@@ -188,13 +198,3 @@ type: buy
 ________________________
 ticker: SBER
 percent: -0.12844665182394246
-plus: -2.43364
-commision: 0.93364
-sell price: 116.63
-cost: 1166.3
-datetime: 2022-04-22 15:02:12.269425+00:00
-type: sell
-total plus percent: -0.12844665182394246
-________________________
-ticker: FIVE
-percent: -0.09000900090009001
