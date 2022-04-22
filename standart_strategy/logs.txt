@@ -1,3 +1,9 @@
+ticker: MVID
+buy price: 227.3
+cost: 227.3
+datetime: 2022-04-22 15:15:06.517198+00:00
+type: buy
+________________________
 ticker: FIXP
 buy price: 387.7
 cost: 387.7
@@ -192,9 +198,3 @@ sell price: 64.905
 cost: 649.05
 datetime: 2022-04-22 14:45:11.545996+00:00
 type: sell
-total plus percent: -0.7113354749885407
-________________________
-ticker: AFLT
-buy price: 30.62
-cost: 306.2
-datetime: 2022-04-22 14:39:05.469237+00:00
