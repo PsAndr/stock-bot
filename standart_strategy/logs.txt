@@ -1,3 +1,13 @@
+ticker: ALRS
+percent: 0.2596760232471756
+plus: 1.452199999999909
+commision: 0.6478
+sell price: 81.08
+cost: 810.8
+datetime: 2022-04-22 07:47:58.354429+00:00
+type: sell
+total plus percent: -0.1732244096532573
+________________________
 ticker: MVID
 percent: 0.0
 plus: -0.1864
@@ -188,13 +198,3 @@ ticker: FIXP
 buy price: 408.4
 cost: 408.4
 datetime: 2022-04-21 15:30:10.993780+00:00
-type: buy
-________________________
-ticker: FIVE
-buy price: 1150.0
-cost: 1150.0
-datetime: 2022-04-21 15:26:40.852067+00:00
-type: buy
-________________________
-ticker: FIVE
-percent: -0.47826086956521735
