@@ -1,4 +1,10 @@
 ticker: ALRS
+buy price: 80.87
+cost: 808.7
+datetime: 2022-04-22 07:43:58.389400+00:00
+type: buy
+________________________
+ticker: ALRS
 percent: -0.4329004329004329
 plus: -4.1454
 commision: 0.6454
@@ -192,9 +198,3 @@ sell price: 64.85
 cost: 648.5
 datetime: 2022-04-21 15:24:20.126783+00:00
 type: sell
-total plus percent: -1.080680034332948
-________________________
-ticker: FIXP
-percent: -0.3174603174603202
-plus: -1.6270800000000114
-commision: 0.32708000000000004
