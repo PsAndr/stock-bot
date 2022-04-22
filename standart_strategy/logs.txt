@@ -1,3 +1,9 @@
+ticker: AFLT
+buy price: 30.62
+cost: 306.2
+datetime: 2022-04-22 14:39:05.469237+00:00
+type: buy
+________________________
 ticker: MVID
 buy price: 227.0
 cost: 227.0
@@ -192,9 +198,3 @@ plus: -0.2808399999999943
 commision: 0.18084
 sell price: 226.0
 cost: 226.0
-datetime: 2022-04-22 13:39:51.552159+00:00
-type: sell
-total plus percent: 0.04426735761840582
-________________________
-ticker: MVID
-buy price: 226.1
