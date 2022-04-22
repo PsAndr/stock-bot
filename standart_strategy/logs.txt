@@ -1,4 +1,14 @@
 ticker: RUAL
+percent: 0.015290519877661935
+plus: -0.4232400000000909
+commision: 0.5232399999999999
+sell price: 65.41
+cost: 654.0999999999999
+datetime: 2022-04-22 13:30:46.304468+00:00
+type: sell
+total plus percent: -0.060992787814186475
+________________________
+ticker: RUAL
 buy price: 65.4
 cost: 654.0
 datetime: 2022-04-22 13:28:17.554950+00:00
@@ -188,13 +198,3 @@ type: buy
 ________________________
 ticker: FIVE
 percent: -0.35149384885764495
-plus: -4.9088
-commision: 0.9088
-sell price: 1134.0
-cost: 1134.0
-datetime: 2022-04-22 08:04:45.838191+00:00
-type: sell
-total plus percent: -0.35149384885764495
-________________________
-ticker: FIVE
-buy price: 1138.0
