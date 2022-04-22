@@ -1,3 +1,9 @@
+ticker: ALRS
+buy price: 80.34
+cost: 803.4000000000001
+datetime: 2022-04-22 13:28:14.206319+00:00
+type: buy
+________________________
 ticker: RUAL
 percent: -0.11452130096196159
 plus: -1.2736199999998865
@@ -192,9 +198,3 @@ type: buy
 ________________________
 ticker: ALRS
 percent: 0.2596760232471756
-plus: 1.452199999999909
-commision: 0.6478
-sell price: 81.08
-cost: 810.8
-datetime: 2022-04-22 07:47:58.354429+00:00
-type: sell
