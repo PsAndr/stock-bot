@@ -1,3 +1,9 @@
+ticker: IRAO
+buy price: 2.421
+cost: 242.1
+datetime: 2022-04-22 13:32:47.584231+00:00
+type: buy
+________________________
 ticker: MVID
 buy price: 226.0
 cost: 226.0
@@ -192,9 +198,3 @@ cost: 1135.5
 datetime: 2022-04-22 08:11:50.857003+00:00
 type: buy
 ________________________
-ticker: FIVE
-percent: -0.1759014951627089
-plus: -2.9088000000000003
-commision: 0.9088
-sell price: 1135.0
-cost: 1135.0
