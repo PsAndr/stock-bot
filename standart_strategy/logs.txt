@@ -1,3 +1,13 @@
+ticker: DSKY
+percent: 0.3621169916434572
+plus: 2.024560000000023
+commision: 0.57544
+sell price: 72.06
+cost: 720.6
+datetime: 2022-04-25 15:14:20.231513+00:00
+type: sell
+total plus percent: -1.6588503572539544
+________________________
 ticker: IRAO
 buy price: 2.3745
 cost: 237.45
@@ -488,13 +498,3 @@ plus: -1.3780799999999545
 commision: 0.57808
 sell price: 72.22
 cost: 722.2
-datetime: 2022-04-25 13:42:20.264658+00:00
-type: sell
-total plus percent: -0.30380323892812716
-________________________
-ticker: MVID
-buy price: 218.9
-cost: 218.9
-datetime: 2022-04-25 13:41:12.833551+00:00
-type: buy
-________________________
