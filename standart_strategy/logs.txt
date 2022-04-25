@@ -1,4 +1,10 @@
 ticker: AFLT
+buy price: 29.18
+cost: 291.8
+datetime: 2022-04-25 15:27:55.459293+00:00
+type: buy
+________________________
+ticker: AFLT
 percent: -0.4794520547945322
 plus: -1.633040000000034
 commision: 0.23304
@@ -492,9 +498,3 @@ total plus percent: -1.7224628547904095
 ________________________
 ticker: FIVE
 percent: -0.38929440389294406
-plus: -4.8204
-commision: 0.8204
-sell price: 1023.5
-cost: 1023.5
-datetime: 2022-04-25 14:34:51.044750+00:00
-type: sell
