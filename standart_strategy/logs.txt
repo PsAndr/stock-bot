@@ -1,3 +1,13 @@
+ticker: DSKY
+percent: -0.027731558513594764
+plus: -0.7768800000000455
+commision: 0.5768800000000001
+sell price: 72.1
+cost: 721.0
+datetime: 2022-04-25 15:25:25.267494+00:00
+type: sell
+total plus percent: -1.9083651425455124
+________________________
 ticker: SBER
 buy price: 112.48
 cost: 1124.8
@@ -488,13 +498,3 @@ ticker: MTSS
 buy price: 185.0
 cost: 1850.0
 datetime: 2022-04-25 14:17:38.175025+00:00
-type: buy
-________________________
-ticker: AFLT
-buy price: 29.12
-cost: 291.2
-datetime: 2022-04-25 14:12:26.691550+00:00
-type: buy
-________________________
-ticker: YNDX
-buy price: 1557.6
