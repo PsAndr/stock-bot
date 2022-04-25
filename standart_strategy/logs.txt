@@ -1,3 +1,13 @@
+ticker: DSKY
+percent: -0.055524708495293014
+plus: -0.976160000000091
+commision: 0.57616
+sell price: 72.0
+cost: 720.0
+datetime: 2022-04-25 14:41:25.297551+00:00
+type: sell
+total plus percent: -1.1889739651225195
+________________________
 ticker: YNDX
 buy price: 1592.2
 cost: 1592.2
@@ -488,13 +498,3 @@ type: buy
 ________________________
 ticker: MVID
 percent: -0.04564125969876509
-plus: -0.2752399999999943
-commision: 0.17524
-sell price: 219.0
-cost: 219.0
-datetime: 2022-04-25 13:02:36.527544+00:00
-type: sell
-total plus percent: -4.302296369394258
-________________________
-ticker: VTBR
-percent: -0.2192982456140382
