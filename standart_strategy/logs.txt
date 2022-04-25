@@ -1,3 +1,9 @@
+ticker: RUAL
+buy price: 62.49
+cost: 624.9
+datetime: 2022-04-25 12:20:16.293714+00:00
+type: buy
+________________________
 ticker: IRAO
 buy price: 2.375
 cost: 237.5
