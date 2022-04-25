@@ -1,4 +1,10 @@
 ticker: DSKY
+buy price: 72.2
+cost: 722.0
+datetime: 2022-04-25 14:42:00.272621+00:00
+type: buy
+________________________
+ticker: DSKY
 percent: -0.055524708495293014
 plus: -0.976160000000091
 commision: 0.57616
@@ -492,9 +498,3 @@ type: buy
 ________________________
 ticker: FIVE
 buy price: 1040.0
-cost: 1040.0
-datetime: 2022-04-25 13:02:56.072580+00:00
-type: buy
-________________________
-ticker: MVID
-percent: -0.04564125969876509
