@@ -1,3 +1,9 @@
+ticker: IRAO
+buy price: 2.375
+cost: 237.5
+datetime: 2022-04-25 12:18:37.711078+00:00
+type: buy
+________________________
 ticker: MTSS
 buy price: 184.65
 cost: 1846.5
