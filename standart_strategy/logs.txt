@@ -1,3 +1,9 @@
+ticker: GAZP
+buy price: 205.8
+cost: 2058.0
+datetime: 2022-04-25 15:18:52.082165+00:00
+type: buy
+________________________
 ticker: AFLT
 buy price: 29.2
 cost: 292.0
@@ -492,9 +498,3 @@ type: buy
 ________________________
 ticker: MVID
 percent: 0.0
-plus: -0.17528
-commision: 0.17528
-sell price: 219.1
-cost: 219.1
-datetime: 2022-04-25 13:46:27.764122+00:00
-type: sell
