@@ -1,3 +1,9 @@
+ticker: FIXP
+buy price: 381.7
+cost: 381.7
+datetime: 2022-04-25 13:32:28.632847+00:00
+type: buy
+________________________
 ticker: AFLT
 buy price: 29.2
 cost: 292.0
@@ -492,9 +498,3 @@ plus: 0.9249199999999943
 commision: 0.17508
 sell price: 219.4
 cost: 219.4
-datetime: 2022-04-25 11:46:32.793432+00:00
-type: sell
-total plus percent: -3.025319093212827
-________________________
-ticker: ALRS
-percent: 0.7117882117882175
