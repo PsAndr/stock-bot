@@ -1,3 +1,13 @@
+ticker: DSKY
+percent: -0.5826859045505058
+plus: -4.774960000000045
+commision: 0.5749599999999999
+sell price: 71.66
+cost: 716.5999999999999
+datetime: 2022-04-25 14:55:10.348684+00:00
+type: sell
+total plus percent: -2.0209673488974116
+________________________
 ticker: ALRS
 buy price: 80.78
 cost: 807.8
@@ -488,13 +498,3 @@ sell price: 219.0
 cost: 219.0
 datetime: 2022-04-25 13:25:36.510538+00:00
 type: sell
-total plus percent: -4.439199345763281
-________________________
-ticker: MVID
-buy price: 219.2
-cost: 219.2
-datetime: 2022-04-25 13:18:36.532852+00:00
-type: buy
-________________________
-ticker: MVID
-percent: 0.0
