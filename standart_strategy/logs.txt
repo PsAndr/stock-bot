@@ -1,3 +1,13 @@
+ticker: GAZP
+percent: 0.5410675115768905
+plus: 9.454359999999909
+commision: 1.64564
+sell price: 206.26
+cost: 2062.6
+datetime: 2022-04-25 12:54:12.090431+00:00
+type: sell
+total plus percent: 0.5410675115768905
+________________________
 ticker: MTSS
 percent: 0.18954779312212292
 plus: 2.0214
@@ -488,5 +498,3 @@ cost: 227.3
 datetime: 2022-04-22 15:15:06.517198+00:00
 type: buy
 ________________________
-ticker: FIXP
-buy price: 387.7
