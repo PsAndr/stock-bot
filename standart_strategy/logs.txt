@@ -1,3 +1,13 @@
+ticker: YNDX
+percent: 1.9774011299435148
+plus: 29.54160000000018
+commision: 1.2584
+sell price: 1588.4
+cost: 1588.4
+datetime: 2022-04-25 14:34:59.584003+00:00
+type: sell
+total plus percent: -1.7224628547904095
+________________________
 ticker: FIVE
 percent: -0.38929440389294406
 plus: -4.8204
@@ -488,13 +498,3 @@ sell price: 218.9
 cost: 218.9
 datetime: 2022-04-25 13:00:12.337528+00:00
 type: sell
-total plus percent: -4.256655109695493
-________________________
-ticker: MVID
-buy price: 219.0
-cost: 219.0
-datetime: 2022-04-25 12:58:26.620185+00:00
-type: buy
-________________________
-ticker: MVID
-percent: -0.09124087591240357
