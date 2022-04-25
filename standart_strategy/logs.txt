@@ -1,3 +1,13 @@
+ticker: MVID
+percent: -0.09119927040584452
+plus: -0.37536000000001707
+commision: 0.17536000000000002
+sell price: 219.1
+cost: 219.1
+datetime: 2022-04-25 12:43:16.486548+00:00
+type: sell
+total plus percent: -3.84602950558926
+________________________
 ticker: GAZP
 buy price: 205.15
 cost: 2051.5
