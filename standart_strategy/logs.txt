@@ -1,3 +1,9 @@
+ticker: MVID
+buy price: 219.3
+cost: 219.3
+datetime: 2022-04-25 12:31:26.556735+00:00
+type: buy
+________________________
 ticker: RUAL
 buy price: 62.49
 cost: 624.9
