@@ -1,4 +1,10 @@
 ticker: ALRS
+buy price: 80.76
+cost: 807.6
+datetime: 2022-04-25 15:06:09.154553+00:00
+type: buy
+________________________
+ticker: ALRS
 percent: -0.1733102253032901
 plus: -2.0456799999999773
 commision: 0.64568
@@ -492,9 +498,3 @@ ticker: MVID
 percent: 0.04566210045661841
 plus: -0.07524000000000569
 commision: 0.17524
-sell price: 219.1
-cost: 219.1
-datetime: 2022-04-25 13:33:36.499552+00:00
-type: sell
-total plus percent: -4.439116020762448
-________________________
