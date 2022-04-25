@@ -1,3 +1,13 @@
+ticker: MTSS
+percent: -0.24174053182917005
+plus: -5.9874
+commision: 1.4874
+sell price: 185.7
+cost: 1857.0
+datetime: 2022-04-25 14:42:33.153705+00:00
+type: sell
+total plus percent: -1.8077501979095145
+________________________
 ticker: DSKY
 buy price: 72.2
 cost: 722.0
@@ -488,13 +498,3 @@ ticker: MVID
 buy price: 219.0
 cost: 219.0
 datetime: 2022-04-25 13:03:09.155683+00:00
-type: buy
-________________________
-ticker: DSKY
-buy price: 72.28
-cost: 722.8
-datetime: 2022-04-25 13:03:01.469888+00:00
-type: buy
-________________________
-ticker: FIVE
-buy price: 1040.0
