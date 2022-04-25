@@ -1,3 +1,13 @@
+ticker: FIVE
+percent: -7.851985559566788
+plus: -87.8516
+commision: 0.8516000000000001
+sell price: 1021.0
+cost: 1021.0
+datetime: 2022-04-25 11:15:31.054667+00:00
+type: sell
+total plus percent: -7.851985559566788
+________________________
 ticker: MVID
 buy price: 226.9
 cost: 226.9
