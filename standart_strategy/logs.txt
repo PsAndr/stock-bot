@@ -1,3 +1,13 @@
+ticker: YNDX
+percent: -0.9010168618869867
+plus: -15.23744
+commision: 1.2374399999999999
+sell price: 1539.8
+cost: 1539.8
+datetime: 2022-04-25 15:23:03.375374+00:00
+type: sell
+total plus percent: -4.042899387573021
+________________________
 ticker: DSKY
 buy price: 72.14
 cost: 721.4
@@ -488,13 +498,3 @@ ticker: SBER
 percent: 0.444483954129256
 plus: 4.09808
 commision: 0.9019199999999999
-sell price: 112.99
-cost: 1129.8999999999999
-datetime: 2022-04-25 14:10:37.428787+00:00
-type: sell
-total plus percent: 0.444483954129256
-________________________
-ticker: YNDX
-buy price: 1554.4
-cost: 1554.4
-datetime: 2022-04-25 14:10:03.449630+00:00
