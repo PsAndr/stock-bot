@@ -1,4 +1,10 @@
 ticker: DSKY
+buy price: 72.14
+cost: 721.4
+datetime: 2022-04-25 15:22:25.283584+00:00
+type: buy
+________________________
+ticker: DSKY
 percent: -0.08324084350721737
 plus: -1.1764000000000228
 commision: 0.5764
@@ -492,9 +498,3 @@ ticker: YNDX
 buy price: 1554.4
 cost: 1554.4
 datetime: 2022-04-25 14:10:03.449630+00:00
-type: buy
-________________________
-ticker: YNDX
-percent: -0.11553273427470825
-plus: -3.0456799999999546
-commision: 1.2456800000000001
