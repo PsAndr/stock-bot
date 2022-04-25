@@ -1,3 +1,13 @@
+ticker: MTSS
+percent: 0.13498920086393087
+plus: 1.0173999999999999
+commision: 1.4826000000000001
+sell price: 185.45
+cost: 1854.5
+datetime: 2022-04-25 15:37:48.141730+00:00
+type: sell
+total plus percent: -2.5361260987091465
+________________________
 ticker: VTBR
 buy price: 0.018075
 cost: 180.75
@@ -488,13 +498,3 @@ sell price: 80.73
 cost: 807.3000000000001
 datetime: 2022-04-25 14:47:39.211639+00:00
 type: sell
-total plus percent: 0.6531319568240949
-________________________
-ticker: ALRS
-buy price: 80.73
-cost: 807.3000000000001
-datetime: 2022-04-25 14:46:34.177818+00:00
-type: buy
-________________________
-ticker: FIXP
-percent: -0.44132917964693374
