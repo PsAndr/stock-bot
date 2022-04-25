@@ -1,3 +1,13 @@
+ticker: FIVE
+percent: -0.5288461538461539
+plus: -6.3298000000000005
+commision: 0.8298000000000001
+sell price: 1034.5
+cost: 1034.5
+datetime: 2022-04-25 13:11:26.043521+00:00
+type: sell
+total plus percent: -8.380831713412942
+________________________
 ticker: DSKY
 percent: 0.05555555555556819
 plus: -0.17615999999990906
@@ -488,13 +498,3 @@ datetime: 2022-04-22 15:36:44.179417+00:00
 type: sell
 total plus percent: -0.04997605626430794
 ________________________
-ticker: FIVE
-buy price: 1108.0
-cost: 1108.0
-datetime: 2022-04-22 15:36:01.158465+00:00
-type: buy
-________________________
-ticker: IRAO
-percent: 0.14424067587061662
-plus: 0.15574000000005114
-commision: 0.19426000000000002
