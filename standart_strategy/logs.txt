@@ -1,3 +1,9 @@
+ticker: SBER
+buy price: 112.48
+cost: 1124.8
+datetime: 2022-04-25 15:24:52.350842+00:00
+type: buy
+________________________
 ticker: DSKY
 buy price: 72.12
 cost: 721.2
@@ -492,9 +498,3 @@ type: buy
 ________________________
 ticker: YNDX
 buy price: 1557.6
-cost: 1557.6
-datetime: 2022-04-25 14:12:23.409827+00:00
-type: buy
-________________________
-ticker: AFLT
-percent: -0.2054794520548023
