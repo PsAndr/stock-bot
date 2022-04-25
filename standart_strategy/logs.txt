@@ -1,3 +1,13 @@
+ticker: YNDX
+percent: -3.712720632988436
+plus: -62.29
+commision: 1.29
+sell price: 1582.0
+cost: 1582.0
+datetime: 2022-04-25 11:15:40.791275+00:00
+type: sell
+total plus percent: -3.712720632988436
+________________________
 ticker: MTSS
 percent: -2.3771790808240887
 plus: -46.4964
