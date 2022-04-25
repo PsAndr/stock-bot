@@ -1,3 +1,13 @@
+ticker: MTSS
+percent: -0.08110300081103002
+plus: -2.979
+commision: 1.479
+sell price: 184.8
+cost: 1848.0
+datetime: 2022-04-25 15:26:33.146849+00:00
+type: sell
+total plus percent: -2.590034218491996
+________________________
 ticker: DSKY
 buy price: 72.02
 cost: 720.1999999999999
@@ -488,13 +498,3 @@ ticker: DSKY
 buy price: 72.04
 cost: 720.4000000000001
 datetime: 2022-04-25 14:27:00.236308+00:00
-type: buy
-________________________
-ticker: DSKY
-percent: -0.6913716814159292
-plus: -5.57656
-commision: 0.57656
-sell price: 71.82
-cost: 718.1999999999999
-datetime: 2022-04-25 14:26:25.241044+00:00
-type: sell
