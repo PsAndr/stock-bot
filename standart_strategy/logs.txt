@@ -1,3 +1,13 @@
+ticker: MVID
+percent: -3.4376377258704323
+plus: -7.978400000000011
+commision: 0.1784
+sell price: 219.1
+cost: 219.1
+datetime: 2022-04-25 11:15:45.161242+00:00
+type: sell
+total plus percent: -3.4376377258704323
+________________________
 ticker: YNDX
 percent: -3.712720632988436
 plus: -62.29
