@@ -1,4 +1,10 @@
 ticker: MTSS
+buy price: 185.2
+cost: 1852.0
+datetime: 2022-04-25 15:21:08.139680+00:00
+type: buy
+________________________
+ticker: MTSS
 percent: -0.08110300081103002
 plus: -2.979
 commision: 1.479
@@ -492,9 +498,3 @@ sell price: 1558.0
 cost: 1558.0
 datetime: 2022-04-25 14:06:28.417146+00:00
 type: sell
-total plus percent: -3.5585978485034717
-________________________
-ticker: YNDX
-buy price: 1558.0
-cost: 1558.0
-datetime: 2022-04-25 14:05:53.418969+00:00
