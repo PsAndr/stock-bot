@@ -1,3 +1,13 @@
+ticker: AFLT
+percent: -0.2054794520548023
+plus: -0.8333600000000227
+commision: 0.23336
+sell price: 29.14
+cost: 291.4
+datetime: 2022-04-25 14:11:50.511564+00:00
+type: sell
+total plus percent: -0.2054794520548023
+________________________
 ticker: YNDX
 percent: -0.0257334019557444
 plus: -1.643360000000091
@@ -488,13 +498,3 @@ ticker: MVID
 buy price: 219.2
 cost: 219.2
 datetime: 2022-04-25 12:48:31.582335+00:00
-type: buy
-________________________
-ticker: RUAL
-percent: 0.032002560204823664
-plus: -0.30003999999995457
-commision: 0.50004
-sell price: 62.515
-cost: 625.15
-datetime: 2022-04-25 12:47:51.370892+00:00
-type: sell
