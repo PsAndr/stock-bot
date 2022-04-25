@@ -1,3 +1,9 @@
+ticker: AFLT
+buy price: 29.12
+cost: 291.2
+datetime: 2022-04-25 14:12:26.691550+00:00
+type: buy
+________________________
 ticker: YNDX
 buy price: 1557.6
 cost: 1557.6
@@ -492,9 +498,3 @@ total plus percent: -2.187631287701966
 ________________________
 ticker: MVID
 percent: -0.18248175182480714
-plus: -0.5751999999999773
-commision: 0.17520000000000002
-sell price: 218.8
-cost: 218.8
-datetime: 2022-04-25 12:49:41.508210+00:00
-type: sell
