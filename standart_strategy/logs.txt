@@ -1,3 +1,13 @@
+ticker: SBER
+percent: 0.444483954129256
+plus: 4.09808
+commision: 0.9019199999999999
+sell price: 112.99
+cost: 1129.8999999999999
+datetime: 2022-04-25 14:10:37.428787+00:00
+type: sell
+total plus percent: 0.444483954129256
+________________________
 ticker: YNDX
 buy price: 1554.4
 cost: 1554.4
@@ -488,13 +498,3 @@ sell price: 219.0
 cost: 219.0
 datetime: 2022-04-25 12:47:21.562672+00:00
 type: sell
-total plus percent: -3.9372703815016634
-________________________
-ticker: ALRS
-buy price: 80.73
-cost: 807.3000000000001
-datetime: 2022-04-25 12:46:39.213197+00:00
-type: buy
-________________________
-ticker: MVID
-buy price: 219.0
