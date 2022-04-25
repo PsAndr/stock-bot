@@ -1,4 +1,10 @@
 ticker: DSKY
+buy price: 72.32
+cost: 723.1999999999999
+datetime: 2022-04-25 13:42:55.200774+00:00
+type: buy
+________________________
+ticker: DSKY
 percent: -0.11065006915628693
 plus: -1.3780799999999545
 commision: 0.57808
@@ -492,9 +498,3 @@ type: buy
 ________________________
 ticker: MVID
 buy price: 219.4
-cost: 219.4
-datetime: 2022-04-25 12:33:47.732531+00:00
-type: buy
-________________________
-ticker: RUAL
-percent: 0.09601536245799691
