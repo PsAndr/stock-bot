@@ -1,3 +1,9 @@
+ticker: AFLT
+buy price: 29.2
+cost: 292.0
+datetime: 2022-04-25 15:30:16.734597+00:00
+type: buy
+________________________
 ticker: MTSS
 percent: -0.08108108108108107
 plus: -2.9794
@@ -492,9 +498,3 @@ type: buy
 ________________________
 ticker: MTSS
 buy price: 186.15
-cost: 1861.5
-datetime: 2022-04-25 14:38:28.152617+00:00
-type: buy
-________________________
-ticker: MTSS
-percent: 0.6216216216216216
