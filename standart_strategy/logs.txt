@@ -1,3 +1,9 @@
+ticker: YNDX
+buy price: 1557.2
+cost: 1557.2
+datetime: 2022-04-25 13:50:03.363808+00:00
+type: buy
+________________________
 ticker: MVID
 percent: 0.0
 plus: -0.17528
@@ -492,9 +498,3 @@ total plus percent: -3.7548302351834155
 ________________________
 ticker: MVID
 buy price: 219.3
-cost: 219.3
-datetime: 2022-04-25 12:39:11.500201+00:00
-type: buy
-________________________
-ticker: MVID
-percent: -0.04566210045661841
