@@ -1,3 +1,13 @@
+ticker: ALRS
+percent: -0.5293610734950226
+plus: -4.948120000000069
+commision: 0.64812
+sell price: 80.8
+cost: 808.0
+datetime: 2022-04-25 14:43:10.385720+00:00
+type: sell
+total plus percent: 0.6531319568240949
+________________________
 ticker: MTSS
 buy price: 185.7
 cost: 1857.0
@@ -487,14 +497,4 @@ commision: 0.64736
 sell price: 81.11
 cost: 811.1
 datetime: 2022-04-25 13:04:34.254112+00:00
-type: sell
-total plus percent: 1.1824930303191175
-________________________
-ticker: DSKY
-percent: -0.3320420586607449
-plus: -2.9772799999998636
-commision: 0.57728
-sell price: 72.04
-cost: 720.4000000000001
-datetime: 2022-04-25 13:04:00.244206+00:00
 type: sell
