@@ -1,4 +1,10 @@
 ticker: YNDX
+buy price: 1558.0
+cost: 1558.0
+datetime: 2022-04-25 14:05:53.418969+00:00
+type: buy
+________________________
+ticker: YNDX
 percent: 0.15412278448496425
 plus: 1.1532799999998635
 commision: 1.24672
@@ -492,9 +498,3 @@ total plus percent: -3.84602950558926
 ________________________
 ticker: GAZP
 buy price: 205.15
-cost: 2051.5
-datetime: 2022-04-25 12:41:22.123136+00:00
-type: buy
-________________________
-ticker: MVID
-buy price: 219.3
