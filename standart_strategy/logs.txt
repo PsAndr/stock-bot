@@ -1,3 +1,13 @@
+ticker: YNDX
+percent: -1.4194196708956248
+plus: -23.864720000000137
+commision: 1.26472
+sell price: 1569.6
+cost: 1569.6
+datetime: 2022-04-25 14:51:49.676235+00:00
+type: sell
+total plus percent: -3.141882525686034
+________________________
 ticker: ALRS
 percent: -0.234712785670164
 plus: -2.5468399999999773
@@ -488,13 +498,3 @@ ticker: MVID
 buy price: 218.9
 cost: 218.9
 datetime: 2022-04-25 13:16:16.583677+00:00
-type: buy
-________________________
-ticker: MVID
-percent: -0.04566210045661841
-plus: -0.2751599999999943
-commision: 0.17516
-sell price: 218.9
-cost: 218.9
-datetime: 2022-04-25 13:15:41.506488+00:00
-type: sell
