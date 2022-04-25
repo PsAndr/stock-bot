@@ -1,3 +1,13 @@
+ticker: DSKY
+percent: 0.055524708495261456
+plus: -0.17648000000013653
+commision: 0.5764800000000001
+sell price: 72.08
+cost: 720.8
+datetime: 2022-04-25 15:19:30.195994+00:00
+type: sell
+total plus percent: -1.6033256487586929
+________________________
 ticker: GAZP
 buy price: 205.8
 cost: 2058.0
@@ -488,13 +498,3 @@ ticker: RUAL
 buy price: 62.635
 cost: 626.35
 datetime: 2022-04-25 14:01:26.321877+00:00
-type: buy
-________________________
-ticker: YNDX
-buy price: 1557.2
-cost: 1557.2
-datetime: 2022-04-25 13:50:03.363808+00:00
-type: buy
-________________________
-ticker: MVID
-percent: 0.0
