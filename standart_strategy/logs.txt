@@ -1,3 +1,13 @@
+ticker: MTSS
+percent: -0.08108108108108107
+plus: -2.9794
+commision: 1.4794
+sell price: 184.85
+cost: 1848.5
+datetime: 2022-04-25 15:30:08.131632+00:00
+type: sell
+total plus percent: -2.6711152995730774
+________________________
 ticker: AFLT
 percent: -0.2741603838245412
 plus: -1.0331200000000114
@@ -488,13 +498,3 @@ type: buy
 ________________________
 ticker: MTSS
 percent: 0.6216216216216216
-plus: 10.0154
-commision: 1.4846
-sell price: 186.15
-cost: 1861.5
-datetime: 2022-04-25 14:37:53.155010+00:00
-type: sell
-total plus percent: -1.5660096660803444
-________________________
-ticker: YNDX
-percent: 1.9774011299435148
