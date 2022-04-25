@@ -1,4 +1,10 @@
 ticker: DSKY
+buy price: 72.04
+cost: 720.4000000000001
+datetime: 2022-04-25 14:27:00.236308+00:00
+type: buy
+________________________
+ticker: DSKY
 percent: -0.6913716814159292
 plus: -5.57656
 commision: 0.57656
@@ -492,9 +498,3 @@ cost: 182.4
 datetime: 2022-04-25 12:56:04.468612+00:00
 type: buy
 ________________________
-ticker: GAZP
-percent: 0.5410675115768905
-plus: 9.454359999999909
-commision: 1.64564
-sell price: 206.26
-cost: 2062.6
