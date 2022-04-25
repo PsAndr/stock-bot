@@ -1,3 +1,9 @@
+ticker: IRAO
+buy price: 2.3745
+cost: 237.45
+datetime: 2022-04-25 15:12:42.577696+00:00
+type: buy
+________________________
 ticker: RUAL
 percent: -0.37518959048455697
 plus: -2.8501400000000228
@@ -490,11 +496,5 @@ ticker: MVID
 buy price: 218.9
 cost: 218.9
 datetime: 2022-04-25 13:41:12.833551+00:00
-type: buy
-________________________
-ticker: DSKY
-buy price: 72.3
-cost: 723.0
-datetime: 2022-04-25 13:41:05.225828+00:00
 type: buy
 ________________________
