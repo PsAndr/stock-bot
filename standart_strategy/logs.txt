@@ -1,3 +1,13 @@
+ticker: MVID
+percent: -0.04566210045661841
+plus: -0.2751599999999943
+commision: 0.17516
+sell price: 218.9
+cost: 218.9
+datetime: 2022-04-25 12:38:36.495863+00:00
+type: sell
+total plus percent: -3.5724316943717396
+________________________
 ticker: IRAO
 buy price: 2.3725
 cost: 237.25
