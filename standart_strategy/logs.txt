@@ -1,4 +1,10 @@
 ticker: IRAO
+buy price: 2.3725
+cost: 237.25
+datetime: 2022-04-25 12:36:52.477434+00:00
+type: buy
+________________________
+ticker: IRAO
 percent: -0.21052631578947367
 plus: -0.6898
 commision: 0.18980000000000002
