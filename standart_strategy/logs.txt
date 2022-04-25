@@ -1,3 +1,13 @@
+ticker: DSKY
+percent: -0.08324084350721737
+plus: -1.1764000000000228
+commision: 0.5764
+sell price: 72.02
+cost: 720.1999999999999
+datetime: 2022-04-25 15:21:46.410917+00:00
+type: sell
+total plus percent: -1.6865664922659103
+________________________
 ticker: MTSS
 percent: -0.296976241900648
 plus: -6.9794
@@ -488,13 +498,3 @@ ticker: YNDX
 percent: -0.11553273427470825
 plus: -3.0456799999999546
 commision: 1.2456800000000001
-sell price: 1556.2
-cost: 1556.2
-datetime: 2022-04-25 14:09:28.389759+00:00
-type: sell
-total plus percent: -3.67413058277818
-________________________
-ticker: YNDX
-buy price: 1558.0
-cost: 1558.0
-datetime: 2022-04-25 14:07:03.439842+00:00
