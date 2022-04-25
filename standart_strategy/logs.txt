@@ -1,3 +1,9 @@
+ticker: DSKY
+buy price: 72.28
+cost: 722.8
+datetime: 2022-04-25 13:03:01.469888+00:00
+type: buy
+________________________
 ticker: FIVE
 buy price: 1040.0
 cost: 1040.0
@@ -491,10 +497,4 @@ cost: 226.1
 datetime: 2022-04-22 15:26:06.505952+00:00
 type: sell
 total plus percent: -1.0974248604377252
-________________________
-ticker: ALRS
-buy price: 80.25
-cost: 802.5
-datetime: 2022-04-22 15:24:49.201471+00:00
-type: buy
 ________________________
