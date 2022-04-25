@@ -1,3 +1,9 @@
+ticker: VTBR
+buy price: 0.018075
+cost: 180.75
+datetime: 2022-04-25 15:36:09.418793+00:00
+type: buy
+________________________
 ticker: GAZP
 buy price: 205.75
 cost: 2057.5
@@ -492,9 +498,3 @@ type: buy
 ________________________
 ticker: FIXP
 percent: -0.44132917964693374
-plus: -2.0074799999999886
-commision: 0.30748
-sell price: 383.5
-cost: 383.5
-datetime: 2022-04-25 14:44:23.632597+00:00
-type: sell
