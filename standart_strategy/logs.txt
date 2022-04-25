@@ -1,4 +1,14 @@
 ticker: AFLT
+percent: -0.2741603838245412
+plus: -1.0331200000000114
+commision: 0.23312
+sell price: 29.1
+cost: 291.0
+datetime: 2022-04-25 15:29:40.508762+00:00
+type: sell
+total plus percent: 0.13999763434157148
+________________________
+ticker: AFLT
 buy price: 29.18
 cost: 291.8
 datetime: 2022-04-25 15:27:55.459293+00:00
@@ -488,13 +498,3 @@ total plus percent: -1.5660096660803444
 ________________________
 ticker: YNDX
 percent: 1.9774011299435148
-plus: 29.54160000000018
-commision: 1.2584
-sell price: 1588.4
-cost: 1588.4
-datetime: 2022-04-25 14:34:59.584003+00:00
-type: sell
-total plus percent: -1.7224628547904095
-________________________
-ticker: FIVE
-percent: -0.38929440389294406
