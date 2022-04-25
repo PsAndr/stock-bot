@@ -1,3 +1,13 @@
+ticker: GAZP
+percent: -0.1457725947521866
+plus: -4.6452
+commision: 1.6452
+sell price: 205.5
+cost: 2055.0
+datetime: 2022-04-25 15:33:42.103606+00:00
+type: sell
+total plus percent: 0.39529491682470386
+________________________
 ticker: AFLT
 buy price: 29.16
 cost: 291.6
@@ -488,13 +498,3 @@ type: buy
 ________________________
 ticker: DSKY
 percent: -0.24930747922438617
-plus: -2.3768800000000683
-commision: 0.5768800000000001
-sell price: 72.02
-cost: 720.1999999999999
-datetime: 2022-04-25 14:43:12.649808+00:00
-type: sell
-total plus percent: -1.4382814443469056
-________________________
-ticker: ALRS
-percent: -0.5293610734950226
