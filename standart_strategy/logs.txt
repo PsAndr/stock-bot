@@ -1,3 +1,9 @@
+ticker: DSKY
+buy price: 72.04
+cost: 720.4000000000001
+datetime: 2022-04-25 15:15:00.248704+00:00
+type: buy
+________________________
 ticker: YNDX
 buy price: 1553.8
 cost: 1553.8
@@ -491,10 +497,4 @@ cost: 722.2
 datetime: 2022-04-25 13:43:30.227536+00:00
 type: sell
 total plus percent: -0.4420775752112973
-________________________
-ticker: DSKY
-buy price: 72.32
-cost: 723.1999999999999
-datetime: 2022-04-25 13:42:55.200774+00:00
-type: buy
 ________________________
