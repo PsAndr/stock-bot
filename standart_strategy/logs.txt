@@ -1,3 +1,9 @@
+ticker: FIXP
+buy price: 384.3
+cost: 384.3
+datetime: 2022-04-25 15:02:18.585558+00:00
+type: buy
+________________________
 ticker: VTBR
 buy price: 0.018215
 cost: 182.14999999999998
@@ -492,9 +498,3 @@ type: buy
 ________________________
 ticker: MVID
 buy price: 219.0
-cost: 219.0
-datetime: 2022-04-25 13:29:31.491463+00:00
-type: buy
-________________________
-ticker: MVID
-percent: -0.09124087591240357
