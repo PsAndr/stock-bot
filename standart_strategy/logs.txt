@@ -1,3 +1,9 @@
+ticker: AFLT
+buy price: 29.16
+cost: 291.6
+datetime: 2022-04-25 15:31:26.646928+00:00
+type: buy
+________________________
 ticker: DSKY
 buy price: 72.02
 cost: 720.1999999999999
@@ -492,9 +498,3 @@ total plus percent: -1.4382814443469056
 ________________________
 ticker: ALRS
 percent: -0.5293610734950226
-plus: -4.948120000000069
-commision: 0.64812
-sell price: 80.8
-cost: 808.0
-datetime: 2022-04-25 14:43:10.385720+00:00
-type: sell
