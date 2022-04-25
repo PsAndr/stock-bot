@@ -1,3 +1,9 @@
+ticker: ALRS
+buy price: 80.73
+cost: 807.3000000000001
+datetime: 2022-04-25 12:46:39.213197+00:00
+type: buy
+________________________
 ticker: MVID
 buy price: 219.0
 cost: 219.0
