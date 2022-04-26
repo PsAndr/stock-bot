@@ -1,3 +1,9 @@
+ticker: SBER
+buy price: 114.8
+cost: 1148.0
+datetime: 2022-04-26 07:23:08.482123+00:00
+type: buy
+________________________
 ticker: DSKY
 percent: 0.0
 plus: -0.5848
@@ -492,9 +498,3 @@ ticker: VTBR
 buy price: 0.018075
 cost: 180.75
 datetime: 2022-04-25 15:36:09.418793+00:00
-type: buy
-________________________
-ticker: GAZP
-buy price: 205.75
-cost: 2057.5
-datetime: 2022-04-25 15:35:27.104887+00:00
