@@ -1,3 +1,13 @@
+ticker: IRAO
+percent: 0.06137479541735093
+plus: -0.04557999999999435
+commision: 0.19558000000000003
+sell price: 2.4455
+cost: 244.55
+datetime: 2022-04-26 12:48:26.127458+00:00
+type: sell
+total plus percent: 0.27608183078574294
+________________________
 ticker: SBER
 percent: 0.13456686291000078
 plus: 0.648159999999909
@@ -487,14 +497,4 @@ cost: 1017.5
 datetime: 2022-04-26 12:24:11.046628+00:00
 type: sell
 total plus percent: -2.0413321093128474
-________________________
-ticker: IRAO
-percent: -0.020449897750492652
-plus: -0.24557999999995453
-commision: 0.19558
-sell price: 2.4445
-cost: 244.45000000000002
-datetime: 2022-04-26 12:23:43.684182+00:00
-type: sell
-total plus percent: 0.17341348915443158
 ________________________
