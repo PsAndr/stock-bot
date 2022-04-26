@@ -1,3 +1,13 @@
+ticker: FIXP
+percent: 0.13092432573972246
+plus: 0.19428
+commision: 0.30572
+sell price: 382.4
+cost: 382.4
+datetime: 2022-04-26 07:00:29.644028+00:00
+type: sell
+total plus percent: 0.13092432573972246
+________________________
 ticker: IRAO
 percent: 0.2316277110970779
 plus: 0.35982000000001135
@@ -488,13 +498,3 @@ ticker: ALRS
 buy price: 80.82
 cost: 808.1999999999999
 datetime: 2022-04-25 14:52:59.200578+00:00
-type: buy
-________________________
-ticker: YNDX
-percent: -1.4194196708956248
-plus: -23.864720000000137
-commision: 1.26472
-sell price: 1569.6
-cost: 1569.6
-datetime: 2022-04-25 14:51:49.676235+00:00
-type: sell
