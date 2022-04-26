@@ -1,4 +1,10 @@
 ticker: IRAO
+buy price: 2.4125
+cost: 241.25
+datetime: 2022-04-26 10:08:57.563822+00:00
+type: buy
+________________________
+ticker: IRAO
 percent: -0.06213753106876789
 plus: -0.3430600000000057
 commision: 0.19306
@@ -492,9 +498,3 @@ total plus percent: 1.2977131941261912
 ________________________
 ticker: VTBR
 percent: 0.5379236148466918
-plus: 0.8508800000000001
-commision: 0.14911999999999997
-sell price: 0.01869
-cost: 186.89999999999998
-datetime: 2022-04-26 09:14:59.371755+00:00
-type: sell
