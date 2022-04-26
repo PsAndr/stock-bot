@@ -1,4 +1,10 @@
 ticker: AFLT
+buy price: 29.7
+cost: 297.0
+datetime: 2022-04-26 07:40:10.441609+00:00
+type: buy
+________________________
+ticker: AFLT
 percent: -0.2686366689053094
 plus: -1.0379200000000113
 commision: 0.23792000000000002
@@ -492,9 +498,3 @@ ticker: SBER
 buy price: 114.8
 cost: 1148.0
 datetime: 2022-04-26 07:23:08.482123+00:00
-type: buy
-________________________
-ticker: DSKY
-percent: 0.0
-plus: -0.5848
-commision: 0.5848
