@@ -1,3 +1,13 @@
+ticker: MTSS
+percent: 0.0
+plus: -1.4828000000000001
+commision: 1.4828000000000001
+sell price: 185.35
+cost: 1853.5
+datetime: 2022-04-26 07:18:19.313113+00:00
+type: sell
+total plus percent: -0.27017534793916576
+________________________
 ticker: GAZP
 buy price: 209.68
 cost: 2096.8
@@ -488,13 +498,3 @@ type: buy
 ________________________
 ticker: MTSS
 percent: -0.08110300081103002
-plus: -2.979
-commision: 1.479
-sell price: 184.8
-cost: 1848.0
-datetime: 2022-04-25 15:20:33.136930+00:00
-type: sell
-total plus percent: -2.2119549757803183
-________________________
-ticker: DSKY
-buy price: 72.08
