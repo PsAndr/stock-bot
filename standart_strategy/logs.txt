@@ -1,3 +1,13 @@
+ticker: VTBR
+percent: -0.3528773072746891
+plus: -0.7970999999999773
+commision: 0.1471
+sell price: 0.018355
+cost: 183.55
+datetime: 2022-04-26 07:38:50.551725+00:00
+type: sell
+total plus percent: -0.12579656870231
+________________________
 ticker: ALRS
 percent: -0.45409916543937723
 plus: -4.3503600000000455
@@ -488,13 +498,3 @@ ticker: SBER
 percent: 0.7029876977152899
 plus: 7.0864
 commision: 0.9136000000000001
-sell price: 114.6
-cost: 1146.0
-datetime: 2022-04-26 07:22:43.499751+00:00
-type: sell
-total plus percent: 0.5251783093795858
-________________________
-ticker: DSKY
-buy price: 73.1
-cost: 731.0
-datetime: 2022-04-26 07:22:40.249752+00:00
