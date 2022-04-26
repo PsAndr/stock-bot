@@ -1,3 +1,13 @@
+ticker: RUAL
+percent: -0.6647599907242897
+plus: -4.815760000000068
+commision: 0.51576
+sell price: 64.255
+cost: 642.55
+datetime: 2022-04-26 08:44:51.286083+00:00
+type: sell
+total plus percent: 1.5553091410710436
+________________________
 ticker: VTBR
 percent: -0.5640612409347361
 plus: -1.1985000000000114
@@ -488,13 +498,3 @@ type: buy
 ________________________
 ticker: MVID
 buy price: 221.1
-cost: 221.1
-datetime: 2022-04-26 07:55:52.770753+00:00
-type: buy
-________________________
-ticker: GAZP
-buy price: 214.29
-cost: 2142.9
-datetime: 2022-04-26 07:55:42.124136+00:00
-type: buy
-________________________
