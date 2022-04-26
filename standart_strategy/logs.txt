@@ -1,3 +1,9 @@
+ticker: IRAO
+buy price: 2.393
+cost: 239.29999999999998
+datetime: 2022-04-26 07:03:27.545082+00:00
+type: buy
+________________________
 ticker: MTSS
 buy price: 185.1
 cost: 1851.0
@@ -492,9 +498,3 @@ ticker: FIXP
 percent: -0.44201768070724007
 plus: -2.0070000000000454
 commision: 0.307
-sell price: 382.9
-cost: 382.9
-datetime: 2022-04-25 14:59:58.594031+00:00
-type: sell
-total plus percent: -1.0143397867361492
-________________________
