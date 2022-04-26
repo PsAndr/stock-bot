@@ -1,3 +1,9 @@
+ticker: RUAL
+buy price: 64.495
+cost: 644.95
+datetime: 2022-04-26 07:21:52.447902+00:00
+type: buy
+________________________
 ticker: ALRS
 buy price: 80.96
 cost: 809.5999999999999
@@ -492,9 +498,3 @@ ticker: MTSS
 buy price: 185.2
 cost: 1852.0
 datetime: 2022-04-25 15:30:48.155883+00:00
-type: buy
-________________________
-ticker: AFLT
-buy price: 29.2
-cost: 292.0
-datetime: 2022-04-25 15:30:16.734597+00:00
