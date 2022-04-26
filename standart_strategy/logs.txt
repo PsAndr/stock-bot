@@ -1,3 +1,13 @@
+ticker: FIVE
+percent: -0.24545900834560627
+plus: -3.3138
+commision: 0.8138000000000001
+sell price: 1016.0
+cost: 1016.0
+datetime: 2022-04-26 15:36:31.170953+00:00
+type: sell
+total plus percent: -3.364674788744895
+________________________
 ticker: MVID
 percent: -0.22371364653243847
 plus: -0.6786
@@ -488,13 +498,3 @@ ticker: FIVE
 buy price: 1019.0
 cost: 1019.0
 datetime: 2022-04-26 14:33:36.159513+00:00
-type: buy
-________________________
-ticker: ALRS
-percent: 0.4999999999999889
-plus: 3.4423599999999093
-commision: 0.65764
-sell price: 82.41
-cost: 824.0999999999999
-datetime: 2022-04-26 14:33:10.986782+00:00
-type: sell
