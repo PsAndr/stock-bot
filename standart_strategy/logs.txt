@@ -1,3 +1,9 @@
+ticker: VTBR
+buy price: 0.01841
+cost: 184.1
+datetime: 2022-04-26 07:32:55.636082+00:00
+type: buy
+________________________
 ticker: SBER
 percent: -0.017496282040050576
 plus: -1.1143999999998182
@@ -490,11 +496,5 @@ ticker: GAZP
 buy price: 211.0
 cost: 2110.0
 datetime: 2022-04-26 07:20:17.076257+00:00
-type: buy
-________________________
-ticker: IRAO
-buy price: 2.4055
-cost: 240.55
-datetime: 2022-04-26 07:20:04.835084+00:00
 type: buy
 ________________________
