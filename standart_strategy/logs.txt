@@ -1,3 +1,9 @@
+ticker: ALRS
+buy price: 81.1
+cost: 811.0
+datetime: 2022-04-26 09:27:49.181234+00:00
+type: buy
+________________________
 ticker: FIXP
 percent: 0.05111167901865286
 plus: -0.11312000000001143
@@ -492,9 +498,3 @@ plus: 2.156959999999977
 commision: 0.24304000000000003
 sell price: 30.5
 cost: 305.0
-datetime: 2022-04-26 08:07:02.829155+00:00
-type: sell
-total plus percent: 4.995838043982637
-________________________
-ticker: SBER
-percent: 0.6286013619696216
