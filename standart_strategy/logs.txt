@@ -1,3 +1,13 @@
+ticker: SBER
+percent: -0.43668122270742354
+plus: -5.914
+commision: 0.914
+sell price: 114.0
+cost: 1140.0
+datetime: 2022-04-26 07:26:24.671754+00:00
+type: sell
+total plus percent: -0.06829733841494184
+________________________
 ticker: ALRS
 buy price: 80.94
 cost: 809.4
@@ -488,13 +498,3 @@ ticker: GAZP
 percent: 1.5261239368165072
 plus: 29.741439999999635
 commision: 1.65856
-sell price: 208.89
-cost: 2088.8999999999996
-datetime: 2022-04-26 07:05:12.106234+00:00
-type: sell
-total plus percent: 1.5261239368165072
-________________________
-ticker: MVID
-buy price: 221.2
-cost: 221.2
-datetime: 2022-04-26 07:04:07.785338+00:00
