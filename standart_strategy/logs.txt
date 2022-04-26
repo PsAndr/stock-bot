@@ -1,3 +1,13 @@
+ticker: IRAO
+percent: -0.020449897750492652
+plus: -0.24557999999995453
+commision: 0.19558
+sell price: 2.4445
+cost: 244.45000000000002
+datetime: 2022-04-26 12:17:18.685503+00:00
+type: sell
+total plus percent: 0.11187525966053881
+________________________
 ticker: FIVE
 percent: -0.04914004914004914
 plus: -1.3138
@@ -488,13 +498,3 @@ plus: -2.0158
 commision: 1.5158
 sell price: 189.45
 cost: 1894.5
-datetime: 2022-04-26 11:25:23.131185+00:00
-type: sell
-total plus percent: 0.722337419354798
-________________________
-ticker: YNDX
-percent: -0.26978417266187343
-plus: -5.4437600000000455
-commision: 1.24376
-sell price: 1552.6
-cost: 1552.6
