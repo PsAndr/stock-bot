@@ -1,3 +1,9 @@
+ticker: DSKY
+buy price: 72.86
+cost: 728.6
+datetime: 2022-04-26 07:57:35.223754+00:00
+type: buy
+________________________
 ticker: MVID
 buy price: 221.1
 cost: 221.1
@@ -492,9 +498,3 @@ total plus percent: -0.36131844653647843
 ________________________
 ticker: IRAO
 buy price: 2.4155
-cost: 241.55
-datetime: 2022-04-26 07:34:58.766494+00:00
-type: buy
-________________________
-ticker: ALRS
-buy price: 81.48
