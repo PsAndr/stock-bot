@@ -1,3 +1,13 @@
+ticker: SBER
+percent: 0.05952887150266333
+plus: -0.24100000000018196
+commision: 0.9410000000000001
+sell price: 117.66
+cost: 1176.6
+datetime: 2022-04-26 12:15:54.629182+00:00
+type: sell
+total plus percent: 1.3156252998258748
+________________________
 ticker: MTSS
 buy price: 193.0
 cost: 1930.0
@@ -487,14 +497,4 @@ cost: 189.1
 datetime: 2022-04-26 11:23:10.656152+00:00
 type: sell
 total plus percent: -0.3418822640526291
-________________________
-ticker: MTSS
-percent: -0.10542962572482868
-plus: -3.5168
-commision: 1.5168
-sell price: 189.5
-cost: 1895.0
-datetime: 2022-04-26 11:23:03.165193+00:00
-type: sell
-total plus percent: 0.7487226436292044
 ________________________
