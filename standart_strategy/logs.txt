@@ -1,3 +1,13 @@
+ticker: AFLT
+percent: 1.61616161616162
+plus: 4.560480000000012
+commision: 0.23952
+sell price: 30.18
+cost: 301.8
+datetime: 2022-04-26 07:50:07.986084+00:00
+type: sell
+total plus percent: 3.339406887152065
+________________________
 ticker: SBER
 buy price: 114.44
 cost: 1144.4
@@ -487,14 +497,4 @@ commision: 1.5070000000000001
 sell price: 189.3
 cost: 1893.0
 datetime: 2022-04-26 07:30:59.339751+00:00
-type: sell
-total plus percent: 0.9307726915665716
-________________________
-ticker: GAZP
-percent: 0.1837802177088776
-plus: 2.200760000000091
-commision: 1.69924
-sell price: 212.6
-cost: 2126.0
-datetime: 2022-04-26 07:30:57.075084+00:00
 type: sell
