@@ -1,4 +1,14 @@
 ticker: ALRS
+percent: 0.012217470983509192
+plus: -0.5548399999999774
+commision: 0.6548400000000001
+sell price: 81.86
+cost: 818.6
+datetime: 2022-04-26 12:55:44.164296+00:00
+type: sell
+total plus percent: 0.1533456696074488
+________________________
+ticker: ALRS
 buy price: 81.85
 cost: 818.5
 datetime: 2022-04-26 12:54:04.202845+00:00
@@ -488,13 +498,3 @@ datetime: 2022-04-26 12:28:18.653973+00:00
 type: sell
 total plus percent: 0.09161389815240285
 ________________________
-ticker: VTBR
-buy price: 0.0191
-cost: 191.0
-datetime: 2022-04-26 12:28:14.352620+00:00
-type: buy
-________________________
-ticker: IRAO
-buy price: 2.445
-cost: 244.49999999999997
-datetime: 2022-04-26 12:27:54.878156+00:00
