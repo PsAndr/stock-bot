@@ -1,3 +1,13 @@
+ticker: FIVE
+percent: -0.19627085377821393
+plus: -2.8144
+commision: 0.8144
+sell price: 1017.0
+cost: 1017.0
+datetime: 2022-04-26 10:56:51.044080+00:00
+type: sell
+total plus percent: -1.2564189953936549
+________________________
 ticker: SBER
 percent: 1.2733887733887574
 plus: 13.770599999999819
@@ -488,13 +498,3 @@ ticker: MVID
 buy price: 219.9
 cost: 219.9
 datetime: 2022-04-26 10:07:46.456727+00:00
-type: buy
-________________________
-ticker: IRAO
-percent: -0.062111801242238376
-plus: -0.34314000000000566
-commision: 0.19314
-sell price: 2.4135
-cost: 241.35
-datetime: 2022-04-26 10:07:08.783293+00:00
-type: sell
