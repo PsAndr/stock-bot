@@ -1,3 +1,9 @@
+ticker: FIVE
+buy price: 1019.0
+cost: 1019.0
+datetime: 2022-04-26 14:33:36.159513+00:00
+type: buy
+________________________
 ticker: ALRS
 percent: 0.4999999999999889
 plus: 3.4423599999999093
@@ -492,9 +498,3 @@ sell price: 2.4635
 cost: 246.34999999999997
 datetime: 2022-04-26 13:29:02.754286+00:00
 type: sell
-total plus percent: 0.9292649980269568
-________________________
-ticker: MTSS
-buy price: 194.05
-cost: 1940.5
-datetime: 2022-04-26 13:27:43.185244+00:00
