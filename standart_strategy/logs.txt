@@ -1,3 +1,9 @@
+ticker: VTBR
+buy price: 0.0191
+cost: 191.0
+datetime: 2022-04-26 12:28:14.352620+00:00
+type: buy
+________________________
 ticker: IRAO
 buy price: 2.445
 cost: 244.49999999999997
@@ -492,9 +498,3 @@ datetime: 2022-04-26 12:02:56.048246+00:00
 type: sell
 total plus percent: -1.8942259384598361
 ________________________
-ticker: RUAL
-percent: 1.0579611577117638
-plus: 6.467879999999886
-commision: 0.5321200000000001
-sell price: 66.865
-cost: 668.65
