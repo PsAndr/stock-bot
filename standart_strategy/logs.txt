@@ -1,3 +1,13 @@
+ticker: GAZP
+percent: 1.5261239368165072
+plus: 29.741439999999635
+commision: 1.65856
+sell price: 208.89
+cost: 2088.8999999999996
+datetime: 2022-04-26 07:05:12.106234+00:00
+type: sell
+total plus percent: 1.5261239368165072
+________________________
 ticker: MVID
 buy price: 221.2
 cost: 221.2
@@ -488,13 +498,3 @@ sell price: 383.3
 cost: 383.3
 datetime: 2022-04-25 15:04:38.600665+00:00
 type: sell
-total plus percent: -1.2745531617036225
-________________________
-ticker: FIXP
-buy price: 384.3
-cost: 384.3
-datetime: 2022-04-25 15:02:18.585558+00:00
-type: buy
-________________________
-ticker: VTBR
-buy price: 0.018215
