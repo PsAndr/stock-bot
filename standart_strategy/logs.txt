@@ -1,3 +1,13 @@
+ticker: SBER
+percent: -0.13972578814078562
+plus: -2.5154400000001367
+commision: 0.91544
+sell price: 114.35
+cost: 1143.5
+datetime: 2022-04-26 07:43:52.398934+00:00
+type: sell
+total plus percent: 0.37058103396755937
+________________________
 ticker: VTBR
 buy price: 0.0184
 cost: 184.0
@@ -488,13 +498,3 @@ type: buy
 ________________________
 ticker: SBER
 percent: -0.15679442508710403
-plus: -2.7176799999999544
-commision: 0.91768
-sell price: 114.62
-cost: 1146.2
-datetime: 2022-04-26 07:25:33.564018+00:00
-type: sell
-total plus percent: 0.3683838842924817
-________________________
-ticker: GAZP
-percent: 0.7867298578199009
