@@ -1,3 +1,9 @@
+ticker: SBER
+buy price: 115.44
+cost: 1154.4
+datetime: 2022-04-26 09:59:27.289751+00:00
+type: buy
+________________________
 ticker: DSKY
 buy price: 73.3
 cost: 733.0
@@ -492,9 +498,3 @@ sell price: 386.4
 cost: 386.4
 datetime: 2022-04-26 08:32:23.562734+00:00
 type: sell
-total plus percent: 0.37012284718193966
-________________________
-ticker: FIVE
-percent: -0.2455795677799607
-plus: -3.3134
-commision: 0.8134
