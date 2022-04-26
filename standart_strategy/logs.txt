@@ -1,3 +1,13 @@
+ticker: FIVE
+percent: -0.7862407862407862
+plus: -8.8108
+commision: 0.8108
+sell price: 1009.5
+cost: 1009.5
+datetime: 2022-04-26 09:53:36.037085+00:00
+type: sell
+total plus percent: -1.8565293774910527
+________________________
 ticker: MVID
 buy price: 220.9
 cost: 220.9
@@ -488,13 +498,3 @@ ticker: FIVE
 percent: -0.9254749147588894
 plus: -10.3174
 commision: 0.8174
-sell price: 1017.0
-cost: 1017.0
-datetime: 2022-04-26 08:23:36.030755+00:00
-type: sell
-total plus percent: -0.8251200651471895
-________________________
-ticker: SBER
-percent: -0.8549961136540366
-plus: -10.82236000000009
-commision: 0.9223600000000001
