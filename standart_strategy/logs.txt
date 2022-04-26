@@ -1,3 +1,9 @@
+ticker: IRAO
+buy price: 2.4055
+cost: 240.55
+datetime: 2022-04-26 07:20:04.835084+00:00
+type: buy
+________________________
 ticker: DSKY
 percent: -0.027472527472533717
 plus: -0.7823200000000454
@@ -492,9 +498,3 @@ type: buy
 ________________________
 ticker: DSKY
 percent: -0.1940670917660074
-plus: -1.9765599999999772
-commision: 0.57656
-sell price: 72.0
-cost: 720.0
-datetime: 2022-04-25 15:23:36.401447+00:00
-type: sell
