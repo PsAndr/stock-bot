@@ -1,3 +1,13 @@
+ticker: ALRS
+percent: -0.02442300647208839
+plus: -0.8550399999999319
+commision: 0.6550400000000001
+sell price: 81.87
+cost: 818.7
+datetime: 2022-04-26 13:00:49.202300+00:00
+type: sell
+total plus percent: 0.15335760510237878
+________________________
 ticker: IRAO
 percent: 0.44925464570143586
 plus: 0.9036799999999658
@@ -487,14 +497,4 @@ buy price: 1576.2
 cost: 1576.2
 datetime: 2022-04-26 12:33:03.298488+00:00
 type: buy
-________________________
-ticker: YNDX
-percent: 0.5353728489483806
-plus: 7.141440000000091
-commision: 1.2585600000000001
-sell price: 1577.4
-cost: 1577.4
-datetime: 2022-04-26 12:32:33.353010+00:00
-type: sell
-total plus percent: -0.10622809597917082
 ________________________
