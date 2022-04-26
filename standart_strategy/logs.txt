@@ -1,3 +1,9 @@
+ticker: SBER
+buy price: 114.44
+cost: 1144.4
+datetime: 2022-04-26 07:50:03.562729+00:00
+type: buy
+________________________
 ticker: FIVE
 percent: -0.44031311154598823
 plus: -5.3158
@@ -492,9 +498,3 @@ sell price: 212.6
 cost: 2126.0
 datetime: 2022-04-26 07:30:57.075084+00:00
 type: sell
-total plus percent: 3.140514277268179
-________________________
-ticker: FIXP
-percent: -0.10354646647684031
-plus: -0.7088800000000341
-commision: 0.30888000000000004
