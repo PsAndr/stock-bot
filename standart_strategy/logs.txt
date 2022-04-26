@@ -1,3 +1,9 @@
+ticker: GAZP
+buy price: 214.29
+cost: 2142.9
+datetime: 2022-04-26 07:55:42.124136+00:00
+type: buy
+________________________
 ticker: MVID
 percent: -0.13556258472662058
 plus: -0.4769200000000114
@@ -492,9 +498,3 @@ type: buy
 ________________________
 ticker: IRAO
 percent: -0.08274720728174954
-plus: -0.39327999999998864
-commision: 0.19328
-sell price: 2.415
-cost: 241.5
-datetime: 2022-04-26 07:34:18.696758+00:00
-type: sell
