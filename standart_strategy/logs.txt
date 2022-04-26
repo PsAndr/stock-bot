@@ -1,4 +1,10 @@
 ticker: DSKY
+buy price: 73.96
+cost: 739.5999999999999
+datetime: 2022-04-26 10:12:55.246968+00:00
+type: buy
+________________________
+ticker: DSKY
 percent: 0.08119079837617173
 plus: 0.008559999999909085
 commision: 0.59144
@@ -492,9 +498,3 @@ total plus percent: 1.348824873144844
 ________________________
 ticker: ALRS
 percent: -0.7951070336391437
-plus: -7.1514
-commision: 0.6514
-sell price: 81.1
-cost: 811.0
-datetime: 2022-04-26 09:27:09.185083+00:00
-type: sell
