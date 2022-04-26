@@ -1,3 +1,13 @@
+ticker: ALRS
+percent: -0.9626955475330927
+plus: -8.6616
+commision: 0.6616
+sell price: 82.3
+cost: 823.0
+datetime: 2022-04-26 15:09:29.620526+00:00
+type: sell
+total plus percent: 0.6123600022294937
+________________________
 ticker: GAZP
 buy price: 227.13
 cost: 2271.3
@@ -488,13 +498,3 @@ type: buy
 ________________________
 ticker: FIVE
 percent: -0.14734774066797643
-plus: -2.3138
-commision: 0.8138000000000001
-sell price: 1016.5
-cost: 1016.5
-datetime: 2022-04-26 14:16:51.044679+00:00
-type: sell
-total plus percent: -2.9234521304635472
-________________________
-ticker: DSKY
-buy price: 74.56
