@@ -1,3 +1,9 @@
+ticker: MTSS
+buy price: 187.45
+cost: 1874.5
+datetime: 2022-04-26 07:26:43.137787+00:00
+type: buy
+________________________
 ticker: SBER
 percent: -0.43668122270742354
 plus: -5.914
@@ -492,9 +498,3 @@ sell price: 29.78
 cost: 297.8
 datetime: 2022-04-26 07:05:21.707421+00:00
 type: sell
-total plus percent: 2.1262002743484185
-________________________
-ticker: GAZP
-percent: 1.5261239368165072
-plus: 29.741439999999635
-commision: 1.65856
