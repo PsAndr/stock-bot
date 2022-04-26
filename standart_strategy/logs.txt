@@ -1,4 +1,10 @@
 ticker: IRAO
+buy price: 2.445
+cost: 244.49999999999997
+datetime: 2022-04-26 12:16:52.498535+00:00
+type: buy
+________________________
+ticker: IRAO
 percent: 0.575894693541743
 plus: 1.2049599999999772
 commision: 0.19504
@@ -490,11 +496,5 @@ ticker: MVID
 buy price: 224.4
 cost: 224.4
 datetime: 2022-04-26 11:24:17.742342+00:00
-type: buy
-________________________
-ticker: YNDX
-buy price: 1556.8
-cost: 1556.8
-datetime: 2022-04-26 11:24:13.361758+00:00
 type: buy
 ________________________
