@@ -1,3 +1,13 @@
+ticker: IRAO
+percent: 0.20283975659230363
+plus: 0.3026000000000284
+commision: 0.19740000000000002
+sell price: 2.47
+cost: 247.00000000000003
+datetime: 2022-04-26 14:31:58.920684+00:00
+type: sell
+total plus percent: 1.1123405903325343
+________________________
 ticker: ALRS
 buy price: 82.0
 cost: 820.0
@@ -488,13 +498,3 @@ sell price: 2.4625
 cost: 246.25
 datetime: 2022-04-26 13:26:08.799477+00:00
 type: sell
-total plus percent: 0.8886558609711331
-________________________
-ticker: MTSS
-buy price: 194.05
-cost: 1940.5
-datetime: 2022-04-26 13:25:58.128220+00:00
-type: buy
-________________________
-ticker: SBER
-percent: 0.0
