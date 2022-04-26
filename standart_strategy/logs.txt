@@ -1,3 +1,13 @@
+ticker: SBER
+percent: -0.8549961136540366
+plus: -10.82236000000009
+commision: 0.9223600000000001
+sell price: 114.8
+cost: 1148.0
+datetime: 2022-04-26 08:22:37.315082+00:00
+type: sell
+total plus percent: -0.25718268091201235
+________________________
 ticker: MVID
 percent: -0.18009905447996655
 plus: -0.5775200000000057
@@ -488,13 +498,3 @@ datetime: 2022-04-26 07:51:11.499860+00:00
 type: sell
 total plus percent: -0.04422339130234759
 ________________________
-ticker: AFLT
-buy price: 30.08
-cost: 300.79999999999995
-datetime: 2022-04-26 07:50:31.536084+00:00
-type: buy
-________________________
-ticker: FIVE
-buy price: 1020.0
-cost: 1020.0
-datetime: 2022-04-26 07:50:21.042929+00:00
