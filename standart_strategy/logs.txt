@@ -1,4 +1,10 @@
 ticker: FIXP
+buy price: 385.3
+cost: 385.3
+datetime: 2022-04-26 07:35:23.641471+00:00
+type: buy
+________________________
+ticker: FIXP
 percent: 0.02596053997923747
 plus: -0.2081999999999773
 commision: 0.30820000000000003
@@ -492,9 +498,3 @@ sell price: 64.4
 cost: 644.0
 datetime: 2022-04-26 07:21:23.769978+00:00
 type: sell
-total plus percent: 1.7859965228386208
-________________________
-ticker: DSKY
-buy price: 72.98
-cost: 729.8000000000001
-datetime: 2022-04-26 07:21:21.399189+00:00
