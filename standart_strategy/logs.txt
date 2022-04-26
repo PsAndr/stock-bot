@@ -1,3 +1,13 @@
+ticker: FIXP
+percent: -0.05190760446405103
+plus: -0.5081599999999886
+commision: 0.30816
+sell price: 385.1
+cost: 385.1
+datetime: 2022-04-26 10:05:11.020753+00:00
+type: sell
+total plus percent: -0.2192625376972382
+________________________
 ticker: IRAO
 buy price: 2.4165
 cost: 241.65
@@ -488,13 +498,3 @@ total plus percent: 0.4736961252762002
 ________________________
 ticker: FIXP
 buy price: 386.2
-cost: 386.2
-datetime: 2022-04-26 08:44:59.749751+00:00
-type: buy
-________________________
-ticker: RUAL
-percent: -0.6647599907242897
-plus: -4.815760000000068
-commision: 0.51576
-sell price: 64.255
-cost: 642.55
