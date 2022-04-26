@@ -1,3 +1,13 @@
+ticker: FIXP
+percent: -0.1291322314049587
+plus: -0.8095600000000001
+commision: 0.30956
+sell price: 386.7
+cost: 386.7
+datetime: 2022-04-26 09:49:19.800196+00:00
+type: sell
+total plus percent: 0.4791410584916642
+________________________
 ticker: IRAO
 percent: 0.2895553257497485
 plus: 0.506320000000017
@@ -488,13 +498,3 @@ total plus percent: -0.5359148447401674
 ________________________
 ticker: MTSS
 percent: 0.07876082961407194
-plus: -0.0242
-commision: 1.5242
-sell price: 190.6
-cost: 1906.0
-datetime: 2022-04-26 08:16:48.129096+00:00
-type: sell
-total plus percent: 1.6948961510980167
-________________________
-ticker: FIXP
-buy price: 384.1
