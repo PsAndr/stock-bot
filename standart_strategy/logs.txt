@@ -1,3 +1,9 @@
+ticker: MTSS
+buy price: 191.4
+cost: 1914.0
+datetime: 2022-04-26 12:07:28.123849+00:00
+type: buy
+________________________
 ticker: YNDX
 buy price: 1561.0
 cost: 1561.0
@@ -492,9 +498,3 @@ total plus percent: -1.3538914834681435
 ________________________
 ticker: FIVE
 buy price: 1018.0
-cost: 1018.0
-datetime: 2022-04-26 11:09:01.064447+00:00
-type: buy
-________________________
-ticker: FIVE
-percent: -0.04911591355599214
