@@ -1,4 +1,14 @@
 ticker: DSKY
+percent: 0.05393743257822155
+plus: -0.19343999999990902
+commision: 0.59344
+sell price: 74.2
+cost: 742.0
+datetime: 2022-04-26 10:18:15.197274+00:00
+type: sell
+total plus percent: 0.22219142482889176
+________________________
+ticker: DSKY
 buy price: 74.16
 cost: 741.5999999999999
 datetime: 2022-04-26 10:17:10.270754+00:00
@@ -488,13 +498,3 @@ ticker: FIXP
 buy price: 386.7
 cost: 386.7
 datetime: 2022-04-26 09:38:03.637084+00:00
-type: buy
-________________________
-ticker: AFLT
-buy price: 30.34
-cost: 303.4
-datetime: 2022-04-26 09:36:00.394079+00:00
-type: buy
-________________________
-ticker: FIXP
-percent: -0.7405515832482211
