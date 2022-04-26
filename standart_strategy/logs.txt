@@ -1,3 +1,9 @@
+ticker: MVID
+buy price: 220.9
+cost: 220.9
+datetime: 2022-04-26 09:53:11.440753+00:00
+type: buy
+________________________
 ticker: IRAO
 buy price: 2.4155
 cost: 241.55
@@ -492,9 +498,3 @@ ticker: SBER
 percent: -0.8549961136540366
 plus: -10.82236000000009
 commision: 0.9223600000000001
-sell price: 114.8
-cost: 1148.0
-datetime: 2022-04-26 08:22:37.315082+00:00
-type: sell
-total plus percent: -0.25718268091201235
-________________________
