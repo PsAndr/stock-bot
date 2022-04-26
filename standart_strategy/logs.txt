@@ -1,3 +1,9 @@
+ticker: MTSS
+buy price: 193.0
+cost: 1930.0
+datetime: 2022-04-26 12:15:49.286974+00:00
+type: buy
+________________________
 ticker: GAZP
 buy price: 220.51
 cost: 2205.1
@@ -492,9 +498,3 @@ datetime: 2022-04-26 11:23:03.165193+00:00
 type: sell
 total plus percent: 0.7487226436292044
 ________________________
-ticker: MVID
-percent: 0.2684563758389236
-plus: 0.42095999999999434
-commision: 0.17904
-sell price: 224.1
-cost: 224.1
