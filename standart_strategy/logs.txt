@@ -1,3 +1,13 @@
+ticker: VTBR
+percent: 0.19032082653615787
+plus: 0.2027399999999943
+commision: 0.14726
+sell price: 0.018425
+cost: 184.25
+datetime: 2022-04-26 07:22:20.592496+00:00
+type: sell
+total plus percent: 0.7159086550285444
+________________________
 ticker: DSKY
 percent: 0.10961907371882085
 plus: 0.2158399999999545
@@ -488,13 +498,3 @@ ticker: AFLT
 percent: -0.3424657534246575
 plus: -1.2332
 commision: 0.23320000000000002
-sell price: 29.1
-cost: 291.0
-datetime: 2022-04-25 15:30:59.007622+00:00
-type: sell
-total plus percent: -0.20246811908308604
-________________________
-ticker: DSKY
-percent: 0.0
-plus: -0.57616
-commision: 0.57616
