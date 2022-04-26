@@ -1,3 +1,9 @@
+ticker: FIVE
+buy price: 1022.0
+cost: 1022.0
+datetime: 2022-04-26 07:45:36.069752+00:00
+type: buy
+________________________
 ticker: VTBR
 percent: -0.27173913043476716
 plus: -0.6469999999999716
@@ -492,9 +498,3 @@ type: buy
 ________________________
 ticker: MTSS
 percent: 0.2140181915462814
-plus: 2.5031999999999996
-commision: 1.4968000000000001
-sell price: 187.3
-cost: 1873.0
-datetime: 2022-04-26 07:26:18.174081+00:00
-type: sell
