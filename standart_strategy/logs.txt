@@ -1,3 +1,13 @@
+ticker: MTSS
+percent: 0.13210039630118892
+plus: 0.9849999999999999
+commision: 1.5150000000000001
+sell price: 189.5
+cost: 1895.0
+datetime: 2022-04-26 11:21:58.113562+00:00
+type: sell
+total plus percent: 0.8541522693540331
+________________________
 ticker: MVID
 buy price: 223.5
 cost: 223.5
@@ -488,13 +498,3 @@ total plus percent: -2.308137160911067
 ________________________
 ticker: MVID
 buy price: 219.5
-cost: 219.5
-datetime: 2022-04-26 10:24:31.483362+00:00
-type: buy
-________________________
-ticker: MVID
-percent: 0.0455788514129418
-plus: -0.07556000000000568
-commision: 0.17556
-sell price: 219.5
-cost: 219.5
