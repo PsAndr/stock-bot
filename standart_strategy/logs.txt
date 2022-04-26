@@ -1,4 +1,14 @@
 ticker: DSKY
+percent: -0.08112493239587738
+plus: -1.191439999999909
+commision: 0.59144
+sell price: 73.9
+cost: 739.0
+datetime: 2022-04-26 10:13:25.195081+00:00
+type: sell
+total plus percent: -0.07498925099258225
+________________________
+ticker: DSKY
 buy price: 73.96
 cost: 739.5999999999999
 datetime: 2022-04-26 10:12:55.246968+00:00
@@ -488,13 +498,3 @@ type: buy
 ________________________
 ticker: FIXP
 percent: 0.05111167901865286
-plus: -0.11312000000001143
-commision: 0.31312000000000006
-sell price: 391.5
-cost: 391.5
-datetime: 2022-04-26 09:27:19.777364+00:00
-type: sell
-total plus percent: 1.348824873144844
-________________________
-ticker: ALRS
-percent: -0.7951070336391437
