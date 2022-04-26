@@ -1,3 +1,9 @@
+ticker: MTSS
+buy price: 189.5
+cost: 1895.0
+datetime: 2022-04-26 11:26:58.155765+00:00
+type: buy
+________________________
 ticker: IRAO
 buy price: 2.431
 cost: 243.1
@@ -492,9 +498,3 @@ type: buy
 ________________________
 ticker: FIVE
 buy price: 1019.5
-cost: 1019.5
-datetime: 2022-04-26 10:45:01.031755+00:00
-type: buy
-________________________
-ticker: MVID
-percent: -0.22603978300180833
