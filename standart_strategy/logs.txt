@@ -1,3 +1,9 @@
+ticker: VTBR
+buy price: 0.01848
+cost: 184.8
+datetime: 2022-04-26 07:51:39.408958+00:00
+type: buy
+________________________
 ticker: MVID
 percent: 0.2722323049001789
 plus: 0.4234399999999943
@@ -492,9 +498,3 @@ type: buy
 ________________________
 ticker: GAZP
 buy price: 212.24
-cost: 2122.4
-datetime: 2022-04-26 07:31:27.136769+00:00
-type: buy
-________________________
-ticker: FIXP
-buy price: 386.3
