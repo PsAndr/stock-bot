@@ -1,3 +1,9 @@
+ticker: AFLT
+buy price: 29.78
+cost: 297.8
+datetime: 2022-04-26 07:20:58.893665+00:00
+type: buy
+________________________
 ticker: DSKY
 percent: 0.0
 plus: -0.5832
@@ -491,10 +497,4 @@ cost: 290.59999999999997
 datetime: 2022-04-25 15:27:16.673799+00:00
 type: sell
 total plus percent: 0.4141580181661127
-________________________
-ticker: MTSS
-buy price: 185.0
-cost: 1850.0
-datetime: 2022-04-25 15:27:08.124541+00:00
-type: buy
 ________________________
