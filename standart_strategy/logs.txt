@@ -1,3 +1,9 @@
+ticker: YNDX
+buy price: 1600.0
+cost: 1600.0
+datetime: 2022-04-26 14:59:24.221624+00:00
+type: buy
+________________________
 ticker: FIXP
 buy price: 383.0
 cost: 383.0
@@ -492,9 +498,3 @@ cost: 1019.0
 datetime: 2022-04-26 14:07:11.049415+00:00
 type: buy
 ________________________
-ticker: FIVE
-percent: -0.04911591355599214
-plus: -1.3142
-commision: 0.8142
-sell price: 1017.5
-cost: 1017.5
