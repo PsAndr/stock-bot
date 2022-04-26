@@ -1,3 +1,9 @@
+ticker: ALRS
+buy price: 80.94
+cost: 809.4
+datetime: 2022-04-26 07:20:20.413338+00:00
+type: buy
+________________________
 ticker: GAZP
 buy price: 211.0
 cost: 2110.0
@@ -492,9 +498,3 @@ total plus percent: -1.9083651425455124
 ________________________
 ticker: SBER
 buy price: 112.48
-cost: 1124.8
-datetime: 2022-04-25 15:24:52.350842+00:00
-type: buy
-________________________
-ticker: DSKY
-buy price: 72.12
