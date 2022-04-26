@@ -1,3 +1,13 @@
+ticker: ALRS
+percent: 0.18201674554060354
+plus: 0.8401200000001137
+commision: 0.65988
+sell price: 82.56
+cost: 825.6
+datetime: 2022-04-26 14:41:54.643791+00:00
+type: sell
+total plus percent: 1.0674436998895946
+________________________
 ticker: FIVE
 buy price: 1017.0
 cost: 1017.0
@@ -488,13 +498,3 @@ ticker: MTSS
 percent: -0.02576655501159495
 plus: -2.0522
 commision: 1.5522
-sell price: 194.0
-cost: 1940.0
-datetime: 2022-04-26 13:36:33.154320+00:00
-type: sell
-total plus percent: 2.532736447221545
-________________________
-ticker: IRAO
-buy price: 2.4715
-cost: 247.14999999999998
-datetime: 2022-04-26 13:36:07.634648+00:00
