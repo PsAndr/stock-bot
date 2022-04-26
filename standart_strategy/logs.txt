@@ -1,3 +1,13 @@
+ticker: RUAL
+percent: 1.7859965228386208
+plus: 10.789319999999954
+commision: 0.51068
+sell price: 64.4
+cost: 644.0
+datetime: 2022-04-26 07:21:23.769978+00:00
+type: sell
+total plus percent: 1.7859965228386208
+________________________
 ticker: DSKY
 buy price: 72.98
 cost: 729.8000000000001
@@ -487,14 +497,4 @@ cost: 1848.5
 datetime: 2022-04-25 15:30:08.131632+00:00
 type: sell
 total plus percent: -2.6711152995730774
-________________________
-ticker: AFLT
-percent: -0.2741603838245412
-plus: -1.0331200000000114
-commision: 0.23312
-sell price: 29.1
-cost: 291.0
-datetime: 2022-04-25 15:29:40.508762+00:00
-type: sell
-total plus percent: 0.13999763434157148
 ________________________
