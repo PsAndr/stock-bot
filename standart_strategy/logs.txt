@@ -1,3 +1,9 @@
+ticker: IRAO
+buy price: 2.3905
+cost: 239.04999999999998
+datetime: 2022-04-26 07:15:03.794078+00:00
+type: buy
+________________________
 ticker: GAZP
 buy price: 208.76
 cost: 2087.6
@@ -490,11 +496,5 @@ ticker: MTSS
 buy price: 184.95
 cost: 1849.5
 datetime: 2022-04-25 15:17:18.152578+00:00
-type: buy
-________________________
-ticker: FIXP
-buy price: 381.9
-cost: 381.9
-datetime: 2022-04-25 15:16:53.638626+00:00
 type: buy
 ________________________
