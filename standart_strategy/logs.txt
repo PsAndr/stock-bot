@@ -1,3 +1,13 @@
+ticker: MTSS
+percent: -0.1032258064516129
+plus: -3.5492
+commision: 1.5492
+sell price: 193.55
+cost: 1935.5
+datetime: 2022-04-26 12:48:13.100185+00:00
+type: sell
+total plus percent: 2.5067636652070724
+________________________
 ticker: ALRS
 percent: 0.0
 plus: -0.6547200000000001
@@ -488,13 +498,3 @@ ticker: GAZP
 percent: 0.26756156183393454
 plus: 4.133560000000091
 commision: 1.7664400000000002
-sell price: 221.1
-cost: 2211.0
-datetime: 2022-04-26 12:22:52.120185+00:00
-type: sell
-total plus percent: 5.9297926210254
-________________________
-ticker: IRAO
-percent: -0.020449897750492652
-plus: -0.24557999999995453
-commision: 0.19558
