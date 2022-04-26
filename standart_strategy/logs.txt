@@ -1,3 +1,9 @@
+ticker: MVID
+buy price: 221.3
+cost: 221.3
+datetime: 2022-04-26 07:51:42.715236+00:00
+type: buy
+________________________
 ticker: VTBR
 buy price: 0.01848
 cost: 184.8
@@ -492,9 +498,3 @@ type: buy
 ________________________
 ticker: MTSS
 buy price: 189.55
-cost: 1895.5
-datetime: 2022-04-26 07:31:29.338211+00:00
-type: buy
-________________________
-ticker: GAZP
-buy price: 212.24
