@@ -1,3 +1,9 @@
+ticker: AFLT
+buy price: 30.32
+cost: 303.2
+datetime: 2022-04-26 12:58:01.715225+00:00
+type: buy
+________________________
 ticker: ALRS
 percent: 0.024434941967018384
 plus: -0.45487999999995465
@@ -492,9 +498,3 @@ ticker: IRAO
 percent: 0.10235414534287475
 plus: 0.05449999999997157
 commision: 0.1955
-sell price: 2.445
-cost: 244.49999999999997
-datetime: 2022-04-26 12:30:08.825408+00:00
-type: sell
-total plus percent: 0.1939680434952776
-________________________
