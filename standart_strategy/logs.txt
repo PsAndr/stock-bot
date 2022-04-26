@@ -1,3 +1,9 @@
+ticker: MTSS
+buy price: 194.05
+cost: 1940.5
+datetime: 2022-04-26 13:25:58.128220+00:00
+type: buy
+________________________
 ticker: SBER
 percent: 0.0
 plus: -0.9524
@@ -490,11 +496,5 @@ ticker: SBER
 buy price: 118.67
 cost: 1186.7
 datetime: 2022-04-26 12:44:58.379183+00:00
-type: buy
-________________________
-ticker: MTSS
-buy price: 193.45
-cost: 1934.5
-datetime: 2022-04-26 12:44:53.087346+00:00
 type: buy
 ________________________
