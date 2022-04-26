@@ -1,3 +1,13 @@
+ticker: MTSS
+percent: 0.2140181915462814
+plus: 2.5031999999999996
+commision: 1.4968000000000001
+sell price: 187.3
+cost: 1873.0
+datetime: 2022-04-26 07:26:18.174081+00:00
+type: sell
+total plus percent: -0.05615715639288435
+________________________
 ticker: SBER
 buy price: 114.5
 cost: 1145.0
@@ -488,13 +498,3 @@ ticker: DSKY
 buy price: 71.92
 cost: 719.2
 datetime: 2022-04-26 07:04:00.229751+00:00
-type: buy
-________________________
-ticker: FIXP
-buy price: 385.3
-cost: 385.3
-datetime: 2022-04-26 07:03:29.789095+00:00
-type: buy
-________________________
-ticker: IRAO
-buy price: 2.393
