@@ -1,3 +1,13 @@
+ticker: FIXP
+percent: 0.025947067981324012
+plus: -0.20835999999997723
+commision: 0.30835999999999997
+sell price: 385.5
+cost: 385.5
+datetime: 2022-04-26 07:53:00.971763+00:00
+type: sell
+total plus percent: -0.3353713785551544
+________________________
 ticker: SBER
 percent: -0.1835022719329025
 plus: -3.0146800000001366
@@ -487,14 +497,4 @@ commision: 0.19328
 sell price: 2.415
 cost: 241.5
 datetime: 2022-04-26 07:32:05.054232+00:00
-type: sell
-total plus percent: 0.35760747349140665
-________________________
-ticker: VTBR
-percent: -0.24443237370993406
-plus: -0.5970999999999886
-commision: 0.1471
-sell price: 0.018365
-cost: 183.65
-datetime: 2022-04-26 07:32:00.558906+00:00
 type: sell
