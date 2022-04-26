@@ -1,3 +1,13 @@
+ticker: FIXP
+percent: 0.39215686274509803
+plus: 1.1934
+commision: 0.3066
+sell price: 384.0
+cost: 384.0
+datetime: 2022-04-26 08:10:11.136083+00:00
+type: sell
+total plus percent: -0.1247027190768411
+________________________
 ticker: SBER
 percent: -0.017301038062287673
 plus: -1.1247200000000455
@@ -488,13 +498,3 @@ ticker: MTSS
 buy price: 190.15
 cost: 1901.5
 datetime: 2022-04-26 07:46:18.126085+00:00
-type: buy
-________________________
-ticker: MTSS
-percent: 0.5011870218939594
-plus: 7.9798
-commision: 1.5202
-sell price: 190.5
-cost: 1905.0
-datetime: 2022-04-26 07:45:39.358093+00:00
-type: sell
