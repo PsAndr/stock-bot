@@ -1,3 +1,9 @@
+ticker: ALRS
+buy price: 81.12
+cost: 811.2
+datetime: 2022-04-26 07:39:24.170756+00:00
+type: buy
+________________________
 ticker: VTBR
 percent: -0.3528773072746891
 plus: -0.7970999999999773
@@ -492,9 +498,3 @@ ticker: VTBR
 buy price: 0.018435
 cost: 184.35
 datetime: 2022-04-26 07:22:46.747086+00:00
-type: buy
-________________________
-ticker: SBER
-percent: 0.7029876977152899
-plus: 7.0864
-commision: 0.9136000000000001
