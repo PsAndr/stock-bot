@@ -1,3 +1,13 @@
+ticker: DSKY
+percent: 0.30095759233925196
+plus: 1.6143199999999318
+commision: 0.58568
+sell price: 73.32
+cost: 733.1999999999999
+datetime: 2022-04-26 09:56:05.208723+00:00
+type: sell
+total plus percent: -0.5376540052903154
+________________________
 ticker: FIXP
 percent: -0.6464959917248514
 plus: -2.80836
@@ -488,13 +498,3 @@ datetime: 2022-04-26 08:25:26.045083+00:00
 type: sell
 total plus percent: -1.021583719371158
 ________________________
-ticker: MTSS
-buy price: 190.55
-cost: 1905.5
-datetime: 2022-04-26 08:24:53.138803+00:00
-type: buy
-________________________
-ticker: VTBR
-percent: 0.10822510822510206
-plus: 0.05207999999998861
-commision: 0.14792000000000002
