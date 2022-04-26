@@ -1,3 +1,13 @@
+ticker: MTSS
+percent: 0.9143155694879832
+plus: 15.9618
+commision: 1.5382000000000002
+sell price: 193.15
+cost: 1931.5
+datetime: 2022-04-26 12:15:24.301186+00:00
+type: sell
+total plus percent: 2.3250758289571127
+________________________
 ticker: GAZP
 percent: 0.16321349231538124
 plus: 1.8340000000003638
@@ -488,13 +498,3 @@ sell price: 1555.2
 cost: 1555.2
 datetime: 2022-04-26 11:22:44.628149+00:00
 type: sell
-total plus percent: -0.08993961197480815
-________________________
-ticker: MTSS
-buy price: 189.7
-cost: 1897.0
-datetime: 2022-04-26 11:22:38.115449+00:00
-type: buy
-________________________
-ticker: YNDX
-buy price: 1556.6
