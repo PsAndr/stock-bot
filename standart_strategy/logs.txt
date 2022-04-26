@@ -1,3 +1,9 @@
+ticker: SBER
+buy price: 114.31
+cost: 1143.1
+datetime: 2022-04-26 07:31:34.672977+00:00
+type: buy
+________________________
 ticker: MTSS
 buy price: 189.55
 cost: 1895.5
@@ -492,9 +498,3 @@ cost: 2096.8
 datetime: 2022-04-26 07:18:17.114079+00:00
 type: buy
 ________________________
-ticker: RUAL
-percent: 0.0
-plus: -0.50604
-commision: 0.50604
-sell price: 63.255
-cost: 632.5500000000001
