@@ -1,3 +1,13 @@
+ticker: FIVE
+percent: -0.196174595389897
+plus: -2.8148
+commision: 0.8148
+sell price: 1017.5
+cost: 1017.5
+datetime: 2022-04-26 10:45:26.050753+00:00
+type: sell
+total plus percent: -1.060148141615441
+________________________
 ticker: FIXP
 percent: 0.0
 plus: -0.30791999999999997
@@ -488,13 +498,3 @@ ticker: DSKY
 buy price: 73.42
 cost: 734.2
 datetime: 2022-04-26 10:05:00.214080+00:00
-type: buy
-________________________
-ticker: FIXP
-buy price: 385.3
-cost: 385.3
-datetime: 2022-04-26 10:04:29.768630+00:00
-type: buy
-________________________
-ticker: IRAO
-percent: -0.2274136861691178
