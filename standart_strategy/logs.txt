@@ -1,3 +1,9 @@
+ticker: ALRS
+buy price: 80.94
+cost: 809.4
+datetime: 2022-04-26 07:26:20.366425+00:00
+type: buy
+________________________
 ticker: MTSS
 percent: 0.2140181915462814
 plus: 2.5031999999999996
@@ -492,9 +498,3 @@ ticker: MVID
 buy price: 221.2
 cost: 221.2
 datetime: 2022-04-26 07:04:07.785338+00:00
-type: buy
-________________________
-ticker: DSKY
-buy price: 71.92
-cost: 719.2
-datetime: 2022-04-26 07:04:00.229751+00:00
