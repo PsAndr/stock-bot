@@ -1,4 +1,10 @@
 ticker: FIXP
+buy price: 383.0
+cost: 383.0
+datetime: 2022-04-26 14:36:00.130591+00:00
+type: buy
+________________________
+ticker: FIXP
 percent: 0.05224660397073892
 plus: -0.1063200000000114
 commision: 0.30632000000000004
@@ -492,9 +498,3 @@ ticker: MTSS
 buy price: 194.0
 cost: 1940.0
 datetime: 2022-04-26 13:31:43.177296+00:00
-type: buy
-________________________
-ticker: MTSS
-percent: 0.02576655501159495
-plus: -1.0526
-commision: 1.5526
