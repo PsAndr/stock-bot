@@ -1,3 +1,13 @@
+ticker: DSKY
+percent: -0.3487124463519344
+plus: -3.1954400000000227
+commision: 0.59544
+sell price: 74.3
+cost: 743.0
+datetime: 2022-04-26 15:37:55.738379+00:00
+type: sell
+total plus percent: 0.03546601951368061
+________________________
 ticker: FIVE
 buy price: 1017.5
 cost: 1017.5
@@ -487,14 +497,4 @@ commision: 0.30632000000000004
 sell price: 383.0
 cost: 383.0
 datetime: 2022-04-26 14:35:35.053754+00:00
-type: sell
-total plus percent: -0.4001765554881514
-________________________
-ticker: MTSS
-percent: -1.4467005076142132
-plus: -30.0646
-commision: 1.5646
-sell price: 194.15
-cost: 1941.5
-datetime: 2022-04-26 14:34:08.492283+00:00
 type: sell
