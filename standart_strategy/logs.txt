@@ -1,3 +1,13 @@
+ticker: ALRS
+percent: 0.7881773399014891
+plus: 5.747840000000091
+commision: 0.6521600000000001
+sell price: 81.84
+cost: 818.4000000000001
+datetime: 2022-04-26 12:42:14.166387+00:00
+type: sell
+total plus percent: 0.1166887777469735
+________________________
 ticker: AFLT
 buy price: 30.32
 cost: 303.2
@@ -488,13 +498,3 @@ ticker: SBER
 percent: 0.05952887150266333
 plus: -0.24100000000018196
 commision: 0.9410000000000001
-sell price: 117.66
-cost: 1176.6
-datetime: 2022-04-26 12:15:54.629182+00:00
-type: sell
-total plus percent: 1.3156252998258748
-________________________
-ticker: MTSS
-buy price: 193.0
-cost: 1930.0
-datetime: 2022-04-26 12:15:49.286974+00:00
