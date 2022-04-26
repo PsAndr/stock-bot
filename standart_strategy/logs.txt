@@ -1,3 +1,9 @@
+ticker: IRAO
+buy price: 2.409
+cost: 240.89999999999998
+datetime: 2022-04-26 10:29:37.524033+00:00
+type: buy
+________________________
 ticker: FIXP
 buy price: 386.0
 cost: 386.0
@@ -492,9 +498,3 @@ type: buy
 ________________________
 ticker: IRAO
 buy price: 2.4155
-cost: 241.55
-datetime: 2022-04-26 09:52:37.644071+00:00
-type: buy
-________________________
-ticker: IRAO
-percent: -0.2679307502061029
