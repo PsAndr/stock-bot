@@ -1,3 +1,9 @@
+ticker: MTSS
+buy price: 193.65
+cost: 1936.5
+datetime: 2022-04-26 12:49:48.149552+00:00
+type: buy
+________________________
 ticker: VTBR
 percent: 0.1827199164708924
 plus: 0.19661999999999433
@@ -492,9 +498,3 @@ ticker: IRAO
 buy price: 2.445
 cost: 244.49999999999997
 datetime: 2022-04-26 12:25:43.664535+00:00
-type: buy
-________________________
-ticker: GAZP
-percent: -0.004517936206736651
-plus: -1.870679999999909
-commision: 1.77068
