@@ -1,3 +1,13 @@
+ticker: FIVE
+percent: -0.04911591355599214
+plus: -1.3142
+commision: 0.8142
+sell price: 1017.5
+cost: 1017.5
+datetime: 2022-04-26 12:24:11.046628+00:00
+type: sell
+total plus percent: -2.0413321093128474
+________________________
 ticker: IRAO
 percent: -0.020449897750492652
 plus: -0.24557999999995453
@@ -488,13 +498,3 @@ total plus percent: -1.599747535232231
 ________________________
 ticker: MTSS
 buy price: 191.45
-cost: 1914.5
-datetime: 2022-04-26 11:46:33.131721+00:00
-type: buy
-________________________
-ticker: MTSS
-percent: 1.029023746701847
-plus: 17.9762
-commision: 1.5238
-sell price: 191.45
-cost: 1914.5
