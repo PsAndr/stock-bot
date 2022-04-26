@@ -1,3 +1,13 @@
+ticker: FIXP
+percent: 0.05224660397073892
+plus: -0.1063200000000114
+commision: 0.30632000000000004
+sell price: 383.0
+cost: 383.0
+datetime: 2022-04-26 14:35:35.053754+00:00
+type: sell
+total plus percent: -0.4001765554881514
+________________________
 ticker: MTSS
 percent: -1.4467005076142132
 plus: -30.0646
@@ -488,13 +498,3 @@ ticker: MTSS
 percent: 0.02576655501159495
 plus: -1.0526
 commision: 1.5526
-sell price: 194.1
-cost: 1941.0
-datetime: 2022-04-26 13:31:13.115545+00:00
-type: sell
-total plus percent: 2.5327298063568513
-________________________
-ticker: MVID
-buy price: 224.0
-cost: 224.0
-datetime: 2022-04-26 13:30:46.482594+00:00
