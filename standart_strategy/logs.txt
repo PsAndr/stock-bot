@@ -1,3 +1,13 @@
+ticker: IRAO
+percent: -0.08179959100202873
+plus: -0.39551999999996024
+commision: 0.19552000000000003
+sell price: 2.443
+cost: 244.3
+datetime: 2022-04-26 12:28:18.653973+00:00
+type: sell
+total plus percent: 0.09161389815240285
+________________________
 ticker: VTBR
 buy price: 0.0191
 cost: 191.0
@@ -487,14 +497,4 @@ buy price: 66.955
 cost: 669.55
 datetime: 2022-04-26 12:03:02.426682+00:00
 type: buy
-________________________
-ticker: FIVE
-percent: 0.0
-plus: -0.8140000000000001
-commision: 0.8140000000000001
-sell price: 1017.5
-cost: 1017.5
-datetime: 2022-04-26 12:02:56.048246+00:00
-type: sell
-total plus percent: -1.8942259384598361
 ________________________
