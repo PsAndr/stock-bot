@@ -1,3 +1,13 @@
+ticker: GAZP
+percent: 0.16375035089360906
+plus: 1.7886799999999998
+commision: 1.7113200000000002
+sell price: 214.09
+cost: 2140.9
+datetime: 2022-04-26 07:55:02.099761+00:00
+type: sell
+total plus percent: 3.945048646254509
+________________________
 ticker: FIXP
 percent: -0.18148820326678472
 plus: -1.0082799999999885
@@ -487,14 +497,4 @@ commision: 0.65036
 sell price: 81.39
 cost: 813.9
 datetime: 2022-04-26 07:34:09.222750+00:00
-type: sell
-total plus percent: -0.14894251354673263
-________________________
-ticker: VTBR
-percent: -0.2172732210754901
-plus: -0.5471199999999773
-commision: 0.14712
-sell price: 0.01837
-cost: 183.70000000000002
-datetime: 2022-04-26 07:33:35.630755+00:00
 type: sell
