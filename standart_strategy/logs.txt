@@ -1,3 +1,9 @@
+ticker: ALRS
+buy price: 80.96
+cost: 809.5999999999999
+datetime: 2022-04-26 07:21:49.187083+00:00
+type: buy
+________________________
 ticker: VTBR
 buy price: 0.01839
 cost: 183.9
@@ -492,9 +498,3 @@ ticker: AFLT
 buy price: 29.2
 cost: 292.0
 datetime: 2022-04-25 15:30:16.734597+00:00
-type: buy
-________________________
-ticker: MTSS
-percent: -0.08108108108108107
-plus: -2.9794
-commision: 1.4794
