@@ -1,3 +1,13 @@
+ticker: GAZP
+percent: 0.6342998855398572
+plus: 11.617239999999727
+commision: 1.68276
+sell price: 211.01
+cost: 2110.1
+datetime: 2022-04-26 07:19:52.080408+00:00
+type: sell
+total plus percent: 2.170004201739401
+________________________
 ticker: IRAO
 percent: 0.33465802133445366
 plus: 0.6084400000000114
@@ -488,13 +498,3 @@ type: buy
 ________________________
 ticker: YNDX
 percent: -0.9010168618869867
-plus: -15.23744
-commision: 1.2374399999999999
-sell price: 1539.8
-cost: 1539.8
-datetime: 2022-04-25 15:23:03.375374+00:00
-type: sell
-total plus percent: -4.042899387573021
-________________________
-ticker: DSKY
-buy price: 72.14
