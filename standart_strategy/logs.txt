@@ -1,3 +1,13 @@
+ticker: MVID
+percent: 0.09099181073702849
+plus: 0.02407999999998861
+commision: 0.17592000000000002
+sell price: 220.0
+cost: 220.0
+datetime: 2022-04-26 10:15:07.735082+00:00
+type: sell
+total plus percent: -1.6280460379665755
+________________________
 ticker: DSKY
 buy price: 74.0
 cost: 740.0
@@ -488,13 +498,3 @@ sell price: 81.16
 cost: 811.5999999999999
 datetime: 2022-04-26 09:31:49.189269+00:00
 type: sell
-total plus percent: -0.6714885621545156
-________________________
-ticker: MVID
-buy price: 221.0
-cost: 221.0
-datetime: 2022-04-26 09:29:41.422919+00:00
-type: buy
-________________________
-ticker: MVID
-percent: -0.09045680687471218
