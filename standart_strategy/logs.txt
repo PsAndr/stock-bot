@@ -1,3 +1,13 @@
+ticker: IRAO
+percent: 0.10220768601798855
+plus: 0.05421999999999999
+commision: 0.19578
+sell price: 2.4485
+cost: 244.85000000000002
+datetime: 2022-04-26 12:52:33.671186+00:00
+type: sell
+total plus percent: 0.37828951680373146
+________________________
 ticker: ALRS
 buy price: 81.84
 cost: 818.4000000000001
@@ -488,13 +498,3 @@ ticker: IRAO
 percent: 0.0
 plus: -0.1956
 commision: 0.1956
-sell price: 2.445
-cost: 244.49999999999997
-datetime: 2022-04-26 12:27:13.749182+00:00
-type: sell
-total plus percent: 0.17341348915443158
-________________________
-ticker: FIVE
-percent: 0.0
-plus: -0.8140000000000001
-commision: 0.8140000000000001
