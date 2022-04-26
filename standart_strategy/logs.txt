@@ -1,4 +1,10 @@
 ticker: AFLT
+buy price: 30.32
+cost: 303.2
+datetime: 2022-04-26 12:41:15.374130+00:00
+type: buy
+________________________
+ticker: AFLT
 percent: -0.1976284584980312
 plus: -0.8426400000000227
 commision: 0.24264000000000002
@@ -492,9 +498,3 @@ ticker: MTSS
 buy price: 193.0
 cost: 1930.0
 datetime: 2022-04-26 12:15:49.286974+00:00
-type: buy
-________________________
-ticker: GAZP
-buy price: 220.51
-cost: 2205.1
-datetime: 2022-04-26 12:15:47.081185+00:00
