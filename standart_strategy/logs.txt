@@ -1,3 +1,9 @@
+ticker: FIXP
+buy price: 386.3
+cost: 386.3
+datetime: 2022-04-26 07:29:59.871656+00:00
+type: buy
+________________________
 ticker: AFLT
 buy price: 29.78
 cost: 297.8
@@ -492,9 +498,3 @@ ticker: IRAO
 percent: -0.25073129962390067
 plus: -0.7911999999999944
 commision: 0.19119999999999998
-sell price: 2.387
-cost: 238.7
-datetime: 2022-04-26 07:12:52.598813+00:00
-type: sell
-total plus percent: -0.019103588526822785
-________________________
