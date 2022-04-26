@@ -1,3 +1,9 @@
+ticker: IRAO
+buy price: 2.45
+cost: 245.00000000000003
+datetime: 2022-04-26 15:33:20.020146+00:00
+type: buy
+________________________
 ticker: ALRS
 buy price: 81.95
 cost: 819.5
@@ -492,9 +498,3 @@ sell price: 1017.5
 cost: 1017.5
 datetime: 2022-04-26 14:29:46.162420+00:00
 type: sell
-total plus percent: -2.824833730069955
-________________________
-ticker: ALRS
-buy price: 81.95
-cost: 819.5
-datetime: 2022-04-26 14:29:24.673291+00:00
