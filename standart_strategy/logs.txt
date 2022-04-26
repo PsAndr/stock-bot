@@ -1,3 +1,9 @@
+ticker: IRAO
+buy price: 2.415
+cost: 241.5
+datetime: 2022-04-26 10:06:14.941087+00:00
+type: buy
+________________________
 ticker: MVID
 buy price: 219.4
 cost: 219.4
@@ -492,9 +498,3 @@ type: buy
 ________________________
 ticker: FIXP
 percent: -0.3599897145795776
-plus: -1.7105599999999772
-commision: 0.31056
-sell price: 387.5
-cost: 387.5
-datetime: 2022-04-26 08:58:08.571190+00:00
-type: sell
