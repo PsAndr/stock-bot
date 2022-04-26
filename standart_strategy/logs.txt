@@ -1,3 +1,9 @@
+ticker: MVID
+buy price: 225.0
+cost: 225.0
+datetime: 2022-04-26 14:20:01.574260+00:00
+type: buy
+________________________
 ticker: FIVE
 buy price: 1016.0
 cost: 1016.0
@@ -492,9 +498,3 @@ ticker: MTSS
 buy price: 194.1
 cost: 1941.0
 datetime: 2022-04-26 13:04:38.163393+00:00
-type: buy
-________________________
-ticker: MVID
-percent: 0.08912655971478994
-plus: 0.02039999999998862
-commision: 0.1796
