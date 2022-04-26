@@ -1,3 +1,13 @@
+ticker: DSKY
+percent: -0.1637107776261844
+plus: -1.7859199999999318
+commision: 0.58592
+sell price: 73.18
+cost: 731.8000000000001
+datetime: 2022-04-26 10:02:05.186758+00:00
+type: sell
+total plus percent: -0.7286424697686453
+________________________
 ticker: FIVE
 buy price: 1007.5
 cost: 1007.5
@@ -488,13 +498,3 @@ sell price: 64.605
 cost: 646.0500000000001
 datetime: 2022-04-26 08:35:06.298603+00:00
 type: sell
-total plus percent: 2.034468636860673
-________________________
-ticker: VTBR
-buy price: 0.018615
-cost: 186.15
-datetime: 2022-04-26 08:33:55.633682+00:00
-type: buy
-________________________
-ticker: RUAL
-buy price: 64.625
