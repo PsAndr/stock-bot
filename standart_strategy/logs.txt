@@ -1,3 +1,9 @@
+ticker: YNDX
+buy price: 1556.6
+cost: 1556.6
+datetime: 2022-04-26 11:22:04.462237+00:00
+type: buy
+________________________
 ticker: MTSS
 percent: 0.13210039630118892
 plus: 0.9849999999999999
@@ -492,9 +498,3 @@ plus: -0.5754400000000057
 commision: 0.17543999999999998
 sell price: 219.1
 cost: 219.1
-datetime: 2022-04-26 10:26:46.453289+00:00
-type: sell
-total plus percent: -2.308137160911067
-________________________
-ticker: MVID
-buy price: 219.5
