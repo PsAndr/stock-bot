@@ -1,3 +1,9 @@
+ticker: IRAO
+buy price: 2.446
+cost: 244.60000000000002
+datetime: 2022-04-26 12:48:54.889041+00:00
+type: buy
+________________________
 ticker: SBER
 buy price: 119.05
 cost: 1190.5
@@ -492,9 +498,3 @@ ticker: FIVE
 buy price: 1017.5
 cost: 1017.5
 datetime: 2022-04-26 12:24:51.038622+00:00
-type: buy
-________________________
-ticker: IRAO
-buy price: 2.445
-cost: 244.49999999999997
-datetime: 2022-04-26 12:24:23.722484+00:00
