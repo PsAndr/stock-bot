@@ -1,3 +1,13 @@
+ticker: GAZP
+percent: 0.16321349231538124
+plus: 1.8340000000003638
+commision: 1.766
+sell price: 220.93
+cost: 2209.3
+datetime: 2022-04-26 12:15:22.074182+00:00
+type: sell
+total plus percent: 5.662231059191465
+________________________
 ticker: SBER
 buy price: 117.59
 cost: 1175.9
@@ -488,13 +498,3 @@ type: buy
 ________________________
 ticker: YNDX
 buy price: 1556.6
-cost: 1556.6
-datetime: 2022-04-26 11:22:04.462237+00:00
-type: buy
-________________________
-ticker: MTSS
-percent: 0.13210039630118892
-plus: 0.9849999999999999
-commision: 1.5150000000000001
-sell price: 189.5
-cost: 1895.0
