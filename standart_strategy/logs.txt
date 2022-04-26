@@ -1,4 +1,10 @@
 ticker: FIVE
+buy price: 1026.0
+cost: 1026.0
+datetime: 2022-04-26 08:01:06.044046+00:00
+type: buy
+________________________
+ticker: FIVE
 percent: 0.6862745098039216
 plus: 6.1812000000000005
 commision: 0.8188
@@ -492,9 +498,3 @@ type: buy
 ________________________
 ticker: FIXP
 buy price: 385.4
-cost: 385.4
-datetime: 2022-04-26 07:37:47.141024+00:00
-type: buy
-________________________
-ticker: IRAO
-percent: 0.16559718484785993
