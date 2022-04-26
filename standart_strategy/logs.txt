@@ -1,3 +1,13 @@
+ticker: IRAO
+percent: -0.2646041115408008
+plus: -0.8462599999999773
+commision: 0.19626000000000002
+sell price: 2.45
+cost: 245.00000000000003
+datetime: 2022-04-26 15:38:45.278413+00:00
+type: sell
+total plus percent: 0.643807470059516
+________________________
 ticker: DSKY
 buy price: 74.34
 cost: 743.4000000000001
@@ -488,13 +498,3 @@ sell price: 1017.0
 cost: 1017.0
 datetime: 2022-04-26 14:37:26.158067+00:00
 type: sell
-total plus percent: -3.021104583848169
-________________________
-ticker: FIXP
-buy price: 383.0
-cost: 383.0
-datetime: 2022-04-26 14:36:00.130591+00:00
-type: buy
-________________________
-ticker: FIXP
-percent: 0.05224660397073892
