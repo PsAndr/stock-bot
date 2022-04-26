@@ -1,3 +1,9 @@
+ticker: MVID
+buy price: 221.2
+cost: 221.2
+datetime: 2022-04-26 07:04:07.785338+00:00
+type: buy
+________________________
 ticker: DSKY
 buy price: 71.92
 cost: 719.2
@@ -492,9 +498,3 @@ type: buy
 ________________________
 ticker: VTBR
 buy price: 0.018215
-cost: 182.14999999999998
-datetime: 2022-04-25 15:01:39.403659+00:00
-type: buy
-________________________
-ticker: AFLT
-percent: 1.236263736263744
