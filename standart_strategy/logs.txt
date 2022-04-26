@@ -1,3 +1,9 @@
+ticker: VTBR
+buy price: 0.019155
+cost: 191.54999999999998
+datetime: 2022-04-26 12:30:44.357632+00:00
+type: buy
+________________________
 ticker: IRAO
 percent: 0.10235414534287475
 plus: 0.05449999999997157
@@ -492,9 +498,3 @@ type: buy
 ________________________
 ticker: YNDX
 buy price: 1561.0
-cost: 1561.0
-datetime: 2022-04-26 12:06:34.635352+00:00
-type: buy
-________________________
-ticker: RUAL
-buy price: 67.0
