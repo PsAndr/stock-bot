@@ -1,3 +1,9 @@
+ticker: MTSS
+buy price: 189.5
+cost: 1895.0
+datetime: 2022-04-26 11:23:28.145158+00:00
+type: buy
+________________________
 ticker: MVID
 buy price: 224.1
 cost: 224.1
@@ -492,9 +498,3 @@ type: buy
 ________________________
 ticker: MTSS
 buy price: 189.25
-cost: 1892.5
-datetime: 2022-04-26 10:31:13.120756+00:00
-type: buy
-________________________
-ticker: FIXP
-percent: -0.23316062176165214
