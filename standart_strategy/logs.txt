@@ -1,3 +1,13 @@
+ticker: SBER
+percent: -0.17780938833570412
+plus: -2.8990400000000003
+commision: 0.8990400000000001
+sell price: 112.28
+cost: 1122.8
+datetime: 2022-04-26 07:01:10.827430+00:00
+type: sell
+total plus percent: -0.17780938833570412
+________________________
 ticker: DSKY
 percent: -0.41655095806718784
 plus: -3.5749599999998862
@@ -488,13 +498,3 @@ ticker: DSKY
 percent: -0.5826859045505058
 plus: -4.774960000000045
 commision: 0.5749599999999999
-sell price: 71.66
-cost: 716.5999999999999
-datetime: 2022-04-25 14:55:10.348684+00:00
-type: sell
-total plus percent: -2.0209673488974116
-________________________
-ticker: ALRS
-buy price: 80.78
-cost: 807.8
-datetime: 2022-04-25 14:54:39.177645+00:00
