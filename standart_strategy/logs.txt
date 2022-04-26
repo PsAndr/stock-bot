@@ -1,4 +1,10 @@
 ticker: DSKY
+buy price: 73.9
+cost: 739.0
+datetime: 2022-04-26 10:11:10.199636+00:00
+type: buy
+________________________
+ticker: DSKY
 percent: 0.6808278867102396
 plus: 4.41048
 commision: 0.58952
@@ -492,9 +498,3 @@ type: buy
 ________________________
 ticker: MVID
 buy price: 221.1
-cost: 221.1
-datetime: 2022-04-26 09:16:51.451824+00:00
-type: buy
-________________________
-ticker: AFLT
-percent: -0.06553079947574988
