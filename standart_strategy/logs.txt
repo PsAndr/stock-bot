@@ -1,3 +1,13 @@
+ticker: ALRS
+percent: 0.012220457045110157
+plus: -0.5546799999998636
+commision: 0.65468
+sell price: 81.84
+cost: 818.4000000000001
+datetime: 2022-04-26 12:49:50.385421+00:00
+type: sell
+total plus percent: 0.12890923479208366
+________________________
 ticker: MTSS
 buy price: 193.65
 cost: 1936.5
@@ -488,13 +498,3 @@ datetime: 2022-04-26 12:26:20.559979+00:00
 type: sell
 total plus percent: 0.769751927840428
 ________________________
-ticker: GAZP
-buy price: 221.53
-cost: 2215.3
-datetime: 2022-04-26 12:26:12.086973+00:00
-type: buy
-________________________
-ticker: IRAO
-buy price: 2.445
-cost: 244.49999999999997
-datetime: 2022-04-26 12:25:43.664535+00:00
