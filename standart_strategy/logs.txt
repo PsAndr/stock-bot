@@ -1,4 +1,10 @@
 ticker: MVID
+buy price: 221.0
+cost: 221.0
+datetime: 2022-04-26 09:29:41.422919+00:00
+type: buy
+________________________
+ticker: MVID
 percent: -0.09045680687471218
 plus: -0.37679999999998864
 commision: 0.1768
@@ -492,9 +498,3 @@ total plus percent: 0.6151144708043119
 ________________________
 ticker: AFLT
 buy price: 30.52
-cost: 305.2
-datetime: 2022-04-26 08:07:27.914081+00:00
-type: buy
-________________________
-ticker: SBER
-buy price: 115.52
