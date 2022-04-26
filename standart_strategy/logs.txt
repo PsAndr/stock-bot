@@ -1,3 +1,13 @@
+ticker: MVID
+percent: -0.0455788514129418
+plus: -0.27547999999999434
+commision: 0.17548000000000002
+sell price: 219.3
+cost: 219.3
+datetime: 2022-04-26 10:07:06.489750+00:00
+type: sell
+total plus percent: -1.5371369846744973
+________________________
 ticker: DSKY
 buy price: 73.44
 cost: 734.4
@@ -488,13 +498,3 @@ sell price: 389.4
 cost: 389.4
 datetime: 2022-04-26 09:01:38.601390+00:00
 type: sell
-total plus percent: 0.6812220561863049
-________________________
-ticker: RUAL
-buy price: 65.15
-cost: 651.5
-datetime: 2022-04-26 08:59:06.261606+00:00
-type: buy
-________________________
-ticker: FIXP
-buy price: 387.6
