@@ -1,3 +1,9 @@
+ticker: FIXP
+buy price: 384.1
+cost: 384.1
+datetime: 2022-04-26 08:16:19.776304+00:00
+type: buy
+________________________
 ticker: RUAL
 buy price: 64.43
 cost: 644.3000000000001
@@ -492,9 +498,3 @@ type: buy
 ________________________
 ticker: MTSS
 buy price: 190.55
-cost: 1905.5
-datetime: 2022-04-26 07:47:53.104975+00:00
-type: buy
-________________________
-ticker: IRAO
-percent: -0.9447525159170075
