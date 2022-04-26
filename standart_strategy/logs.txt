@@ -1,3 +1,9 @@
+ticker: MVID
+buy price: 220.4
+cost: 220.4
+datetime: 2022-04-26 10:15:31.531754+00:00
+type: buy
+________________________
 ticker: IRAO
 percent: -0.12435233160622233
 plus: -0.49288000000001136
@@ -492,9 +498,3 @@ ticker: ALRS
 buy price: 81.2
 cost: 812.0
 datetime: 2022-04-26 09:32:25.393099+00:00
-type: buy
-________________________
-ticker: FIVE
-buy price: 1015.5
-cost: 1015.5
-datetime: 2022-04-26 09:32:21.039751+00:00
