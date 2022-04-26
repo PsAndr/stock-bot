@@ -1,4 +1,10 @@
 ticker: FIVE
+buy price: 1019.0
+cost: 1019.0
+datetime: 2022-04-26 10:45:56.048422+00:00
+type: buy
+________________________
+ticker: FIVE
 percent: -0.196174595389897
 plus: -2.8148
 commision: 0.8148
@@ -492,9 +498,3 @@ ticker: IRAO
 buy price: 2.4165
 cost: 241.65
 datetime: 2022-04-26 10:05:08.766732+00:00
-type: buy
-________________________
-ticker: DSKY
-buy price: 73.42
-cost: 734.2
-datetime: 2022-04-26 10:05:00.214080+00:00
