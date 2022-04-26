@@ -1,4 +1,10 @@
 ticker: ALRS
+buy price: 82.0
+cost: 820.0
+datetime: 2022-04-26 14:30:44.681086+00:00
+type: buy
+________________________
+ticker: ALRS
 percent: 0.06101281269066504
 plus: -0.15580000000000005
 commision: 0.6558
@@ -492,9 +498,3 @@ type: buy
 ________________________
 ticker: SBER
 percent: 0.0
-plus: -0.9524
-commision: 0.9524
-sell price: 119.05
-cost: 1190.5
-datetime: 2022-04-26 13:25:23.567411+00:00
-type: sell
