@@ -1,4 +1,10 @@
 ticker: MTSS
+buy price: 193.6
+cost: 1936.0
+datetime: 2022-04-26 12:43:53.124183+00:00
+type: buy
+________________________
+ticker: MTSS
 percent: 0.233160621761658
 plus: 2.9542
 commision: 1.5458
@@ -492,9 +498,3 @@ ticker: VTBR
 buy price: 0.018935
 cost: 189.35
 datetime: 2022-04-26 12:16:25.603972+00:00
-type: buy
-________________________
-ticker: SBER
-buy price: 117.52
-cost: 1175.2
-datetime: 2022-04-26 12:16:22.287902+00:00
