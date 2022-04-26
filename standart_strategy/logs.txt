@@ -1,4 +1,10 @@
 ticker: AFLT
+buy price: 30.26
+cost: 302.6
+datetime: 2022-04-26 08:03:00.474146+00:00
+type: buy
+________________________
+ticker: AFLT
 percent: 0.2649006622516594
 plus: 0.5580800000000113
 commision: 0.24192000000000002
@@ -492,9 +498,3 @@ sell price: 81.11
 cost: 811.1
 datetime: 2022-04-26 07:38:44.171772+00:00
 type: sell
-total plus percent: -0.6030416789861098
-________________________
-ticker: IRAO
-buy price: 2.419
-cost: 241.9
-datetime: 2022-04-26 07:38:13.723962+00:00
