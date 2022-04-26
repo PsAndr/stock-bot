@@ -1,3 +1,13 @@
+ticker: GAZP
+percent: 1.5539689206215748
+plus: 31.572359999999726
+commision: 1.72764
+sell price: 217.62
+cost: 2176.2
+datetime: 2022-04-26 11:01:17.098108+00:00
+type: sell
+total plus percent: 5.499017566876084
+________________________
 ticker: AFLT
 percent: 0.527356624917608
 plus: 1.3566400000000227
@@ -488,13 +498,3 @@ datetime: 2022-04-26 10:09:31.491072+00:00
 type: sell
 total plus percent: -1.719037848703604
 ________________________
-ticker: IRAO
-buy price: 2.4125
-cost: 241.25
-datetime: 2022-04-26 10:08:57.563822+00:00
-type: buy
-________________________
-ticker: IRAO
-percent: -0.06213753106876789
-plus: -0.3430600000000057
-commision: 0.19306
