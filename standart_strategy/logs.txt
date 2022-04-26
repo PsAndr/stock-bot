@@ -1,3 +1,13 @@
+ticker: AFLT
+percent: -0.06553079947574988
+plus: -0.44407999999998865
+commision: 0.24408000000000002
+sell price: 30.5
+cost: 305.0
+datetime: 2022-04-26 09:16:15.420604+00:00
+type: sell
+total plus percent: 4.930307244506888
+________________________
 ticker: FIXP
 buy price: 391.3
 cost: 391.3
@@ -488,13 +498,3 @@ total plus percent: 0.10035484961169991
 ________________________
 ticker: FIXP
 buy price: 382.5
-cost: 382.5
-datetime: 2022-04-26 08:05:44.779696+00:00
-type: buy
-________________________
-ticker: MTSS
-percent: -0.05247966413014957
-plus: -2.524
-commision: 1.524
-sell price: 190.45
-cost: 1904.5
