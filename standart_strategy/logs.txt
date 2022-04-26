@@ -1,3 +1,9 @@
+ticker: VTBR
+buy price: 0.01933
+cost: 193.3
+datetime: 2022-04-26 14:54:55.473462+00:00
+type: buy
+________________________
 ticker: SBER
 buy price: 122.14
 cost: 1221.4
@@ -492,9 +498,3 @@ total plus percent: 2.9202113511594465
 ________________________
 ticker: MTSS
 buy price: 197.15
-cost: 1971.5
-datetime: 2022-04-26 13:45:28.111742+00:00
-type: buy
-________________________
-ticker: FIVE
-buy price: 1009.0
