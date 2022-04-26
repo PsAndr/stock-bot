@@ -1,3 +1,13 @@
+ticker: IRAO
+percent: -0.08179959100202873
+plus: -0.39551999999996024
+commision: 0.19552000000000003
+sell price: 2.443
+cost: 244.3
+datetime: 2022-04-26 12:34:23.725714+00:00
+type: sell
+total plus percent: 0.17355580669828496
+________________________
 ticker: AFLT
 percent: -0.7863695937090359
 plus: -2.643199999999977
@@ -487,14 +497,4 @@ commision: 1.2492800000000002
 sell price: 1561.8
 cost: 1561.8
 datetime: 2022-04-26 12:12:25.819182+00:00
-type: sell
-total plus percent: -0.6416009449275514
-________________________
-ticker: RUAL
-percent: 0.1417910447761262
-plus: 0.4136200000000454
-commision: 0.5363800000000001
-sell price: 67.095
-cost: 670.95
-datetime: 2022-04-26 12:12:22.485466+00:00
 type: sell
