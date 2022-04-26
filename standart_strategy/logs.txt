@@ -1,4 +1,10 @@
 ticker: MTSS
+buy price: 189.25
+cost: 1892.5
+datetime: 2022-04-26 11:16:08.145979+00:00
+type: buy
+________________________
+ticker: MTSS
 percent: -0.2897787144362487
 plus: -7.0161999999999995
 commision: 1.5162
@@ -492,9 +498,3 @@ cost: 241.2
 datetime: 2022-04-26 10:19:27.469752+00:00
 type: buy
 ________________________
-ticker: IRAO
-percent: 0.0
-plus: -0.19304
-commision: 0.19304
-sell price: 2.413
-cost: 241.29999999999998
