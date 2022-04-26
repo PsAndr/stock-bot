@@ -1,3 +1,13 @@
+ticker: RUAL
+percent: 0.32593512338971115
+plus: 1.583719999999909
+commision: 0.5162800000000001
+sell price: 64.64
+cost: 646.4
+datetime: 2022-04-26 08:33:21.252229+00:00
+type: sell
+total plus percent: 2.0654164124892893
+________________________
 ticker: FIXP
 percent: 0.624999999999994
 plus: 2.0918399999999773
@@ -488,13 +498,3 @@ total plus percent: 0.02979565731114467
 ________________________
 ticker: FIXP
 buy price: 385.7
-cost: 385.7
-datetime: 2022-04-26 07:53:27.208493+00:00
-type: buy
-________________________
-ticker: AFLT
-percent: 0.5984042553191717
-plus: 1.5586400000000682
-commision: 0.24136
-sell price: 30.26
-cost: 302.6
