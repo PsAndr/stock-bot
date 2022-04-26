@@ -1,3 +1,9 @@
+ticker: IRAO
+buy price: 2.445
+cost: 244.49999999999997
+datetime: 2022-04-26 12:30:48.659479+00:00
+type: buy
+________________________
 ticker: VTBR
 buy price: 0.019155
 cost: 191.54999999999998
@@ -492,9 +498,3 @@ total plus percent: -0.6672189800242507
 ________________________
 ticker: MTSS
 buy price: 191.4
-cost: 1914.0
-datetime: 2022-04-26 12:07:28.123849+00:00
-type: buy
-________________________
-ticker: YNDX
-buy price: 1561.0
