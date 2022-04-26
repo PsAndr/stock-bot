@@ -1,4 +1,10 @@
 ticker: AFLT
+buy price: 29.78
+cost: 297.8
+datetime: 2022-04-26 07:29:55.447083+00:00
+type: buy
+________________________
+ticker: AFLT
 percent: -0.13431833445266425
 plus: -0.6380800000000342
 commision: 0.23808
@@ -492,9 +498,3 @@ datetime: 2022-04-26 07:12:52.598813+00:00
 type: sell
 total plus percent: -0.019103588526822785
 ________________________
-ticker: MTSS
-percent: -0.08103727714748785
-plus: -2.9802
-commision: 1.4802
-sell price: 184.95
-cost: 1849.5
