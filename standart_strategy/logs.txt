@@ -1,3 +1,9 @@
+ticker: FIXP
+buy price: 382.5
+cost: 382.5
+datetime: 2022-04-26 08:05:44.779696+00:00
+type: buy
+________________________
 ticker: MTSS
 percent: -0.05247966413014957
 plus: -2.524
@@ -492,9 +498,3 @@ type: buy
 ________________________
 ticker: ALRS
 percent: -0.07396449704142291
-plus: -1.2487200000000227
-commision: 0.6487200000000001
-sell price: 81.06
-cost: 810.6
-datetime: 2022-04-26 07:40:34.201726+00:00
-type: sell
