@@ -1,4 +1,10 @@
 ticker: IRAO
+buy price: 2.412
+cost: 241.2
+datetime: 2022-04-26 10:19:27.469752+00:00
+type: buy
+________________________
+ticker: IRAO
 percent: 0.0
 plus: -0.19304
 commision: 0.19304
@@ -492,9 +498,3 @@ sell price: 386.7
 cost: 386.7
 datetime: 2022-04-26 09:47:38.569752+00:00
 type: sell
-total plus percent: 0.6082732898966229
-________________________
-ticker: FIVE
-buy price: 1017.5
-cost: 1017.5
-datetime: 2022-04-26 09:45:06.039751+00:00
