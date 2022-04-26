@@ -1,4 +1,10 @@
 ticker: MTSS
+buy price: 194.0
+cost: 1940.0
+datetime: 2022-04-26 13:31:43.177296+00:00
+type: buy
+________________________
+ticker: MTSS
 percent: 0.02576655501159495
 plus: -1.0526
 commision: 1.5526
@@ -491,10 +497,4 @@ cost: 1190.6
 datetime: 2022-04-26 12:48:19.675428+00:00
 type: sell
 total plus percent: 2.5125215379538024
-________________________
-ticker: ALRS
-buy price: 81.83
-cost: 818.3
-datetime: 2022-04-26 12:48:15.371186+00:00
-type: buy
 ________________________
