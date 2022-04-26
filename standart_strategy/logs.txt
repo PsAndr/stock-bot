@@ -1,3 +1,13 @@
+ticker: SBER
+percent: 0.7029876977152899
+plus: 7.0864
+commision: 0.9136000000000001
+sell price: 114.6
+cost: 1146.0
+datetime: 2022-04-26 07:22:43.499751+00:00
+type: sell
+total plus percent: 0.5251783093795858
+________________________
 ticker: DSKY
 buy price: 73.1
 cost: 731.0
@@ -488,13 +498,3 @@ ticker: GAZP
 percent: -0.1457725947521866
 plus: -4.6452
 commision: 1.6452
-sell price: 205.5
-cost: 2055.0
-datetime: 2022-04-25 15:33:42.103606+00:00
-type: sell
-total plus percent: 0.39529491682470386
-________________________
-ticker: AFLT
-buy price: 29.16
-cost: 291.6
-datetime: 2022-04-25 15:31:26.646928+00:00
