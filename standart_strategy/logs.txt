@@ -1,3 +1,13 @@
+ticker: IRAO
+percent: 0.0613873542050361
+plus: -0.04553999999999431
+commision: 0.19554
+sell price: 2.445
+cost: 244.49999999999997
+datetime: 2022-04-26 12:33:08.689102+00:00
+type: sell
+total plus percent: 0.2553553977003137
+________________________
 ticker: YNDX
 buy price: 1576.2
 cost: 1576.2
@@ -488,13 +498,3 @@ sell price: 1017.0
 cost: 1017.0
 datetime: 2022-04-26 12:11:41.052973+00:00
 type: sell
-total plus percent: -1.7958007416094424
-________________________
-ticker: AFLT
-buy price: 30.52
-cost: 305.2
-datetime: 2022-04-26 12:09:30.381185+00:00
-type: buy
-________________________
-ticker: FIVE
-buy price: 1017.0
