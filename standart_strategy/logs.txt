@@ -1,3 +1,9 @@
+ticker: ALRS
+buy price: 82.41
+cost: 824.0999999999999
+datetime: 2022-04-26 14:33:40.865226+00:00
+type: buy
+________________________
 ticker: FIVE
 buy price: 1019.0
 cost: 1019.0
@@ -492,9 +498,3 @@ type: buy
 ________________________
 ticker: IRAO
 percent: 0.04060913705582371
-plus: -0.0970400000000341
-commision: 0.19704
-sell price: 2.4635
-cost: 246.34999999999997
-datetime: 2022-04-26 13:29:02.754286+00:00
-type: sell
