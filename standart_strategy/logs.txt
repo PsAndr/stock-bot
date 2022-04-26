@@ -1,3 +1,13 @@
+ticker: MTSS
+percent: 0.0
+plus: -1.5492000000000001
+commision: 1.5492000000000001
+sell price: 193.65
+cost: 1936.5
+datetime: 2022-04-26 12:50:48.149653+00:00
+type: sell
+total plus percent: 2.5067636652070724
+________________________
 ticker: ALRS
 buy price: 81.84
 cost: 818.4000000000001
@@ -488,13 +498,3 @@ ticker: YNDX
 buy price: 1569.0
 cost: 1569.0
 datetime: 2022-04-26 12:26:43.311185+00:00
-type: buy
-________________________
-ticker: IRAO
-percent: 0.0
-plus: -0.1956
-commision: 0.1956
-sell price: 2.445
-cost: 244.49999999999997
-datetime: 2022-04-26 12:26:24.844181+00:00
-type: sell
