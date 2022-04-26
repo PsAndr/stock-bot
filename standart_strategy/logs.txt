@@ -1,3 +1,9 @@
+ticker: SBER
+buy price: 114.19
+cost: 1141.9
+datetime: 2022-04-26 07:33:32.388946+00:00
+type: buy
+________________________
 ticker: VTBR
 buy price: 0.01841
 cost: 184.1
@@ -490,11 +496,5 @@ ticker: ALRS
 buy price: 80.94
 cost: 809.4
 datetime: 2022-04-26 07:20:20.413338+00:00
-type: buy
-________________________
-ticker: GAZP
-buy price: 211.0
-cost: 2110.0
-datetime: 2022-04-26 07:20:17.076257+00:00
 type: buy
 ________________________
