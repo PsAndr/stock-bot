@@ -1,3 +1,9 @@
+ticker: GAZP
+buy price: 212.21
+cost: 2122.1
+datetime: 2022-04-26 07:25:52.084218+00:00
+type: buy
+________________________
 ticker: IRAO
 buy price: 2.417
 cost: 241.7
@@ -492,9 +498,3 @@ plus: -4.979
 commision: 1.479
 sell price: 184.7
 cost: 1847.0
-datetime: 2022-04-26 07:01:33.192576+00:00
-type: sell
-total plus percent: -0.18913807079167794
-________________________
-ticker: SBER
-percent: -0.17780938833570412
