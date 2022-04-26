@@ -1,3 +1,13 @@
+ticker: RUAL
+percent: 0.0
+plus: -0.50604
+commision: 0.50604
+sell price: 63.255
+cost: 632.5500000000001
+datetime: 2022-04-26 07:17:47.444080+00:00
+type: sell
+total plus percent: 0.0
+________________________
 ticker: DSKY
 buy price: 72.7
 cost: 727.0
@@ -488,13 +498,3 @@ type: buy
 ________________________
 ticker: DSKY
 percent: 0.055524708495261456
-plus: -0.17648000000013653
-commision: 0.5764800000000001
-sell price: 72.08
-cost: 720.8
-datetime: 2022-04-25 15:19:30.195994+00:00
-type: sell
-total plus percent: -1.6033256487586929
-________________________
-ticker: GAZP
-buy price: 205.8
