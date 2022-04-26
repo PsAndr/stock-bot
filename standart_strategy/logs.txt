@@ -1,3 +1,13 @@
+ticker: IRAO
+percent: -0.12435233160622233
+plus: -0.49288000000001136
+commision: 0.19288
+sell price: 2.4095
+cost: 240.95
+datetime: 2022-04-26 10:15:09.980753+00:00
+type: sell
+total plus percent: -0.5052066428046532
+________________________
 ticker: MVID
 percent: 0.09099181073702849
 plus: 0.02407999999998861
@@ -488,13 +498,3 @@ ticker: FIVE
 buy price: 1015.5
 cost: 1015.5
 datetime: 2022-04-26 09:32:21.039751+00:00
-type: buy
-________________________
-ticker: ALRS
-percent: 0.07398273736127114
-plus: -0.04904000000009101
-commision: 0.6490400000000001
-sell price: 81.16
-cost: 811.5999999999999
-datetime: 2022-04-26 09:31:49.189269+00:00
-type: sell
