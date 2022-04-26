@@ -1,3 +1,9 @@
+ticker: VTBR
+buy price: 0.018915
+cost: 189.15
+datetime: 2022-04-26 11:11:19.353973+00:00
+type: buy
+________________________
 ticker: MVID
 buy price: 222.9
 cost: 222.9
@@ -490,11 +496,5 @@ ticker: IRAO
 buy price: 2.413
 cost: 241.29999999999998
 datetime: 2022-04-26 10:15:33.775083+00:00
-type: buy
-________________________
-ticker: MVID
-buy price: 220.4
-cost: 220.4
-datetime: 2022-04-26 10:15:31.531754+00:00
 type: buy
 ________________________
