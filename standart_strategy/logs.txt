@@ -1,3 +1,13 @@
+ticker: DSKY
+percent: -0.8210180623973572
+plus: -6.582239999999887
+commision: 0.5822400000000001
+sell price: 72.48
+cost: 724.8000000000001
+datetime: 2022-04-26 07:24:50.206368+00:00
+type: sell
+total plus percent: 0.01206782738368517
+________________________
 ticker: IRAO
 buy price: 2.4155
 cost: 241.55
@@ -488,13 +498,3 @@ total plus percent: 0.13092432573972246
 ________________________
 ticker: IRAO
 percent: 0.2316277110970779
-plus: 0.35982000000001135
-commision: 0.19018000000000002
-sell price: 2.38
-cost: 238.0
-datetime: 2022-04-26 07:00:25.784980+00:00
-type: sell
-total plus percent: 0.2316277110970779
-________________________
-ticker: VTBR
-percent: 0.5255878284923865
