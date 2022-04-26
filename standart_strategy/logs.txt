@@ -1,3 +1,9 @@
+ticker: SBER
+buy price: 118.67
+cost: 1186.7
+datetime: 2022-04-26 12:44:58.379183+00:00
+type: buy
+________________________
 ticker: MTSS
 buy price: 193.45
 cost: 1934.5
@@ -492,9 +498,3 @@ ticker: FIVE
 buy price: 1018.0
 cost: 1018.0
 datetime: 2022-04-26 12:17:46.037973+00:00
-type: buy
-________________________
-ticker: IRAO
-percent: -0.020449897750492652
-plus: -0.24557999999995453
-commision: 0.19558
