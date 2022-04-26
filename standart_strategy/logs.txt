@@ -1,3 +1,9 @@
+ticker: RUAL
+buy price: 63.27
+cost: 632.7
+datetime: 2022-04-26 07:18:24.871755+00:00
+type: buy
+________________________
 ticker: DSKY
 percent: -0.027510316368628857
 plus: -0.7815199999999318
@@ -492,9 +498,3 @@ total plus percent: -1.6865664922659103
 ________________________
 ticker: MTSS
 percent: -0.296976241900648
-plus: -6.9794
-commision: 1.4794
-sell price: 184.65
-cost: 1846.5
-datetime: 2022-04-25 15:21:43.132575+00:00
-type: sell
