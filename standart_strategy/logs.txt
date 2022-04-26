@@ -1,3 +1,9 @@
+ticker: MTSS
+buy price: 197.15
+cost: 1971.5
+datetime: 2022-04-26 13:45:28.111742+00:00
+type: buy
+________________________
 ticker: FIVE
 buy price: 1009.0
 cost: 1009.0
@@ -492,9 +498,3 @@ plus: 0.05421999999999999
 commision: 0.19578
 sell price: 2.4485
 cost: 244.85000000000002
-datetime: 2022-04-26 12:52:33.671186+00:00
-type: sell
-total plus percent: 0.37828951680373146
-________________________
-ticker: ALRS
-buy price: 81.84
