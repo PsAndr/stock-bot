@@ -1,3 +1,9 @@
+ticker: IRAO
+buy price: 2.419
+cost: 241.9
+datetime: 2022-04-26 07:38:13.723962+00:00
+type: buy
+________________________
 ticker: SBER
 buy price: 114.3
 cost: 1143.0
@@ -492,9 +498,3 @@ type: buy
 ________________________
 ticker: VTBR
 percent: 0.19032082653615787
-plus: 0.2027399999999943
-commision: 0.14726
-sell price: 0.018425
-cost: 184.25
-datetime: 2022-04-26 07:22:20.592496+00:00
-type: sell
