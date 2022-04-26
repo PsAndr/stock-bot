@@ -1,3 +1,13 @@
+ticker: VTBR
+percent: 0.5255878284923865
+plus: 0.8050199999999886
+commision: 0.14498
+sell price: 0.01817
+cost: 181.7
+datetime: 2022-04-26 07:00:16.959750+00:00
+type: sell
+total plus percent: 0.5255878284923865
+________________________
 ticker: ALRS
 percent: -0.18726591760299627
 plus: -2.1402
@@ -487,14 +497,4 @@ commision: 0.6468400000000001
 sell price: 80.76
 cost: 807.6
 datetime: 2022-04-25 14:51:44.150599+00:00
-type: sell
-total plus percent: 0.4184191711539309
-________________________
-ticker: MTSS
-percent: -0.32310177705977383
-plus: -7.4832
-commision: 1.4832
-sell price: 185.1
-cost: 1851.0
-datetime: 2022-04-25 14:50:33.123597+00:00
 type: sell
