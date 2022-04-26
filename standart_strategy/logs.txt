@@ -1,3 +1,9 @@
+ticker: GAZP
+buy price: 220.51
+cost: 2205.1
+datetime: 2022-04-26 12:15:47.081185+00:00
+type: buy
+________________________
 ticker: VTBR
 buy price: 0.01904
 cost: 190.4
@@ -492,9 +498,3 @@ plus: 0.42095999999999434
 commision: 0.17904
 sell price: 224.1
 cost: 224.1
-datetime: 2022-04-26 11:22:49.011373+00:00
-type: sell
-total plus percent: -0.8162561035915374
-________________________
-ticker: YNDX
-percent: -0.08993961197480815
