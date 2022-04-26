@@ -1,3 +1,13 @@
+ticker: VTBR
+percent: -0.027122321670741186
+plus: -0.19746000000001135
+commision: 0.14745999999999998
+sell price: 0.01843
+cost: 184.29999999999998
+datetime: 2022-04-26 07:27:29.467727+00:00
+type: sell
+total plus percent: 0.6887863333578033
+________________________
 ticker: SBER
 buy price: 114.0
 cost: 1140.0
@@ -488,13 +498,3 @@ total plus percent: 0.28664713913187556
 ________________________
 ticker: MVID
 percent: -0.3164556962025265
-plus: -0.8766799999999886
-commision: 0.17668
-sell price: 220.5
-cost: 220.5
-datetime: 2022-04-26 07:05:23.950923+00:00
-type: sell
-total plus percent: -0.3164556962025265
-________________________
-ticker: AFLT
-percent: 2.1262002743484185
