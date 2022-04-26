@@ -1,4 +1,10 @@
 ticker: FIVE
+buy price: 1018.5
+cost: 1018.5
+datetime: 2022-04-26 14:09:26.058449+00:00
+type: buy
+________________________
+ticker: FIVE
 percent: -0.14720314033366044
 plus: -2.3146
 commision: 0.8146
@@ -492,9 +498,3 @@ cost: 245.95
 datetime: 2022-04-26 13:01:00.087523+00:00
 type: buy
 ________________________
-ticker: AFLT
-percent: -0.19788918205803624
-plus: -0.8423199999999659
-commision: 0.24232
-sell price: 30.26
-cost: 302.6
