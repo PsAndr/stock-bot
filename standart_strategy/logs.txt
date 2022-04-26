@@ -1,3 +1,9 @@
+ticker: GAZP
+buy price: 220.57
+cost: 2205.7
+datetime: 2022-04-26 12:13:48.323451+00:00
+type: buy
+________________________
 ticker: FIVE
 buy price: 1017.5
 cost: 1017.5
@@ -492,9 +498,3 @@ plus: 0.4214399999999943
 commision: 0.17856
 sell price: 223.5
 cost: 223.5
-datetime: 2022-04-26 11:20:21.517753+00:00
-type: sell
-total plus percent: -1.084712479430461
-________________________
-ticker: SBER
-percent: 0.2398903358464663
