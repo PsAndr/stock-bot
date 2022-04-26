@@ -1,3 +1,9 @@
+ticker: RUAL
+buy price: 67.09
+cost: 670.9000000000001
+datetime: 2022-04-26 12:12:46.234182+00:00
+type: buy
+________________________
 ticker: YNDX
 percent: 0.025618035096699344
 plus: -0.8492800000001366
@@ -492,9 +498,3 @@ type: buy
 ________________________
 ticker: MTSS
 percent: -0.2897787144362487
-plus: -7.0161999999999995
-commision: 1.5162
-sell price: 189.25
-cost: 1892.5
-datetime: 2022-04-26 11:15:38.149182+00:00
-type: sell
