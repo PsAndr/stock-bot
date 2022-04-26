@@ -1,3 +1,13 @@
+ticker: FIVE
+percent: -0.19646365422396855
+plus: -2.8136
+commision: 0.8136000000000001
+sell price: 1016.0
+cost: 1016.0
+datetime: 2022-04-26 08:25:26.045083+00:00
+type: sell
+total plus percent: -1.021583719371158
+________________________
 ticker: MTSS
 buy price: 190.55
 cost: 1905.5
@@ -487,14 +497,4 @@ cost: 385.5
 datetime: 2022-04-26 07:53:00.971763+00:00
 type: sell
 total plus percent: -0.3353713785551544
-________________________
-ticker: SBER
-percent: -0.1835022719329025
-plus: -3.0146800000001366
-commision: 0.91468
-sell price: 114.23
-cost: 1142.3
-datetime: 2022-04-26 07:52:53.470756+00:00
-type: sell
-total plus percent: 0.16958248240287185
 ________________________
