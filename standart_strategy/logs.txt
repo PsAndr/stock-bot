@@ -1,3 +1,13 @@
+ticker: MTSS
+percent: -0.08103727714748785
+plus: -2.9802
+commision: 1.4802
+sell price: 184.95
+cost: 1849.5
+datetime: 2022-04-26 07:08:43.123340+00:00
+type: sell
+total plus percent: -0.27017534793916576
+________________________
 ticker: DSKY
 buy price: 72.0
 cost: 720.0
@@ -488,13 +498,3 @@ ticker: DSKY
 percent: 0.3621169916434572
 plus: 2.024560000000023
 commision: 0.57544
-sell price: 72.06
-cost: 720.6
-datetime: 2022-04-25 15:14:20.231513+00:00
-type: sell
-total plus percent: -1.6588503572539544
-________________________
-ticker: IRAO
-buy price: 2.3745
-cost: 237.45
-datetime: 2022-04-25 15:12:42.577696+00:00
