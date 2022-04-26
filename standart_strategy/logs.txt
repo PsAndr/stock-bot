@@ -1,3 +1,13 @@
+ticker: RUAL
+percent: -0.04651523373904248
+plus: -0.8158399999999546
+commision: 0.5158400000000001
+sell price: 64.465
+cost: 644.6500000000001
+datetime: 2022-04-26 08:15:41.270753+00:00
+type: sell
+total plus percent: 1.7394812890995783
+________________________
 ticker: ALRS
 buy price: 81.75
 cost: 817.5
@@ -488,13 +498,3 @@ sell price: 2.4115
 cost: 241.15000000000003
 datetime: 2022-04-26 07:47:40.034571+00:00
 type: sell
-total plus percent: 0.17682029916716557
-________________________
-ticker: SBER
-buy price: 114.37
-cost: 1143.7
-datetime: 2022-04-26 07:47:33.466327+00:00
-type: buy
-________________________
-ticker: MTSS
-percent: 0.236655272153563
