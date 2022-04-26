@@ -1,3 +1,13 @@
+ticker: VTBR
+percent: -0.026434047052609762
+plus: -0.20130000000001136
+commision: 0.1513
+sell price: 0.01891
+cost: 189.1
+datetime: 2022-04-26 11:23:10.656152+00:00
+type: sell
+total plus percent: -0.3418822640526291
+________________________
 ticker: MTSS
 percent: -0.10542962572482868
 plus: -3.5168
@@ -487,14 +497,4 @@ commision: 0.30844000000000005
 sell price: 385.1
 cost: 385.1
 datetime: 2022-04-26 10:30:44.802973+00:00
-type: sell
-total plus percent: -0.45242315945889033
-________________________
-ticker: MVID
-percent: 0.13686131386861833
-plus: 0.12452000000001137
-commision: 0.17548
-sell price: 219.5
-cost: 219.5
-datetime: 2022-04-26 10:30:41.432015+00:00
 type: sell
