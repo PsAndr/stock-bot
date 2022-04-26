@@ -1,3 +1,13 @@
+ticker: YNDX
+percent: -0.40000000000000563
+plus: -7.677440000000091
+commision: 1.27744
+sell price: 1593.6
+cost: 1593.6
+datetime: 2022-04-26 15:12:34.247369+00:00
+type: sell
+total plus percent: -1.7116588788747482
+________________________
 ticker: GAZP
 percent: -0.8277198080394568
 plus: -20.60952000000018
@@ -488,13 +498,3 @@ datetime: 2022-04-26 14:22:56.549771+00:00
 type: sell
 total plus percent: -0.7694720869545948
 ________________________
-ticker: MVID
-buy price: 225.0
-cost: 225.0
-datetime: 2022-04-26 14:20:01.574260+00:00
-type: buy
-________________________
-ticker: FIVE
-buy price: 1016.0
-cost: 1016.0
-datetime: 2022-04-26 14:17:31.057232+00:00
