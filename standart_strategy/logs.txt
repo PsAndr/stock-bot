@@ -1,3 +1,9 @@
+ticker: SBER
+buy price: 114.5
+cost: 1145.0
+datetime: 2022-04-26 07:25:59.648644+00:00
+type: buy
+________________________
 ticker: ALRS
 percent: -0.0740557886941524
 plus: -1.2479200000000228
@@ -492,9 +498,3 @@ type: buy
 ________________________
 ticker: IRAO
 buy price: 2.393
-cost: 239.29999999999998
-datetime: 2022-04-26 07:03:27.545082+00:00
-type: buy
-________________________
-ticker: MTSS
-buy price: 185.1
