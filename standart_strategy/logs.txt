@@ -1,3 +1,9 @@
+ticker: SBER
+buy price: 122.14
+cost: 1221.4
+datetime: 2022-04-26 14:50:43.088764+00:00
+type: buy
+________________________
 ticker: ALRS
 buy price: 82.81
 cost: 828.1
@@ -492,9 +498,3 @@ type: buy
 ________________________
 ticker: FIVE
 buy price: 1009.0
-cost: 1009.0
-datetime: 2022-04-26 13:42:31.039856+00:00
-type: buy
-________________________
-ticker: FIVE
-percent: -0.7374631268436578
