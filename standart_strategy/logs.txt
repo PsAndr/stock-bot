@@ -1,3 +1,13 @@
+ticker: GAZP
+percent: 0.26756156183393454
+plus: 4.133560000000091
+commision: 1.7664400000000002
+sell price: 221.1
+cost: 2211.0
+datetime: 2022-04-26 12:22:52.120185+00:00
+type: sell
+total plus percent: 5.9297926210254
+________________________
 ticker: IRAO
 percent: -0.020449897750492652
 plus: -0.24557999999995453
@@ -488,13 +498,3 @@ total plus percent: -1.4034766814540172
 ________________________
 ticker: FIVE
 buy price: 1017.5
-cost: 1017.5
-datetime: 2022-04-26 11:43:06.042155+00:00
-type: buy
-________________________
-ticker: FIVE
-percent: 0.14763779527559054
-plus: 0.6865999999999999
-commision: 0.8134000000000001
-sell price: 1017.5
-cost: 1017.5
