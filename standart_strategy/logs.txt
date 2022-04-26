@@ -1,3 +1,13 @@
+ticker: MTSS
+percent: 0.236655272153563
+plus: 2.977
+commision: 1.5230000000000001
+sell price: 190.6
+cost: 1906.0
+datetime: 2022-04-26 07:47:28.117727+00:00
+type: sell
+total plus percent: 1.6686149856140942
+________________________
 ticker: MVID
 buy price: 220.4
 cost: 220.4
@@ -488,13 +498,3 @@ ticker: FIXP
 buy price: 385.0
 cost: 385.0
 datetime: 2022-04-26 07:27:34.821418+00:00
-type: buy
-________________________
-ticker: VTBR
-percent: -0.027122321670741186
-plus: -0.19746000000001135
-commision: 0.14745999999999998
-sell price: 0.01843
-cost: 184.29999999999998
-datetime: 2022-04-26 07:27:29.467727+00:00
-type: sell
