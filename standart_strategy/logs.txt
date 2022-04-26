@@ -1,3 +1,9 @@
+ticker: ALRS
+buy price: 81.48
+cost: 814.8000000000001
+datetime: 2022-04-26 07:34:49.212450+00:00
+type: buy
+________________________
 ticker: IRAO
 percent: -0.08274720728174954
 plus: -0.39327999999998864
@@ -492,9 +498,3 @@ ticker: AFLT
 buy price: 29.78
 cost: 297.8
 datetime: 2022-04-26 07:20:58.893665+00:00
-type: buy
-________________________
-ticker: DSKY
-percent: 0.0
-plus: -0.5832
-commision: 0.5832
