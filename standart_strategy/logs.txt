@@ -1,3 +1,9 @@
+ticker: GAZP
+buy price: 208.76
+cost: 2087.6
+datetime: 2022-04-26 07:14:52.123986+00:00
+type: buy
+________________________
 ticker: MTSS
 buy price: 185.35
 cost: 1853.5
@@ -490,11 +496,5 @@ ticker: FIXP
 buy price: 381.9
 cost: 381.9
 datetime: 2022-04-25 15:16:53.638626+00:00
-type: buy
-________________________
-ticker: AFLT
-buy price: 29.16
-cost: 291.6
-datetime: 2022-04-25 15:16:15.551864+00:00
 type: buy
 ________________________
