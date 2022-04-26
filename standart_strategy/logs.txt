@@ -1,3 +1,9 @@
+ticker: FIVE
+buy price: 1017.5
+cost: 1017.5
+datetime: 2022-04-26 15:32:36.156318+00:00
+type: buy
+________________________
 ticker: IRAO
 buy price: 2.454
 cost: 245.4
@@ -492,9 +498,3 @@ ticker: FIVE
 buy price: 1017.0
 cost: 1017.0
 datetime: 2022-04-26 14:28:06.181610+00:00
-type: buy
-________________________
-ticker: FIVE
-percent: -0.09818360333824251
-plus: -1.8144
-commision: 0.8144
