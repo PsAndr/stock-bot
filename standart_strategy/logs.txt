@@ -1,3 +1,9 @@
+ticker: MVID
+buy price: 221.1
+cost: 221.1
+datetime: 2022-04-26 07:55:52.770753+00:00
+type: buy
+________________________
 ticker: GAZP
 buy price: 214.29
 cost: 2142.9
@@ -492,9 +498,3 @@ type: buy
 ________________________
 ticker: ALRS
 buy price: 81.48
-cost: 814.8000000000001
-datetime: 2022-04-26 07:34:49.212450+00:00
-type: buy
-________________________
-ticker: IRAO
-percent: -0.08274720728174954
