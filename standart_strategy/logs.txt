@@ -1,3 +1,13 @@
+ticker: MVID
+percent: -0.13556258472662058
+plus: -0.4769200000000114
+commision: 0.17692000000000002
+sell price: 221.0
+cost: 221.0
+datetime: 2022-04-26 07:55:12.813055+00:00
+type: sell
+total plus percent: -0.17978597602896818
+________________________
 ticker: GAZP
 percent: 0.16375035089360906
 plus: 1.7886799999999998
@@ -487,14 +497,4 @@ commision: 0.19328
 sell price: 2.415
 cost: 241.5
 datetime: 2022-04-26 07:34:18.696758+00:00
-type: sell
-total plus percent: 0.2748602662096571
-________________________
-ticker: ALRS
-percent: 0.23399014778324842
-plus: 1.2496399999999772
-commision: 0.65036
-sell price: 81.39
-cost: 813.9
-datetime: 2022-04-26 07:34:09.222750+00:00
 type: sell
