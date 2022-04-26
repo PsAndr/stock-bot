@@ -1,3 +1,9 @@
+ticker: SBER
+buy price: 117.52
+cost: 1175.2
+datetime: 2022-04-26 12:16:22.287902+00:00
+type: buy
+________________________
 ticker: VTBR
 percent: 0.0
 plus: -0.15232
@@ -490,11 +496,5 @@ ticker: MTSS
 buy price: 189.5
 cost: 1895.0
 datetime: 2022-04-26 11:23:28.145158+00:00
-type: buy
-________________________
-ticker: MVID
-buy price: 224.1
-cost: 224.1
-datetime: 2022-04-26 11:23:13.974234+00:00
 type: buy
 ________________________
