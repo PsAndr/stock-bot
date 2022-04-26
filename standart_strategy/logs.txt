@@ -1,3 +1,9 @@
+ticker: MTSS
+buy price: 197.0
+cost: 1970.0
+datetime: 2022-04-26 13:46:34.363336+00:00
+type: buy
+________________________
 ticker: FIVE
 percent: -0.049554013875123884
 plus: -1.307
@@ -492,9 +498,3 @@ total plus percent: 0.1533456696074488
 ________________________
 ticker: ALRS
 buy price: 81.85
-cost: 818.5
-datetime: 2022-04-26 12:54:04.202845+00:00
-type: buy
-________________________
-ticker: ALRS
-percent: 0.012218963831855941
