@@ -1,3 +1,9 @@
+ticker: ALRS
+buy price: 81.2
+cost: 812.0
+datetime: 2022-04-26 07:32:24.177973+00:00
+type: buy
+________________________
 ticker: FIXP
 percent: -0.31063939943049146
 plus: -1.5085599999999886
@@ -492,9 +498,3 @@ total plus percent: 2.170004201739401
 ________________________
 ticker: IRAO
 percent: 0.33465802133445366
-plus: 0.6084400000000114
-commision: 0.19156
-sell price: 2.3985
-cost: 239.85
-datetime: 2022-04-26 07:19:32.518532+00:00
-type: sell
