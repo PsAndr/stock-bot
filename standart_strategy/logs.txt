@@ -1,3 +1,13 @@
+ticker: MTSS
+percent: 0.12923235978288963
+plus: 0.9514
+commision: 1.5486
+sell price: 193.7
+cost: 1937.0
+datetime: 2022-04-26 12:47:03.135601+00:00
+type: sell
+total plus percent: 2.609989471658685
+________________________
 ticker: SBER
 buy price: 118.9
 cost: 1189.0
@@ -488,13 +498,3 @@ ticker: IRAO
 percent: 0.1024380249948781
 plus: 0.054659999999999986
 commision: 0.19534
-sell price: 2.443
-cost: 244.3
-datetime: 2022-04-26 12:21:22.515594+00:00
-type: sell
-total plus percent: 0.2143132846554169
-________________________
-ticker: IRAO
-buy price: 2.4405
-cost: 244.05
-datetime: 2022-04-26 12:20:17.468707+00:00
