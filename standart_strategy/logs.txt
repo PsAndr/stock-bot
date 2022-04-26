@@ -1,3 +1,9 @@
+ticker: VTBR
+buy price: 0.01904
+cost: 190.4
+datetime: 2022-04-26 12:15:31.744182+00:00
+type: buy
+________________________
 ticker: MTSS
 percent: 0.9143155694879832
 plus: 15.9618
@@ -492,9 +498,3 @@ total plus percent: -0.8162561035915374
 ________________________
 ticker: YNDX
 percent: -0.08993961197480815
-plus: -2.6447199999998636
-commision: 1.24472
-sell price: 1555.2
-cost: 1555.2
-datetime: 2022-04-26 11:22:44.628149+00:00
-type: sell
