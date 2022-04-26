@@ -1,3 +1,13 @@
+ticker: AFLT
+percent: -0.2686366689053094
+plus: -1.0379200000000113
+commision: 0.23792000000000002
+sell price: 29.7
+cost: 297.0
+datetime: 2022-04-26 07:39:31.630148+00:00
+type: sell
+total plus percent: 1.7232452709904449
+________________________
 ticker: ALRS
 buy price: 81.12
 cost: 811.2
@@ -488,13 +498,3 @@ ticker: DSKY
 percent: 0.0
 plus: -0.5848
 commision: 0.5848
-sell price: 73.1
-cost: 731.0
-datetime: 2022-04-26 07:23:05.217728+00:00
-type: sell
-total plus percent: 0.8330858897810424
-________________________
-ticker: VTBR
-buy price: 0.018435
-cost: 184.35
-datetime: 2022-04-26 07:22:46.747086+00:00
