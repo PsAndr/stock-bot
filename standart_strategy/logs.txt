@@ -1,3 +1,13 @@
+ticker: MTSS
+percent: -1.4467005076142132
+plus: -30.0646
+commision: 1.5646
+sell price: 194.15
+cost: 1941.5
+datetime: 2022-04-26 14:34:08.492283+00:00
+type: sell
+total plus percent: 1.4735108435452333
+________________________
 ticker: ALRS
 buy price: 82.41
 cost: 824.0999999999999
@@ -488,13 +498,3 @@ ticker: MVID
 buy price: 224.0
 cost: 224.0
 datetime: 2022-04-26 13:30:46.482594+00:00
-type: buy
-________________________
-ticker: IRAO
-buy price: 2.464
-cost: 246.4
-datetime: 2022-04-26 13:29:37.710587+00:00
-type: buy
-________________________
-ticker: IRAO
-percent: 0.04060913705582371
