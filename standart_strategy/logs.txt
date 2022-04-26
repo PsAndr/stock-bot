@@ -1,3 +1,13 @@
+ticker: FIVE
+percent: -0.14727540500736377
+plus: -2.3142
+commision: 0.8142
+sell price: 1017.0
+cost: 1017.0
+datetime: 2022-04-26 12:13:11.040184+00:00
+type: sell
+total plus percent: -1.943076146616806
+________________________
 ticker: RUAL
 buy price: 67.09
 cost: 670.9000000000001
@@ -488,13 +498,3 @@ sell price: 117.0
 cost: 1170.0
 datetime: 2022-04-26 11:19:07.291693+00:00
 type: sell
-total plus percent: 1.2560964283232114
-________________________
-ticker: MTSS
-buy price: 189.25
-cost: 1892.5
-datetime: 2022-04-26 11:16:08.145979+00:00
-type: buy
-________________________
-ticker: MTSS
-percent: -0.2897787144362487
