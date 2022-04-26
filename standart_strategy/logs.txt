@@ -1,3 +1,9 @@
+ticker: DSKY
+buy price: 74.56
+cost: 745.6
+datetime: 2022-04-26 14:15:15.179546+00:00
+type: buy
+________________________
 ticker: FIVE
 buy price: 1018.0
 cost: 1018.0
@@ -492,9 +498,3 @@ cost: 1940.0
 datetime: 2022-04-26 13:03:03.155307+00:00
 type: buy
 ________________________
-ticker: MTSS
-percent: 0.0
-plus: -1.55
-commision: 1.55
-sell price: 193.75
-cost: 1937.5
