@@ -1,3 +1,13 @@
+ticker: IRAO
+percent: -0.10392849719393056
+plus: -0.44234
+commision: 0.19234
+sell price: 2.403
+cost: 240.3
+datetime: 2022-04-26 07:21:59.932143+00:00
+type: sell
+total plus percent: 0.2116259356137003
+________________________
 ticker: RUAL
 buy price: 64.495
 cost: 644.95
@@ -488,13 +498,3 @@ ticker: ALRS
 percent: -0.39880358923229453
 plus: -3.840639999999932
 commision: 0.6406400000000001
-sell price: 79.92
-cost: 799.2
-datetime: 2022-04-25 15:30:50.377484+00:00
-type: sell
-total plus percent: -0.7480298986937481
-________________________
-ticker: MTSS
-buy price: 185.2
-cost: 1852.0
-datetime: 2022-04-25 15:30:48.155883+00:00
