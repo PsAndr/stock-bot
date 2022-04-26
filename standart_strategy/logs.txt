@@ -1,3 +1,9 @@
+ticker: DSKY
+buy price: 72.9
+cost: 729.0
+datetime: 2022-04-26 07:20:22.592981+00:00
+type: buy
+________________________
 ticker: ALRS
 buy price: 80.94
 cost: 809.4
@@ -492,9 +498,3 @@ plus: -0.7768800000000455
 commision: 0.5768800000000001
 sell price: 72.1
 cost: 721.0
-datetime: 2022-04-25 15:25:25.267494+00:00
-type: sell
-total plus percent: -1.9083651425455124
-________________________
-ticker: SBER
-buy price: 112.48
