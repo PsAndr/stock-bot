@@ -1,3 +1,13 @@
+ticker: SBER
+percent: 1.2761115175160567
+plus: 14.709480000000045
+commision: 0.9905200000000001
+sell price: 124.6
+cost: 1246.0
+datetime: 2022-04-26 14:59:48.082350+00:00
+type: sell
+total plus percent: 4.001503531972226
+________________________
 ticker: YNDX
 buy price: 1600.0
 cost: 1600.0
@@ -488,13 +498,3 @@ plus: 0.21984000000000567
 commision: 0.18016000000000001
 sell price: 225.4
 cost: 225.4
-datetime: 2022-04-26 14:08:31.525939+00:00
-type: sell
-total plus percent: 0.030527913045410304
-________________________
-ticker: FIVE
-buy price: 1019.0
-cost: 1019.0
-datetime: 2022-04-26 14:07:11.049415+00:00
-type: buy
-________________________
