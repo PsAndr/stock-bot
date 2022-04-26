@@ -1,4 +1,10 @@
 ticker: FIVE
+buy price: 1018.5
+cost: 1018.5
+datetime: 2022-04-26 14:38:06.152452+00:00
+type: buy
+________________________
+ticker: FIVE
 percent: -0.19627085377821393
 plus: -2.8144
 commision: 0.8144
@@ -492,9 +498,3 @@ ticker: MTSS
 buy price: 194.05
 cost: 1940.5
 datetime: 2022-04-26 13:34:08.140841+00:00
-type: buy
-________________________
-ticker: MTSS
-percent: 0.025773195876288662
-plus: -1.0522
-commision: 1.5522
