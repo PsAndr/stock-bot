@@ -1,3 +1,9 @@
+ticker: IRAO
+buy price: 2.4055
+cost: 240.55
+datetime: 2022-04-26 07:22:24.866147+00:00
+type: buy
+________________________
 ticker: VTBR
 percent: 0.19032082653615787
 plus: 0.2027399999999943
@@ -492,9 +498,3 @@ ticker: DSKY
 buy price: 72.02
 cost: 720.1999999999999
 datetime: 2022-04-25 15:31:20.262424+00:00
-type: buy
-________________________
-ticker: AFLT
-percent: -0.3424657534246575
-plus: -1.2332
-commision: 0.23320000000000002
