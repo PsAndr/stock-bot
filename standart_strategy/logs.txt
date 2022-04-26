@@ -1,3 +1,9 @@
+ticker: IRAO
+buy price: 2.4445
+cost: 244.45000000000002
+datetime: 2022-04-26 12:17:58.616729+00:00
+type: buy
+________________________
 ticker: FIVE
 buy price: 1018.0
 cost: 1018.0
@@ -491,10 +497,4 @@ cost: 225.0
 datetime: 2022-04-26 11:26:02.603972+00:00
 type: sell
 total plus percent: -0.5488764244471549
-________________________
-ticker: MTSS
-buy price: 189.7
-cost: 1897.0
-datetime: 2022-04-26 11:25:53.127069+00:00
-type: buy
 ________________________
