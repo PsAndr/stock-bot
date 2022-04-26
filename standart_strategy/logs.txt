@@ -1,3 +1,13 @@
+ticker: SBER
+percent: 0.01748710326134873
+plus: -0.7150399999999546
+commision: 0.9150400000000001
+sell price: 114.39
+cost: 1143.9
+datetime: 2022-04-26 07:49:32.335083+00:00
+type: sell
+total plus percent: 0.35308475433577435
+________________________
 ticker: IRAO
 buy price: 2.4175
 cost: 241.75
@@ -488,13 +498,3 @@ ticker: FIXP
 buy price: 386.3
 cost: 386.3
 datetime: 2022-04-26 07:29:59.871656+00:00
-type: buy
-________________________
-ticker: AFLT
-buy price: 29.78
-cost: 297.8
-datetime: 2022-04-26 07:29:55.447083+00:00
-type: buy
-________________________
-ticker: AFLT
-percent: -0.13431833445266425
