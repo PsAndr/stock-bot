@@ -1,4 +1,10 @@
 ticker: MTSS
+buy price: 194.1
+cost: 1941.0
+datetime: 2022-04-26 13:24:43.184213+00:00
+type: buy
+________________________
+ticker: MTSS
 percent: -0.025759917568263783
 plus: -2.0526
 commision: 1.5526
@@ -492,9 +498,3 @@ datetime: 2022-04-26 12:44:33.474182+00:00
 type: sell
 total plus percent: 2.243127001663848
 ________________________
-ticker: MTSS
-percent: -0.07747933884297521
-plus: -3.0482
-commision: 1.5482
-sell price: 193.45
-cost: 1934.5
