@@ -1,3 +1,9 @@
+ticker: MVID
+buy price: 223.5
+cost: 223.5
+datetime: 2022-04-26 15:36:43.923410+00:00
+type: buy
+________________________
 ticker: FIVE
 percent: -0.24545900834560627
 plus: -3.3138
@@ -492,9 +498,3 @@ ticker: ALRS
 buy price: 82.41
 cost: 824.0999999999999
 datetime: 2022-04-26 14:33:40.865226+00:00
-type: buy
-________________________
-ticker: FIVE
-buy price: 1019.0
-cost: 1019.0
-datetime: 2022-04-26 14:33:36.159513+00:00
