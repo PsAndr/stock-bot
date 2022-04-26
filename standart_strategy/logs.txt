@@ -1,4 +1,14 @@
 ticker: AFLT
+percent: -0.06596306068601208
+plus: -0.44247999999998866
+commision: 0.24248
+sell price: 30.3
+cost: 303.0
+datetime: 2022-04-26 12:39:40.419182+00:00
+type: sell
+total plus percent: 4.407311413049242
+________________________
+ticker: AFLT
 buy price: 30.32
 cost: 303.2
 datetime: 2022-04-26 12:39:05.407134+00:00
@@ -487,14 +497,4 @@ commision: 1.5382000000000002
 sell price: 193.15
 cost: 1931.5
 datetime: 2022-04-26 12:15:24.301186+00:00
-type: sell
-total plus percent: 2.3250758289571127
-________________________
-ticker: GAZP
-percent: 0.16321349231538124
-plus: 1.8340000000003638
-commision: 1.766
-sell price: 220.93
-cost: 2209.3
-datetime: 2022-04-26 12:15:22.074182+00:00
 type: sell
