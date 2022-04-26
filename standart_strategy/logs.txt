@@ -1,3 +1,9 @@
+ticker: FIXP
+buy price: 384.9
+cost: 384.9
+datetime: 2022-04-26 10:43:58.579681+00:00
+type: buy
+________________________
 ticker: MVID
 buy price: 221.2
 cost: 221.2
@@ -492,9 +498,3 @@ type: buy
 ________________________
 ticker: MVID
 buy price: 220.9
-cost: 220.9
-datetime: 2022-04-26 10:00:36.459976+00:00
-type: buy
-________________________
-ticker: MVID
-percent: -0.31688546853780764
