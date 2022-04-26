@@ -1,4 +1,10 @@
 ticker: ALRS
+buy price: 82.81
+cost: 828.1
+datetime: 2022-04-26 14:46:54.661196+00:00
+type: buy
+________________________
+ticker: ALRS
 percent: -0.024128362890569646
 plus: -0.8630399999999319
 commision: 0.6630400000000001
@@ -492,9 +498,3 @@ type: buy
 ________________________
 ticker: FIVE
 percent: -0.7374631268436578
-plus: -8.3106
-commision: 0.8106
-sell price: 1009.5
-cost: 1009.5
-datetime: 2022-04-26 13:41:56.032370+00:00
-type: sell
