@@ -1,3 +1,9 @@
+ticker: RUAL
+buy price: 63.255
+cost: 632.5500000000001
+datetime: 2022-04-26 07:17:23.638806+00:00
+type: buy
+________________________
 ticker: DSKY
 percent: 0.6944444444444444
 plus: 4.422
@@ -492,9 +498,3 @@ type: buy
 ________________________
 ticker: AFLT
 buy price: 29.2
-cost: 292.0
-datetime: 2022-04-25 15:17:50.464568+00:00
-type: buy
-________________________
-ticker: AFLT
-percent: -0.137174211248297
