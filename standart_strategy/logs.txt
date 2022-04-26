@@ -1,3 +1,13 @@
+ticker: YNDX
+percent: -1.2054307828955717
+plus: -20.25336
+commision: 1.2533600000000003
+sell price: 1557.2
+cost: 1557.2
+datetime: 2022-04-26 12:37:58.292815+00:00
+type: sell
+total plus percent: -1.3116588788747425
+________________________
 ticker: IRAO
 buy price: 2.44
 cost: 244.0
@@ -488,13 +498,3 @@ sell price: 0.01897
 cost: 189.70000000000002
 datetime: 2022-04-26 12:13:56.841187+00:00
 type: sell
-total plus percent: 0.2680355296360506
-________________________
-ticker: GAZP
-buy price: 220.57
-cost: 2205.7
-datetime: 2022-04-26 12:13:48.323451+00:00
-type: buy
-________________________
-ticker: FIVE
-buy price: 1017.5
