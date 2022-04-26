@@ -1,3 +1,13 @@
+ticker: VTBR
+percent: -0.2172732210754901
+plus: -0.5471199999999773
+commision: 0.14712
+sell price: 0.01837
+cost: 183.70000000000002
+datetime: 2022-04-26 07:33:35.630755+00:00
+type: sell
+total plus percent: 0.22708073857237907
+________________________
 ticker: SBER
 buy price: 114.19
 cost: 1141.9
@@ -488,13 +498,3 @@ type: buy
 ________________________
 ticker: DSKY
 buy price: 72.9
-cost: 729.0
-datetime: 2022-04-26 07:20:22.592981+00:00
-type: buy
-________________________
-ticker: ALRS
-buy price: 80.94
-cost: 809.4
-datetime: 2022-04-26 07:20:20.413338+00:00
-type: buy
-________________________
