@@ -1,3 +1,13 @@
+ticker: FIXP
+percent: -0.6464959917248514
+plus: -2.80836
+commision: 0.30836
+sell price: 384.2
+cost: 384.2
+datetime: 2022-04-26 09:54:28.547274+00:00
+type: sell
+total plus percent: -0.16735493323318718
+________________________
 ticker: DSKY
 buy price: 73.1
 cost: 731.0
@@ -488,13 +498,3 @@ ticker: VTBR
 percent: 0.10822510822510206
 plus: 0.05207999999998861
 commision: 0.14792000000000002
-sell price: 0.0185
-cost: 185.0
-datetime: 2022-04-26 08:24:20.622900+00:00
-type: sell
-total plus percent: -0.28931059091197514
-________________________
-ticker: FIVE
-buy price: 1018.0
-cost: 1018.0
-datetime: 2022-04-26 08:24:11.049093+00:00
