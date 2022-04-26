@@ -1,3 +1,13 @@
+ticker: FIVE
+percent: 0.14763779527559054
+plus: 0.6865999999999999
+commision: 0.8134000000000001
+sell price: 1017.5
+cost: 1017.5
+datetime: 2022-04-26 11:42:36.073738+00:00
+type: sell
+total plus percent: -1.4034766814540172
+________________________
 ticker: MTSS
 buy price: 189.5
 cost: 1895.0
@@ -488,13 +498,3 @@ sell price: 384.9
 cost: 384.9
 datetime: 2022-04-26 10:45:16.143134+00:00
 type: sell
-total plus percent: -0.45242315945889033
-________________________
-ticker: MVID
-buy price: 220.6
-cost: 220.6
-datetime: 2022-04-26 10:45:12.832735+00:00
-type: buy
-________________________
-ticker: FIVE
-buy price: 1019.5
