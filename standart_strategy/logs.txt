@@ -1,3 +1,13 @@
+ticker: IRAO
+percent: -0.08274720728174954
+plus: -0.39327999999998864
+commision: 0.19328
+sell price: 2.415
+cost: 241.5
+datetime: 2022-04-26 07:32:05.054232+00:00
+type: sell
+total plus percent: 0.35760747349140665
+________________________
 ticker: VTBR
 percent: -0.24443237370993406
 plus: -0.5970999999999886
@@ -488,13 +498,3 @@ type: buy
 ________________________
 ticker: RUAL
 buy price: 63.27
-cost: 632.7
-datetime: 2022-04-26 07:18:24.871755+00:00
-type: buy
-________________________
-ticker: DSKY
-percent: -0.027510316368628857
-plus: -0.7815199999999318
-commision: 0.58152
-sell price: 72.68
-cost: 726.8000000000001
