@@ -1,3 +1,13 @@
+ticker: IRAO
+percent: 8.757637474541752
+plus: 21.295
+commision: 0.20500000000000002
+sell price: 2.67
+cost: 267.0
+datetime: 2022-05-04 11:45:14.697553+00:00
+type: sell
+total plus percent: 8.757637474541752
+________________________
 ticker: DSKY
 percent: 1.721818670971207
 plus: 12.200159999999954
@@ -488,13 +498,3 @@ plus: -0.20349999999998294
 commision: 0.1535
 sell price: 0.019185
 cost: 191.85
-datetime: 2022-04-26 14:44:50.412292+00:00
-type: sell
-total plus percent: 1.3194990164101392
-________________________
-ticker: ALRS
-buy price: 82.65
-cost: 826.5
-datetime: 2022-04-26 14:44:04.596379+00:00
-type: buy
-________________________
