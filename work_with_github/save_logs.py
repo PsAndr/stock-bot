@@ -9,7 +9,7 @@ def save(path: str, str_save: str):
     s = contents.decoded_content.decode()
     s = str_save + s
     mass = s.split('\n')
-    mass = mass[:200]
+    mass = mass[:500]
     s = ''
     for ind, i in enumerate(mass):
         s += i

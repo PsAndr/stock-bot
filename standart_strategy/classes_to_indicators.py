@@ -173,12 +173,41 @@ class Supertrend_class:
         self.last_ATR = deepcopy(self.ATR)
 
 
+class Fib_levels_class:
+    def __init__(self, n: int = 10):
+        self.n = deepcopy(n)
+        self.high_deq = deque()
+        self.low_deq = deque()
+        self.candle = None
+        self.levels = dict()
+
+    def __deepcopy__(self, memodict={}):
+        my_copy = type(self)(self.n)
+        my_copy.low_deq = deepcopy(self.low_deq)
+        my_copy.high_deq = deepcopy(self.high_deq)
+        my_copy.candle = deepcopy(self.candle)
+        my_copy.levels = deepcopy(self.levels)
+        return my_copy
+
+    def clear(self):
+        self.low_deq = deque()
+        self.high_deq = deque()
+        self.levels = dict()
+        self.candle = None
+
+
 def init_indicators(dt_from : datetime, supertrend_cls : Supertrend_class, bb_cls : Bollinger_bands_class,
-            stoch_cls : Stoch_class, portfolio : classes_to_portfolio.Portfolio, ticker : str,
-                    interval : tinvest.CandleResolution):
+            stoch_cls : Stoch_class, fib_levels_cls: Fib_levels_class, portfolio : classes_to_portfolio.Portfolio, ticker : str,
+                    interval : tinvest.CandleResolution, indicators_condition: dict = None):
     flag = False
     n_back = 30
     candles_to_indicator = list()
+
+    new_flag_supertrend = False
+    new_flag_bollinger = False
+    new_flag_stoch = False
+    new_flag_fib_levels = False
+
     while not flag:
         new_flag_supertrend = False
         delta = date_time.timedelta(seconds=1)
@@ -193,13 +222,16 @@ def init_indicators(dt_from : datetime, supertrend_cls : Supertrend_class, bb_cl
         new_flag_stoch = False
         stoch_cls.clear()
 
+        new_flag_fib_levels = False
+        fib_levels_cls.clear()
+
         fg = portfolio.get_stock_by_ticker(ticker=ticker).figi
 
         candles_to_indicator = list()
 
         while n_back - len(candles_to_indicator) > 0:
             candles_load = portfolio.Tinvest_cls.get_candles_day_figi(figi=fg, dt_from=dt_min,
-                                                                          dt_to=dt_max, interval=interval)
+                                                                      dt_to=dt_max, interval=interval)
             candles_to_indicator = candles_load + candles_to_indicator
             dt_min -= delta
             dt_max = dt_min
@@ -208,11 +240,9 @@ def init_indicators(dt_from : datetime, supertrend_cls : Supertrend_class, bb_cl
         for candle in candles_to_indicator:
             supertrend_cls.candle = candle
             new_flag_supertrend = indicators.Supertrend(supertrend_cls=supertrend_cls)
-            supertrend_cls.upd_last()
 
             bb_cls.candle = candle
             new_flag_bollinger = indicators.Bollinger_bands(bollinger_bands_cls=bb_cls)
-            bb_cls.upd_last()
             '''if new_flag_bollinger:
                 print(bb_cls_mass[ind].TL, bb_cls_mass[ind].BL)
                 print(candle.time)
@@ -220,13 +250,53 @@ def init_indicators(dt_from : datetime, supertrend_cls : Supertrend_class, bb_cl
 
             stoch_cls.candle = candle
             new_flag_stoch = indicators.Stoch(stoch_cls=stoch_cls)
-            stoch_cls.upd_last()
 
             '''if new_flag_stoch:
                 print(stochK, stochD)
                 print(candle.time)
                 print()'''
 
+            fib_levels_cls.candle = candle
+            new_flag_fib_levels = indicators.Fibonacci_levels(fib_levels_cls=fib_levels_cls)
+            if not (indicators_condition is None):
+                if not (bb_cls.lastCandle == 0.0):
+                    if (bb_cls.lastCandle.c <= bb_cls.BL and candle.c > bb_cls.BL) or \
+                            (bb_cls.lastCandle.c <= bb_cls.ML and candle.c > bb_cls.ML) or \
+                            (bb_cls.lastCandle.c <= bb_cls.TL and candle.c > bb_cls.TL):
+                        indicators_condition['BB'] = 'buy'
+
+                    if (bb_cls.lastCandle.c > bb_cls.BL and candle.c <= bb_cls.BL) or \
+                            (bb_cls.lastCandle.c > bb_cls.ML and candle.c <= bb_cls.ML) or \
+                            (bb_cls.lastCandle.c > bb_cls.TL and candle.c <= bb_cls.TL):
+                        indicators_condition['BB'] = 'sell'
+
+                    if supertrend_cls.supertrend:
+                        indicators_condition['Supertrend'] = 'buy'
+                    else:
+                        indicators_condition['Supertrend'] = 'sell'
+
+                    if stoch_cls.stochD >= stoch_cls.stochK and stoch_cls.stochD <= 70:
+                        indicators_condition['Stoch'] = 'buy'
+                    elif stoch_cls.stochD < stoch_cls.stochK or stoch_cls.stochD > 70:
+                        indicators_condition['Stoch'] = 'sell'
+
+                    level_now = 0
+
+                    for level in fib_levels_cls.levels:
+                        price = fib_levels_cls.levels[level]
+                        if price < candle.c:
+                            level_now = max(price, level_now)
+
+                    if bb_cls.lastCandle.c < level_now and candle.c >= level_now:
+                        indicators_condition['Fib_levels'] = 'buy'
+                    elif bb_cls.lastCandle.c >= level_now and candle.c < level_now:
+                        indicators_condition['Fib_levels'] = 'sell'
+
+            stoch_cls.upd_last()
+            bb_cls.upd_last()
+            supertrend_cls.upd_last()
+
         n_back += 1
-        flag = new_flag_supertrend and new_flag_bollinger and new_flag_stoch
+        flag = new_flag_supertrend and new_flag_bollinger and new_flag_stoch and new_flag_fib_levels
     #print(candles_to_indicator[-1])
+

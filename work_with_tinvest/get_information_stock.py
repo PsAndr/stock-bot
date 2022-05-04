@@ -51,6 +51,7 @@ class Tinvest_class:
         return cnt
 
     def get_price_now_figi(self, figi : str):
+        time.sleep(0.2)
         return float(self.client.get_market_orderbook(figi=figi, depth=1).payload.last_price)
 
     def get_candles_figi(self, figi : str, dt_from : datetime, dt_to : datetime, interval : tinvest.CandleResolution):

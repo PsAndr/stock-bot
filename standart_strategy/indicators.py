@@ -62,6 +62,7 @@ def Supertrend(supertrend_cls : classes_to_indicators.Supertrend_class):
             supertrend_cls.final_upperband = supertrend_cls.lastFinal_upperband
     return to_return(is_available=True)
 
+
 def Bollinger_bands(bollinger_bands_cls : classes_to_indicators.Bollinger_bands_class):
     def to_return(is_available: bool):
         return is_available
@@ -133,3 +134,69 @@ def Stoch(stoch_cls : classes_to_indicators.Stoch_class):
     stoch_cls.stochD = numpy.mean(stoch_cls.stoch_smooth_deq)
 
     return to_return(is_available=True)
+
+
+'''def RSI(rsi_cls: classes_to_indicators.RSI_class):
+    pass'''
+
+
+def Fibonacci_levels(fib_levels_cls: classes_to_indicators.Fib_levels_class):
+    Close = float(fib_levels_cls.candle.c)
+    Low = float(fib_levels_cls.candle.l)
+    High = float(fib_levels_cls.candle.h)
+
+    fib_levels_cls.high_deq.append(High)
+
+    if len(fib_levels_cls.high_deq) < fib_levels_cls.n:
+        return False
+
+    if len(fib_levels_cls.high_deq) > fib_levels_cls.n:
+        fib_levels_cls.high_deq.popleft()
+
+    fib_levels_cls.low_deq.append(Low)
+
+    if len(fib_levels_cls.low_deq) < fib_levels_cls.n:
+        return False
+
+    if len(fib_levels_cls.low_deq) > fib_levels_cls.n:
+        fib_levels_cls.low_deq.popleft()
+
+    max_price = -1
+    max_price_ind = -1
+    min_price = 1e100
+    min_price_ind = -1
+
+    for ind, el in enumerate(fib_levels_cls.high_deq):
+        if el > max_price:
+            max_price = el
+            max_price_ind = ind
+
+    for ind, el in enumerate(fib_levels_cls.low_deq):
+        if el < min_price:
+            min_price = el
+            min_price_ind = ind
+
+    diff = max_price - min_price
+
+    levels = dict()
+
+    if max_price_ind >= min_price_ind:
+        levels[1] = min_price
+        levels[0.786] = max_price - 0.786 * diff
+        levels[0.618] = max_price - 0.618 * diff
+        levels[0.5] = max_price - 0.5 * diff
+        levels[0.382] = max_price - 0.382 * diff
+        levels[0.236] = max_price - 0.236 * diff
+        levels[0] = max_price
+    else:
+        levels[0] = min_price
+        levels[0.236] = min_price + 0.236 * diff
+        levels[0.382] = min_price + 0.382 * diff
+        levels[0.5] = min_price + 0.5 * diff
+        levels[0.618] = min_price + 0.618 * diff
+        levels[0.786] = min_price + 0.786 * diff
+        levels[1] = max_price
+
+    fib_levels_cls.levels = levels
+
+    return True
