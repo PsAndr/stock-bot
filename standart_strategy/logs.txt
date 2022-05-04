@@ -1,3 +1,13 @@
+ticker: YNDX
+percent: 6.973552894211574
+plus: 110.47271999999995
+commision: 1.32728
+sell price: 1715.0
+cost: 1715.0
+datetime: 2022-05-04 13:15:09.363550+00:00
+type: sell
+total plus percent: 6.973552894211574
+________________________
 ticker: FIVE
 percent: 6.142506142506143
 plus: 61.661
@@ -488,13 +498,3 @@ sell price: 82.87
 cost: 828.7
 datetime: 2022-04-26 14:46:25.854543+00:00
 type: sell
-total plus percent: 1.2248562984644367
-________________________
-ticker: MTSS
-buy price: 194.35
-cost: 1943.5
-datetime: 2022-04-26 14:46:23.476356+00:00
-type: buy
-________________________
-ticker: ALRS
-buy price: 82.89
