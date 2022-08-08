@@ -19,8 +19,6 @@ import asyncio
 asyncio.run(standart_strategy.main_program())
 exit(0)
 '''
-TOKEN = "t.WVpg6thNk00O9Vd8P4vrne6om7zDgWaGIsKH6TqdRKgT2giER_3Lqp7w9DI7NYdjPWF4AXkj6MRNP5G51zp2lQ"
-S_TOKEN = "t.gJWIDbsjDOGnbAl2y-pm5kzEIxljV-kWYb1To6Skr4STriOvfDp4q4xwvFzuLzaXxWZt2UzRXysejROedAS1TQ"
 client = tinvest.SyncClient(TOKEN)
 
 tz = get_localzone()
